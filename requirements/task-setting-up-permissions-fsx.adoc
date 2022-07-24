@@ -33,7 +33,7 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 ** 選取*其他AWS帳戶*、然後輸入Cloud Manager的ID。
 +
 *** 適用於Cloud Manager SaaS：952013314444
-*** AWS GovCloud（美國）：
+*** AWS GovCloud（美國）：033442085313
 
 
 ** 建立包含下列權限的原則：
@@ -52,6 +52,7 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
                 "ec2:CreateTags",
                 "kms:Describe*",
                 "kms:List*",
+                "kms:CreateGrant",
                 "iam:CreateServiceLinkedRole"
             ],
             "Resource": "*"
