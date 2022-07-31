@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones 
-summary: Cloud Manager可讓您建立FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor Sfor工作環境、以新增磁碟區並管理其他資料服務。 
+keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover 
+summary: 使用Cloud Manager、您可以建立或探索適用於ONTAP 各種運作環境的FSX、以新增及管理磁碟區及其他資料服務。 
 ---
-= 建立及管理Amazon FSX以利ONTAP 實現不工作環境
+= 建立或探索Amazon FSX以利ONTAP 實現不工作環境
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Cloud Manager可讓您建立FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor 
 
 
 [role="lead"]
-使用Cloud Manager、您可以建立及管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sfor Sfor Sfor Sfor營運環境、以新增及管理磁碟區及其他資料服務。
+使用Cloud Manager、您可以建立或探索FSXfor ONTAP Sfor支援功能的工作環境、以新增和管理Volume及其他資料服務。
 
 
 
@@ -91,7 +91,7 @@ image:screenshot_add_fsx_encryption.png["設定FSX for ONTAP Sof the SURF的 預
 
 . 設定儲存設備：
 +
-.. 選取處理量、容量和單位。
+.. 選取處理量、容量和單位。您可以隨時變更處理量容量。
 .. 您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。
 +
 
@@ -122,7 +122,37 @@ image:screenshot_add_fsx_cloud.png["Amazon FSX for ONTAP Sfor Sfor Sfor the工�
 
 == 探索現有ONTAP 的FSX for Sf供 資料系統使用
 
-如果ONTAP 您使用AWS管理主控台建立FSX for S廳 檔案系統、或是想要還原先前移除的工作環境、您可以使用Cloud Manager來探索它。
+如果您ONTAP 使用AWS管理主控台建立FSX for S廳 檔案系統、或想要還原先前移除的工作環境、您可以使用「我的商機」*或手動探索。
+
+
+
+=== 利用我的商機探索
+
+如果您先前已將AWS認證資料提供給Cloud Manager、* My Opportunity *可以自動探索及建議使用ONTAP Cloud Manager新增及管理的FSX for Solidffile系統。您也可以檢閱可用的資料服務。
+
+.步驟
+. 在Cloud Manager中、按一下「*我的商機*」索引標籤。
+. 將顯示探索到ONTAP 的FSX for Sof the Sfof the Sfor the Sfof the fof按一下* Discover（探索）*。
++
+image:screenshot-opportunities.png["FSX for ONTAP Sfor Sfuni.的「My Opportunity」頁面快照。"]
+
+. 選取一或多個檔案系統、然後按一下* Discover（探索）*將其新增至畫版。
+
+
+[NOTE]
+====
+* 如果您選取未命名的叢集、系統會提示您輸入叢集名稱。
+* 如果您選取的叢集沒有必要的認證資料、無法讓Cloud Manager管理FSXfor ONTAP the Sfa檔案系統、您將會收到一則提示、要求您選擇具備所需權限的認證資料。
+
+
+====
+
+
+=== 手動探索
+
+您可以手動探索您ONTAP 使用AWS管理主控台新增的FSXfor the S廳、或先前從Cloud Manager移除的FSX檔案系統。
+
+image:screenshot_fsx_working_environment_select.png["選取AWS區域和工作環境的快照"]
 
 .步驟
 . 在Cloud Manager中、按一下*新增工作環境*、然後選取* Amazon Web Services*。
@@ -138,46 +168,3 @@ image:screenshot_fsx_working_environment_discover.png["探索Amazon FSX for ONTA
 Cloud Manager會顯示您探索到的FSX ONTAP for Sfor Sficity檔案系統。
 
 image:screenshot_fsx_working_environment_select.png["選取AWS區域和工作環境的快照"]
-
-
-
-== 從ONTAP 工作區中移除FSXfor Sfor
-
-您可以從ONTAP Cloud Manager移除FSXfor Sfor支援、而不需刪除FSX for ONTAP S庫 帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sfor the Sf有效 工作環境新增回Cloud Manager。
-
-.步驟
-. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。
-. 在頁面右上角、選取「動作」功能表、然後按一下「*從工作區移除*」。
-+
-image:screenshot_fsx_working_environment_remove.png["從ONTAP Cloud Manager介面移除FSX for Sficity選項的快照。"]
-
-. 按一下「*移除*」、從ONTAP Cloud Manager移除FSX for Sfor
-
-
-
-
-== 刪除FSX以利ONTAP 執行作業環境
-
-您可以從ONTAP Cloud Manager刪除FSXfor Sfor
-
-.開始之前
-* 您必須 link:task-manage-fsx-volumes.html#delete-volumes["刪除所有Volume"] 與檔案系統相關聯。
-
-
-
-NOTE: 您將需要AWS中的作用中連接器來移除或刪除磁碟區。
-
-* 您無法刪除包含故障磁碟區的工作環境。在刪除FSX for ONTAP Sfi檔案系統之前、必須先使用AWS管理主控台或CLI刪除故障的磁碟區。
-
-
-
-WARNING: 此動作將會刪除與工作環境相關的所有資源。此動作無法復原。
-
-.步驟
-. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。
-. 在頁面右上角、選取「動作」功能表、然後按一下「*刪除*」。
-+
-image:screenshot_fsx_working_environment_delete.png["從ONTAP Cloud Manager介面刪除FSX for Sficity選項的快照。"]
-
-. 輸入工作環境的名稱、然後按一下*刪除*。
-

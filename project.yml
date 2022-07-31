@@ -26,8 +26,10 @@ sidebar:
       url: "/requirements/reference-security-groups-fsx.html"
   - title: 使用Amazon FSX ONTAP for Sfuse
     entries:
-    - title: 建立及管理工作環境
+    - title: 建立或探索工作環境
       url: "/use/task-creating-fsx-working-environment.html"
+    - title: 管理工作環境
+      url: "/use/task-manage-working-environment.html"
     - title: 建立及掛載磁碟區
       url: "/use/task-add-fsx-volumes.html"
     - title: 管理磁碟區和資料服務
@@ -56,8 +58,10 @@ homepage:
       url: "/requirements/reference-security-groups-fsx.html"
   - title: 使用Amazon FSX ONTAP for Sfuse
     links:
-    - title: 建立及管理工作環境
+    - title: 建立或探索工作環境
       url: "/use/task-creating-fsx-working-environment.html"
+    - title: 管理工作環境
+      url: "/use/task-manage-working-environment.html"
     - title: 建立及掛載磁碟區
       url: "/use/task-add-fsx-volumes.html"
     - title: 管理磁碟區和資料服務

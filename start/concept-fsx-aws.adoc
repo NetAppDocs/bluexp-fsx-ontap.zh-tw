@@ -64,7 +64,6 @@ Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何疑問或�
 
 == 限制
 
-* Cloud Manager只能從內部部署或Cloud Volumes ONTAP 從功能複製資料到ONTAP 功能複製功能以供參考的FSX。
-* 此時、您可以使用ONTAP 支援的CLI、ONTAP 介紹API或Cloud Manager API來建立iSCSI磁碟區。
+* 此時、Cloud Manager可以將內部部署或Cloud Volumes ONTAP 是用作支援ONTAP 的功能複製資料、到FSXfor Solid-,以及從FSX ONTAP for S供 內部使用、或是將其他FSX供ONTAP 內部使用、以供內部使用、或將資料複製到其他FSX供內部使用。
 * 目前、來自FSXfor ONTAP Sfor Sfis的SnapMirror複寫 link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["支援ONTAP 使用CLI"^]。
 

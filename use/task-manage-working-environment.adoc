@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: use/task-manage-working-environment.html 
+keywords: amazon fsx for ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, 
+summary: Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以透過hgPUT cap城市 進行變更、並移除或刪除工作環境。 
+---
+= 管理Amazon FSX以利ONTAP 不工作環境
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以透過hgPUT cap城市 進行變更、並移除或刪除工作環境。
+
+
+
+== 變更處理量容量
+
+您可以在建立FSXfor ONTAP the Sfor the Sfor the S甚麼 工作環境之後、隨時變更處理量容量。
+
+您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
+
+.步驟
+. 開啟FSX,以利ONTAP 執行不工作環境。
+. 在* Overview（概述）*選項卡中，單擊* Features（*功能）*。
++
+image:screenshot-change-thruput.png["透過hgPUT容量功能表顯示變更位置的快照。"]
+
+. 按一下鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*處理量容量*」編輯頁面。
+. 從下拉式清單中選取新的處理量容量、然後按一下*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。
+
+
+
+
+== 從ONTAP 工作區中移除FSXfor Sfor
+
+您可以從ONTAP Cloud Manager移除FSXfor Sfor支援、而不需刪除FSX for ONTAP S庫 帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sfor the Sf有效 工作環境新增回Cloud Manager。
+
+.步驟
+. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。
+. 在頁面右上角、選取「動作」功能表、然後按一下「*從工作區移除*」。
++
+image:screenshot_fsx_working_environment_remove.png["從ONTAP Cloud Manager介面移除FSX for Sficity選項的快照。"]
+
+. 按一下「*移除*」、從ONTAP Cloud Manager移除FSX for Sfor
+
+
+
+
+== 刪除FSX以利ONTAP 執行作業環境
+
+您可以從ONTAP Cloud Manager刪除FSXfor Sfor
+
+.開始之前
+* 您必須 link:task-manage-fsx-volumes.html#delete-volumes["刪除所有Volume"] 與檔案系統相關聯。
+
+
+
+NOTE: 您將需要AWS中的作用中連接器來移除或刪除磁碟區。
+
+* 您無法刪除包含故障磁碟區的工作環境。在刪除FSX for ONTAP Sfi檔案系統之前、必須先使用AWS管理主控台或CLI刪除故障的磁碟區。
+
+
+
+WARNING: 此動作將會刪除與工作環境相關的所有資源。此動作無法復原。
+
+.步驟
+. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。
+. 在頁面右上角、選取「動作」功能表、然後按一下「*刪除*」。
++
+image:screenshot_fsx_working_environment_delete.png["從ONTAP Cloud Manager介面刪除FSX for Sficity選項的快照。"]
+
+. 輸入工作環境的名稱、然後按一下*刪除*。
+

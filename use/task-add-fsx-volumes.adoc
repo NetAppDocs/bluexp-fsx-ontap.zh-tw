@@ -20,9 +20,7 @@ summary: 設定工作環境之後、您可以建立及管理Amazon FSX以利ONTA
 
 == 建立磁碟區
 
-您可以在ONTAP Cloud Manager中、從FSX建立及管理NFS和CIFS磁碟區、以利執行運作環境。使用ONTAP Sfxi建立的NFS和CIFS磁碟區也會顯示在您的FSX中ONTAP 、以利執行各種作業環境。
-
-您可以使用ONTAP SfxCLI、ONTAP fisc進API或Cloud Manager API來建立iSCSI磁碟區、並在FSXfor ONTAP 支援功能的環境中使用Cloud Manager來管理這些磁碟區。
+您可以在ONTAP Cloud Manager中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利執行各種功能。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。
 
 您需要：
 
@@ -53,7 +51,7 @@ image:screenshot_fsx_volume_details.png["FSX的Volume詳細資料和保護欄位
 
 
 
-. *傳輸協定*：選取NFS或CIFS磁碟區傳輸協定。
+. *傳輸協定*：選取NFS、CIFS或iSCSI Volume傳輸協定。
 +
 .. NFS ：
 +
@@ -105,6 +103,20 @@ TIP: 如果這是此工作環境的第一個CIFS磁碟區、系統會提示您�
 | NTP 伺服器 | 選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱 https://docs.netapp.com/us-en/cloud-manager-automation/index.html["Cloud Manager自動化文件"^] 以取得詳細資料。 
 |===
 *** 如果您選取「工作群組」設定、請輸入設定為CIFS的工作群組的伺服器和工作群組名稱。
+
+
+.. 對於iSCSI：您可以使用現有的啟動器群組或建立新的啟動器群組來連接LUN。若要對應現有的啟動器群組、請選取您的作業系統和一或多個啟動器群組。
++
+若要建立新的啟動器群組：
+
++
+... 選擇「建立新的」。
+... 選取您的作業系統。
+... 按一下以新增一或多個主機iSCSI合格名稱（IQN）。您可以選取現有的IQN或新增IQN。如需如何尋找Volume IQN的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-connect-lun.html["將主機連線至LUN"^]。
+... 輸入一個**啟動器群組名稱*。
++
+image:screenshot-volume-protocol-iscsi.png["iSCSI組態FSX的快照ONTAP 、可用於建立實體磁碟區。"]
+
 
 
 .. 單擊 * 下一步 * 。
