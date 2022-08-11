@@ -152,8 +152,6 @@ image:screenshot-opportunities.png["FSX for ONTAP Sfor Sfuni.的「My Opportunit
 
 您可以手動探索您ONTAP 使用AWS管理主控台新增的FSXfor the S廳、或先前從Cloud Manager移除的FSX檔案系統。
 
-image:screenshot_fsx_working_environment_select.png["選取AWS區域和工作環境的快照"]
-
 .步驟
 . 在Cloud Manager中、按一下*新增工作環境*、然後選取* Amazon Web Services*。
 . 選擇* Amazon FSX* for ONTAP Sfor Sfor Sfor *、然後按一下*按一下此處*。
