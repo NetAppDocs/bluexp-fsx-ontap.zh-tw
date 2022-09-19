@@ -145,9 +145,11 @@ image:screenshot_fsx_volume_usage_tiering.png["FSX使用設定檔和分層組態
 
 .步驟
 . 開啟工作環境。
-. 開啟Volume功能表、然後選取* Mount the volume *。
+. 選擇* Volume *（卷*）選項卡和* Manage Volume（管理卷）*以打開* Volume Actions（卷操作）*菜單。
 +
-image:screenshot_fsx_volume_actions.png["開啟Volume功能表時可用作業的快照。"]
+image:screenshot_fsx_volume_actions.png["如何開啟Volume Actions功能表的快照。"]
 
-. 請依照指示來掛載磁碟區。
+. 選擇*掛載命令*、然後依照指示掛載磁碟區。
 
+
+您的磁碟區現在已掛載到主機上。

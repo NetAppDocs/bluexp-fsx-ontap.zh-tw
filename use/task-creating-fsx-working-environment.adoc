@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover 
+keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
 summary: 使用Cloud Manager、您可以建立或探索適用於ONTAP 各種運作環境的FSX、以新增及管理磁碟區及其他資料服務。 
 ---
 = 建立或探索Amazon FSX以利ONTAP 實現不工作環境
@@ -91,8 +91,8 @@ image:screenshot_add_fsx_encryption.png["設定FSX for ONTAP Sof the SURF的 預
 
 . 設定儲存設備：
 +
-.. 選取處理量、容量和單位。您可以隨時變更處理量容量。
-.. 您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。
+.. 選取處理量、容量和單位。您可以隨時變更處理量和儲存容量值。
+.. 您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。您可以隨時變更IOPS值。
 +
 
 WARNING: 如果您指定的IOPS值不符合最低需求、則在新增工作環境時會收到錯誤訊息。image:screenshot_fsx_working_environment_failed_iops.png["如果設定了錯誤的IOPS值、則會顯示錯誤訊息的快照。"]

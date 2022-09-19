@@ -11,6 +11,8 @@ indexpage:
       url: "/start/concept-fsx-aws.html"
     - title: 快速入門
       url: "/start/task-getting-started-fsx.html"
+  - title: 需求
+    links:
     - title: 設定權限
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: 安全性群組規則
@@ -25,6 +27,8 @@ indexpage:
       url: "/use/task-add-fsx-volumes.html"
     - title: 管理磁碟區和資料服務
       url: "/use/task-manage-fsx-volumes.html"
+    - title: NVMe與iSCSI主機組態
+      url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 知識與支援
     links:
     - title: 註冊以取得支援

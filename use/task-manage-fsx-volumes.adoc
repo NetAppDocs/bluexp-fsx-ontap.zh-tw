@@ -14,7 +14,22 @@ summary: 您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、�
 
 
 [role="lead"]
-您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。
+您可以使用ONTAP Cloud Manager檢視及管理Volume、Clone和Snapshot、以及變更FSXfor Sfor的分層原則。
+
+
+
+== 檢視Volume詳細資料
+
+建立磁碟區之後、您可以檢視組態詳細資料。
+
+. 開啟工作環境。
++
+
+NOTE: 您可以將游標移到磁碟區名稱上、以顯示磁碟區類型。
+
+. 開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Volume Actions（磁碟區動作）*功能表。
+. 選取*檢視Volume詳細資料*。
+
 
 
 
@@ -24,13 +39,14 @@ summary: 您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、�
 
 .步驟
 . 開啟工作環境。
-. 開啟Volume功能表、然後選取*編輯*。
+. 開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Volume Actions（磁碟區動作）*功能表。
+. 選擇*編輯Volume設定*。
 +
 .. 對於NFS、您可以修改大小和標記。
 .. 對於CIFS、您可以視需要修改共用名稱、使用者、權限及Snapshot原則。
 
 
-. 按一下「 * 套用 * 」。
+. 選擇*應用*。
 
 
 
@@ -41,9 +57,10 @@ summary: 您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、�
 
 .步驟
 . 開啟工作環境。
-. 開啟Volume功能表、然後選取* Clone（複製）*。
+. 開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Volume Actions（磁碟區動作）*功能表。
+. 選取*複製磁碟區*。
 . 輸入複製磁碟區的名稱。
-. 按一下* Clone（複製）*。
+. 選擇* Clone（克隆）*。
 
 
 
@@ -54,7 +71,8 @@ Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將
 
 .步驟
 . 開啟工作環境。
-. 開啟Volume功能表、然後選擇其中一個可用選項來管理Snapshot複本：
+. 開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Protection Actions（保護動作）*功能表。
+. 選取其中一個可用選項來管理Snapshot複本：
 +
 ** * 建立 Snapshot 複本 *
 ** *從Snapshot複本還原*
@@ -71,7 +89,8 @@ Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將
 
 .步驟
 . 開啟工作環境。
-. 開啟Volume功能表、然後選取*變更分層原則*。
+. 開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟*進階動作*功能表。
+. 選取*變更分層原則*。
 . 選取新的磁碟區分層原則、然後按一下*變更*。
 
 
@@ -93,7 +112,8 @@ Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將
 
 .步驟
 . 開啟工作環境。
-. 開啟Volume功能表、然後選取*刪除*。
+. 開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Volume Actions（磁碟區動作）*功能表。
+. 選取*刪除磁碟區*。
 . 輸入工作環境名稱、然後確認您要刪除該磁碟區。從Cloud Manager完全移除磁碟區可能需要一小時的時間。
 
 

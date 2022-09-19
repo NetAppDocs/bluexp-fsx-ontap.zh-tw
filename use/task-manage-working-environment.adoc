@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
 keywords: amazon fsx for ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, 
-summary: Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以透過hgPUT cap城市 進行變更、並移除或刪除工作環境。 
+summary: Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以變更處理量、儲存容量和IOPS、並移除或刪除工作環境。 
 ---
 = 管理Amazon FSX以利ONTAP 不工作環境
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 �
 
 
 [role="lead"]
-Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以透過hgPUT cap城市 進行變更、並移除或刪除工作環境。
+Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以變更處理量、儲存容量和IOPS、並移除或刪除工作環境。
 
 
 
@@ -26,12 +26,43 @@ Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環�
 
 .步驟
 . 開啟FSX,以利ONTAP 執行不工作環境。
-. 在* Overview（概述）*選項卡中，單擊* Features（*功能）*。
+. 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
+. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*處理量容量*」編輯頁面。
 +
-image:screenshot-change-thruput.png["透過hgPUT容量功能表顯示變更位置的快照。"]
+image:screenshot-change-thruput.png["變更處理量容量功能表位置的快照。"]
 
-. 按一下鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*處理量容量*」編輯頁面。
-. 從下拉式清單中選取新的處理量容量、然後按一下*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。
+. 從下拉式清單中選取新的處理量容量、然後選取*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。
+
+
+
+
+== 變更儲存容量和IOPS
+
+您可以在建立FSXfor ONTAP the S甚麼 工作環境之後、隨時變更儲存容量和IOPS。
+
+您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
+
+.步驟
+. 開啟FSX,以利ONTAP 執行不工作環境。
+. 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
+. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*儲存容量與IOPS *」編輯頁面。
++
+image:screenshot-change-iops.png["變更儲存容量和IOPS功能表位置的快照。"]
+
+. 您可以每六小時變更一次儲存容量和IOPS。如果您嘗試更頻繁地進行變更、就會收到錯誤訊息。
++
+image:screenshot-configure-iops.png["頁面快照、可變更儲存容量和IOPS值。"]
+
++
+[NOTE]
+====
+** 建議的最大儲存容量使用率為80%、以維持資料分層效能、並允許額外資料的容量。
+** 選擇*自動* IOPS可維持一線儲存設備每GiB三個已配置SSD IOPS的比率、最高可達80、000。您無法手動配置IOPS值80、000以上。
+
+
+====
+. 勾選此核取方塊、確認您瞭解變更的儲存容量會影響到FSXfor ONTAP the Service的成本、而且無法在六小時內進行其他變更。
+. 選擇*更新*以確認您的變更。
 
 
 
@@ -42,11 +73,11 @@ image:screenshot-change-thruput.png["透過hgPUT容量功能表顯示變更位�
 
 .步驟
 . 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。
-. 在頁面右上角、選取「動作」功能表、然後按一下「*從工作區移除*」。
+. 在頁面右上角、選取動作功能表、然後選取*從工作區移除*。
 +
 image:screenshot_fsx_working_environment_remove.png["從ONTAP Cloud Manager介面移除FSX for Sficity選項的快照。"]
 
-. 按一下「*移除*」、從ONTAP Cloud Manager移除FSX for Sfor
+. 選取*移除*、從ONTAP Cloud Manager移除FSX*以供參考。
 
 
 
@@ -70,9 +101,9 @@ WARNING: 此動作將會刪除與工作環境相關的所有資源。此動作�
 
 .步驟
 . 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。
-. 在頁面右上角、選取「動作」功能表、然後按一下「*刪除*」。
+. 在頁面右上角、選取動作功能表、然後選取*刪除*。
 +
 image:screenshot_fsx_working_environment_delete.png["從ONTAP Cloud Manager介面刪除FSX for Sficity選項的快照。"]
 
-. 輸入工作環境的名稱、然後按一下*刪除*。
+. 輸入工作環境的名稱、然後選取*刪除*。
 

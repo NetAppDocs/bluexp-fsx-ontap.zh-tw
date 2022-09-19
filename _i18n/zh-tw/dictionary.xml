@@ -16,13 +16,9 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述的自我支援選項、您也可以與NetApp支援工程師合作、在您啟動支援之後解決任何問題。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">按一下*致電我們*以尋找NetApp技術支援的電話號碼。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">按一下「*開啟問題*」、選取其中一個選項、然後按一下「*傳送*」。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp代表將審查您的案例、並盡快回覆您。</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先將NetApp支援網站帳戶新增至Cloud Manager、然後註冊以取得支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">新增一個NSS帳戶</block>
@@ -108,10 +104,6 @@
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">掛載磁碟區</block>
   <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">從 Cloud Manager 存取掛載指示、以便將磁碟區掛載至主機。</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">開啟工作環境。</block>
-  <block id="7dae500c424af1807e52460f734b857e" category="list-text">開啟Volume功能表、然後選取* Mount the volume *。</block>
-  <block id="958a7394acfcee5d86c01e758be4f1c2" category="inline-image-macro">開啟Volume功能表時可用作業的快照。</block>
-  <block id="54b1fe05786347782bfe7e4a3e5de355" category="paragraph"><block ref="54b1fe05786347782bfe7e4a3e5de355" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="38aa5b57f82843fe74bb954a343bf4e0" category="list-text">請依照指示來掛載磁碟區。</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="section-title">建立Amazon FSX以利ONTAP 不工作環境</block>
   <block id="54e54adb33e337b5c804d6820b674b9a" category="inline-link-macro">使用Cloud Manager探索IT</block>
   <block id="e5375c42110b0016231f311272774e83" category="paragraph">第一步是建立FSX,以利ONTAP 實現不二的工作環境。如果您已在ONTAP AWS管理主控台建立FSXfor the S廳 檔案系統、您可以 <block ref="6a48f5b54424256e49232bb9af7a3d2f" category="inline-link-macro-rx"></block>。</block>
@@ -154,7 +146,6 @@
   <block id="5f7b5a6773d6263d66627f6153905a67" category="inline-image-macro">設定FSX for ONTAP Sof the SURF的 預設主要金鑰的快照</block>
   <block id="18ee551ad9864bd46a8f5c35b900c641" category="paragraph"><block ref="18ee551ad9864bd46a8f5c35b900c641" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8c4dc6a5ccac057271e4a3a6b3213037" category="list-text">設定儲存設備：</block>
-  <block id="44c0eb6e7e1c5fab261de20248c94791" category="list-text">您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。</block>
   <block id="72c6f5d2cfeaf6fab82a1ddb12885786" category="inline-image-macro">如果設定了錯誤的IOPS值、則會顯示錯誤訊息的快照。</block>
   <block id="6885d04a0fda617d746b2123b3620e51" category="admonition">如果您指定的IOPS值不符合最低需求、則在新增工作環境時會收到錯誤訊息。<block ref="302f4fa129241cdd96ffd6dc709561e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8088a4fa7d414a887d0eb3f19623bc06" category="inline-image-macro">設定FSX ONTAP for Sfing儲存組態的快照</block>
@@ -183,10 +174,8 @@
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">從ONTAP 工作區中移除FSXfor Sfor</block>
   <block id="619c35c80b530c32704e964530d66517" category="paragraph">您可以從ONTAP Cloud Manager移除FSXfor Sfor支援、而不需刪除FSX for ONTAP S庫 帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sfor the Sf有效 工作環境新增回Cloud Manager。</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。</block>
-  <block id="960f6c85ef871302e3e408b649cf6e70" category="list-text">在頁面右上角、選取「動作」功能表、然後按一下「*從工作區移除*」。</block>
   <block id="410c78448ff59a132a6ef7e7c2bf2f4e" category="inline-image-macro">從ONTAP Cloud Manager介面移除FSX for Sficity選項的快照。</block>
   <block id="47f6e6061b4eadfbf907049dcd591b28" category="paragraph"><block ref="47f6e6061b4eadfbf907049dcd591b28" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3c7ec91e48d6cb0479b63af7c30a498" category="list-text">按一下「*移除*」、從ONTAP Cloud Manager移除FSX for Sfor</block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">刪除FSX以利ONTAP 執行作業環境</block>
   <block id="4de2a58fbc41a8206c0c53a3dd1da960" category="paragraph">您可以從ONTAP Cloud Manager刪除FSXfor Sfor</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
@@ -196,32 +185,24 @@
   <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">您無法刪除包含故障磁碟區的工作環境。在刪除FSX for ONTAP Sfi檔案系統之前、必須先使用AWS管理主控台或CLI刪除故障的磁碟區。</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">此動作將會刪除與工作環境相關的所有資源。此動作無法復原。</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。</block>
-  <block id="5c026b5b99b1471c1695d12c5be5e3d9" category="list-text">在頁面右上角、選取「動作」功能表、然後按一下「*刪除*」。</block>
   <block id="eea2ce15389bae978a0efc5763b9cdac" category="inline-image-macro">從ONTAP Cloud Manager介面刪除FSX for Sficity選項的快照。</block>
   <block id="636c7339a775dda79a1b6b37974a27b3" category="paragraph"><block ref="636c7339a775dda79a1b6b37974a27b3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7c1e5f31ebf2bb33eb06de268374f840" category="list-text">輸入工作環境的名稱、然後按一下*刪除*。</block>
   <block id="00b56458820e0abf51f147bc4e399a7e" category="summary">您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">管理Amazon FSX ONTAP for Sf.的Volume</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">編輯Volume</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">建立磁碟區之後、您可以隨時加以修改。</block>
-  <block id="e3c15b55dc36cad58edc7cb73ae80e2c" category="list-text">開啟Volume功能表、然後選取*編輯*。</block>
   <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">對於NFS、您可以修改大小和標記。</block>
   <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">對於CIFS、您可以視需要修改共用名稱、使用者、權限及Snapshot原則。</block>
-  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">按一下「 * 套用 * 」。</block>
   <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">複製磁碟區</block>
   <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">建立磁碟區之後、您可以從新的Snapshot建立新的讀寫磁碟區。</block>
-  <block id="343bf0d675ca357b025fb7472514438f" category="list-text">開啟Volume功能表、然後選取* Clone（複製）*。</block>
   <block id="5e5db467595563d87880b20fec615319" category="list-text">輸入複製磁碟區的名稱。</block>
-  <block id="8215bd5d2f1e1b1cb3002f32795c762e" category="list-text">按一下* Clone（複製）*。</block>
   <block id="e479d2534f323a1275e2ed0809755e56" category="section-title">管理Snapshot複本</block>
   <block id="13d23436eebf5663e94f902e862ce3bb" category="paragraph">Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將資料還原至新磁碟區。</block>
-  <block id="c841bd422df65ac6f48f90c6d842cfc8" category="list-text">開啟Volume功能表、然後選擇其中一個可用選項來管理Snapshot複本：</block>
   <block id="77920e8d9473162a2167976898eaa180" category="list-text">* 建立 Snapshot 複本 *</block>
   <block id="fa41e2569b3e81d19868356601d4d103" category="list-text">*從Snapshot複本還原*</block>
   <block id="df95b2ddbeefe0bd257bae9d1c7d663a" category="list-text">依照提示完成選取的動作。</block>
   <block id="9f4aa892debf403a854859b0ca9c9ff6" category="section-title">變更分層原則</block>
   <block id="3a2ff6a4c845ba47894d1dd10a1b908f" category="paragraph">變更磁碟區的分層原則。</block>
-  <block id="d5f25d8802c3b7804d35fc3426a2f809" category="list-text">開啟Volume功能表、然後選取*變更分層原則*。</block>
   <block id="baef40813f00b62c8e9dcc643a76c881" category="list-text">選取新的磁碟區分層原則、然後按一下*變更*。</block>
   <block id="016049d3662ab4f0c21871ed98f2bb37" category="section-title">複寫及同步資料</block>
   <block id="abca63d751ec4cebd209af264e376ee4" category="inline-link">在系統之間複寫資料</block>
@@ -231,7 +212,6 @@
   <block id="f91674f3b22216fc484532cd24dda908" category="section-title">刪除Volume</block>
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">刪除不再需要的磁碟區。</block>
   <block id="08d16a95ed82f881bcc5359ecb0c8769" category="paragraph">您無法使用Cloud Manager刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。</block>
-  <block id="fa41d7948af66c69407c3a05211bb4b9" category="list-text">開啟Volume功能表、然後選取*刪除*。</block>
   <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">輸入工作環境名稱、然後確認您要刪除該磁碟區。從Cloud Manager完全移除磁碟區可能需要一小時的時間。</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">如果您嘗試刪除複製的Volume、將會收到錯誤訊息。</block>
   <block id="80ff3e3b4817bcd801ad60d27676fed7" category="summary">Amazon FSX for NetApp ONTAP 功能將ONTAP 完整的功能整合至原生AWS託管服務、提供一致的混合雲體驗。本文件說明如何ONTAP 使用NetApp Cloud Manager來管理FSXfor Sfor。</block>
@@ -549,7 +529,6 @@
   <block id="c3948e9af2286480c185296c8233504b" category="summary">使用Cloud Manager、您可以建立或探索適用於ONTAP 各種運作環境的FSX、以新增及管理磁碟區及其他資料服務。</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">建立或探索Amazon FSX以利ONTAP 實現不工作環境</block>
   <block id="ce077de6f3a969e5aa4cd26e1b3b5793" category="paragraph">使用Cloud Manager、您可以建立或探索FSXfor ONTAP Sfor支援功能的工作環境、以新增和管理Volume及其他資料服務。</block>
-  <block id="1854a29768044309b55fe7b58108c6b2" category="list-text">選取處理量、容量和單位。您可以隨時變更處理量容量。</block>
   <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">如果您ONTAP 使用AWS管理主控台建立FSX for S廳 檔案系統、或想要還原先前移除的工作環境、您可以使用「我的商機」*或手動探索。</block>
   <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">利用我的商機探索</block>
   <block id="2727507bf62cbd85fbf2b9c615630c53" category="paragraph">如果您先前已將AWS認證資料提供給Cloud Manager、* My Opportunity *可以自動探索及建議使用ONTAP Cloud Manager新增及管理的FSX for Solidffile系統。您也可以檢閱可用的資料服務。</block>
@@ -573,17 +552,11 @@
   <block id="ecfc70ae41156684ed148266abaf3a62" category="list-text">輸入一個**啟動器群組名稱*。</block>
   <block id="ccb9a070caab16c4e464e89fd6afe362" category="inline-image-macro">iSCSI組態FSX的快照ONTAP 、可用於建立實體磁碟區。</block>
   <block id="f157bba0d98c84b6de3aaefa71426f09" category="paragraph"><block ref="f157bba0d98c84b6de3aaefa71426f09" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a20dc51cbd898b34e33a20c14094ed53" category="summary">Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以透過hgPUT cap城市 進行變更、並移除或刪除工作環境。</block>
   <block id="faac9e60f93091e9068b8f347b36ec75" category="doc">管理Amazon FSX以利ONTAP 不工作環境</block>
   <block id="8539ab4c6f55c58d2fab4f2b3261bde9" category="section-title">變更處理量容量</block>
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">您可以在建立FSXfor ONTAP the Sfor the Sfor the S甚麼 工作環境之後、隨時變更處理量容量。</block>
   <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">您需要使用中的<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
-  <block id="753a4005737100e35c99c30e52ef2c44" category="list-text">在* Overview（概述）*選項卡中，單擊* Features（*功能）*。</block>
-  <block id="2e68dd5f8760ab98fc603405ef786ad2" category="inline-image-macro">透過hgPUT容量功能表顯示變更位置的快照。</block>
-  <block id="ba4f4a5f2fc20fe299d66d82a707dcfa" category="paragraph"><block ref="ba4f4a5f2fc20fe299d66d82a707dcfa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">鉛筆編輯圖示的影像。</block>
-  <block id="956ab3e11e7c49feef0401b3df8ea2ef" category="list-text">按一下鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*處理量容量*」編輯頁面。</block>
-  <block id="3ce3cdf8360d5fadb6de611684221e5f" category="list-text">從下拉式清單中選取新的處理量容量、然後按一下*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。</block>
   <block id="f6dfc77133ec0d2399d3f1b82fd008fe" category="list-text">此時、Cloud Manager可以將內部部署或Cloud Volumes ONTAP 是用作支援ONTAP 的功能複製資料、到FSXfor Solid-,以及從FSX ONTAP for S供 內部使用、或是將其他FSX供ONTAP 內部使用、以供內部使用、或將資料複製到其他FSX供內部使用。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">如果您先前已將AWS認證資料提供給Cloud Manager、全新的* My Opportunity *功能可自動探索ONTAP 及建議使用Cloud Manager新增及管理的FSX for the Sfx*檔案系統。您也可以透過「*我的商機*」標籤來檢視可用的資料服務。</block>
@@ -598,4 +571,77 @@
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">建立或探索工作環境</block>
   <block id="6faf2fd9ba5b0e89a953f43cd89d6c46" category="sidebar">管理工作環境</block>
   <block id="3109e49414b9edf951cefa41b4e6edeb" category="sidebar">管理工作環境</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
+  <block id="0e36458fd86c678ff613e05396096775" category="paragraph">您現在可以了 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
+  <block id="af1b15a700df7234e9ad68515cde3f5b" category="summary">Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以變更處理量、儲存容量和IOPS、並移除或刪除工作環境。</block>
+  <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">從* Overview（概述）*選項卡中選擇* Features（*功能）*。</block>
+  <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">選取鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*處理量容量*」編輯頁面。</block>
+  <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">變更處理量容量功能表位置的快照。</block>
+  <block id="e09dc417c2d896d165ca331477153842" category="paragraph"><block ref="e09dc417c2d896d165ca331477153842" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="230f70d1e5d26fbe6e5ad10f5308cabe" category="list-text">從下拉式清單中選取新的處理量容量、然後選取*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。</block>
+  <block id="a0ebe9e341b2c5054b22afc7d98d1401" category="section-title">變更儲存容量和IOPS</block>
+  <block id="f3c93b45ca50102a9f0b7eae1e06d071" category="paragraph">您可以在建立FSXfor ONTAP the S甚麼 工作環境之後、隨時變更儲存容量和IOPS。</block>
+  <block id="048b8d92cffbe45e8afec553ae5bdab0" category="list-text">選取鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*儲存容量與IOPS *」編輯頁面。</block>
+  <block id="d6684930c2875391fe70b5eb14401bbb" category="inline-image-macro">變更儲存容量和IOPS功能表位置的快照。</block>
+  <block id="687579d242782f9a851dc5bb5ba9abc9" category="paragraph"><block ref="687579d242782f9a851dc5bb5ba9abc9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dfb628b495d5e0828edcde206a117a0d" category="list-text">您可以每六小時變更一次儲存容量和IOPS。如果您嘗試更頻繁地進行變更、就會收到錯誤訊息。</block>
+  <block id="e67f7cfa37e5dcd4f3836e76f5301a68" category="inline-image-macro">頁面快照、可變更儲存容量和IOPS值。</block>
+  <block id="f5aa006a4894acbba121bdb32f513ead" category="paragraph"><block ref="f5aa006a4894acbba121bdb32f513ead" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c17ed8503d69fa2ad1c61b6c92a2255" category="list-text">建議的最大儲存容量使用率為80%、以維持資料分層效能、並允許額外資料的容量。</block>
+  <block id="e8036e0ac9189e05af8ebeb943ee3fd3" category="list-text">選擇*自動* IOPS可維持一線儲存設備每GiB三個已配置SSD IOPS的比率、最高可達80、000。您無法手動配置IOPS值80、000以上。</block>
+  <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">勾選此核取方塊、確認您瞭解變更的儲存容量會影響到FSXfor ONTAP the Service的成本、而且無法在六小時內進行其他變更。</block>
+  <block id="1f25673463b8f906d801bd291ad45315" category="list-text">選擇*更新*以確認您的變更。</block>
+  <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">在頁面右上角、選取動作功能表、然後選取*從工作區移除*。</block>
+  <block id="695c6322f28397cda2ea2ea4d49f33fc" category="list-text">選取*移除*、從ONTAP Cloud Manager移除FSX*以供參考。</block>
+  <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">在頁面右上角、選取動作功能表、然後選取*刪除*。</block>
+  <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">輸入工作環境的名稱、然後選取*刪除*。</block>
+  <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">選取處理量、容量和單位。您可以隨時變更處理量和儲存容量值。</block>
+  <block id="7f234f33b9862c892e7c8dbf9dd91bc5" category="list-text">您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。您可以隨時變更IOPS值。</block>
+  <block id="c39def9377c6bd394b8633558a53f581" category="paragraph">您可以使用ONTAP Cloud Manager檢視及管理Volume、Clone和Snapshot、以及變更FSXfor Sfor的分層原則。</block>
+  <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">檢視Volume詳細資料</block>
+  <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">建立磁碟區之後、您可以檢視組態詳細資料。</block>
+  <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">您可以將游標移到磁碟區名稱上、以顯示磁碟區類型。</block>
+  <block id="a99a1e91f5b89a3a1bb26badc77c44b1" category="list-text">開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Volume Actions（磁碟區動作）*功能表。</block>
+  <block id="bc113f9071c312c1d14ec49df82aa928" category="list-text">選取*檢視Volume詳細資料*。</block>
+  <block id="a324b09bde8b0186d3f43692b7556fd9" category="list-text">選擇*編輯Volume設定*。</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">選擇*應用*。</block>
+  <block id="d64b993d52f8a267e9dfb902139ad672" category="list-text">選取*複製磁碟區*。</block>
+  <block id="9de0e2b17d7e1e2da6c0ce7e9dc6e377" category="list-text">選擇* Clone（克隆）*。</block>
+  <block id="8b5f6e4263eafb9559eeaffe98711978" category="list-text">開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Protection Actions（保護動作）*功能表。</block>
+  <block id="f5baa7ceb1673e19b71f0f856feee19a" category="list-text">選取其中一個可用選項來管理Snapshot複本：</block>
+  <block id="f879ed761f1ca2475598c0bea304d10d" category="list-text">開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟*進階動作*功能表。</block>
+  <block id="dedc9eb7ac0cb065a0b90f9f63104b01" category="list-text">選取*變更分層原則*。</block>
+  <block id="f596a753aac59df7e240140c2eb96e99" category="list-text">選取*刪除磁碟區*。</block>
+  <block id="87ab0ddecc6298e066c5bf52a6e57341" category="list-text">選擇* Volume *（卷*）選項卡和* Manage Volume（管理卷）*以打開* Volume Actions（卷操作）*菜單。</block>
+  <block id="1cffe537ba60b23c60608f4b7ec02e43" category="inline-image-macro">如何開啟Volume Actions功能表的快照。</block>
+  <block id="b43e642ae439f1f795292eb5df5f84d3" category="paragraph"><block ref="b43e642ae439f1f795292eb5df5f84d3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78c27b88e2a8142906bb69594e5b22a6" category="list-text">選擇*掛載命令*、然後依照指示掛載磁碟區。</block>
+  <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">您的磁碟區現在已掛載到主機上。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">瞭解如何註冊以取得支援</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">若要使用*建立案例*功能、您必須先執行Cloud Manager帳戶ID序號的一次性登錄（即960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您想與電話上的其他人通話、請按一下*「呼叫我們*」。您將會被導向netapp.com上的頁面、其中列出您可以撥打的電話號碼。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">按一下*建立案例*、與NetApp支援專家一起開啟問題單：</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*《支援帳戶*》：選取與開立支援案例的人員相關的適用的NSS帳戶。NetApp 支援網站除了以下提供的其他電子郵件之外、此人將是NetApp聯絡的主要聯絡人。</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至Cloud Manager「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*服務*：選取問題相關的服務。例如、Cloud Manager在特定於服務工作流程或功能的技術支援問題時。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的Cloud Manager帳戶、工作區和Connector範圍內。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">此錯誤可能表示、與此相關聯的NSS帳戶及記錄公司與Cloud Manager帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">需求</block>
+  <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMe與iSCSI主機組態</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
 </blocks>
