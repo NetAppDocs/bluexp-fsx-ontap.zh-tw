@@ -274,8 +274,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
-  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9 注意事項</block>
-  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="list-text"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
   <block id="72999cd653b12474752fb77bab9691e3" category="inline-link-macro">雲端備份注意事項</block>
   <block id="75be9a02506771b87be972c89707f0d4" category="list-text"><block ref="75be9a02506771b87be972c89707f0d4" category="inline-link-macro-rx"></block></block>
   <block id="bf6a36d1f8c7b0ef48e5a5b01357f720" category="inline-link-macro">關於本產品的注意事項 Cloud Sync</block>
@@ -644,4 +642,6 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">需求</block>
   <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMe與iSCSI主機組態</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
+  <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Manager注意事項</block>
+  <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
 </blocks>
