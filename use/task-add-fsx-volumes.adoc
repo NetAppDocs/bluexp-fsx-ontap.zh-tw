@@ -20,7 +20,7 @@ summary: 設定工作環境之後、您可以建立及管理Amazon FSX以利ONTA
 
 == 建立磁碟區
 
-您可以在ONTAP Cloud Manager中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利執行各種功能。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。
+您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。
 
 您需要：
 
@@ -100,7 +100,7 @@ TIP: 如果這是此工作環境的第一個CIFS磁碟區、系統會提示您�
 | DNS 網域 | 儲存虛擬機器（SVM）的DNS網域。在大多數情況下、網域與 AD 網域相同。 
 
 
-| NTP 伺服器 | 選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱 https://docs.netapp.com/us-en/cloud-manager-automation/index.html["Cloud Manager自動化文件"^] 以取得詳細資料。 
+| NTP 伺服器 | 選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱 https://docs.netapp.com/us-en/cloud-manager-automation/index.html["藍圖XP自動化文件"^] 以取得詳細資料。 
 |===
 *** 如果您選取「工作群組」設定、請輸入設定為CIFS的工作群組的伺服器和工作群組名稱。
 
@@ -141,7 +141,7 @@ image:screenshot_fsx_volume_usage_tiering.png["FSX使用設定檔和分層組態
 
 == 掛載磁碟區
 
-從 Cloud Manager 存取掛載指示、以便將磁碟區掛載至主機。
+從BlueXP中存取掛載指示、以便將磁碟區掛載到主機。
 
 .步驟
 . 開啟工作環境。

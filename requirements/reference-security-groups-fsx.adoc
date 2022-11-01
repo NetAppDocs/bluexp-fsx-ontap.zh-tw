@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements/reference-security-groups-fsx.html 
 keywords: security group, security groups, rules, ports, fsx, inbound, outbound, rules 
-summary: Cloud Manager會建立AWS安全性群組、其中包含Cloud Manager和FSXfor ONTAP the支援成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。 
+summary: BlueXP會建立AWS安全性群組、其中包含BlueXP和FSXfor ONTAP the支援功能成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。 
 ---
 = FSXfor ONTAP Sfor Sf.的安全群組規則
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager會建立AWS安全性群組、其中包含Cloud Manager和
 
 
 [role="lead"]
-Cloud Manager會建立AWS安全性群組、其中包含Cloud Manager和FSXfor ONTAP the支援成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。
+BlueXP會建立AWS安全性群組、其中包含BlueXP和FSXfor ONTAP the支援功能成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。
 
 
 
@@ -344,7 +344,7 @@ NOTE: 來源 IP 位址為 Connector 主機。
 | API 呼叫 | TCP | 8088 | 備份至 S3 | API 呼叫備份至 S3 
 
 
-| DNS | UDP | 53. | DNS | 用於 Cloud Manager 的 DNS 解析 
+| DNS | UDP | 53. | DNS | 用於BlueXP的DNS解析 
 
 
 | 雲端資料感測 | HTTP | 80 | Cloud Data Sense執行個體 | Cloud Data Sense for Cloud Volumes ONTAP 功能 

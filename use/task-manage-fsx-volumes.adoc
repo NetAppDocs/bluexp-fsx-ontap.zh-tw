@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/task-manage-fsx-volumes.html 
 keywords: fsx for ontap, fsx, aws, delete volumes, delete nfs volumes, delete cifs volumes, tiering policy, mount path, get mount path, mount volume, delete volumes, snapshots, edit volume, clone volume, clone 
-summary: 您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。 
+summary: 您可以使用ONTAP BlueXP來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。 
 ---
 = 管理Amazon FSX ONTAP for Sf.的Volume
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、�
 
 
 [role="lead"]
-您可以使用ONTAP Cloud Manager檢視及管理Volume、Clone和Snapshot、以及變更FSXfor Sfor的分層原則。
+您可以檢視及管理磁碟區、複製和快照、以及使用ONTAP BlueXP變更FSXfor功能的分層原則。
 
 
 
@@ -98,9 +98,9 @@ Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將
 
 == 複寫及同步資料
 
-您可以使用Cloud Manager在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["在系統之間複寫資料"^]。
+您可以使用BlueXP在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["在系統之間複寫資料"^]。
 
-您可以使用Cloud Sync Cloud Manager中的功能、建立同步關係。若要設定同步關係、請參閱 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html["建立同步關係"^]。
+您可以使用Cloud Sync BlueXP中的功能、建立同步關係。若要設定同步關係、請參閱 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html["建立同步關係"^]。
 
 
 
@@ -108,13 +108,13 @@ Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將
 
 刪除不再需要的磁碟區。
 
-您無法使用Cloud Manager刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。
+您無法使用BlueXP刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。
 
 .步驟
 . 開啟工作環境。
 . 開啟Volume（磁碟區）索引標籤、然後選取*管理Volume（磁碟區）*以開啟* Volume Actions（磁碟區動作）*功能表。
 . 選取*刪除磁碟區*。
-. 輸入工作環境名稱、然後確認您要刪除該磁碟區。從Cloud Manager完全移除磁碟區可能需要一小時的時間。
+. 輸入工作環境名稱、然後確認您要刪除該磁碟區。從BlueXP完全移除磁碟區可能需要一小時的時間。
 
 
 

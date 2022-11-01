@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp以多種方式支援Cloud Manager。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp以多種方式支援Cloud Manager及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自我支援</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">請搜尋Cloud Manager知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">加入Cloud Manager社群、追蹤後續討論或建立新討論。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">您目前正在檢視的Cloud Manager文件。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先將NetApp支援網站帳戶新增至Cloud Manager、然後註冊以取得支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在Cloud Manager主控台右上角、按一下「說明」圖示、然後選取*「支援」*。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
@@ -81,8 +72,6 @@
   <block id="c11b541f2dc51346609bbd4f84450b6b" category="cell">DNS 網域</block>
   <block id="314c2b52f53238e133233b60949a6d36" category="cell">儲存虛擬機器（SVM）的DNS網域。在大多數情況下、網域與 AD 網域相同。</block>
   <block id="225f0204cd2ca87530c681aeae9b7f3e" category="cell">NTP 伺服器</block>
-  <block id="339d2db752bad623389940365590a650" category="inline-link">Cloud Manager自動化文件</block>
-  <block id="e55b48803bc81da61ac823b49b9b4344" category="cell">選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱<block ref="42b82f9ba6c1ea0d7f3f7e3fde7e922d" category="inline-link-rx"></block> 以取得詳細資料。</block>
   <block id="c806fc6088504aece33ec1078f7edf13" category="list-text">如果您選取「工作群組」設定、請輸入設定為CIFS的工作群組的伺服器和工作群組名稱。</block>
   <block id="77329b4991542c66635b8dd3f7a6f518" category="list-text">*使用設定檔與分層*：</block>
   <block id="0458d209a53113bf4e745280c9316fc5" category="list-text">預設會停用*儲存效率*。您可以變更此設定以啟用重複資料刪除和壓縮。</block>
@@ -92,24 +81,15 @@
   <block id="f3a303dc17c6a2c91073ff0eb515587f" category="list-text">*審查*：檢閱您的Volume組態。按一下*上一步*變更設定、或按一下*新增*建立磁碟區。</block>
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">新磁碟區會新增至工作環境。</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">掛載磁碟區</block>
-  <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">從 Cloud Manager 存取掛載指示、以便將磁碟區掛載至主機。</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">開啟工作環境。</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="section-title">建立Amazon FSX以利ONTAP 不工作環境</block>
-  <block id="54e54adb33e337b5c804d6820b674b9a" category="inline-link-macro">使用Cloud Manager探索IT</block>
-  <block id="e5375c42110b0016231f311272774e83" category="paragraph">第一步是建立FSX,以利ONTAP 實現不二的工作環境。如果您已在ONTAP AWS管理主控台建立FSXfor the S廳 檔案系統、您可以 <block ref="6a48f5b54424256e49232bb9af7a3d2f" category="inline-link-macro-rx"></block>。</block>
-  <block id="faa4b07ffa49aaead3b9217354fd2e07" category="paragraph">在ONTAP Cloud Manager中建立FSXfor Sfor Sfor Sf有效 作業環境之前、您需要：</block>
-  <block id="110ca3ef191558286fc6a6b28dc94cb5" category="inline-link-macro">將AWS認證資料新增至Cloud Manager</block>
-  <block id="69bfbe4affa79598268226d5fa65599d" category="list-text">IAM角色的ARN賦予Cloud Manager建立FSX以利ONTAP 運作環境所需的權限。請參閱 <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
   <block id="122aefb3c8684a0e38fb50d87247ad18" category="list-text">您將在其中建立FSX以利ONTAP 執行個體的區域和VPN資訊。</block>
-  <block id="86e4fb4adcc1e79cfd5f41b2e24492a4" category="list-text">在Cloud Manager中、新增工作環境、選取位置* Amazon Web Services*、然後按一下* Next*。</block>
   <block id="b270ee1d45588367ac774fa0f727fc7b" category="list-text">選擇* Amazon FSX* for ONTAP Sfor Sfor Sfor *、然後按一下* Next*（*下一步*）。</block>
   <block id="f8b92939989132d828cfc3eea521a293" category="inline-image-macro">新增Amazon FSX for ONTAP Szing工作環境的快照</block>
   <block id="61a727936c57251e32cb54d629e03313" category="paragraph"><block ref="61a727936c57251e32cb54d629e03313" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e8d84f3aa4d4c8f84d1addb4f10b99e6" category="list-text">在ONTAP Cloud Manager中驗證FSXfor的功能。</block>
   <block id="ecda29eb0e0827e3bc560f177dcde537" category="list-text">如果您的帳戶中現有的IAM角色具有正確的FSXfor ONTAP 支援AWS權限、請從下拉式清單中選取該角色。</block>
   <block id="bc7877d082a71bb780b2cfe54a2f56db" category="inline-image-macro">顯示AWS角色下拉式清單的快照</block>
   <block id="88c29361a495a558e8e94ba0f1787827" category="paragraph"><block ref="88c29361a495a558e8e94ba0f1787827" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="20b3b63ea7f8892dc0d3f3b25bea6c49" category="list-text">如果您的帳戶中沒有IAM角色、請按一下*認證頁面*、然後依照精靈中的步驟、為AWS IAM角色新增ARN、並使用FSX來取得ONTAP 資訊證明。請參閱 <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
   <block id="49727167f9c15ab5bfa0422395e72a31" category="inline-image-macro">將ARN新增至AWS IAM角色的步驟快照、並搭配FSXfor ONTAP Sfor the permission。</block>
   <block id="32e8c427ff9ed76c4f8f6c5425c12c82" category="paragraph"><block ref="32e8c427ff9ed76c4f8f6c5425c12c82" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2d2a9afadbb6d43ee9c21ef6dc9d315f" category="list-text">提供有關FSXfor ONTAP Sfor Sfinstance的資訊：</block>
@@ -128,7 +108,6 @@
   <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS Transit閘道</block>
   <block id="98cd8d548fd2fa5186e8dc1c1123f9f6" category="list-text">將_CIDR range保留空白、然後按一下* Next*自動設定可用範圍。您也可以選擇使用<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 手動設定範圍。</block>
   <block id="7cc0a94cd1ccce02b23807753272d589" category="paragraph"><block ref="7cc0a94cd1ccce02b23807753272d589" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a034482e4ab702e672ecf4a4f7a47766" category="list-text">選取包含通往浮動IP位址路由的路由表。如果VPC中只有一個子網路路由表（主路由表）、Cloud Manager會自動將浮動IP位址新增至該路由表。單擊 * 下一步 * 繼續。</block>
   <block id="efae399de597884ba9e25be68c488178" category="inline-image-macro">選取FSX for ONTAP Sfing路由表的快照</block>
   <block id="9e3037d0c83106b66f9113f03ee4fb10" category="paragraph"><block ref="9e3037d0c83106b66f9113f03ee4fb10" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9993ec838a8efa5cfb29506f884deca" category="inline-link">設定 AWS KMS</block>
@@ -146,12 +125,9 @@
   <block id="b5bd94a09b2ad1fd2dba6c4a902a9fd3" category="list-text">按一下「*新增*」以接受設定並建立您的工作環境。</block>
   <block id="ef80142d18e6c5a6d15e4724ab6810b8" category="inline-image-macro">檢閱FSX for ONTAP Sf還原 設定的快照</block>
   <block id="e8b9477d45071756ecb4a2cc5082344a" category="paragraph"><block ref="e8b9477d45071756ecb4a2cc5082344a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fa726dbeb2fe46e53fc49ecac75ac6d7" category="paragraph">Cloud Manager會ONTAP 在「畫版」頁面上顯示您的FSXfor支援的組態設定。</block>
   <block id="45d8e5da7753a5571797f6a81a9c4e3c" category="inline-image-macro">Amazon FSX for ONTAP Sfor Sfor Sfor the工作日環境頁面上的快照。</block>
   <block id="26682ff9a292960b61e97b937520b135" category="paragraph"><block ref="26682ff9a292960b61e97b937520b135" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="11fa7924f258843d0c6a8377f70c698c" category="paragraph">您現在ONTAP 可以使用Cloud Manager、將Volume新增至FSXfor Sfor Sfor Sfor工作環境。</block>
   <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">探索現有ONTAP 的FSX for Sf供 資料系統使用</block>
-  <block id="3eb13290c3d1e4b57acf05410a485779" category="list-text">在Cloud Manager中、按一下*新增工作環境*、然後選取* Amazon Web Services*。</block>
   <block id="6800849898be1086bb69e4658dd59629" category="list-text">選擇* Amazon FSX* for ONTAP Sfor Sfor Sfor *、然後按一下*按一下此處*。</block>
   <block id="e574e1da19f282b48ebb67c362fbc5cc" category="inline-image-macro">探索Amazon FSX for ONTAP Sfa的工作環境的快照</block>
   <block id="72e0dd6fd0d4009c79805d8504e7e490" category="paragraph"><block ref="72e0dd6fd0d4009c79805d8504e7e490" category="inline-image-macro-rx" type="image"></block></block>
@@ -160,14 +136,9 @@
   <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">選取AWS區域和工作環境的快照</block>
   <block id="daf8847714f7e326bcf10553bdbffa28" category="paragraph"><block ref="daf8847714f7e326bcf10553bdbffa28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">按一下「 * 新增 * 」。</block>
-  <block id="3fca24f4054dbd7b229807ef3910d4b7" category="paragraph">Cloud Manager會顯示您探索到的FSX ONTAP for Sfor Sficity檔案系統。</block>
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">從ONTAP 工作區中移除FSXfor Sfor</block>
-  <block id="619c35c80b530c32704e964530d66517" category="paragraph">您可以從ONTAP Cloud Manager移除FSXfor Sfor支援、而不需刪除FSX for ONTAP S庫 帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sfor the Sf有效 工作環境新增回Cloud Manager。</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。</block>
-  <block id="410c78448ff59a132a6ef7e7c2bf2f4e" category="inline-image-macro">從ONTAP Cloud Manager介面移除FSX for Sficity選項的快照。</block>
-  <block id="47f6e6061b4eadfbf907049dcd591b28" category="paragraph"><block ref="47f6e6061b4eadfbf907049dcd591b28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">刪除FSX以利ONTAP 執行作業環境</block>
-  <block id="4de2a58fbc41a8206c0c53a3dd1da960" category="paragraph">您可以從ONTAP Cloud Manager刪除FSXfor Sfor</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
   <block id="b917a1d8451423450873eef39565dca3" category="inline-link-macro">刪除所有Volume</block>
   <block id="7b41e03b81e97660913781a8239006df" category="list-text">您必須 <block ref="54cc4f96ff154d8637a706e7f5511434" category="inline-link-macro-rx"></block> 與檔案系統相關聯。</block>
@@ -175,9 +146,6 @@
   <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">您無法刪除包含故障磁碟區的工作環境。在刪除FSX for ONTAP Sfi檔案系統之前、必須先使用AWS管理主控台或CLI刪除故障的磁碟區。</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">此動作將會刪除與工作環境相關的所有資源。此動作無法復原。</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。</block>
-  <block id="eea2ce15389bae978a0efc5763b9cdac" category="inline-image-macro">從ONTAP Cloud Manager介面刪除FSX for Sficity選項的快照。</block>
-  <block id="636c7339a775dda79a1b6b37974a27b3" category="paragraph"><block ref="636c7339a775dda79a1b6b37974a27b3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="00b56458820e0abf51f147bc4e399a7e" category="summary">您可以使用ONTAP Cloud Manager來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">管理Amazon FSX ONTAP for Sf.的Volume</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">編輯Volume</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">建立磁碟區之後、您可以隨時加以修改。</block>
@@ -196,28 +164,16 @@
   <block id="baef40813f00b62c8e9dcc643a76c881" category="list-text">選取新的磁碟區分層原則、然後按一下*變更*。</block>
   <block id="016049d3662ab4f0c21871ed98f2bb37" category="section-title">複寫及同步資料</block>
   <block id="abca63d751ec4cebd209af264e376ee4" category="inline-link">在系統之間複寫資料</block>
-  <block id="b2e8050cf49252f7b06bd379448c5e15" category="paragraph">您可以使用Cloud Manager在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
   <block id="35931d34af92c203401fd4bb760eb1cf" category="inline-link">建立同步關係</block>
-  <block id="12fc3818f5e3f781c2bf4eb8b8d50ffc" category="paragraph">您可以使用Cloud Sync Cloud Manager中的功能、建立同步關係。若要設定同步關係、請參閱<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
   <block id="f91674f3b22216fc484532cd24dda908" category="section-title">刪除Volume</block>
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">刪除不再需要的磁碟區。</block>
-  <block id="08d16a95ed82f881bcc5359ecb0c8769" category="paragraph">您無法使用Cloud Manager刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。</block>
-  <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">輸入工作環境名稱、然後確認您要刪除該磁碟區。從Cloud Manager完全移除磁碟區可能需要一小時的時間。</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">如果您嘗試刪除複製的Volume、將會收到錯誤訊息。</block>
-  <block id="80ff3e3b4817bcd801ad60d27676fed7" category="summary">Amazon FSX for NetApp ONTAP 功能將ONTAP 完整的功能整合至原生AWS託管服務、提供一致的混合雲體驗。本文件說明如何ONTAP 使用NetApp Cloud Manager來管理FSXfor Sfor。</block>
   <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">Amazon FSX以取得ONTAP 相關文件</block>
   <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。</block>
   <block id="bf7ec532103402eaed4653738655f6ad" category="doc">Amazon FSX for ONTAP Sfor Sf.入門</block>
   <block id="fbda414afc779c9e1e46c45b74091adb" category="paragraph">只ONTAP 要幾個步驟、就能開始使用FSXfor Sfor而已。</block>
-  <block id="2db8ac87c99d0b6932322889e2e22b9e" category="inline-link-macro">設定IAM角色、讓Cloud Manager SaaS能夠承擔角色</block>
-  <block id="9d662ce44c324aa67c253be893864c71" category="paragraph">在新增Volume之前、您必須先建立Amazon FSX for ONTAP Szing工作環境。您需要 <block ref="afb5d18769390df2b32a585a478c27d2" category="inline-link-macro-rx"></block>。</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS連接器</block>
-  <block id="885bf112deac8aef76c696fd4369622f" category="paragraph">您必須擁有<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要Connector時、Cloud Manager會在尚未新增連接器時提示您。</block>
-  <block id="173cc3f2694be1fa38808fdd8021304c" category="paragraph">您可以ONTAP 使用Cloud Manager建立適用於SfSX Volume的FSX。</block>
-  <block id="711497cf466e121cf263849d7f648140" category="paragraph">使用Cloud Manager來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 鏡像和Data Sense。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相關連結</block>
-  <block id="4d36bd7ea566aabab173cf25b707699a" category="inline-link">從 Cloud Manager 建立 Connector</block>
-  <block id="300de2fff5e8bf53f93ce557eb141f27" category="list-text"><block ref="300de2fff5e8bf53f93ce557eb141f27" category="inline-link-rx"></block></block>
   <block id="de737ba84e61f1a8380fd351112b7183" category="inline-link">從 AWS Marketplace 啟動 Connector</block>
   <block id="f184c656bf02dee61743212967601db4" category="list-text"><block ref="f184c656bf02dee61743212967601db4" category="inline-link-rx"></block></block>
   <block id="c8f9fcb2d5c182f76e53507a00efe037" category="inline-link">在 Linux 主機上安裝 Connector 軟體</block>
@@ -232,22 +188,18 @@
   <block id="f6ad83cb7f527e383e392f709849a098" category="list-text">使用不常存取（IA）的可用儲存層、以低成本、幾乎不受限制的方式儲存資料容量。</block>
   <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">通過認證、可在對延遲敏感的應用程式（包括Oracle RAC）上執行。</block>
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">可選擇搭售和隨用隨付定價。</block>
-  <block id="4b892d08b42aafcd301b83ab05b6e993" category="section-title">Cloud Manager 的其他功能</block>
   <block id="7965f44d9657c905774d8d427141b845" category="list-text">使用AWS和Cloud Manager中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 效益與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf4。</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">深入瞭解</block>
   <block id="d9bf9116e04a89e455600416ad7872f3" category="list-text">Cloud Data Sense採用人工智慧（AI）導向技術、可協助您瞭解資料內容、並識別位於FSX中的敏感資料、以利ONTAP 實現效益。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
   <block id="1f944a9ec2785c18a692aeedf9839548" category="list-text">使用NetApp Cloud Sync 解決方案、您可以將資料移轉自動化、移轉至雲端或內部部署的任何目標。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
   <block id="8bffb197ac66e59166722f267ae2aa89" category="inline-link">Amazon FSX for ONTAP Sf入門 指南</block>
-  <block id="b63f9ea0c064f36284d9518a04bb2394" category="paragraph">您的FSX for ONTAP Sfor Sfor支援帳戶由AWS維護、而非由Cloud Manager維護。<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
   <block id="bcde5e61b57c391c5832e7ea9a5bf2b1" category="paragraph">使用AWS中的Connector以及Cloud Sync 選用的資料服務（例如、支援功能和Data Sense）、需要額外的成本。</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">支援的地區</block>
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">檢視支援的Amazon地區。</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">取得協助</block>
   <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何疑問或技術支援問題、請使用AWS FSX檔案系統、基礎架構或任何使用此服務的AWS解決方案、使用AWS主控台的Support Center開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。</block>
-  <block id="1db5f4a1a813c32af28e132cf45cac0f" category="paragraph">對於Cloud Manager或Cloud Manager微服務的一般問題、您可以從線上Cloud Manager聊天開始。</block>
-  <block id="409924e4cb5560dcfd0701e1ac237826" category="paragraph">如需Cloud Manager或內部微服務專屬的技術支援問題、您可以使用Cloud Manager帳戶層級序號來開啟NetApp支援服務單。您需要註冊Cloud Manager序號、才能啟動支援。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
@@ -299,7 +251,6 @@
   <block id="b7dd73bfb5bbb0ec2884525999924384" category="paragraph"><block ref="e85a369c316ea87dc3d5da27638bd157" category="inline-link-macro-rx"></block>。</block>
   <block id="eddf71c2364cb70dc54a32723a344817" category="inline-link-macro">開始瞭解Cloud Data Sense for Amazon FSX ONTAP for Sf</block>
   <block id="d35e6fa404873b4a616b1313e98cf3d9" category="paragraph"><block ref="6e3374d20d69610b03c5ed3fa5af9a08" category="inline-link-macro-rx"></block>。</block>
-  <block id="e55bdaae79868c01c7cc36c1283eb425" category="summary">Cloud Manager會建立AWS安全性群組、其中包含Cloud Manager和FSXfor ONTAP the支援成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。</block>
   <block id="e87d6ed459b274ad7c388e0797013c9f" category="doc">FSXfor ONTAP Sfor Sf.的安全群組規則</block>
   <block id="9f415057e43c73d4e37a0068a0ca9486" category="section-title">FSXfor ONTAP Sfor Sfor Sf.的規則</block>
   <block id="a4f557d4dc5603464fae9d733ed96263" category="paragraph">FSX for ONTAP Sfor Sfor Sfor Sfor Security群組需要傳入和傳出規則。此圖說明FSXfor ONTAP EfuS網路 組態和安全性群組需求。</block>
@@ -441,36 +392,25 @@
   <block id="22043367a89ddcf3eb99eec509a967ba" category="cell">API 呼叫</block>
   <block id="172ef5a94b4dd0aa120c6878fc29f70c" category="cell">8088</block>
   <block id="168342a53455f99d5b1d8d7d95e99567" category="cell">API 呼叫備份至 S3</block>
-  <block id="dd8679112f038315d04028c46da1fef7" category="cell">用於 Cloud Manager 的 DNS 解析</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="cell">雲端資料感測</block>
   <block id="6cf25d0dcbf586ed6aff3b930e4d8019" category="cell">Cloud Data Sense執行個體</block>
   <block id="059ace13ef3980df592dafb754ef8883" category="cell">Cloud Data Sense for Cloud Volumes ONTAP 功能</block>
   <block id="f6ebedc10f620647623a6be7cd7cb8a5" category="summary">為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工作環境中、您需要使用AWS存取金鑰和機密金鑰、才能讓IAM使用者角色具備FSX for ONTAP Sfor FIf各項 權限。</block>
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">設定FSXfor ONTAP Sfor Sfor的權限</block>
-  <block id="b84143bbdad7df35ec2c66cf2071f420" category="paragraph">若要建立或管理Amazon FSX for ONTAP the Sfor the Synfrole工作環境、您需要提供IAM角色的ARN、讓Cloud Manager擁有建立FSX for ONTAP the Synfrole環境所需的權限、才能將AWS認證新增至Cloud Manager。</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">設定IAM角色</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">前往目標帳戶中的IAM主控台。</block>
   <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">在「存取管理」下、按一下*「角色」&gt;「建立角色」*、然後依照步驟建立角色。</block>
   <block id="e1a3d580d5cb42904b96dc05c0e0903d" category="paragraph">請務必執行下列動作：</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">在*信任的實體類型*下、選取* AWS帳戶*。</block>
   <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">建立包含下列權限的原則：</block>
-  <block id="e08f06cebc90d5cc269f643f2df5ab95" category="list-text">複製IAM角色的角色ARN、以便在下一步將其貼到Cloud Manager中。</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">IAM角色現在擁有所需的權限。</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">新增認證資料</block>
-  <block id="497de2fdf34143e76f1d2110f9556188" category="paragraph">在您提供IAM角色所需的權限之後、請將角色ARN新增至Cloud Manager。</block>
-  <block id="5138a631dd35ae5628a6137742d99bcc" category="paragraph">如果您剛建立IAM角色、可能需要幾分鐘的時間才能使用。請稍候幾分鐘、再將認證資料新增至Cloud Manager。</block>
-  <block id="660dd8cc813d5a986fc14efa52264b91" category="list-text">在 Cloud Manager 主控台右上角、按一下「設定」圖示、然後選取 * 認證 * 。</block>
-  <block id="4305773753b9ba702b13934db50507c2" category="inline-image-macro">顯示 Cloud Manager 主控台右上角「設定」圖示的快照。</block>
-  <block id="e595ee8d0b73c843696b78f80de0bad2" category="paragraph"><block ref="e595ee8d0b73c843696b78f80de0bad2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">按一下*「Add Credential*（新增認證*）」、然後依照精靈中的步驟進行。</block>
-  <block id="15d1c1365d4f855b7d77c93232a59906" category="list-text">*認證資料位置*：選取* Amazon Web Services &gt; Cloud Manager*。</block>
   <block id="8cf335d7d3b1dd5cdac30699d20489c0" category="list-text">*定義認證資料*：提供IAM角色的ARN（Amazon資源名稱）。</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">*審查*：確認新認證資料的詳細資料、然後按一下*新增*。</block>
   <block id="c0abab76d53e87b10c7a7de184fc0f53" category="paragraph">您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。</block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="inline-link">AWS 認證與權限</block>
   <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
-  <block id="6bccb09f2c81a00c03cd35c87a54b03f" category="inline-link">管理Cloud Manager的AWS認證資料</block>
-  <block id="0f9f43c114be6c5746b95fa092ad10b2" category="list-text"><block ref="0f9f43c114be6c5746b95fa092ad10b2" category="inline-link-rx"></block></block>
   <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">Amazon FSX for ONTAP Sfedocs</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -501,32 +441,20 @@
   <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
   <block id="604034876d198af3f8d6cece2f09d984" category="list-text">選取地區和VPC。</block>
   <block id="d7387928ac1cfa971f35a613cd81907c" category="paragraph">針對多個可用度區域、請在至少兩個可用度區域中選取子網路、使每個節點都位於專用的可用度區域中。</block>
-  <block id="32d764103d092c07b147433d048bb586" category="paragraph">設定IAM角色、讓Cloud Manager能夠承擔角色。</block>
-  <block id="97b63fa093616f832ba5318ba00447ce" category="list-text">選取*其他AWS帳戶*、然後輸入Cloud Manager的ID。</block>
-  <block id="81d51fac54904448b89f95abe2f40178" category="list-text">適用於Cloud Manager SaaS：952013314444</block>
-  <block id="4aaa495471a5ae62d8384762205bf782" category="inline-link-macro">Cloud Manager 原則頁面</block>
-  <block id="c8a9420eac272cc5ace307e15c1a05cc" category="paragraph">從檢視Connector部署原則 <block ref="890ffa37b9e517890ec4308e2dc353ce" category="inline-link-macro-rx"></block>。</block>
   <block id="a7cf2ac8ff4dd10d1e304f0abd7fe0bd" category="list-text">如果您使用AWS GovCloud（US）帳戶、請勾選*我使用AWS GovCloud（US）帳戶*。</block>
   <block id="045e30d9d567e729274d9202eee4ff62" category="inline-image-macro">「GovCloud（US）帳戶」核取方塊的快照。</block>
   <block id="c03a6ecd27b7a5ea40ee52d99c7a247a" category="paragraph"><block ref="c03a6ecd27b7a5ea40ee52d99c7a247a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9891de406800116bd9cb8226be9beb9" category="list-text">使用AWS GovCloud驗證將會停用SaaS平台。這是對您帳戶的永久變更、無法復原。</block>
   <block id="319c3fdfa37c6b0ae4e91a351706489b" category="list-text">AWS GovCloud（美國）：033442085313</block>
-  <block id="c3948e9af2286480c185296c8233504b" category="summary">使用Cloud Manager、您可以建立或探索適用於ONTAP 各種運作環境的FSX、以新增及管理磁碟區及其他資料服務。</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">建立或探索Amazon FSX以利ONTAP 實現不工作環境</block>
-  <block id="ce077de6f3a969e5aa4cd26e1b3b5793" category="paragraph">使用Cloud Manager、您可以建立或探索FSXfor ONTAP Sfor支援功能的工作環境、以新增和管理Volume及其他資料服務。</block>
   <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">如果您ONTAP 使用AWS管理主控台建立FSX for S廳 檔案系統、或想要還原先前移除的工作環境、您可以使用「我的商機」*或手動探索。</block>
   <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">利用我的商機探索</block>
-  <block id="2727507bf62cbd85fbf2b9c615630c53" category="paragraph">如果您先前已將AWS認證資料提供給Cloud Manager、* My Opportunity *可以自動探索及建議使用ONTAP Cloud Manager新增及管理的FSX for Solidffile系統。您也可以檢閱可用的資料服務。</block>
-  <block id="748e7605a5624d9bdbf81964bc29f2e4" category="list-text">在Cloud Manager中、按一下「*我的商機*」索引標籤。</block>
   <block id="e9ba45e021b291739ba996c9cde18a78" category="list-text">將顯示探索到ONTAP 的FSX for Sof the Sfof the Sfor the Sfof the fof按一下* Discover（探索）*。</block>
   <block id="7208d8184b0d0e6e3c7bcf475c8f9bd2" category="inline-image-macro">FSX for ONTAP Sfor Sfuni.的「My Opportunity」頁面快照。</block>
   <block id="9e4da126e3095f89c00bb676d98195d8" category="paragraph"><block ref="9e4da126e3095f89c00bb676d98195d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b4a4c841d4545b117e4104be254a0e8" category="list-text">選取一或多個檔案系統、然後按一下* Discover（探索）*將其新增至畫版。</block>
   <block id="0187b41b8a735f30cc0556afd7387b9d" category="list-text">如果您選取未命名的叢集、系統會提示您輸入叢集名稱。</block>
-  <block id="288a9d1552741aacac0fe590629b3a7e" category="list-text">如果您選取的叢集沒有必要的認證資料、無法讓Cloud Manager管理FSXfor ONTAP the Sfa檔案系統、您將會收到一則提示、要求您選擇具備所需權限的認證資料。</block>
   <block id="1d064916590560310250a3e94aec4539" category="section-title">手動探索</block>
-  <block id="93961f8d67912180ee53e84885a6e38b" category="paragraph">您可以手動探索您ONTAP 使用AWS管理主控台新增的FSXfor the S廳、或先前從Cloud Manager移除的FSX檔案系統。</block>
-  <block id="9ac28c312ffcaefaeb68547b62383018" category="paragraph">您可以在ONTAP Cloud Manager中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利執行各種功能。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。</block>
   <block id="c0beac119c78b8228ca36d4b93ef1bc7" category="list-text">*傳輸協定*：選取NFS、CIFS或iSCSI Volume傳輸協定。</block>
   <block id="7a641f2010297c1d06c28aad18308a5b" category="list-text">對於iSCSI：您可以使用現有的啟動器群組或建立新的啟動器群組來連接LUN。若要對應現有的啟動器群組、請選取您的作業系統和一或多個啟動器群組。</block>
   <block id="7d7217d548e427bd0d76f5081e4b4cb5" category="paragraph">若要建立新的啟動器群組：</block>
@@ -558,7 +486,6 @@
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
   <block id="0e36458fd86c678ff613e05396096775" category="paragraph">您現在可以了 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
-  <block id="af1b15a700df7234e9ad68515cde3f5b" category="summary">Cloud Manager可讓您管理FSXfor ONTAP Sfor Sfor Sfor Sfor Sf有效 工作環境。您可以變更處理量、儲存容量和IOPS、並移除或刪除工作環境。</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">從* Overview（概述）*選項卡中選擇* Features（*功能）*。</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">選取鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*處理量容量*」編輯頁面。</block>
   <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">變更處理量容量功能表位置的快照。</block>
@@ -577,12 +504,9 @@
   <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">勾選此核取方塊、確認您瞭解變更的儲存容量會影響到FSXfor ONTAP the Service的成本、而且無法在六小時內進行其他變更。</block>
   <block id="1f25673463b8f906d801bd291ad45315" category="list-text">選擇*更新*以確認您的變更。</block>
   <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">在頁面右上角、選取動作功能表、然後選取*從工作區移除*。</block>
-  <block id="695c6322f28397cda2ea2ea4d49f33fc" category="list-text">選取*移除*、從ONTAP Cloud Manager移除FSX*以供參考。</block>
   <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">在頁面右上角、選取動作功能表、然後選取*刪除*。</block>
   <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">輸入工作環境的名稱、然後選取*刪除*。</block>
   <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">選取處理量、容量和單位。您可以隨時變更處理量和儲存容量值。</block>
-  <block id="7f234f33b9862c892e7c8dbf9dd91bc5" category="list-text">您可以選擇性地指定IOPS值。如果您未指定IOPS值、Cloud Manager會根據輸入的總容量每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。您可以隨時變更IOPS值。</block>
-  <block id="c39def9377c6bd394b8633558a53f581" category="paragraph">您可以使用ONTAP Cloud Manager檢視及管理Volume、Clone和Snapshot、以及變更FSXfor Sfor的分層原則。</block>
   <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">檢視Volume詳細資料</block>
   <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">建立磁碟區之後、您可以檢視組態詳細資料。</block>
   <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">您可以將游標移到磁碟區名稱上、以顯示磁碟區類型。</block>
@@ -604,14 +528,10 @@
   <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">您的磁碟區現在已掛載到主機上。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">瞭解如何註冊以取得支援</block>
-  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">若要使用*建立案例*功能、您必須先執行Cloud Manager帳戶ID序號的一次性登錄（即960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您想與電話上的其他人通話、請按一下*「呼叫我們*」。您將會被導向netapp.com上的頁面、其中列出您可以撥打的電話號碼。</block>
   <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">按一下*建立案例*、與NetApp支援專家一起開啟問題單：</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*《支援帳戶*》：選取與開立支援案例的人員相關的適用的NSS帳戶。NetApp 支援網站除了以下提供的其他電子郵件之外、此人將是NetApp聯絡的主要聯絡人。</block>
-  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至Cloud Manager「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
-  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*服務*：選取問題相關的服務。例如、Cloud Manager在特定於服務工作流程或功能的技術支援問題時。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
-  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的Cloud Manager帳戶、工作區和Connector範圍內。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
@@ -622,36 +542,22 @@
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
-  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">此錯誤可能表示、與此相關聯的NSS帳戶及記錄公司與Cloud Manager帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">需求</block>
   <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMe與iSCSI主機組態</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
-  <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Manager注意事項</block>
-  <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
-  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 Cloud Manager中新增一個支援（NSS）帳戶、然後註冊以取得支援。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
-  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">註冊Cloud Manager帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於Cloud Manager的「Support Resources（支援資源）」頁面）。</block>
-  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">這是Cloud Manager中任何服務的單一支援訂閱ID。每個Cloud Manager帳戶層級的支援訂閱都必須註冊。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在Cloud Volumes ONTAP 雲端供應商的市場中註冊與訂閱相關的支援服務序號（這些序號為20位數909601xxxxxxxx序號）。</block>
-  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由Cloud Manager產生。</block>
-  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">註冊這兩種序號類型、就能開啟支援服務單、自動產生個案及Active IQ 進行支援。</block>
   <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">您的註冊方式取決於您是新客戶或現有客戶或合作夥伴。</block>
   <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">現有客戶或合作夥伴</block>
-  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">身為現有的NetApp客戶或合作夥伴、您可以使用NetApp 支援網站 您的畫面（NSS）SSO帳戶執行上述登錄。在「支援儀表板」中、Cloud Manager提供一個* nssn*管理*頁面、您可以在其中新增您的nss.新增您的NSS帳戶後、Cloud Manager會自動為您註冊這些序號。</block>
   <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">瞭解如何新增您的NSS帳戶</block>
-  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>。</block>
   <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp新推出</block>
-  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">如果您是NetApp的新客戶、您必須在NetApp的支援註冊網站上完成Cloud Manager帳戶ID序號的一次性註冊。完成此註冊並建立新的NSS帳戶之後、您就可以在Cloud Manager中使用此帳戶自動註冊、以便繼續進行。</block>
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">瞭解如何向NetApp註冊</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
-  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">將一個新增至Cloud Manager的NSS</block>
   <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">「支援儀表板」可讓您新增及管理NetApp 支援網站 要搭配Cloud Manager使用的各種不一致帳戶。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶層級的帳戶、可以新增一或多個NSS帳戶。</block>
   <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
-  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">這些行動可讓Cloud Manager使用您的NSS帳戶進行授權下載、軟體升級驗證、以及未來的支援註冊等作業。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
   <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">帳戶必須是客戶層級的帳戶（不是來賓帳戶或臨時帳戶）。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個橫點的圖示</block>
@@ -660,8 +566,6 @@
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp註冊</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">現有的客戶、擁有一個新服務客戶帳戶</block>
-  <block id="d4b6092976537c153c496a428098980c" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、只需透過Cloud Manager註冊即可獲得支援。</block>
-  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">如果您尚未這麼做、請將您的NSS帳戶新增至Cloud Manager。</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*資源*頁面上、按一下*註冊以取得支援*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">顯示帳戶序號和「Register for Support」（註冊支援）選項的快照</block>
   <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
@@ -684,5 +588,103 @@
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">確認電子郵件中的行動。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認將您的申請提交給NetApp、並建議您建立NetApp 支援網站 一個申請表。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
-  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">一旦擁有NetApp 支援網站 您的不二帳戶、您就可以瀏覽至Cloud Manager、新增此新增的NSS-帳戶以供日後登錄。</block>
+  <block id="ca9f06fa1a00f01b3d6a92ff7e6556ff" category="summary">Amazon FSX for NetApp ONTAP 功能將ONTAP 完整的功能整合至原生AWS託管服務、提供一致的混合雲體驗。本文件說明如何ONTAP 使用NetApp BlueXP來管理FSXfor Sfor</block>
+  <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP的其他功能</block>
+  <block id="61d1931826c6b4bafae8f3e532759004" category="list-text">使用AWS和BlueXP（前身為Cloud Manager）中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSXfor ONTAP 功能與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf2。</block>
+  <block id="2e1fca4dcaae8d35c81661aec02958b2" category="paragraph">您的FSX for ONTAP Sfor Sf堅持 帳戶是由AWS維護、而非由BlueXP維護。<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
+  <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">如需有關BlueXP或BlueXP微服務的一般問題、您可以從線上的BlueXP聊天開始。</block>
+  <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">如需特定於BlueXP或內部微服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要註冊您的BlueXP序號、才能啟動支援。</block>
+  <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">設定IAM角色、讓BlueXP SaaS能夠承擔角色</block>
+  <block id="0120a6985fd9a638c32bf88c75ec0802" category="paragraph">在新增Volume之前、您必須先建立Amazon FSX for ONTAP Szing工作環境。您需要 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>。</block>
+  <block id="d7d767395bf3ee01260b8e372bdc033a" category="paragraph">您必須擁有<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要連接器時、如果尚未新增連接器、則BlueXP會提示您。</block>
+  <block id="17a1b5c516ad7934395e8ea2d41f50ed" category="paragraph">您可以ONTAP 使用BlueXP建立FSXfor Sf6 Volume。</block>
+  <block id="a4f149004152f60637fdf95cdc81a47d" category="paragraph">使用BlueXP來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 鏡像和資料感應。</block>
+  <block id="9c51d38f64e8c1335e2502c05f118401" category="inline-link">從BlueXP建立連接器</block>
+  <block id="0d5f53ba40b365132e5ed55aeb13bafc" category="list-text"><block ref="0d5f53ba40b365132e5ed55aeb13bafc" category="inline-link-rx"></block></block>
+  <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXP會建立AWS安全性群組、其中包含BlueXP和FSXfor ONTAP the支援功能成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。</block>
+  <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">用於BlueXP的DNS解析</block>
+  <block id="f7690c21dcdeafa719d4764552e4d2d7" category="paragraph">若要建立或管理Amazon FSX for ONTAP the Sfor the Sfrofa工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX for ONTAP the Synfrofa工作環境所需的權限、才能將AWS認證新增至BlueXP。</block>
+  <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">設定IAM角色、讓BlueXP能夠承擔角色。</block>
+  <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">選取*其他AWS帳戶*、然後輸入BlueXP的ID。</block>
+  <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">適用於BlueXP SaaS：952013314444</block>
+  <block id="7ac66cbf6468d4b2ac580b0142eb7f7b" category="inline-link-macro">BlueXP原則頁面</block>
+  <block id="a4b479a41ed7a914d0dd394ff19733d2" category="paragraph">從檢視Connector部署原則 <block ref="6bc39dc7152091d002dd49afe75c9615" category="inline-link-macro-rx"></block>。</block>
+  <block id="fa9df323148192800073dd2a78c81f73" category="list-text">複製IAM角色的角色ARN、以便在下一步將其貼到BlueXP中。</block>
+  <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">在您提供IAM角色所需的權限之後、請將角色ARN新增至BlueXP。</block>
+  <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">如果您剛建立IAM角色、可能需要幾分鐘的時間才能使用。請稍候幾分鐘、再將認證資料新增至BlueXP。</block>
+  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">在BlueXP主控台右上角、按一下「設定」圖示、然後選取*認證*。</block>
+  <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">顯示BlueXP主控台右上角「設定」圖示的快照。</block>
+  <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="469d6f26b0e14d75fc0c834eeac72311" category="list-text">*認證資料位置*：選取* Amazon Web Services &gt; BlueXP*。</block>
+  <block id="193ad4e55afb9be5b67589ce2fc9b33d" category="inline-link">管理適用於BlueXP的AWS認證資料</block>
+  <block id="f9a91bf42987bf0077570f294d5077a4" category="list-text"><block ref="f9a91bf42987bf0077570f294d5077a4" category="inline-link-rx"></block></block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援（NSS）帳戶、然後註冊以取得支援。</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由BlueXP產生。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">身為現有的NetApp客戶或合作夥伴、您可以使用NetApp 支援網站 您的畫面（NSS）SSO帳戶執行上述登錄。在「支援儀表板」中、BlueXP提供一個* nssn*管理*頁面、您可以在其中新增您的nssa帳戶。新增您的NSS帳戶後、BlueXP會自動為您註冊這些序號。</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">如果您是NetApp的新客戶、您必須在NetApp的支援註冊網站上完成一次性註冊您的BlueXP帳戶ID序號。完成此註冊並建立新的NSS帳戶之後、您就可以在BlueXP中使用此帳戶自動註冊、以便繼續進行。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">新增一個NSS帳戶至藍圖XP</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP主控台右上角、按一下「說明」圖示、然後選取「*支援*」。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">這些行動可讓BlueXP將您的nssa帳戶用於授權下載、軟體升級驗證、以及未來的支援註冊等項目。</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、您只需透過BlueXP註冊即可獲得支援。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未這麼做、請將您的NSS帳戶新增至藍圖XP。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">請務必複製上述序號欄位使用的BlueXP帳戶序號（960xxxx）。這將加速帳戶處理。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">一旦擁有NetApp 支援網站 您的不二帳戶、您就可以瀏覽至BlueXP、新增此新的NSS-帳戶以供日後登錄。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">若要使用*建立案例*功能、您必須先執行一次性註冊您的BlueXP帳戶ID序號（例如960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、按一下*「說明」&gt;「支援」*。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至BlueXP「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
+  <block id="0f845867deaf035383ffc217279b9c7f" category="paragraph">您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。</block>
+  <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">藍圖XP自動化文件</block>
+  <block id="40093c43e131165eb7dd2a980ff78509" category="cell">選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱<block ref="cf06621be2a2bfce0ef0595deee16955" category="inline-link-rx"></block> 以取得詳細資料。</block>
+  <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">從BlueXP中存取掛載指示、以便將磁碟區掛載到主機。</block>
+  <block id="0aab21b00fa6135e62b29e7f8bb6778e" category="summary">BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以變更處理量、儲存容量和IOPS、並移除或刪除工作環境。</block>
+  <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">您可以從ONTAP BlueXP移除FSXfor Sf,而不需刪除FSXfor ONTAP S庫 或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sf有效 工作環境新增回藍圖XP。</block>
+  <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">從ONTAP BluevXP介面移除FSXfor Sf更新 選項的快照。</block>
+  <block id="00e44395dfa88719cfdde0d3aafb0b4c" category="paragraph"><block ref="00e44395dfa88719cfdde0d3aafb0b4c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="39c686ea51a2e3f3412988ea98942824" category="list-text">選取*移除*、從ONTAP BlueXP移除FSX*以供支援。</block>
+  <block id="6835d2c119b318a48de9e93b2e641517" category="paragraph">您可以從ONTAP BlueXP刪除FSXfor Sfor</block>
+  <block id="84aebfd9255ade9edf5ed1e04d2d7983" category="inline-image-macro">從ONTAP BluevXP介面刪除FSXfor Sf更新 選項的快照。</block>
+  <block id="fa1673decfda6b90d421cf8b1ec087b0" category="paragraph"><block ref="fa1673decfda6b90d421cf8b1ec087b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b1c694fb2ebede3c4d4ab22be547bed9" category="summary">使用BlueXP、您可以建立或探索適用於ONTAP 各種運作環境的FSX、以新增及管理磁碟區及其他資料服務。</block>
+  <block id="adb79c4b4ae467a33d5b66931e4b3a81" category="paragraph">使用BlueXP、您可以建立或探索FSXfor ONTAP Sfor Sfor Sfor Sfa工作環境、以新增和管理Volume及其他資料服務。</block>
+  <block id="a32ac0ad801a437e03bc65b1bb97d7bd" category="inline-link-macro">使用BlueXP探索</block>
+  <block id="3e9f0002f52ffb27118b0d0540159148" category="paragraph">第一步是建立FSX,以利ONTAP 實現不二的工作環境。如果您已在ONTAP AWS管理主控台建立FSXfor the S廳 檔案系統、您可以 <block ref="f0e62c6abb102491f5e44c803b014bee" category="inline-link-macro-rx"></block>。</block>
+  <block id="7a1088b800573a1bba3b00786182133b" category="paragraph">在ONTAP BlueXP中建立FSXfor Sfor Sfor Sf有效 作業環境之前、您需要：</block>
+  <block id="74e0ba9ea27cef4d0c11560e135b281e" category="inline-link-macro">將AWS認證資料新增至BlueXP</block>
+  <block id="02e21891e6a4d87f518207b9609ebed1" category="list-text">IAM角色的ARN賦予BlueXP建立FSXfor ONTAP the S作業 環境所需的權限。請參閱 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
+  <block id="6b13ffee707f25ae8bcd9dc0e4d7b4d6" category="list-text">在BluXP中、新增工作環境、選取位置* Amazon Web Services*、然後按一下* Next*。</block>
+  <block id="07c0b2e93427e88c842be765301e4e63" category="list-text">驗證BlueXP ONTAP 中的FSXfor功能。</block>
+  <block id="b7a36240333d2de8502faca756504977" category="list-text">如果您的帳戶中沒有IAM角色、請按一下*認證頁面*、然後依照精靈中的步驟、為AWS IAM角色新增ARN、並使用FSX來取得ONTAP 資訊證明。請參閱 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
+  <block id="274f0b3b024e5cbf45b403266b2d8e00" category="list-text">選取包含通往浮動IP位址路由的路由表。如果VPC中只有一個子網路路由表（主路由表）、則BlueXP會自動將浮動IP位址新增至該路由表。單擊 * 下一步 * 繼續。</block>
+  <block id="c43f98768b6bade26ae94ab84f81134f" category="list-text">您可以選擇性地指定IOPS值。如果您未指定IOPS值、則BlueXP會根據輸入總容量的每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。您可以隨時變更IOPS值。</block>
+  <block id="69a6a9ad9378e16228ecd670e9d167c8" category="paragraph">BlueXP會在ONTAP 「畫版」頁面上顯示您的FSXfor支援組態。</block>
+  <block id="9e35167248d4118a73a969017acba1d8" category="paragraph">您現在ONTAP 可以使用BlueXP將Volume新增至FSXfor Sfor Sfor Sfor Sfor工作環境。</block>
+  <block id="decbe5e805a0a9516184b64d9bad01c3" category="paragraph">如果您先前已將AWS認證資料提供給BlueXP、*我的商機*可以自動探索及建議使用ONTAP BlueXP新增及管理的FSX檔案系統。您也可以檢閱可用的資料服務。</block>
+  <block id="b74bb93cbb66b60fd6c91eba3c535cb2" category="list-text">在藍圖XP中、按一下*我的商機*索引標籤。</block>
+  <block id="547dba06b4fcfe3fa41996e831e9fb1c" category="list-text">如果您選取的叢集沒有必要的認證資料、無法讓BlueXP管理FSXfor ONTAP the Sfa檔案系統、您將會收到一則提示、要求您選擇具有所需權限的認證資料。</block>
+  <block id="494021d1d3a9a769ede7819e9cf10cf6" category="paragraph">您可以手動探索您ONTAP 使用AWS管理主控台新增的FSXfor the S廳、或先前從BlueXP移除的FSX檔案系統。</block>
+  <block id="c13815d75af2d8f4f6b97743a5731dae" category="list-text">在BluXP中、按一下*「Add Working Environment*（新增工作環境*）」、然後選取* Amazon Web Services*。</block>
+  <block id="02ebf3de367dc7096d28e785a65d8c78" category="paragraph">BlueXP會顯示您探索到的FSX for ONTAP Sf更新 檔案系統。</block>
+  <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">您可以使用ONTAP BlueXP來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。</block>
+  <block id="669f767086bf3b89606658facb29605a" category="paragraph">您可以檢視及管理磁碟區、複製和快照、以及使用ONTAP BlueXP變更FSXfor功能的分層原則。</block>
+  <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">您可以使用BlueXP在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
+  <block id="6b91242d31fee1e3576ce594b08573b5" category="paragraph">您可以使用Cloud Sync BlueXP中的功能、建立同步關係。若要設定同步關係、請參閱<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
+  <block id="f257be535aca4e5a3655fc2dd2887500" category="paragraph">您無法使用BlueXP刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。</block>
+  <block id="56f7e1cad5439f90ac8bd08115c74e4a" category="list-text">輸入工作環境名稱、然後確認您要刪除該磁碟區。從BlueXP完全移除磁碟區可能需要一小時的時間。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
 </blocks>

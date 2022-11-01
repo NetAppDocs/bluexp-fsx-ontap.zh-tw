@@ -14,13 +14,13 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 
 
 [role="lead"]
-若要建立或管理Amazon FSX for ONTAP the Sfor the Synfrole工作環境、您需要提供IAM角色的ARN、讓Cloud Manager擁有建立FSX for ONTAP the Synfrole環境所需的權限、才能將AWS認證新增至Cloud Manager。
+若要建立或管理Amazon FSX for ONTAP the Sfor the Sfrofa工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX for ONTAP the Synfrofa工作環境所需的權限、才能將AWS認證新增至BlueXP。
 
 
 
 == 設定IAM角色
 
-設定IAM角色、讓Cloud Manager能夠承擔角色。
+設定IAM角色、讓BlueXP能夠承擔角色。
 
 .步驟
 . 前往目標帳戶中的IAM主控台。
@@ -30,9 +30,9 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 
 +
 ** 在*信任的實體類型*下、選取* AWS帳戶*。
-** 選取*其他AWS帳戶*、然後輸入Cloud Manager的ID。
+** 選取*其他AWS帳戶*、然後輸入BlueXP的ID。
 +
-*** 適用於Cloud Manager SaaS：952013314444
+*** 適用於BlueXP SaaS：952013314444
 *** AWS GovCloud（美國）：033442085313
 
 
@@ -61,11 +61,11 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 }
 ----
 +
-從檢視Connector部署原則 link:https://mysupport.netapp.com/site/info/cloud-manager-policies["Cloud Manager 原則頁面"]。
+從檢視Connector部署原則 link:https://mysupport.netapp.com/site/info/cloud-manager-policies["BlueXP原則頁面"]。
 
 
 
-. 複製IAM角色的角色ARN、以便在下一步將其貼到Cloud Manager中。
+. 複製IAM角色的角色ARN、以便在下一步將其貼到BlueXP中。
 
 
 IAM角色現在擁有所需的權限。
@@ -74,18 +74,18 @@ IAM角色現在擁有所需的權限。
 
 == 新增認證資料
 
-在您提供IAM角色所需的權限之後、請將角色ARN新增至Cloud Manager。
+在您提供IAM角色所需的權限之後、請將角色ARN新增至BlueXP。
 
-如果您剛建立IAM角色、可能需要幾分鐘的時間才能使用。請稍候幾分鐘、再將認證資料新增至Cloud Manager。
+如果您剛建立IAM角色、可能需要幾分鐘的時間才能使用。請稍候幾分鐘、再將認證資料新增至BlueXP。
 
 .步驟
-. 在 Cloud Manager 主控台右上角、按一下「設定」圖示、然後選取 * 認證 * 。
+. 在BlueXP主控台右上角、按一下「設定」圖示、然後選取*認證*。
 +
-image:screenshot_settings_icon.gif["顯示 Cloud Manager 主控台右上角「設定」圖示的快照。"]
+image:screenshot_settings_icon.gif["顯示BlueXP主控台右上角「設定」圖示的快照。"]
 
 . 按一下*「Add Credential*（新增認證*）」、然後依照精靈中的步驟進行。
 +
-.. *認證資料位置*：選取* Amazon Web Services > Cloud Manager*。
+.. *認證資料位置*：選取* Amazon Web Services > BlueXP*。
 .. *定義認證資料*：提供IAM角色的ARN（Amazon資源名稱）。
 +
 [NOTE]
@@ -110,5 +110,5 @@ image:screenshot-govcloud-checkbox.png["「GovCloud（US）帳戶」核取方塊
 == 相關連結
 
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-accounts-aws.html["AWS 認證與權限"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html["管理Cloud Manager的AWS認證資料"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html["管理適用於BlueXP的AWS認證資料"^]
 
