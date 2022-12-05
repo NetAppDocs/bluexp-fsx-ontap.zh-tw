@@ -16,7 +16,11 @@ summary: Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。
 [role="lead"]
 Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。
 
-只ONTAP 要幾個步驟、就能開始使用FSXfor Sfor而已。
+
+
+== 快速步驟
+
+使用 link:https://docs.netapp.com/us-en/cloud-manager-family/["藍圖"^]您只ONTAP 需幾個步驟、就能開始使用FSXfor Sfor而已。
 
 [role="quick-margin-para"]
 在新增Volume之前、您必須先建立Amazon FSX for ONTAP Szing工作環境。您需要 link:../requirements/task-setting-up-permissions-fsx.html["設定IAM角色、讓BlueXP SaaS能夠承擔角色"]。
