@@ -24,6 +24,7 @@ FSX for ONTAP Sfor Sfor Sfor Sfor Security群組需要傳入和傳出規則。�
 
 image:diagram-fsx-security-groups.png["FSX圖表、適用於ONTAP 不穩定安全群組組組態。"]
 
+.開始之前
 您需要使用AWS管理主控台來找出與Enis相關的安全性群組。
 
 .步驟

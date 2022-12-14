@@ -108,6 +108,7 @@ Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將
 
 刪除不再需要的磁碟區。
 
+.開始之前
 您無法使用BlueXP刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。
 
 .步驟

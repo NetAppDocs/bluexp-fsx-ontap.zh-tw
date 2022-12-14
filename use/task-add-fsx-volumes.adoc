@@ -22,6 +22,7 @@ summary: 設定工作環境之後、您可以建立及管理Amazon FSX以利ONTA
 
 您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。
 
+.開始之前
 您需要：
 
 * 使用中 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
@@ -135,6 +136,7 @@ image:screenshot_fsx_volume_usage_tiering.png["FSX使用設定檔和分層組態
 . *審查*：檢閱您的Volume組態。按一下*上一步*變更設定、或按一下*新增*建立磁碟區。
 
 
+.結果
 新磁碟區會新增至工作環境。
 
 
@@ -152,4 +154,5 @@ image:screenshot_fsx_volume_actions.png["如何開啟Volume Actions功能表的�
 . 選擇*掛載命令*、然後依照指示掛載磁碟區。
 
 
+.結果
 您的磁碟區現在已掛載到主機上。

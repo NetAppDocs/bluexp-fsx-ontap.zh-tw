@@ -22,6 +22,7 @@ BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以變更處理�
 
 您可以在建立FSXfor ONTAP the Sfor the Sfor the S甚麼 工作環境之後、隨時變更處理量容量。
 
+.開始之前
 您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
 
 .步驟
@@ -40,6 +41,7 @@ image:screenshot-change-thruput.png["變更處理量容量功能表位置的快�
 
 您可以在建立FSXfor ONTAP the S甚麼 工作環境之後、隨時變更儲存容量和IOPS。
 
+.開始之前
 您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
 
 .步驟

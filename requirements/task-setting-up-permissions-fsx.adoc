@@ -68,6 +68,7 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 . 複製IAM角色的角色ARN、以便在下一步將其貼到BlueXP中。
 
 
+.結果
 IAM角色現在擁有所需的權限。
 
 
@@ -76,6 +77,7 @@ IAM角色現在擁有所需的權限。
 
 在您提供IAM角色所需的權限之後、請將角色ARN新增至BlueXP。
 
+.開始之前
 如果您剛建立IAM角色、可能需要幾分鐘的時間才能使用。請稍候幾分鐘、再將認證資料新增至BlueXP。
 
 .步驟
@@ -103,6 +105,7 @@ image:screenshot-govcloud-checkbox.png["「GovCloud（US）帳戶」核取方塊
 
 
 
+.結果
 您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。
 
 

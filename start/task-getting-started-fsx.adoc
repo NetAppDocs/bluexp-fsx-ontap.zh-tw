@@ -22,15 +22,19 @@ Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。
 
 使用 link:https://docs.netapp.com/us-en/cloud-manager-family/["藍圖"^]您只ONTAP 需幾個步驟、就能開始使用FSXfor Sfor而已。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 建立FSX以利ONTAP 不工作環境
 [role="quick-margin-para"]
 在新增Volume之前、您必須先建立Amazon FSX for ONTAP Szing工作環境。您需要 link:../requirements/task-setting-up-permissions-fsx.html["設定IAM角色、讓BlueXP SaaS能夠承擔角色"]。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 建立連接器
 [role="quick-margin-para"]
 您必須擁有 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS連接器"^] 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要連接器時、如果尚未新增連接器、則BlueXP會提示您。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 新增磁碟區
 [role="quick-margin-para"]
 您可以ONTAP 使用BlueXP建立FSXfor Sf6 Volume。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四"] 管理您的磁碟區
 [role="quick-margin-para"]
 使用BlueXP來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 鏡像和資料感應。
 
