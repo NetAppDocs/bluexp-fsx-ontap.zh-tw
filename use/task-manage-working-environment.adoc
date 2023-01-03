@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
-keywords: amazon fsx for ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, 
-summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以變更處理量、儲存容量和IOPS、並移除或刪除工作環境。 
+keywords: amazon fsx for ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity 
+summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量、儲存容量和IOPS、以及移除或刪除工作環境。 
 ---
 = 管理Amazon FSX以利ONTAP 不工作環境
 :hardbreaks:
@@ -14,7 +14,58 @@ summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以變�
 
 
 [role="lead"]
-BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以變更處理量、儲存容量和IOPS、並移除或刪除工作環境。
+BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量、儲存容量和IOPS、以及移除或刪除工作環境。
+
+
+
+== 管理自動容量
+
+您可以選擇啟用自動容量管理、以根據需求新增遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並以叢集最大容量的10%或80%為增量、自動增加儲存容量。
+
+
+NOTE: 如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將新總容量的IOPS每GiB增加3 IOPS。如果您指定IOPS值、BlueXP將不會調整IOPS。如需設定IOPS的詳細資訊、請參閱 link:task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["建立工作環境"]。
+
+自動容量管理預設為停用。您可以在AWS中使用或不使用作用中的Connector來管理自動容量。
+
+
+
+=== 無需使用作用中的Connector即可管理自動容量
+
+您可以在AWS中管理自動容量、而無需使用作用中的Connector。
+
+.步驟
+. 開啟FSX,以利ONTAP 執行不工作環境。
+. 選取功能表圖示（image:icon-three-dots.png["三點功能表圖示的影像。"]）並選擇*管理自動容量*。
++
+image:screenshot-auto-capacity-no-connector.png["管理自動容量功能表的快照。"]
+
+. 在*自動容量管理*頁面上：
++
+** 選取此方塊以啟用自動容量管理。
+** 如果先前已啟用自動容量管理、請取消選取此方塊。
+
+
+. 選擇*應用*。
+
+
+
+
+=== 使用作用中的Connector管理自動容量
+
+您可以使用AWS中的作用中Connector來管理自動容量。
+
+.步驟
+. 開啟FSX,以利ONTAP 執行不工作環境。
+. 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
+. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*自動容量管理*」頁面。
+. 在*自動容量管理*頁面上：
++
+** 選取此方塊以啟用自動容量管理。
+** 如果先前已啟用自動容量管理、請取消選取此方塊。
+
+
+. 選擇*應用*。
+
 
 
 

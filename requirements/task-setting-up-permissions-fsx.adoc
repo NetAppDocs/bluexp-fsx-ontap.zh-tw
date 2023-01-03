@@ -26,9 +26,6 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 . 前往目標帳戶中的IAM主控台。
 . 在「存取管理」下、按一下*「角色」>「建立角色」*、然後依照步驟建立角色。
 +
-請務必執行下列動作：
-
-+
 ** 在*信任的實體類型*下、選取* AWS帳戶*。
 ** 選取*其他AWS帳戶*、然後輸入BlueXP的ID。
 +
@@ -50,10 +47,12 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
                 "fsx:*",
                 "ec2:Describe*",
                 "ec2:CreateTags",
+                "iam:CreateServiceLinkedRole",
                 "kms:Describe*",
                 "kms:List*",
                 "kms:CreateGrant",
-                "iam:CreateServiceLinkedRole"
+                "cloudwatch:GetMetricData",
+                "cloudwatch:GetMetricStatistics"
             ],
             "Resource": "*"
         }
@@ -61,7 +60,8 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 }
 ----
 +
-從檢視Connector部署原則 link:https://mysupport.netapp.com/site/info/cloud-manager-policies["BlueXP原則頁面"]。
+
+NOTE: `"cloudwatch:GetMetricData"` 和 `"cloudwatch:GetMetricStatistics"` 必須啟用 link:../use/task-manage-working-environment.html["自動容量管理"]。
 
 
 
