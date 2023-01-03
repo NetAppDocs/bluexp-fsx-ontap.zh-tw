@@ -169,14 +169,8 @@
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">刪除不再需要的磁碟區。</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">如果您嘗試刪除複製的Volume、將會收到錯誤訊息。</block>
   <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">Amazon FSX以取得ONTAP 相關文件</block>
-  <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">Amazon FSX ONTAP for Sfin入門指南（僅需幾個步驟）。</block>
-  <block id="bf7ec532103402eaed4653738655f6ad" category="doc">Amazon FSX for ONTAP Sfor Sf.入門</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS連接器</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相關連結</block>
-  <block id="de737ba84e61f1a8380fd351112b7183" category="inline-link">從 AWS Marketplace 啟動 Connector</block>
-  <block id="f184c656bf02dee61743212967601db4" category="list-text"><block ref="f184c656bf02dee61743212967601db4" category="inline-link-rx"></block></block>
-  <block id="c8f9fcb2d5c182f76e53507a00efe037" category="inline-link">在 Linux 主機上安裝 Connector 軟體</block>
-  <block id="86a342f075ca5d85dc5033d1092f71cd" category="list-text"><block ref="86a342f075ca5d85dc5033d1092f71cd" category="inline-link-rx"></block></block>
   <block id="603ec1431df96260c06b8b0fc539dca4" category="summary">Amazon FSX for ONTAP Sfunch是一項完全託管的服務、可讓客戶啟動及執行採用NetApp ONTAP 的作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶目前內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。</block>
   <block id="43ece0944414298a29b4d72bc56373f1" category="doc">深入瞭解Amazon FSX for ONTAP Sf</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
@@ -587,12 +581,6 @@
   <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">如需有關BlueXP或BlueXP微服務的一般問題、您可以從線上的BlueXP聊天開始。</block>
   <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">如需特定於BlueXP或內部微服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要註冊您的BlueXP序號、才能啟動支援。</block>
   <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">設定IAM角色、讓BlueXP SaaS能夠承擔角色</block>
-  <block id="0120a6985fd9a638c32bf88c75ec0802" category="paragraph">在新增Volume之前、您必須先建立Amazon FSX for ONTAP Szing工作環境。您需要 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>。</block>
-  <block id="d7d767395bf3ee01260b8e372bdc033a" category="paragraph">您必須擁有<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要連接器時、如果尚未新增連接器、則BlueXP會提示您。</block>
-  <block id="17a1b5c516ad7934395e8ea2d41f50ed" category="paragraph">您可以ONTAP 使用BlueXP建立FSXfor Sf6 Volume。</block>
-  <block id="a4f149004152f60637fdf95cdc81a47d" category="paragraph">使用BlueXP來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 鏡像和資料感應。</block>
-  <block id="9c51d38f64e8c1335e2502c05f118401" category="inline-link">從BlueXP建立連接器</block>
-  <block id="0d5f53ba40b365132e5ed55aeb13bafc" category="list-text"><block ref="0d5f53ba40b365132e5ed55aeb13bafc" category="inline-link-rx"></block></block>
   <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXP會建立AWS安全性群組、其中包含BlueXP和FSXfor ONTAP the支援功能成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。</block>
   <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">用於BlueXP的DNS解析</block>
   <block id="f7690c21dcdeafa719d4764552e4d2d7" category="paragraph">若要建立或管理Amazon FSX for ONTAP the Sfor the Sfrofa工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX for ONTAP the Synfrofa工作環境所需的權限、才能將AWS認證新增至BlueXP。</block>
@@ -679,7 +667,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
-  <block id="8ea62d632a69911dcf193e9803b1195a" category="section-title">快速步驟</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">藍圖</block>
   <block id="a9272148ddd8493b835b5b0ed973a495" category="paragraph">使用 <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block>您只ONTAP 需幾個步驟、就能開始使用FSXfor Sfor而已。</block>
   <block id="c8e7a79b3e62d2a377fbadb534f60c42" category="list-text">使用 <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> （前身為Cloud Manager）和AWS中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 支援功能與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf2。</block>
@@ -692,12 +679,22 @@
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">開始之前</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
-  <block id="bf3822c58db8aa1fbf20b9653ec5a67e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 建立FSX以利ONTAP 不工作環境</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
-  <block id="70629c795585a51cd2dd42e29eb9110a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 建立連接器</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
-  <block id="5b7f3404157f78a543ff4be64d149a1a" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 新增磁碟區</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">四</block>
-  <block id="e05adacdd87d8db1102d0a9f547ca18a" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 管理您的磁碟區</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
+  <block id="94adfe266f613e087d05c9260eb004a5" category="summary">使用BlueXP、您只ONTAP 需幾個步驟、就能開始使用FSX for Sfin。</block>
+  <block id="adb9767d8972d81b2cb7885f361d86a1" category="doc">Amazon FSX for ONTAP Sfor Sf.快速入門</block>
+  <block id="ff521b94ba57a25e6c791317a4a7c7b8" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 在AWS中設定IAM角色</block>
+  <block id="a91c2d61396b40e96facf3415a6062b0" category="paragraph">若要建立或管理Amazon FSX for ONTAP the Sfor the Sfrofa工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX for ONTAP the Synfrofa工作環境所需的權限、才能將AWS認證新增至BlueXP。若要這麼做、您必須 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>。</block>
+  <block id="f95c74952c0b72133feb54c45db4c89a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 建立FSX以利ONTAP 不工作環境</block>
+  <block id="807fcae0a49a388e1e8c238bbd595f66" category="inline-link-macro">建立Amazon FSX以利ONTAP 不工作環境</block>
+  <block id="32d5affb3faac4a5daaa14ce4968df36" category="paragraph">您必須 <block ref="bf0fc94fdc839c457f308b3d8824e401" category="inline-link-macro-rx"></block> 在新增磁碟區之前。</block>
+  <block id="08668d46aa9ce2b52e7c349499a9f0a0" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 建立AWS的Connector</block>
+  <block id="0e2c71dee315ea3ae0b3e253b0bb13c0" category="paragraph">您必須擁有<block ref="06b487e1dd2b2618860abb4a038fd471" category="inline-link-rx"></block> 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要連接器時、如果尚未啟用、則BlueXP會提示您。</block>
+  <block id="b681838283484e0b94906567a577ad47" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 新增及掛載磁碟區</block>
+  <block id="4bd8fd698bf66b76447369f6d59d7e0f" category="inline-link-macro">建立並掛載適用於SfSX ONTAP Volume的FSX</block>
+  <block id="3a994a785ff4b046a381ab2afb6d0e17" category="paragraph">您可以 <block ref="c98786904f437c4c5be9aec70a11cbb2" category="inline-link-macro-rx"></block> 使用BlueXP：</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步</block>
+  <block id="dae3b13fec3bf110f92a7547c071e053" category="paragraph">您現在可以使用BlueXP來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 靜態和資料感知。</block>
 </blocks>
