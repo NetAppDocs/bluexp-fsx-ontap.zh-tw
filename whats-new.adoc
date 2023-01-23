@@ -13,7 +13,7 @@ summary: 瞭解Amazon FSX for ONTAP Sf2的新功能。
 :imagesdir: ./media/
 
 
-[role="lead^"]
+[role="lead"]
 瞭解Amazon FSX for ONTAP Sf2的新功能。
 
 
