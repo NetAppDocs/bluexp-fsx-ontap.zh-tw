@@ -192,7 +192,6 @@
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">檢視支援的Amazon地區。</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">取得協助</block>
-  <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何疑問或技術支援問題、請使用AWS FSX檔案系統、基礎架構或任何使用此服務的AWS解決方案、使用AWS主控台的Support Center開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
@@ -563,8 +562,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
   <block id="ca9f06fa1a00f01b3d6a92ff7e6556ff" category="summary">Amazon FSX for NetApp ONTAP 功能將ONTAP 完整的功能整合至原生AWS託管服務、提供一致的混合雲體驗。本文件說明如何ONTAP 使用NetApp BlueXP來管理FSXfor Sfor</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP的其他功能</block>
-  <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">如需有關BlueXP或BlueXP微服務的一般問題、您可以從線上的BlueXP聊天開始。</block>
-  <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">如需特定於BlueXP或內部微服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要註冊您的BlueXP序號、才能啟動支援。</block>
   <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">設定IAM角色、讓BlueXP SaaS能夠承擔角色</block>
   <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXP會建立AWS安全性群組、其中包含BlueXP和FSXfor ONTAP the支援功能成功運作所需的傳入和傳出規則。您可能需要參照連接埠進行測試、或是需要使用自己的連接埠。</block>
   <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">用於BlueXP的DNS解析</block>
@@ -714,4 +711,15 @@
   <block id="d9299eb7664af835098dc63cf4cfa0a9" category="section-title">使用作用中的Connector管理自動容量</block>
   <block id="24eab999bc6be3c2241c58c7aee7ae10" category="paragraph">您可以使用AWS中的作用中Connector來管理自動容量。</block>
   <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">選取鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*自動容量管理*」頁面。</block>
+  <block id="c6a640d3ad983820aec62cd7b77b9b54" category="paragraph">Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何與Amazon FSX for ONTAP Suse檔案系統、基礎架構或使用此服務的任何解決方案相關的問題或技術支援問題、請使用AWS主控台的Support Center、開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。</block>
+  <block id="f1018077b1703f5d0801e8cd07c23fb9" category="paragraph">如需有關BlueXP或BlueXP微服務的一般問題、您可以從線上BlueXP聊天開始。</block>
+  <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">註冊您的BlueXP帳戶</block>
+  <block id="97bc2947e30223870f8c99f41ffe970b" category="paragraph">如需特定於BlueXP或內部微服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要 <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> 以啟動支援。</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支援雲端供應商解決方案</block>
+  <block id="58cbf70b5dfbc206d1d9c6559ae58d1b" category="paragraph">如需雲端供應商解決方案的技術支援、請參閱產品的藍圖XP文件中的「取得協助」。</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
 </blocks>
