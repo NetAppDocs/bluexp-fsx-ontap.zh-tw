@@ -56,6 +56,6 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何與Amazon FSX for ONTAP Suse檔案系統、基礎架構或使用此服務的任何解決方案相關的問題或技術支援問題、請使用AWS主控台的Support Center、開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。
 
-如需有關BlueXP或BlueXP服務的一般問題、您可以從線上BlueXP聊天開始。
+如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。
 
-如需特定於BlueXP或BlueXP服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/support/task-support-registration.html["註冊您的BlueXP帳戶"^] 以啟動支援。
+如需特定於BlueXP或BlueXP儲存解決方案與服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/support/task-support-registration.html["註冊您的BlueXP帳戶"^] 以啟動支援。
