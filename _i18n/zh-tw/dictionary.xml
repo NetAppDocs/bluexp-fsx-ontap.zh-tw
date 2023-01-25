@@ -714,7 +714,6 @@
   <block id="c6a640d3ad983820aec62cd7b77b9b54" category="paragraph">Amazon FSX ONTAP for Sf1是AWS的第一方解決方案。如有任何與Amazon FSX for ONTAP Suse檔案系統、基礎架構或使用此服務的任何解決方案相關的問題或技術支援問題、請使用AWS主控台的Support Center、開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。</block>
   <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">註冊您的BlueXP帳戶</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支援雲端供應商解決方案</block>
-  <block id="58cbf70b5dfbc206d1d9c6559ae58d1b" category="paragraph">如需雲端供應商解決方案的技術支援、請參閱產品的藍圖XP文件中的「取得協助」。</block>
   <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
@@ -722,4 +721,5 @@
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。</block>
   <block id="3daaa300f491b3dcb99896f1ebc0a277" category="paragraph">如需特定於BlueXP或BlueXP儲存解決方案與服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要 <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> 以啟動支援。</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">如需您已整合至BlueXP的下列雲端供應商解決方案的技術支援、請參閱該產品的藍圖XP文件中的「取得協助」。</block>
 </blocks>
