@@ -34,8 +34,8 @@ NOTE: 如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將�
 您可以在AWS中管理自動容量、而無需使用作用中的Connector。
 
 .步驟
-. 開啟FSX,以利ONTAP 執行不工作環境。
-. 選取功能表圖示（image:icon-three-dots.png["三點功能表圖示的影像。"]）並選擇*管理自動容量*。
+. 在ONTAP Canvas.上選取FSXfor the Sfor the Sfor the Sfor the Sf有效 工作環境
+. 在「*詳細資料*」面板中、使用「三點」圖示（image:icon-three-dots.png["三個點的圖示"]）以開啟選項功能表。按一下*管理自動容量*。
 +
 image:screenshot-auto-capacity-no-connector.png["管理自動容量功能表的快照。"]
 
@@ -139,18 +139,19 @@ image:screenshot_fsx_working_environment_remove.png["從ONTAP BluevXP介面移�
 
 您可以從ONTAP BlueXP刪除FSXfor Sfor
 
-.開始之前
-* 您必須 link:task-manage-fsx-volumes.html#delete-volumes["刪除所有Volume"] 與檔案系統相關聯。
-
-
-
-NOTE: 您將需要AWS中的作用中連接器來移除或刪除磁碟區。
-
-* 您無法刪除包含故障磁碟區的工作環境。在刪除FSX for ONTAP Sfi檔案系統之前、必須先使用AWS管理主控台或CLI刪除故障的磁碟區。
-
-
 
 WARNING: 此動作將會刪除與工作環境相關的所有資源。此動作無法復原。
+
+.開始之前
+在刪除工作環境之前、您必須：
+
+* 中斷此工作環境的所有複寫關係。
+* link:task-manage-fsx-volumes.html#delete-volumes["刪除所有Volume"] 與檔案系統相關聯。您將需要AWS中的作用中連接器來移除或刪除磁碟區。
++
+
+NOTE: 故障磁碟區必須使用AWS管理主控台或CLI刪除。
+
+
 
 .步驟
 . 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。

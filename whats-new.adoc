@@ -18,6 +18,12 @@ summary: 瞭解Amazon FSX for ONTAP Sf2的新功能。
 
 
 
+== 2023年3月5日
+
+使用者介面已進行改善、文件中已更新螢幕擷取畫面。
+
+
+
 == 2023年1月1日
 
 您現在可以選擇啟用 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["自動容量管理"^] 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動以10%為增量增加儲存容量、最高可達叢集最大容量的80%。
