@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
+keywords: Amazon FSx for NetApp ONTAP, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
 summary: 使用BlueXP、您可以建立或探索適用於ONTAP 各種運作環境的FSX、以新增及管理磁碟區及其他資料服務。 
 ---
-= 建立或探索Amazon FSX以利ONTAP 實現不工作環境
+= 建立或探索適用於NetApp ONTAP 的Amazon FSX作業環境
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,7 +18,7 @@ summary: 使用BlueXP、您可以建立或探索適用於ONTAP 各種運作環�
 
 
 
-== 建立Amazon FSX以利ONTAP 不工作環境
+== 建立Amazon FSX for NetApp ONTAP 的作業環境
 
 第一步是建立FSX,以利ONTAP 實現不二的工作環境。如果您已在ONTAP AWS管理主控台建立FSXfor the S廳 檔案系統、您可以 link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["使用BlueXP探索"]。
 
@@ -30,9 +30,9 @@ summary: 使用BlueXP、您可以建立或探索適用於ONTAP 各種運作環�
 
 
 .步驟
-. 在BluXP中、新增工作環境、選取* Amazon Web Services*、然後按一下*「Add new* for Amazon FSXfor ONTAP 」。
+. 在BluXP中、新增工作環境、選取* Amazon Web Services*、然後按一下*「Add new* for Amazon FSX for NetApp ONTAP 」。
 +
-image:screenshot_add_fsx_working_env.png["新增Amazon FSX for ONTAP Szing工作環境的快照"]
+image:screenshot_add_fsx_working_env.png["新增Amazon FSX for NetApp ONTAP 功能工作環境的快照"]
 
 . * FSX for ONTAP SSecure驗證*
 +
@@ -93,7 +93,7 @@ NOTE: 如果您指定的IOPS值不符合最低需求、則在新增工作環境�
 .結果
 BlueXP會在ONTAP 畫版上顯示您的FSXfor支援的組態設定。您現在ONTAP 可以使用BlueXP將Volume新增至FSXfor Sfor Sfor Sfor Sfor工作環境。
 
-image:screenshot_add_fsx_cloud.png["Amazon FSX for ONTAP Sfor Sfor Sfor the工作日環境頁面上的快照。"]
+image:screenshot_add_fsx_cloud.png["「ONTAP 工作環境」頁面上的Amazon FSX for NetApp功能快照。"]
 
 
 

@@ -93,61 +93,61 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/med
 
 
 
-== 898e35e1a4bf4b025c3edec879439b08
+== 管理支援案例（預覽）
 
-8b74b053fbeeff5c3b6f4991cb1d028d
+您可以直接從BlueXP檢視及管理作用中和已解決的支援案例。您可以管理與您的NSS帳戶和貴公司相關的個案。
 
-394ef093ad3259b9ff0fe7406f015b83
+案例管理可透過預覽取得。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。
 
 請注意下列事項：
 
-* 5e4e7672ec2ba2b8a763da7f6714e212
+* 頁面頂端的案例管理儀表板提供兩種檢視：
 +
-** 01c3ffea552d74a5ae390b10e71a1f26
-** e3b6c09a5686233f72ce1ea60a1eb088
+** 左側檢視顯示您所提供的使用者nssc帳戶在過去3個月內開啟的個案總數。
+** 右側檢視顯示過去3個月內、貴公司層級根據您的使用者nssc帳戶所開啟的個案總數。
 
 
 +
-b19b168cc8a2b8c984465e140256b3a2
+表格中的結果會反映您所選檢視的相關個案。
 
-* 56dcadeee6b0e5c47a52673f9b5a0bb3
+* 您可以新增或移除感興趣的欄、也可以篩選優先順序和狀態等欄的內容。其他欄則只提供排序功能。
 +
-6f936762e1223311f031685422fcd3a4
+如需詳細資料、請參閱下列步驟。
 
-* b14929795a61440e9b4ec9f8a4885ae3
+* 在個別案例層級、我們提供更新案例附註或關閉尚未處於「已結案」或「待結案」狀態的案例的功能。
 
 
 .步驟
 . 在BlueXP中、按一下*「說明」>「支援」*。
-. 34b1296d31cefa72dae9b3a364b1f444
+. 按一下*個案管理*、如果出現提示、請將您的NSS帳戶新增至藍圖XP。
 +
-d8ce1865cf1fe3cffd60300b4b86ad63
+「*個案管理*」頁面會顯示與您的BlueXP使用者帳戶相關聯的與NSS帳戶相關的未決個案。這是顯示在「* nssnmanagement *」頁面頂端的相同nss.帳戶。
 
-. 2ae5ae78bdb2d222f15fd8e89248709c
+. （可選）修改表格中顯示的資訊：
 +
-** 27635a52fe4c34c39ffc6430f4244ec6
-** 059e856250b59be3069246887b74a23c
+** 在*組織案例*下、按一下*檢視*以檢視與貴公司相關的所有案例。
+** 選擇確切的日期範圍或選擇不同的時間範圍、以修改日期範圍。
 +
-7fcba8aeefa9960d3fc3fa08b360ba2e
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-date-range.png["案例管理頁面上方表格上方選項的快照、可讓您選擇確切的日期範圍或過去7天、30天或3個月。"]
 
-** a1bb576be9e5a356290f231efb51b3f5
+** 篩選欄的內容。
 +
-37709be3a43df07d5975287545d0ba12
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-filter.png["「狀態」欄中篩選選項的快照、可讓您篩選出符合特定狀態（例如「作用中」或「已關閉」）的個案。"]
 
-** 1614dc8e47c0492434152c990d6c1040
+** 按一下以變更表格中顯示的欄 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-table-columns.png["出現在表格中的加號圖示"] 然後選擇您要顯示的欄。
 +
-5de408d7cbad49634fb25f9047498132
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-columns.png["顯示可在表格中顯示之欄的快照。"]
 
 
 
-. 98efef1c8a47ed5791b41944e8ff4ec2
+. 按一下即可管理現有案例 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-table-action.png["表格最後一欄中出現三個點的圖示"] 並選擇其中一個可用選項：
 +
-** 6d9dd74e7709ef802d299966f7898f6b
-** 482429810c2b00a4fa04f9900c560232
-** f791bc685c526af8296381acff10f6a0
+** *檢視案例*：檢視特定案例的完整詳細資料。
+** *更新案例備註*：提供您問題的其他詳細資料。
+** *結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。
 
 
 +
-e9a5c374fb47ed2ae5cc6108fb36d829
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-actions.png["螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。"]
 
 

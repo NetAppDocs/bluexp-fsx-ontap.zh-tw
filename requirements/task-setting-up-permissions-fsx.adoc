@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements/task-setting-up-permissions-fsx.html 
 keywords: fsx for ontap, iam, user role, permissions, aws govcloud, govcloud, credentials 
-summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工作環境中、您需要使用AWS存取金鑰和機密金鑰、才能讓IAM使用者角色具備FSX for ONTAP Sfor FIf各項 權限。 
+summary: 為了建立或管理Amazon FSX for NetApp ONTAP 的工作環境、您需要使用AWS存取金鑰和秘密金鑰、才能讓IAM使用者角色具備FSX for ONTAP Sfor FIf各項 權限。 
 ---
 = 設定FSXfor ONTAP Sfor Sfor的權限
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 為了建立或管理Amazon FSX for ONTAP the Sfor the Sfrof仍 在工�
 
 
 [role="lead"]
-若要建立或管理Amazon FSX for ONTAP the Sfor the Sfrofa工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX for ONTAP the Synfrofa工作環境所需的權限、才能將AWS認證新增至BlueXP。
+若要建立或管理適用於NetApp ONTAP 的Amazon FSX工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX以供ONTAP 其工作環境所需的權限、才能將AWS認證新增至BlueXP。
 
 
 
