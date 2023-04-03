@@ -388,7 +388,6 @@
   <block id="e67f7cfa37e5dcd4f3836e76f5301a68" category="inline-image-macro">頁面快照、可變更儲存容量和IOPS值。</block>
   <block id="f5aa006a4894acbba121bdb32f513ead" category="paragraph"><block ref="f5aa006a4894acbba121bdb32f513ead" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c17ed8503d69fa2ad1c61b6c92a2255" category="list-text">建議的最大儲存容量使用率為80%、以維持資料分層效能、並允許額外資料的容量。</block>
-  <block id="e8036e0ac9189e05af8ebeb943ee3fd3" category="list-text">選擇*自動* IOPS可維持一線儲存設備每GiB三個已配置SSD IOPS的比率、最高可達80、000。您無法手動配置IOPS值80、000以上。</block>
   <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">勾選此核取方塊、確認您瞭解變更的儲存容量會影響到FSXfor ONTAP the Service的成本、而且無法在六小時內進行其他變更。</block>
   <block id="1f25673463b8f906d801bd291ad45315" category="list-text">選擇*更新*以確認您的變更。</block>
   <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">在頁面右上角、選取動作功能表、然後選取*從工作區移除*。</block>
@@ -692,7 +691,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一欄中出現三個點的圖示</block>
   <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">按一下即可管理現有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資料。</block>
-  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*更新案例備註*：提供您問題的其他詳細資料。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
@@ -737,4 +735,17 @@
   <block id="39eff6a0e62a9e3eafb92d6d0dc18004" category="doc">為Amazon FSX for NetApp ONTAP 建立Volume</block>
   <block id="7aa1575aeeddba65d55707b41584cd4a" category="sidebar">使用Amazon FSX for NetApp ONTAP 解決方案</block>
   <block id="c82c15e6d66564201da1f424b2fb9bf4" category="sidebar">Amazon FSX for NetApp ONTAP 的文件</block>
+  <block id="a3ef479db7087d8c91c8e7225a427426" category="list-text">選擇 * 自動 * IOPS 、主儲存設備的每 GiB 平均配置的 SSD IOPS 可維持高達 160,000 的比率。您無法手動配置大於 160,000 的 IOPS 值。</block>
+  <block id="ee7de532c8affb3659d9d80ec396fef5" category="list-text">您也可以選擇最佳化選項來建立 FlexGroup 、並在叢集之間散佈 Volume 資料。</block>
+  <block id="d22ff9012fce506ed1f2c7ba6e00a0e6" category="admonition">FlexGroup 發佈僅適用於 NFS 和 CIFS Volume 傳輸協定。</block>
+  <block id="953d80d6f5efbc162c05017004c6791a" category="list-text">如果您選取最佳化（ FlexGroup ）、則必須指定要在其中散佈 Volume 資料的組成數量。我們強烈建議使用偶數個組成要素、以確保資料發佈均勻。最佳實務做法有 8 個組成要素。</block>
+  <block id="2447632b449c054d670473aa08500256" category="inline-image-macro">欄位的螢幕擷取畫面、可指定要在其中散佈 Volume 資料的組成數量。</block>
+  <block id="e8a33687845a8222ff0797ef7fa10d6a" category="paragraph"><block ref="e8a33687845a8222ff0797ef7fa10d6a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023 年 4 月 2 日</block>
+  <block id="cabf1912632a0d24145c02f00dc7d6b2" category="inline-link-macro">在適用於 ONTAP 的 FSX 上建立 FlexGroup</block>
+  <block id="9a2a26c33c1a0f6b14b7bb3a214dbaf0" category="list-text">您現在可以了 <block ref="5e895283a25d01b135da63bdfcfdf72e" category="inline-link-macro-rx"></block> 將 Volume 資料分散到整個叢集。</block>
+  <block id="9af9b754c1d16f271c1e6f4b1b2c4f4d" category="list-text">IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
 </blocks>

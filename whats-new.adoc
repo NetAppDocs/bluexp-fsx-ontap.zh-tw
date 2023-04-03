@@ -18,6 +18,14 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 
 
+== 2023 年 4 月 2 日
+
+* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["在適用於 ONTAP 的 FSX 上建立 FlexGroup"^] 將 Volume 資料分散到整個叢集。
+* IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。
+
+
+
+
 == 2023年3月5日
 
 使用者介面已進行改善、文件中已更新螢幕擷取畫面。
