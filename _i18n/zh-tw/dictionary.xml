@@ -3,7 +3,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
@@ -376,14 +375,10 @@
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">從* Overview（概述）*選項卡中選擇* Features（*功能）*。</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">選取鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*處理量容量*」編輯頁面。</block>
-  <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">變更處理量容量功能表位置的快照。</block>
-  <block id="e09dc417c2d896d165ca331477153842" category="paragraph"><block ref="e09dc417c2d896d165ca331477153842" category="inline-image-macro-rx" type="image"></block></block>
   <block id="230f70d1e5d26fbe6e5ad10f5308cabe" category="list-text">從下拉式清單中選取新的處理量容量、然後選取*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。</block>
   <block id="a0ebe9e341b2c5054b22afc7d98d1401" category="section-title">變更儲存容量和IOPS</block>
   <block id="f3c93b45ca50102a9f0b7eae1e06d071" category="paragraph">您可以在建立FSXfor ONTAP the S甚麼 工作環境之後、隨時變更儲存容量和IOPS。</block>
   <block id="048b8d92cffbe45e8afec553ae5bdab0" category="list-text">選取鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*儲存容量與IOPS *」編輯頁面。</block>
-  <block id="d6684930c2875391fe70b5eb14401bbb" category="inline-image-macro">變更儲存容量和IOPS功能表位置的快照。</block>
-  <block id="687579d242782f9a851dc5bb5ba9abc9" category="paragraph"><block ref="687579d242782f9a851dc5bb5ba9abc9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfb628b495d5e0828edcde206a117a0d" category="list-text">您可以每六小時變更一次儲存容量和IOPS。如果您嘗試更頻繁地進行變更、就會收到錯誤訊息。</block>
   <block id="e67f7cfa37e5dcd4f3836e76f5301a68" category="inline-image-macro">頁面快照、可變更儲存容量和IOPS值。</block>
   <block id="f5aa006a4894acbba121bdb32f513ead" category="paragraph"><block ref="f5aa006a4894acbba121bdb32f513ead" category="inline-image-macro-rx" type="image"></block></block>
@@ -586,8 +581,6 @@
   <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">自動容量管理預設為停用。您可以在AWS中使用或不使用作用中的Connector來管理自動容量。</block>
   <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">無需使用作用中的Connector即可管理自動容量</block>
   <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">您可以在AWS中管理自動容量、而無需使用作用中的Connector。</block>
-  <block id="eae78abc1ac9b9443e78946ea0ac6f62" category="inline-image-macro">管理自動容量功能表的快照。</block>
-  <block id="8568f4aa8725b5fac6d8be22b191626f" category="paragraph"><block ref="8568f4aa8725b5fac6d8be22b191626f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7c48e42b8eb4f773ff1ba4e512f8d941" category="list-text">在*自動容量管理*頁面上：</block>
   <block id="fc3a15f119ad5decc28ff415b2538e29" category="list-text">選取此方塊以啟用自動容量管理。</block>
   <block id="b7e02100f637951d6f90e4991487480c" category="list-text">如果先前已啟用自動容量管理、請取消選取此方塊。</block>
@@ -630,7 +623,6 @@
   <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">BlueXP會在ONTAP 畫版上顯示您探索到的FSXfor the Sfor the Sf更新 檔案系統。您現在ONTAP 可以使用BlueXP將Volume新增至FSXfor Sfor Sfor Sfor Sfor工作環境。</block>
   <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">在ONTAP Canvas.上選取FSXfor the Sfor the Sfor the Sfor the Sf有效 工作環境</block>
   <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">三個點的圖示</block>
-  <block id="c0f7f08571189db02e2d550c230d6abf" category="list-text">在「*詳細資料*」面板中、使用「三點」圖示（<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>）以開啟選項功能表。按一下*管理自動容量*。</block>
   <block id="0cf6b9b81deec54f9429260623e85e8b" category="paragraph">在刪除工作環境之前、您必須：</block>
   <block id="23419c7b0a3275446ffc7e82955443ad" category="list-text">中斷此工作環境的所有複寫關係。</block>
   <block id="1cf37f8bb2a45b0eb43d008c81e06383" category="inline-link-macro">刪除所有Volume</block>
@@ -748,4 +740,7 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="857256e1923ea05bf18e14bc2411a2f6" category="list-text">選取畫布上的工作環境、然後選取 * 輸入工作環境 * 。</block>
+  <block id="015abe149b937f218b783e72c81c3e66" category="admonition">所有其他選項都需要連接器、而且已停用。</block>
 </blocks>

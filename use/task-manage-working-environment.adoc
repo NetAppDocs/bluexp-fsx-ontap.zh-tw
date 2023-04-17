@@ -34,12 +34,12 @@ NOTE: 如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將�
 您可以在AWS中管理自動容量、而無需使用作用中的Connector。
 
 .步驟
-. 在ONTAP Canvas.上選取FSXfor the Sfor the Sfor the Sfor the Sf有效 工作環境
-. 在「*詳細資料*」面板中、使用「三點」圖示（image:icon-three-dots.png["三個點的圖示"]）以開啟選項功能表。按一下*管理自動容量*。
+. 選取畫布上的工作環境、然後選取 * 輸入工作環境 * 。
+. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*自動容量管理*」頁面。
 +
-image:screenshot-auto-capacity-no-connector.png["管理自動容量功能表的快照。"]
 
-. 在*自動容量管理*頁面上：
+NOTE: 所有其他選項都需要連接器、而且已停用。
+
 +
 ** 選取此方塊以啟用自動容量管理。
 ** 如果先前已啟用自動容量管理、請取消選取此方塊。
@@ -80,9 +80,6 @@ image:screenshot-auto-capacity-no-connector.png["管理自動容量功能表的�
 . 開啟FSX,以利ONTAP 執行不工作環境。
 . 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
 . 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*處理量容量*」編輯頁面。
-+
-image:screenshot-change-thruput.png["變更處理量容量功能表位置的快照。"]
-
 . 從下拉式清單中選取新的處理量容量、然後選取*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。
 
 
@@ -99,9 +96,6 @@ image:screenshot-change-thruput.png["變更處理量容量功能表位置的快�
 . 開啟FSX,以利ONTAP 執行不工作環境。
 . 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
 . 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*儲存容量與IOPS *」編輯頁面。
-+
-image:screenshot-change-iops.png["變更儲存容量和IOPS功能表位置的快照。"]
-
 . 您可以每六小時變更一次儲存容量和IOPS。如果您嘗試更頻繁地進行變更、就會收到錯誤訊息。
 +
 image:screenshot-configure-iops.png["頁面快照、可變更儲存容量和IOPS值。"]
