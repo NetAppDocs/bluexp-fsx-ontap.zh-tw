@@ -67,7 +67,7 @@ image:screenshot_add_fsx_region.png["新增區域和VPC for FSX ONTAP for Sz.的
 
 . *資料加密*
 +
-接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/https://docs.netapp.com/us-en/occm/task-setting-up-kms.html["設定 AWS KMS"^]。
+接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-kms.html["設定 AWS KMS"^]。
 
 . *儲存組態*
 +
@@ -102,7 +102,7 @@ image:screenshot_add_fsx_cloud.png["「ONTAP 工作環境」頁面上的Amazon F
 如果您先前已將AWS認證資料提供給BlueXP、*我的商機*可以自動探索及建議使用ONTAP BlueXP新增及管理的FSX檔案系統。您也可以檢閱可用的資料服務。
 
 .關於這項工作
-您可以透過探索FSX for ONTAP Sf供 檔案系統使用 link:/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["建立新的工作環境"] 或使用*我的商機*頁面。本工作說明使用*我的商機*進行探索
+您可以在發現適用於 ONTAP 檔案系統的 FSX 時 <<建立Amazon FSX for NetApp ONTAP 的作業環境>> 或使用 * 我的商機 * 頁面。本工作說明使用*我的商機*進行探索
 
 .步驟
 . 在藍圖XP中、按一下*我的商機*索引標籤。

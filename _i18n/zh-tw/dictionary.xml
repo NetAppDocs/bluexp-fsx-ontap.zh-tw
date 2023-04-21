@@ -609,7 +609,6 @@
   <block id="b04e1903e3de2fffa52c1c517b8fed45" category="list-text">*路由表*（僅限多個可用區域）</block>
   <block id="f884e9a3951c5c6df696ce1faeecf517" category="paragraph">選取包含通往浮動IP位址路由的路由表。如果VPC中只有一個子網路路由表（主路由表）、則BlueXP會自動將浮動IP位址新增至該路由表。</block>
   <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">*資料加密*</block>
-  <block id="9ecf502b4c55c670661584e0a2866004" category="paragraph">接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>。</block>
   <block id="a1ab9258bbeb31ecc1e35b1adc9465dc" category="list-text">*儲存組態*</block>
   <block id="e38fe475552b433630789034542b28de" category="list-text">選取處理量、容量和單位。您可以隨時變更處理量、儲存容量和IOPS。</block>
   <block id="704b454e0a67ad9d30229aad055c4456" category="paragraph"><block ref="704b454e0a67ad9d30229aad055c4456" category="inline-image-macro-rx" type="image"></block></block>
@@ -618,8 +617,6 @@
   <block id="a434ec7166240525e1136a9caf043a5e" category="list-text">按一下*上一步*以變更任何設定、或按*新增*以接受設定並建立您的工作環境。</block>
   <block id="1f56efe328efe9c20f590e659125509a" category="paragraph">BlueXP會在ONTAP 畫版上顯示您的FSXfor支援的組態設定。您現在ONTAP 可以使用BlueXP將Volume新增至FSXfor Sfor Sfor Sfor Sfor工作環境。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於這項工作</block>
-  <block id="3c98e2bfe156ca99fa37e38b1eb68d0d" category="inline-link-macro">建立新的工作環境</block>
-  <block id="e3ed7d241946f79ddb205b1bcc1095b7" category="paragraph">您可以透過探索FSX for ONTAP Sf供 檔案系統使用 <block ref="7605911292967addd7ea4683855fa385" category="inline-link-macro-rx"></block> 或使用*我的商機*頁面。本工作說明使用*我的商機*進行探索</block>
   <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">BlueXP會在ONTAP 畫版上顯示您探索到的FSXfor the Sfor the Sf更新 檔案系統。您現在ONTAP 可以使用BlueXP將Volume新增至FSXfor Sfor Sfor Sfor Sfor工作環境。</block>
   <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">在ONTAP Canvas.上選取FSXfor the Sfor the Sfor the Sfor the Sf有效 工作環境</block>
   <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">三個點的圖示</block>
@@ -743,4 +740,6 @@
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="857256e1923ea05bf18e14bc2411a2f6" category="list-text">選取畫布上的工作環境、然後選取 * 輸入工作環境 * 。</block>
   <block id="015abe149b937f218b783e72c81c3e66" category="admonition">所有其他選項都需要連接器、而且已停用。</block>
+  <block id="5f7a63a809602fb324d9cb35527588c3" category="paragraph">接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱 <block ref="1dc4ebcb4490720ee959d2e943d1421f" category="inline-link-macro-rx"></block>。</block>
+  <block id="a5444638448a3ec03827da5d57eb445b" category="paragraph">您可以在發現適用於 ONTAP 檔案系統的 FSX 時 <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> 或使用 * 我的商機 * 頁面。本工作說明使用*我的商機*進行探索</block>
 </blocks>
