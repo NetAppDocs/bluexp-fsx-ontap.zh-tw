@@ -268,13 +268,13 @@ Connector 的安全性群組需要傳入和傳出規則。
 | SSH | 22 | 提供對 Connector 主機的 SSH 存取權 
 
 
-| HTTP | 80 | 提供HTTP存取、從用戶端網頁瀏覽器存取本機使用者介面、以及從Cloud Data Sense連線 
+| HTTP | 80 | 提供從用戶端網頁瀏覽器到本機使用者介面的 HTTP 存取、以及從 BlueXP 分類執行個體的連線 
 
 
 | HTTPS | 443.. | 提供 HTTPS 存取、從用戶端網頁瀏覽器存取本機使用者介面 
 
 
-| TCP | 3128 | 如果您的AWS網路不使用NAT或Proxy、則可提供Cloud Data Sense執行個體以存取網際網路 
+| TCP | 3128 | 如果您的 AWS 網路未使用 NAT 或 Proxy 、則提供可存取網際網路的 BlueXP 分類執行個體 
 |===
 
 
@@ -348,5 +348,5 @@ NOTE: 來源 IP 位址為 Connector 主機。
 | DNS | UDP | 53. | DNS | 用於BlueXP的DNS解析 
 
 
-| 雲端資料感測 | HTTP | 80 | Cloud Data Sense執行個體 | Cloud Data Sense for Cloud Volumes ONTAP 功能 
+| BlueXP 分類 | HTTP | 80 | BlueXP 分類 | Cloud Volumes ONTAP 的 BlueXP 分類 
 |===

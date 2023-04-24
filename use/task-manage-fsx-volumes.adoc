@@ -100,7 +100,7 @@ Snapshot 複本提供磁碟區的時間點複本。建立Snapshot複本、並將
 
 您可以使用BlueXP在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["在系統之間複寫資料"^]。
 
-您可以使用Cloud Sync BlueXP中的功能、建立同步關係。若要設定同步關係、請參閱 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html["建立同步關係"^]。
+您可以使用 BlueXP 複本與同步建立同步關係。若要設定同步關係、請參閱 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html["建立同步關係"^]。
 
 
 

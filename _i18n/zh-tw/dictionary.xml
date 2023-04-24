@@ -115,10 +115,7 @@
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">可選擇搭售和隨用隨付定價。</block>
   <block id="7965f44d9657c905774d8d427141b845" category="list-text">使用AWS和Cloud Manager中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 效益與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf4。</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">深入瞭解</block>
-  <block id="d9bf9116e04a89e455600416ad7872f3" category="list-text">Cloud Data Sense採用人工智慧（AI）導向技術、可協助您瞭解資料內容、並識別位於FSX中的敏感資料、以利ONTAP 實現效益。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
-  <block id="1f944a9ec2785c18a692aeedf9839548" category="list-text">使用NetApp Cloud Sync 解決方案、您可以將資料移轉自動化、移轉至雲端或內部部署的任何目標。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="bcde5e61b57c391c5832e7ea9a5bf2b1" category="paragraph">使用AWS中的Connector以及Cloud Sync 選用的資料服務（例如、支援功能和Data Sense）、需要額外的成本。</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">支援的地區</block>
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">檢視支援的Amazon地區。</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
@@ -288,10 +285,8 @@
   <block id="75fb76c71939b7f9f3ee363c4aec2044" category="section-title">Connector 規則</block>
   <block id="0fbb894005047753551829b93d408eac" category="paragraph">Connector 的安全性群組需要傳入和傳出規則。</block>
   <block id="7dca630291dc35d5447daa0c9abf8da4" category="cell">提供對 Connector 主機的 SSH 存取權</block>
-  <block id="e41468f89241b53dc9a8cebeff010b25" category="cell">提供HTTP存取、從用戶端網頁瀏覽器存取本機使用者介面、以及從Cloud Data Sense連線</block>
   <block id="2f0c197eb73a7c6da10b03384f241025" category="cell">提供 HTTPS 存取、從用戶端網頁瀏覽器存取本機使用者介面</block>
   <block id="dff8e9c2ac33381546d96deea9922999" category="cell">3128</block>
-  <block id="187604dd1244abc6ff03471775e9f32d" category="cell">如果您的AWS網路不使用NAT或Proxy、則可提供Cloud Data Sense執行個體以存取網際網路</block>
   <block id="f27967c4c8769094dfb727988a22cbfa" category="paragraph">Connector 的預先定義安全性群組會開啟所有傳出流量。如果可以接受、請遵循基本的傳出規則。如果您需要更嚴格的規則、請使用進階的傳出規則。</block>
   <block id="422c84262f431352e9da45084016a52c" category="paragraph">Connector 的預先定義安全性群組包括下列傳出規則。</block>
   <block id="4c7e4350b2ac4e79ecdf1d8f33b2d41e" category="paragraph">如果您需要嚴格的傳出流量規則、可以使用下列資訊、僅開啟連接器傳出通訊所需的連接埠。</block>
@@ -303,9 +298,6 @@
   <block id="22043367a89ddcf3eb99eec509a967ba" category="cell">API 呼叫</block>
   <block id="172ef5a94b4dd0aa120c6878fc29f70c" category="cell">8088</block>
   <block id="168342a53455f99d5b1d8d7d95e99567" category="cell">API 呼叫備份至 S3</block>
-  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="cell">雲端資料感測</block>
-  <block id="6cf25d0dcbf586ed6aff3b930e4d8019" category="cell">Cloud Data Sense執行個體</block>
-  <block id="059ace13ef3980df592dafb754ef8883" category="cell">Cloud Data Sense for Cloud Volumes ONTAP 功能</block>
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">設定FSXfor ONTAP Sfor Sfor的權限</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">設定IAM角色</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">前往目標帳戶中的IAM主控台。</block>
@@ -527,7 +519,6 @@
   <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">您可以使用ONTAP BlueXP來管理Volume、複製和快照、以及變更FSXfor Sfor Sfor的分層原則。</block>
   <block id="669f767086bf3b89606658facb29605a" category="paragraph">您可以檢視及管理磁碟區、複製和快照、以及使用ONTAP BlueXP變更FSXfor功能的分層原則。</block>
   <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">您可以使用BlueXP在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
-  <block id="6b91242d31fee1e3576ce594b08573b5" category="paragraph">您可以使用Cloud Sync BlueXP中的功能、建立同步關係。若要設定同步關係、請參閱<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
   <block id="f257be535aca4e5a3655fc2dd2887500" category="paragraph">您無法使用BlueXP刪除先前屬於SnapMirror關係的磁碟區。SnapMirror磁碟區必須使用AWS管理主控台或CLI刪除。</block>
   <block id="56f7e1cad5439f90ac8bd08115c74e4a" category="list-text">輸入工作環境名稱、然後確認您要刪除該磁碟區。從BlueXP完全移除磁碟區可能需要一小時的時間。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
@@ -535,7 +526,6 @@
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">藍圖</block>
   <block id="a9272148ddd8493b835b5b0ed973a495" category="paragraph">使用 <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block>您只ONTAP 需幾個步驟、就能開始使用FSXfor Sfor而已。</block>
-  <block id="c8e7a79b3e62d2a377fbadb534f60c42" category="list-text">使用 <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> （前身為Cloud Manager）和AWS中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 支援功能與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf2。</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">「支援儀表板」可讓您新增及管理NetApp 支援網站 搭配BlueXP使用的支援帳戶。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
@@ -557,7 +547,6 @@
   <block id="4bd8fd698bf66b76447369f6d59d7e0f" category="inline-link-macro">建立並掛載適用於SfSX ONTAP Volume的FSX</block>
   <block id="3a994a785ff4b046a381ab2afb6d0e17" category="paragraph">您可以 <block ref="c98786904f437c4c5be9aec70a11cbb2" category="inline-link-macro-rx"></block> 使用BlueXP：</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步</block>
-  <block id="dae3b13fec3bf110f92a7547c071e053" category="paragraph">您現在可以使用BlueXP來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 靜態和資料感知。</block>
   <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023年1月1日</block>
   <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">自動容量管理</block>
   <block id="380fe7c3627610af34c9936f46325923" category="paragraph">您現在可以選擇啟用 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動以10%為增量增加儲存容量、最高可達叢集最大容量的80%。</block>
@@ -742,4 +731,14 @@
   <block id="015abe149b937f218b783e72c81c3e66" category="admonition">所有其他選項都需要連接器、而且已停用。</block>
   <block id="5f7a63a809602fb324d9cb35527588c3" category="paragraph">接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱 <block ref="1dc4ebcb4490720ee959d2e943d1421f" category="inline-link-macro-rx"></block>。</block>
   <block id="a5444638448a3ec03827da5d57eb445b" category="paragraph">您可以在發現適用於 ONTAP 檔案系統的 FSX 時 <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> 或使用 * 我的商機 * 頁面。本工作說明使用*我的商機*進行探索</block>
+  <block id="b8bb58c0dcb24fd404f0afdb514812dd" category="paragraph">您現在可以使用 BlueXP 來管理您的磁碟區、並設定複寫、複製和同步、分類等其他服務。</block>
+  <block id="8f5824ab39555c09f787c12e2a079d11" category="list-text">使用 <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> （ Cloud Manager ）和 AWS 中的 Connector 、您可以建立和管理磁碟區、複寫資料、並將適用於 ONTAP 的 FSX 與 NetApp 雲端服務整合、例如 BlueXP 分類和 BlueXP 複製與同步（ Cloud Sync ）。</block>
+  <block id="421285ceb2b9d53d23a60802835cfe70" category="list-text">BlueXP 分類（ Cloud Data Sense ）採用人工智慧（ AI ）導向技術、可協助您瞭解資料內容、並識別位於 ONTAP 帳戶的 FSX 中的敏感資料。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
+  <block id="e0a61971650c75e6c98840f20042d128" category="list-text">使用 BlueXP 複製與同步、您可以將資料移轉至雲端或內部部署的任何目標自動化。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
+  <block id="ad9a464e359af0e32ba4423fbe150c59" category="paragraph">在 AWS 中使用 Connector 和選用的資料服務（例如 BlueXP 複製與同步和 BlueXP 分類）會產生額外成本。</block>
+  <block id="2457d874eb9fc3fb2b8e5f23618c1c7f" category="cell">提供從用戶端網頁瀏覽器到本機使用者介面的 HTTP 存取、以及從 BlueXP 分類執行個體的連線</block>
+  <block id="02499ddfc19d9b80567e19eb3f97deb0" category="cell">如果您的 AWS 網路未使用 NAT 或 Proxy 、則提供可存取網際網路的 BlueXP 分類執行個體</block>
+  <block id="4cc849f381058f76f6b72a1c4279393d" category="cell">BlueXP 分類</block>
+  <block id="a7f8c8869966601b4670aae0a070ba31" category="cell">Cloud Volumes ONTAP 的 BlueXP 分類</block>
+  <block id="a13fe54147eef01f0ae918612d6a4216" category="paragraph">您可以使用 BlueXP 複本與同步建立同步關係。若要設定同步關係、請參閱<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
 </blocks>

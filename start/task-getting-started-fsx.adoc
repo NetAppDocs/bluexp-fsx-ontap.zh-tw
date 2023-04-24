@@ -33,4 +33,4 @@ summary: 使用BlueXP、您只ONTAP 需幾個步驟、就能開始使用FSX for 
 您可以 link:../use/task-add-fsx-volumes.html["建立並掛載適用於SfSX ONTAP Volume的FSX"] 使用BlueXP：
 
 .下一步
-您現在可以使用BlueXP來管理磁碟區、並設定其他服務、例如複寫、Cloud Sync 靜態和資料感知。
+您現在可以使用 BlueXP 來管理您的磁碟區、並設定複寫、複製和同步、分類等其他服務。
