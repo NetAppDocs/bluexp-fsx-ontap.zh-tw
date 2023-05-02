@@ -42,11 +42,6 @@ image:screenshot-add-volume.png["「詳細資料」面板上新增Volume選項�
 .. Storage VM（SVM）欄位會根據您工作環境的名稱、自動填入SVM。
 .. 輸入Volume大小、然後選取單位（GiB或TiB）。請注意、磁碟區大小會隨著使用量而增加。
 .. 選取快照原則。根據預設、每小時（保留最後六個複本）、每天（保留最後兩個複本）和每週（保留最後兩個複本）會擷取快照。
-.. 您也可以選擇最佳化選項來建立 FlexGroup 、並在叢集之間散佈 Volume 資料。
-+
-
-NOTE: FlexGroup 發佈僅適用於 NFS 和 CIFS Volume 傳輸協定。
-
 
 
 . * Volume傳輸協定*：
@@ -134,10 +129,6 @@ image:screenshot-volume-protocol-iscsi.png["iSCSI組態FSX的快照ONTAP 、可�
 .. 根據預設、*分層原則*設為*僅Snapshot *。您可以根據需求選擇不同的分層原則。
 +
 image:screenshot_fsx_volume_usage_tiering.png["FSX使用設定檔和分層組態的快照、以ONTAP 利建立實體磁碟區。"]
-
-.. 如果您選取最佳化（ FlexGroup ）、則必須指定要在其中散佈 Volume 資料的組成數量。我們強烈建議使用偶數個組成要素、以確保資料發佈均勻。最佳實務做法有 8 個組成要素。
-+
-image:screenshot-constituents.png["欄位的螢幕擷取畫面、可指定要在其中散佈 Volume 資料的組成數量。"]
 
 
 
