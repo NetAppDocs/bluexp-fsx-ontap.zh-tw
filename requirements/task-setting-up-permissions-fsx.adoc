@@ -33,8 +33,14 @@ summary: 為了建立或管理Amazon FSX for NetApp ONTAP 的工作環境、您�
 *** AWS GovCloud（美國）：033442085313
 
 
-** 建立包含下列權限的原則：
+** 視需要建立包含下列必要最低權限和選用權限的原則。
 +
+[role="tabbed-block"]
+====
+.必要權限
+--
+以下是允許 BlueXP 為 NetApp ONTAP 檔案系統建立 FSX 所需的最低權限。
+
 [source, json]
 ----
 {
@@ -50,19 +56,43 @@ summary: 為了建立或管理Amazon FSX for NetApp ONTAP 的工作環境、您�
                 "iam:CreateServiceLinkedRole",
                 "kms:Describe*",
                 "kms:List*",
-                "kms:CreateGrant",
-                "cloudwatch:GetMetricData",
-                "cloudwatch:GetMetricStatistics"
+                "kms:CreateGrant"
             ],
             "Resource": "*"
         }
     ]
 }
 ----
-+
+--
+.自動容量
+--
+啟用時需要下列額外權限 link:../use/task-manage-fsx-working-environment.html["自動容量管理"]。
 
-NOTE: `"cloudwatch:GetMetricData"` 和 `"cloudwatch:GetMetricStatistics"` 必須啟用 link:../use/task-manage-working-environment.html["自動容量管理"]。
+[source, json]
+----
+"cloudwatch:GetMetricData",
+"cloudwatch:GetMetricStatistics"
+----
+--
+.安全性群組
+--
+需要下列額外權限才能允許 BlueXP link:../use/task-creating-fsx-working-environment.html["產生安全性群組"]。
 
+[source, json]
+----
+"ec2:AuthorizeSecurityGroupEgress",
+"ec2:AuthorizeSecurityGroupIngress",
+"ec2:RevokeSecurityGroupEgress",
+"ec2:RevokeSecurityGroupIngress",
+"ec2:CreateSecurityGroup",
+"ec2:DeleteSecurityGroup"
+"cloudformation:CreateStack",
+"cloudformation:ValidateTemplate",
+"cloudformation:DescribeStacks",
+"cloudformation:DescribeStackEvents"
+----
+--
+====
 
 
 . 複製IAM角色的角色ARN、以便在下一步將其貼到BlueXP中。

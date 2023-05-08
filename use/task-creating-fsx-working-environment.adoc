@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: Amazon FSx for NetApp ONTAP, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
+keywords: Amazon FSx for NetApp ONTAP, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput, security group, security 
 summary: 使用BlueXP、您可以建立或探索適用於ONTAP 各種運作環境的FSX、以新增及管理磁碟區及其他資料服務。 
 ---
 = 建立或探索適用於NetApp ONTAP 的Amazon FSX作業環境
@@ -22,7 +22,7 @@ summary: 使用BlueXP、您可以建立或探索適用於ONTAP 各種運作環�
 
 第一步是建立FSX,以利ONTAP 實現不二的工作環境。如果您已在ONTAP AWS管理主控台建立FSXfor the S廳 檔案系統、您可以 link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["使用BlueXP探索"]。
 
-.您需要的產品
+.開始之前
 在ONTAP BlueXP中建立FSXfor Sfor Sfor Sf有效 作業環境之前、您需要：
 
 * IAM角色的ARN賦予BlueXP建立FSXfor ONTAP the S作業 環境所需的權限。請參閱 link:../requirements/task-setting-up-permissions-fsx.html["將AWS認證資料新增至BlueXP"] 以取得詳細資料。
@@ -43,18 +43,20 @@ image:screenshot_add_fsx_working_env.png["新增Amazon FSX for NetApp ONTAP 功�
 . *詳細資料與認證資料*
 +
 .. 輸入您要使用的工作環境名稱。
-.. 您也可以按一下加號、然後輸入標記名稱和值、藉此建立標記。
+.. 您也可以選擇建立標記來分類工作環境、方法是按一下加號、然後輸入標記名稱和值。
 .. 輸入並確認ONTAP 您想要使用的「叢集」密碼。
 .. 您也可以取消選取選項、為SVM使用者使用相同的密碼、然後設定不同的密碼。
 
 
-. *地區與VPC*
+. * HA 部署模式 *
 +
 .. 選擇*單一可用度區域*或*多個可用度區域* HA部署模式。針對多個可用度區域、請在至少兩個可用度區域中選取子網路、使每個節點都位於專用的可用度區域中。
+.. 選取您要與檔案系統建立關聯的虛擬私有雲（ VPC ）。
+.. 使用現有的安全性群組或選取 * 產生的安全性群組 * 、讓 BlueXP 產生僅允許所選 VPC 內流量的安全性群組。
 +
-image:screenshot_add_fsx_region.png["新增區域和VPC for FSX ONTAP for Sz.的快照"]
 
-.. 接受預設的安全性群組、或選取不同的安全性群組。 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS安全群組"^] 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS彈性網路介面（ENI）"^]。
+NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS安全群組"^] 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS彈性網路介面（ENI）"^]。
+
 
 
 . *浮動IP*（僅限多個可用區域）
@@ -73,9 +75,6 @@ image:screenshot_add_fsx_region.png["新增區域和VPC for FSX ONTAP for Sz.的
 +
 .. 選取處理量、容量和單位。您可以隨時變更處理量、儲存容量和IOPS。
 .. 您可以選擇性地指定IOPS值。如果您未指定IOPS值、則BlueXP會根據輸入總容量的每GiB 3 IOPS設定預設值。例如、如果您輸入2000 GiB作為總容量、而沒有輸入IOPS值、則有效IOPS值將設為6000。您可以隨時變更IOPS值。
-+
-image:screenshot-storage-config.png["設定FSX ONTAP for Sfing儲存組態的快照"]
-
 +
 
 NOTE: 如果您指定的IOPS值不符合最低需求、則在新增工作環境時會收到錯誤訊息。

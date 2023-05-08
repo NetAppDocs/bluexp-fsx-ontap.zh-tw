@@ -18,12 +18,10 @@
   <block id="d950ccfec30779e51b9fd6a8aecbb558" category="paragraph">設定工作環境之後、您可以建立及掛載ONTAP 適用於SfSX Volume的FSX。</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">建立磁碟區</block>
   <block id="ad7e5366eeeef80a0cca58ed2f228e69" category="inline-link">AWS的連接器</block>
-  <block id="2aeb3bf14f4c88c233b9054f0d5f9f46" category="list-text">使用中<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
   <block id="5465e73e9a93dbf3732ca4677b294afe" category="inline-link-macro">AWS：使用自我管理的Microsoft AD的必要條件</block>
   <block id="9e9d8417e8c186ec6d679c589ea0e388" category="list-text">若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 <block ref="d929f7299259db2194621c6c3cd97ea7" category="inline-link-macro-rx"></block>。</block>
   <block id="5f1502c18596a814041ff3a5f4953b39" category="list-text">開啟FSX,以利ONTAP 執行不工作環境。</block>
   <block id="2165a478df3c7cdbb020957742f7a396" category="list-text">輸入新磁碟區的名稱。</block>
-  <block id="8a7a21842c95be5ef7cf8fb45e457fbb" category="list-text">Storage VM（SVM）欄位會根據您工作環境的名稱、自動填入SVM。</block>
   <block id="09d72555d9ef793670cfd52c3b29a5a9" category="list-text">輸入Volume大小、然後選取單位（GiB或TiB）。請注意、磁碟區大小會隨著使用量而增加。</block>
   <block id="67cab8c7d29423fd822eaba3b1d1ad3e" category="list-text">選取快照原則。根據預設、每小時（保留最後六個複本）、每天（保留最後兩個複本）和每週（保留最後兩個複本）會擷取快照。</block>
   <block id="2f13041935e5c3174ee293d608dc78fb" category="list-text">選取存取控制原則。</block>
@@ -63,16 +61,11 @@
   <block id="122aefb3c8684a0e38fb50d87247ad18" category="list-text">您將在其中建立FSX以利ONTAP 執行個體的區域和VPN資訊。</block>
   <block id="ecda29eb0e0827e3bc560f177dcde537" category="list-text">如果您的帳戶中現有的IAM角色具有正確的FSXfor ONTAP 支援AWS權限、請從下拉式清單中選取該角色。</block>
   <block id="620a619e5abf90904f8bd9148673563f" category="list-text">輸入您要使用的工作環境名稱。</block>
-  <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">您也可以按一下加號、然後輸入標記名稱和值、藉此建立標記。</block>
   <block id="be5962a1bf7a843353b57734848a4297" category="list-text">輸入並確認ONTAP 您想要使用的「叢集」密碼。</block>
   <block id="d234e32cc579256f2dc2b1c0f46bf8ed" category="inline-link-macro">AWS安全群組</block>
   <block id="c0a56d37b9a744bb980fb63714ff853a" category="inline-link-macro">AWS彈性網路介面（ENI）</block>
-  <block id="70f807aec183b4123fd9e27691b549ae" category="list-text">接受預設的安全性群組、或選取不同的安全性群組。 <block ref="35ef09e7b222c17f67a4a66af73d7196" category="inline-link-macro-rx"></block> 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 <block ref="122c50f10f9ced3dc765944ec92b3531" category="inline-link-macro-rx"></block>。</block>
-  <block id="02b7327efc840726659c50bf482440ba" category="inline-image-macro">新增區域和VPC for FSX ONTAP for Sz.的快照</block>
-  <block id="e856b8b85c22d45ac9df09b76538baf0" category="paragraph"><block ref="e856b8b85c22d45ac9df09b76538baf0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS Transit閘道</block>
   <block id="e9993ec838a8efa5cfb29506f884deca" category="inline-link">設定 AWS KMS</block>
-  <block id="8088a4fa7d414a887d0eb3f19623bc06" category="inline-image-macro">設定FSX ONTAP for Sfing儲存組態的快照</block>
   <block id="0308fb9d7cca24bdc3f9928245f79119" category="list-text">按一下這些索引標籤、檢視ONTAP 您的資訊功能、供應商屬性和網路組態。</block>
   <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">探索現有ONTAP 的FSX for Sf供 資料系統使用</block>
   <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">選取AWS區域和工作環境的快照</block>
@@ -303,7 +296,6 @@
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">前往目標帳戶中的IAM主控台。</block>
   <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">在「存取管理」下、按一下*「角色」&gt;「建立角色」*、然後依照步驟建立角色。</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">在*信任的實體類型*下、選取* AWS帳戶*。</block>
-  <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">建立包含下列權限的原則：</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">IAM角色現在擁有所需的權限。</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">新增認證資料</block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">按一下*「Add Credential*（新增認證*）」、然後依照精靈中的步驟進行。</block>
@@ -561,7 +553,6 @@
   <block id="878635d00100085ed9c73c84b23923a8" category="paragraph">您可以 <block ref="7efe0bba09b9697b63e1ec0f00c0d9bb" category="inline-link-macro-rx"></block> FSX ONTAP for Sfor Sf.</block>
   <block id="b957b3c2b45d171475a7589df8173510" category="paragraph">現在您可以了 <block ref="e1e8315fc20ff9071c786150bb6a8fd4" category="inline-link-macro-rx"></block>。</block>
   <block id="c3e1ff7fb2dc6fd7c64f15c4ce7d34e3" category="paragraph">現在您可以了 <block ref="1546ddd4150be40b2e31760299f6633d" category="inline-link-macro-rx"></block>。</block>
-  <block id="6ba425a78c17896d93d28f52eaadb6f2" category="admonition"><block ref="350df107c59fa79663916b7955bbe306" prefix="" category="inline-code"></block> 和<block ref="db68eaa323cf27d3f429647b32e5d91b" prefix=" " category="inline-code"></block> 必須啟用 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>。</block>
   <block id="9e6871113ad24ed3830e2e58ce51dfc4" category="summary">BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量、儲存容量和IOPS、以及移除或刪除工作環境。</block>
   <block id="9123b1a896e43bd47ae8708d015514ba" category="section-title">管理自動容量</block>
   <block id="1c05e31e27d15b210cdcb01d01331c36" category="paragraph">您可以選擇啟用自動容量管理、以根據需求新增遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並以叢集最大容量的10%或80%為增量、自動增加儲存容量。</block>
@@ -586,12 +577,10 @@
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。</block>
   <block id="3daaa300f491b3dcb99896f1ebc0a277" category="paragraph">如需特定於BlueXP或BlueXP儲存解決方案與服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要 <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> 以啟動支援。</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">如需您已整合至BlueXP的下列雲端供應商解決方案的技術支援、請參閱該產品的藍圖XP文件中的「取得協助」。</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">您需要的產品</block>
   <block id="bc1fbeca04a0bc47b1dd85e467f87ffc" category="list-text">* FSX for ONTAP SSecure驗證*</block>
   <block id="2bc897b30b2df26c531635a145af68ae" category="list-text">如果您的帳戶中沒有IAM角色、請按一下*認證*、然後依照精靈中的步驟、為AWS IAM角色新增ARN、並使用FSX來取得ONTAP 資訊安全憑證。請參閱 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
   <block id="acffd96d264a8bd18e75d6d6ce0aac12" category="list-text">*詳細資料與認證資料*</block>
   <block id="b3decd3dc6245a45a816d81cc94eb4be" category="list-text">您也可以取消選取選項、為SVM使用者使用相同的密碼、然後設定不同的密碼。</block>
-  <block id="f0b48aa240ffb99007210ba5d55e0fd3" category="list-text">*地區與VPC*</block>
   <block id="15ef2ed90c27f9867f7383d8f200ba6b" category="list-text">選擇*單一可用度區域*或*多個可用度區域* HA部署模式。針對多個可用度區域、請在至少兩個可用度區域中選取子網路、使每個節點都位於專用的可用度區域中。</block>
   <block id="3f589588a5e2b50cf827ef7f979de432" category="list-text">*浮動IP*（僅限多個可用區域）</block>
   <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">保留_CIDR range（CIDR範圍）為空白、以自動設定可用範圍。您也可以選擇使用<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 手動設定範圍。</block>
@@ -600,7 +589,6 @@
   <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">*資料加密*</block>
   <block id="a1ab9258bbeb31ecc1e35b1adc9465dc" category="list-text">*儲存組態*</block>
   <block id="e38fe475552b433630789034542b28de" category="list-text">選取處理量、容量和單位。您可以隨時變更處理量、儲存容量和IOPS。</block>
-  <block id="704b454e0a67ad9d30229aad055c4456" category="paragraph"><block ref="704b454e0a67ad9d30229aad055c4456" category="inline-image-macro-rx" type="image"></block></block>
   <block id="966c244dc2aee9efc1c62796b0ab5cc8" category="admonition">如果您指定的IOPS值不符合最低需求、則在新增工作環境時會收到錯誤訊息。</block>
   <block id="12799e1af0745585e0f5800e7ab5ac0d" category="list-text">*審查*</block>
   <block id="a434ec7166240525e1136a9caf043a5e" category="list-text">按一下*上一步*以變更任何設定、或按*新增*以接受設定並建立您的工作環境。</block>
@@ -619,7 +607,6 @@
   <block id="ada6c4a93e7b96d58f35712af7225f16" category="list-text">在「*詳細資料*」面板中、使用三個點（<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>）以開啟選項功能表。按一下 * 新增 Volume * 。</block>
   <block id="cb29a37b5b733fa09b9f5235c1a2f7e1" category="inline-image-macro">「詳細資料」面板上新增Volume選項的快照。</block>
   <block id="08d8ba93d0c829ce154f2f67f8a7a548" category="paragraph"><block ref="08d8ba93d0c829ce154f2f67f8a7a548" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="76e8c4dc9b4691280948a11959dd6d53" category="list-text">* Volume詳細資料與保護*</block>
   <block id="0e71045ffb2c142e38f192348939d657" category="list-text">* Volume傳輸協定*：</block>
   <block id="763a3be303d8f075b28b4fb47257840f" category="list-text">選取NFS、CIFS或iSCSI Volume傳輸協定。</block>
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="open-title">NFS</block>
@@ -714,14 +701,7 @@
   <block id="7aa1575aeeddba65d55707b41584cd4a" category="sidebar">使用Amazon FSX for NetApp ONTAP 解決方案</block>
   <block id="c82c15e6d66564201da1f424b2fb9bf4" category="sidebar">Amazon FSX for NetApp ONTAP 的文件</block>
   <block id="a3ef479db7087d8c91c8e7225a427426" category="list-text">選擇 * 自動 * IOPS 、主儲存設備的每 GiB 平均配置的 SSD IOPS 可維持高達 160,000 的比率。您無法手動配置大於 160,000 的 IOPS 值。</block>
-  <block id="ee7de532c8affb3659d9d80ec396fef5" category="list-text">您也可以選擇最佳化選項來建立 FlexGroup 、並在叢集之間散佈 Volume 資料。</block>
-  <block id="d22ff9012fce506ed1f2c7ba6e00a0e6" category="admonition">FlexGroup 發佈僅適用於 NFS 和 CIFS Volume 傳輸協定。</block>
-  <block id="953d80d6f5efbc162c05017004c6791a" category="list-text">如果您選取最佳化（ FlexGroup ）、則必須指定要在其中散佈 Volume 資料的組成數量。我們強烈建議使用偶數個組成要素、以確保資料發佈均勻。最佳實務做法有 8 個組成要素。</block>
-  <block id="2447632b449c054d670473aa08500256" category="inline-image-macro">欄位的螢幕擷取畫面、可指定要在其中散佈 Volume 資料的組成數量。</block>
-  <block id="e8a33687845a8222ff0797ef7fa10d6a" category="paragraph"><block ref="e8a33687845a8222ff0797ef7fa10d6a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023 年 4 月 2 日</block>
-  <block id="cabf1912632a0d24145c02f00dc7d6b2" category="inline-link-macro">在適用於 ONTAP 的 FSX 上建立 FlexGroup</block>
-  <block id="9a2a26c33c1a0f6b14b7bb3a214dbaf0" category="list-text">您現在可以了 <block ref="5e895283a25d01b135da63bdfcfdf72e" category="inline-link-macro-rx"></block> 將 Volume 資料分散到整個叢集。</block>
   <block id="9af9b754c1d16f271c1e6f4b1b2c4f4d" category="list-text">IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。</block>
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
@@ -741,4 +721,32 @@
   <block id="4cc849f381058f76f6b72a1c4279393d" category="cell">BlueXP 分類</block>
   <block id="a7f8c8869966601b4670aae0a070ba31" category="cell">Cloud Volumes ONTAP 的 BlueXP 分類</block>
   <block id="a13fe54147eef01f0ae918612d6a4216" category="paragraph">您可以使用 BlueXP 複本與同步建立同步關係。若要設定同步關係、請參閱<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
+  <block id="d151342d67a639e871ca8c57524ca7f8" category="section-title">管理 Volume 標記</block>
+  <block id="1edd4a3142e92621938f60a5002ee3b3" category="paragraph">您可以新增、修改或刪除 Volume 標記。BlueXP 中新增的標籤會反映在 AWS 主控台。將標籤與 AWS 主控台同步可能需要一小時的時間。</block>
+  <block id="4c01e02944d90f20b1f75ee4b1e9c16c" category="list-text">選取 * 管理 Volume 標記 * 。</block>
+  <block id="030c2a7dd0a2a850c39eb85018a90937" category="list-text">選取 * 儲存 * 以套用變更。</block>
+  <block id="683e9ad715450e3853ea313118022403" category="paragraph">在建立新的 Volume 之前、您需要使用中的<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
+  <block id="4cf58ab90a8b9b744f512ffebcdbebb3" category="list-text">* Volume 詳細資料、保護與標記 *</block>
+  <block id="7862905bf13e1d709d0da68a16f6b48a" category="list-text">Storage VM （ SVM ）欄位會根據工作環境的名稱自動填入 SVM 。</block>
+  <block id="bf3b5a85e403c1246dbbd111a2122f1b" category="list-text">您也可以選擇建立標記、按一下加號並輸入標記名稱和值、將磁碟區分類。</block>
+  <block id="217b3256c0d162e3d3a19443f01ca898" category="list-text">您也可以選擇建立標記來分類工作環境、方法是按一下加號、然後輸入標記名稱和值。</block>
+  <block id="abe6a897030218d3203ab879ad4b1f44" category="list-text">* HA 部署模式 *</block>
+  <block id="5af4897c305da61f596431c2c0127080" category="list-text">選取您要與檔案系統建立關聯的虛擬私有雲（ VPC ）。</block>
+  <block id="2cbc2dc6a7e20b95c33bc032c1eaad70" category="list-text">使用現有的安全性群組或選取 * 產生的安全性群組 * 、讓 BlueXP 產生僅允許所選 VPC 內流量的安全性群組。</block>
+  <block id="58276d4f4738c8093a6fcfa10c2aa220" category="admonition"><block ref="35ef09e7b222c17f67a4a66af73d7196" category="inline-link-macro-rx"></block> 控制傳入和傳出流量。這些設定是由AWS管理員設定、並與相關聯 <block ref="122c50f10f9ced3dc765944ec92b3531" category="inline-link-macro-rx"></block>。</block>
+  <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023 年 5 月 7 日</block>
+  <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">產生安全性群組</block>
+  <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">需要額外權限</block>
+  <block id="85613cc2934a1e3d40c91656c94e331a" category="list-text">建立工作環境時、您現在可以使用 BlueXP <block ref="c4e69423da06cd62564882d11bcec12a" category="inline-link-macro-rx"></block> 僅允許所選 VPC 內的流量。此功能 <block ref="55b057d10246173e2440d2eae51abd9a" category="inline-link-macro-rx"></block>。</block>
+  <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">新增</block>
+  <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">修改</block>
+  <block id="158f074c96189eb946118a12a17762b5" category="list-text">您也可以選擇 <block ref="09047edca5075ad1c71cf5035a98ddf9" category="inline-link-macro-rx"></block> 和 <block ref="d0baf23f6aa987908b3cb85b94241056" category="inline-link-macro-rx"></block> 分類磁碟區的標籤。</block>
+  <block id="4671b76d583d3e68a446878a3342d736" category="list-text">視需要建立包含下列必要最低權限和選用權限的原則。</block>
+  <block id="5ad10cfb674234136c181d096cb59522" category="open-title">必要權限</block>
+  <block id="7b36ef7355ac702b97a1f4f36816d08c" category="paragraph">以下是允許 BlueXP 為 NetApp ONTAP 檔案系統建立 FSX 所需的最低權限。</block>
+  <block id="79d6201c496cf246a16e25b2e725897a" category="open-title">自動容量</block>
+  <block id="762e3bf022059ba9b9cc06c0d2c9b00d" category="paragraph">啟用時需要下列額外權限 <block ref="4d6056f5ae867fac15604e7d63efb082" category="inline-link-macro-rx"></block>。</block>
+  <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">安全性群組</block>
+  <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">產生安全性群組</block>
+  <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">需要下列額外權限才能允許 BlueXP <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>。</block>
 </blocks>

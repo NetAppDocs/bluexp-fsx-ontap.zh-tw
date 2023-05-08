@@ -22,10 +22,10 @@ summary: 設定工作環境之後、您可以建立及管理Amazon FSX for NetAp
 
 您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。
 
-.您需要的產品
-* 使用中 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
-* 若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS：使用自我管理的Microsoft AD的必要條件"^]。
+.開始之前
+在建立新的 Volume 之前、您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
 
+若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS：使用自我管理的Microsoft AD的必要條件"^]。
 
 .關於這項工作
 您可以開啟工作環境並選取* Volumes（磁碟區）*索引標籤、或只是使用畫版中的工作環境* Details（詳細資料）面板來新增磁碟區。此工作說明使用「*詳細資料*」面板新增磁碟區。
@@ -36,12 +36,13 @@ summary: 設定工作環境之後、您可以建立及管理Amazon FSX for NetAp
 +
 image:screenshot-add-volume.png["「詳細資料」面板上新增Volume選項的快照。"]
 
-. * Volume詳細資料與保護*
+. * Volume 詳細資料、保護與標記 *
 +
 .. 輸入新磁碟區的名稱。
-.. Storage VM（SVM）欄位會根據您工作環境的名稱、自動填入SVM。
+.. Storage VM （ SVM ）欄位會根據工作環境的名稱自動填入 SVM 。
 .. 輸入Volume大小、然後選取單位（GiB或TiB）。請注意、磁碟區大小會隨著使用量而增加。
 .. 選取快照原則。根據預設、每小時（保留最後六個複本）、每天（保留最後兩個複本）和每週（保留最後兩個複本）會擷取快照。
+.. 您也可以選擇建立標記、按一下加號並輸入標記名稱和值、將磁碟區分類。
 
 
 . * Volume傳輸協定*：
