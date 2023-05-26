@@ -345,7 +345,6 @@
   <block id="f157bba0d98c84b6de3aaefa71426f09" category="paragraph"><block ref="f157bba0d98c84b6de3aaefa71426f09" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8539ab4c6f55c58d2fab4f2b3261bde9" category="section-title">變更處理量容量</block>
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">您可以在建立FSXfor ONTAP the Sfor the Sfor the S甚麼 工作環境之後、隨時變更處理量容量。</block>
-  <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">您需要使用中的<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">鉛筆編輯圖示的影像。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">如果您先前已將AWS認證資料提供給Cloud Manager、全新的* My Opportunity *功能可自動探索ONTAP 及建議使用Cloud Manager新增及管理的FSX for the Sfx*檔案系統。您也可以透過「*我的商機*」標籤來檢視可用的資料服務。</block>
@@ -749,4 +748,10 @@
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">安全性群組</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">產生安全性群組</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">需要下列額外權限才能允許 BlueXP <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>。</block>
+  <block id="25ee158968a50cfd221a03cd5c35714d" category="list-text">在 _Standard_ 或 _Restricted _ 模式下使用 BlueXP 時、支援 Amazon FSX for NetApp ONTAP 。</block>
+  <block id="3cb5845101cca1d3632756ad505df41c" category="list-text">標準模式利用 BlueXP SaaS 層提供完整功能。</block>
+  <block id="8515864aee35dd4c309a887dc85ffb7f" category="list-text">受限模式適用於有連線限制的組織。</block>
+  <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">BlueXP 部署模式</block>
+  <block id="4fc602d8b048690865d920b6e5c24b3c" category="paragraph">請參閱 <block ref="4bc49635495ab7c2db508b6d63907d47" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
+  <block id="b6b3f8e91334c4e2b9135fdcdc27fdb6" category="paragraph">您需要使用中的<block ref="3cb2ea74cf184f32793e529e96915ba2" category="inline-link-rx"></block>。</block>
 </blocks>

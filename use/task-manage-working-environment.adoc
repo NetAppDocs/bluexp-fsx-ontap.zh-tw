@@ -74,7 +74,7 @@ NOTE: 所有其他選項都需要連接器、而且已停用。
 您可以在建立FSXfor ONTAP the Sfor the Sfor the S甚麼 工作環境之後、隨時變更處理量容量。
 
 .開始之前
-您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
+您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS的連接器"^]。
 
 .步驟
 . 開啟FSX,以利ONTAP 執行不工作環境。
@@ -90,7 +90,7 @@ NOTE: 所有其他選項都需要連接器、而且已停用。
 您可以在建立FSXfor ONTAP the S甚麼 工作環境之後、隨時變更儲存容量和IOPS。
 
 .開始之前
-您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
+您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS的連接器"^]。
 
 .步驟
 . 開啟FSX,以利ONTAP 執行不工作環境。
