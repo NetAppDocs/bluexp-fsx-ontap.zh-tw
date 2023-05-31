@@ -23,7 +23,7 @@ summary: 設定工作環境之後、您可以建立及管理Amazon FSX for NetAp
 您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。
 
 .開始之前
-在建立新的 Volume 之前、您需要使用中的 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
+在建立新的 Volume 之前、您需要使用中的 https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
 
 若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS：使用自我管理的Microsoft AD的必要條件"^]。
 
@@ -98,7 +98,7 @@ image:screenshot_fsx_volume_protocol_cifs.png["NFS組態FSX的快照ONTAP 、用
 | DNS 網域 | 儲存虛擬機器（SVM）的DNS網域。在大多數情況下、網域與 AD 網域相同。 
 
 
-| NTP 伺服器 | 選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱 https://docs.netapp.com/us-en/cloud-manager-automation/index.html["藍圖XP自動化文件"^] 以取得詳細資料。 
+| NTP 伺服器 | 選取*啟用NTP伺服器組態*、以使用Active Directory DNS設定NTP伺服器。如果您需要使用不同的位址來設定 NTP 伺服器、則應該使用 API 。請參閱 https://docs.netapp.com/us-en/bluexp-automation/index.html["藍圖XP自動化文件"^] 以取得詳細資料。 
 |===
 
 
@@ -113,7 +113,7 @@ image:screenshot_fsx_volume_protocol_cifs.png["NFS組態FSX的快照ONTAP 、用
 
 ... 選擇「建立新的」。
 ... 選取您的作業系統。
-... 按一下以新增一或多個主機iSCSI合格名稱（IQN）。您可以選取現有的IQN或新增IQN。如需如何尋找Volume IQN的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-connect-lun.html["將主機連線至LUN"^]。
+... 按一下以新增一或多個主機iSCSI合格名稱（IQN）。您可以選取現有的IQN或新增IQN。如需如何尋找Volume IQN的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-connect-lun.html["將主機連線至LUN"^]。
 ... 輸入一個**啟動器群組名稱*。
 +
 image:screenshot-volume-protocol-iscsi.png["iSCSI組態FSX的快照ONTAP 、可用於建立實體磁碟區。"]

@@ -36,13 +36,13 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["A
 ** 標準模式利用 BlueXP SaaS 層提供完整功能。
 ** 受限模式適用於有連線限制的組織。
 +
-請參閱 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["BlueXP 部署模式"^] 以取得更多資訊。
+請參閱 link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["BlueXP 部署模式"^] 以取得更多資訊。
 
 
 
-* 使用 link:https://docs.netapp.com/us-en/cloud-manager-family/["藍圖"^] （ Cloud Manager ）和 AWS 中的 Connector 、您可以建立和管理磁碟區、複寫資料、並將適用於 ONTAP 的 FSX 與 NetApp 雲端服務整合、例如 BlueXP 分類和 BlueXP 複製與同步（ Cloud Sync ）。
-* BlueXP 分類（ Cloud Data Sense ）採用人工智慧（ AI ）導向技術、可協助您瞭解資料內容、並識別位於 ONTAP 帳戶的 FSX 中的敏感資料。 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["深入瞭解"^]。
-* 使用 BlueXP 複製與同步、您可以將資料移轉至雲端或內部部署的任何目標自動化。 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["深入瞭解"^]
+* 使用 link:https://docs.netapp.com/us-en/bluexp-family/["藍圖"^] 此外、 AWS 中的 Connector 還能建立和管理磁碟區、複寫資料、並將適用於 ONTAP 的 FSX 與 NetApp 雲端服務整合、例如 BlueXP 分類和 BlueXP 複製與同步。
+* BlueXP 分類採用人工智慧（ AI ）導向技術、可協助您瞭解資料內容、並識別位於 ONTAP 帳戶的 FSX 中的敏感資料。 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["深入瞭解"^]。
+* 使用 BlueXP 複製與同步、您可以將資料移轉至雲端或內部部署的任何目標自動化。 https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["深入瞭解"^]
 
 
 
@@ -67,4 +67,4 @@ Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如有任�
 
 如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。
 
-如需特定於BlueXP或BlueXP儲存解決方案與服務的技術支援問題、您可以使用您的BlueXP帳戶層級序號來開啟NetApp支援服務單。您需要 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/support/task-support-registration.html["註冊您的BlueXP帳戶"^] 以啟動支援。
+如需 BlueXP 或 BlueXP 儲存解決方案與服務的特定技術支援問題、您可以使用 BlueXP 帳戶層級序號來開啟 NetApp 支援服務單。您需要 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/support/task-support-registration.html["註冊您的BlueXP帳戶"^] 以啟動支援。

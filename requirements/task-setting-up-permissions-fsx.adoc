@@ -142,6 +142,6 @@ image:screenshot-govcloud-checkbox.png["「GovCloud（US）帳戶」核取方塊
 
 == 相關連結
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-accounts-aws.html["AWS 認證與權限"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html["管理適用於BlueXP的AWS認證資料"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-accounts-aws.html["AWS 認證與權限"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html["管理適用於BlueXP的AWS認證資料"^]
 
