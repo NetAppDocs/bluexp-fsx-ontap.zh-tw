@@ -18,6 +18,14 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 
 
+== 2023 年 6 月 4 日
+
+* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
+
+
+
+
 == 2023 年 5 月 7 日
 
 * 建立工作環境時、您現在可以使用 BlueXP link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["產生安全性群組"^] 僅允許所選 VPC 內的流量。此功能 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["需要額外權限"^]。

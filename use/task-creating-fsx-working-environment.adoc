@@ -43,7 +43,8 @@ image:screenshot_add_fsx_working_env.png["新增Amazon FSX for NetApp ONTAP 功�
 . *詳細資料與認證資料*
 +
 .. 輸入您要使用的工作環境名稱。
-.. 您也可以選擇建立標記來分類工作環境、方法是按一下加號、然後輸入標記名稱和值。
+.. 您也可以按一下加號、然後輸入標記名稱和值、藉此建立標記。
+.. 您也可以選擇指定 Amazon FSX for NetApp ONTAP 每週執行 30 分鐘維護的開始時間。這可用於確保維護不會與關鍵業務活動一致。如果您選擇 * 無偏好設定 * 、將會指派隨機的開始時間。您可以隨時變更此項目。
 .. 輸入並確認ONTAP 您想要使用的「叢集」密碼。
 .. 您也可以取消選取選項、為SVM使用者使用相同的密碼、然後設定不同的密碼。
 
@@ -61,8 +62,21 @@ NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-ru
 
 . *浮動IP*（僅限多個可用區域）
 +
-保留_CIDR range（CIDR範圍）為空白、以自動設定可用範圍。您也可以選擇使用 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS Transit閘道"^] 手動設定範圍。
+保留_CIDR range（CIDR範圍）為空白、以自動設定可用範圍。您也可以選擇使用 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS Transit閘道"^] 手動設定範圍。
 
++
+[WARNING]
+====
+.不支援下列範圍的 IPS ：
+** 0.0.0/8
+** 127.0.0.0/8.
+** 198.19.0/20
+** 224.0.0.0/4.
+** 240.0.0/4
+** 255.255.255.255/32
+
+
+====
 . *路由表*（僅限多個可用區域）
 +
 選取包含通往浮動IP位址路由的路由表。如果VPC中只有一個子網路路由表（主路由表）、則BlueXP會自動將浮動IP位址新增至該路由表。

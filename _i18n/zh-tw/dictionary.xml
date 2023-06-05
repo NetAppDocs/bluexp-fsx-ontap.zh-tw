@@ -569,7 +569,6 @@
   <block id="ada6c4a93e7b96d58f35712af7225f16" category="list-text">在「*詳細資料*」面板中、使用三個點（<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>）以開啟選項功能表。按一下 * 新增 Volume * 。</block>
   <block id="cb29a37b5b733fa09b9f5235c1a2f7e1" category="inline-image-macro">「詳細資料」面板上新增Volume選項的快照。</block>
   <block id="08d8ba93d0c829ce154f2f67f8a7a548" category="paragraph"><block ref="08d8ba93d0c829ce154f2f67f8a7a548" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0e71045ffb2c142e38f192348939d657" category="list-text">* Volume傳輸協定*：</block>
   <block id="763a3be303d8f075b28b4fb47257840f" category="list-text">選取NFS、CIFS或iSCSI Volume傳輸協定。</block>
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="open-title">NFS</block>
   <block id="c6546b53840ec8245dd4d4d70fcdbc26" category="open-title">CIFS</block>
@@ -673,8 +672,6 @@
   <block id="030c2a7dd0a2a850c39eb85018a90937" category="list-text">選取 * 儲存 * 以套用變更。</block>
   <block id="4cf58ab90a8b9b744f512ffebcdbebb3" category="list-text">* Volume 詳細資料、保護與標記 *</block>
   <block id="7862905bf13e1d709d0da68a16f6b48a" category="list-text">Storage VM （ SVM ）欄位會根據工作環境的名稱自動填入 SVM 。</block>
-  <block id="bf3b5a85e403c1246dbbd111a2122f1b" category="list-text">您也可以選擇建立標記、按一下加號並輸入標記名稱和值、將磁碟區分類。</block>
-  <block id="217b3256c0d162e3d3a19443f01ca898" category="list-text">您也可以選擇建立標記來分類工作環境、方法是按一下加號、然後輸入標記名稱和值。</block>
   <block id="abe6a897030218d3203ab879ad4b1f44" category="list-text">* HA 部署模式 *</block>
   <block id="5af4897c305da61f596431c2c0127080" category="list-text">選取您要與檔案系統建立關聯的虛擬私有雲（ VPC ）。</block>
   <block id="2cbc2dc6a7e20b95c33bc032c1eaad70" category="list-text">使用現有的安全性群組或選取 * 產生的安全性群組 * 、讓 BlueXP 產生僅允許所選 VPC 內流量的安全性群組。</block>
@@ -719,7 +716,6 @@
   <block id="4a0c58afa0cf8e6e215c2321f73e0970" category="paragraph">如需 BlueXP 或 BlueXP 儲存解決方案與服務的特定技術支援問題、您可以使用 BlueXP 帳戶層級序號來開啟 NetApp 支援服務單。您需要 <block ref="0c02d88e10dc9d33a3c6d90fb8336a90" category="inline-link-macro-rx"></block> 以啟動支援。</block>
   <block id="52f0d52ceec121b410112b2a5dba2d7a" category="paragraph">使用 <block ref="22fc26cf6eb0c7b721364c48d2d0a99b" category="inline-link-macro-rx"></block>您只ONTAP 需幾個步驟、就能開始使用FSXfor Sfor而已。</block>
   <block id="c252661fa67fb818de00d332271e5952" category="paragraph">您必須擁有<block ref="752bdc7b6cc8b206a39bceaddedfafff" category="inline-link-rx"></block> 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要連接器時、如果尚未啟用、則BlueXP會提示您。</block>
-  <block id="f8073e9488e1efc9a72bfd8549bdfe65" category="paragraph">保留_CIDR range（CIDR範圍）為空白、以自動設定可用範圍。您也可以選擇使用<block ref="908a038b6698bef05553dc237966486c" category="inline-link-rx"></block> 手動設定範圍。</block>
   <block id="fed3b58ee53350fc679af9313a452f78" category="paragraph">接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱 <block ref="8fe12519351ca8a607a9a9e011c48c01" category="inline-link-macro-rx"></block>。</block>
   <block id="598ac5ec4509a5fa7d37ccc4259276e2" category="paragraph">您可以使用BlueXP在儲存環境之間複寫資料。若要設定FSXfor ONTAP Sfor Sfor S供 複寫、請參閱<block ref="b3f9ef9ab8e2f6f80ef424579ec0a2be" category="inline-link-rx"></block>。</block>
   <block id="4fe2848eb7d4a0d2def783dfbceaf41d" category="paragraph">您可以使用 BlueXP 複本與同步建立同步關係。若要設定同步關係、請參閱<block ref="ebda92a6c5428de5c74cf0458cae3b5e" category="inline-link-rx"></block>。</block>
@@ -746,4 +742,24 @@
   <block id="9392a234f812a64a7add82bf3ea440ce" category="paragraph"><block ref="6c403399a6912b636ecf2c35a037d6c1" category="inline-link-macro-rx"></block>。</block>
   <block id="6bc0d0afbcf301d393b1808f854ff30e" category="list-text"><block ref="6bc0d0afbcf301d393b1808f854ff30e" category="inline-link-rx"></block></block>
   <block id="8fb5f344898fe922856ca069cb615707" category="list-text"><block ref="8fb5f344898fe922856ca069cb615707" category="inline-link-rx"></block></block>
+  <block id="c6e3378b0ee3c7cdb21a4cfdf78d729e" category="list-text">您也可以建立標記、按一下加號並輸入標記名稱和值、將磁碟區分類。</block>
+  <block id="ee7de532c8affb3659d9d80ec396fef5" category="list-text">您也可以選擇最佳化選項來建立 FlexGroup 、並在叢集之間散佈 Volume 資料。</block>
+  <block id="cb7d4e165ee98c4ee16be7a24245f5bc" category="admonition">FlexGroup 發佈僅適用於 NFS 和 CIFS Volume 傳輸協定。</block>
+  <block id="176d707d91233fad58f8673c1716a4f8" category="list-text">* Volume 傳輸協定 * ：</block>
+  <block id="21f43446afbc4a1acbf88a421b7a09dc" category="list-text">如果您選取最佳化（ FlexGroup ）、則必須指定要在其中散佈 Volume 資料的組成數量。我們強烈建議使用偶數個組成要素、以確保資料發佈均勻。</block>
+  <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">您也可以按一下加號、然後輸入標記名稱和值、藉此建立標記。</block>
+  <block id="c89439eb771335b64cacafd62be867f6" category="list-text">您也可以選擇指定 Amazon FSX for NetApp ONTAP 每週執行 30 分鐘維護的開始時間。這可用於確保維護不會與關鍵業務活動一致。如果您選擇 * 無偏好設定 * 、將會指派隨機的開始時間。您可以隨時變更此項目。</block>
+  <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">保留_CIDR range（CIDR範圍）為空白、以自動設定可用範圍。您也可以選擇使用<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 手動設定範圍。</block>
+  <block id="deafe98ece55cac6734aa3e0c94f89a1" category="list-title">不支援下列範圍的 IPS ：</block>
+  <block id="41744fea4be9d62829f8c470c2392ab1" category="list-text">0.0.0/8</block>
+  <block id="3e1fea8090ae1db8846841cc09d5aaf8" category="list-text">127.0.0.0/8.</block>
+  <block id="848f6e8ee6fe43588f4416e654c34e48" category="list-text">198.19.0/20</block>
+  <block id="db9ba505138d8297c77f1ab14b6cdeec" category="list-text">224.0.0.0/4.</block>
+  <block id="f4e8000f5b4b5143e798df0d90374b2a" category="list-text">240.0.0/4</block>
+  <block id="8ebeed61b9e364961ed847275d3138d4" category="list-text">255.255.255.255/32</block>
+  <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">2023 年 6 月 4 日</block>
+  <block id="b11363dc7ad08609dacf71adabc1e3d7" category="inline-link-macro">創造工作環境</block>
+  <block id="c21d5cf174dc36531d6990b13fe89573" category="list-text">何時 <block ref="ad9408e39808bf9ea4b07fa95cac5798" category="inline-link-macro-rx"></block>、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。</block>
+  <block id="e2ba73f0e5661996e4350de09efee512" category="inline-link-macro">建立 Volume</block>
+  <block id="fabdf5de30f7e7084ae6656930904d1d" category="list-text">何時 <block ref="1bfb452ce23fdd4301ee99a62317a7a6" category="inline-link-macro-rx"></block>、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。</block>
 </blocks>
