@@ -66,7 +66,7 @@ summary: 為了建立或管理Amazon FSX for NetApp ONTAP 的工作環境、您�
 --
 .自動容量
 --
-啟用時需要下列額外權限 link:../use/task-manage-fsx-working-environment.html["自動容量管理"]。
+啟用時需要下列額外權限 link:../use/task-manage-working-environment.html["自動容量管理"]。
 
 [source, json]
 ----
