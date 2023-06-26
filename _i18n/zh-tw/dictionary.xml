@@ -77,8 +77,6 @@
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">編輯Volume</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">建立磁碟區之後、您可以隨時加以修改。</block>
-  <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">對於NFS、您可以修改大小和標記。</block>
-  <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">對於CIFS、您可以視需要修改共用名稱、使用者、權限及Snapshot原則。</block>
   <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">複製磁碟區</block>
   <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">建立磁碟區之後、您可以從新的Snapshot建立新的讀寫磁碟區。</block>
   <block id="5e5db467595563d87880b20fec615319" category="list-text">輸入複製磁碟區的名稱。</block>
@@ -763,4 +761,5 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">將 NSS 認證與 BlueXP 帳戶建立關聯、與 BlueXP 使用者登入相關的 NSS 帳戶不同。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">這些 NSS 認證會與您的特定 BlueXP 帳戶 ID 相關聯。屬於BlueXP帳戶的使用者可以從*支援&gt; nss管理*存取這些認證資料。</block>
   <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">啟用時需要下列額外權限 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>。</block>
+  <block id="1a152437275e48cffd13b98c296a5e3f" category="admonition">您無法編輯在 BlueXP 中建立的 Volume 標記、直到它們與 AWS 同步為止。這可能需要一小時的時間。如果 * 管理 Volume 標記 * 選項呈現灰色、 AWS 尚未同步 Volume 標記。</block>
 </blocks>
