@@ -21,12 +21,10 @@ indexpage:
     links:
     - title: 建立或探索工作環境
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: 管理工作環境
-      url: "/use/task-manage-working-environment.html"
-    - title: 建立及掛載磁碟區
+    - title: 建立及掛載 Volume
       url: "/use/task-add-fsx-volumes.html"
-    - title: 管理磁碟區和資料服務
-      url: "/use/task-manage-fsx-volumes.html"
+    - title: 新增及管理儲存 VM
+      url: "/use/task-add-fsx-svm.html"
     - title: NVMe與iSCSI主機組態
       url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 知識與支援

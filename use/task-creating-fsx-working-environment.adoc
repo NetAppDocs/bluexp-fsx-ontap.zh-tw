@@ -112,16 +112,16 @@ image:screenshot_add_fsx_cloud.png["「ONTAP 工作環境」頁面上的Amazon F
 
 == 探索現有ONTAP 的FSX for Sf供 資料系統使用
 
-如果您先前已將AWS認證資料提供給BlueXP、*我的商機*可以自動探索及建議使用ONTAP BlueXP新增及管理的FSX檔案系統。您也可以檢閱可用的資料服務。
+如果您先前已將 AWS 認證提供給 BlueXP 、 * 我的資產 * 可以自動探索並建議使用 BlueXP 為 ONTAP 檔案系統新增和管理的 FSX 。您也可以檢閱可用的資料服務。
 
 .關於這項工作
-您可以在發現適用於 ONTAP 檔案系統的 FSX 時 <<建立Amazon FSX for NetApp ONTAP 的作業環境>> 或使用 * 我的商機 * 頁面。本工作說明使用*我的商機*進行探索
+您可以在發現適用於 ONTAP 檔案系統的 FSX 時 <<建立Amazon FSX for NetApp ONTAP 的作業環境>> 或使用 * 我的遺產 * 頁面。此工作說明使用 * My 莊園 * 進行探索
 
 .步驟
-. 在藍圖XP中、按一下*我的商機*索引標籤。
+. 在 BlueXP 中、按一下「 * 我的資產 * 」標籤。
 . 將顯示探索到ONTAP 的FSX for Sof the Sfof the Sfor the Sfof the fof按一下* Discover（探索）*。
 +
-image:screenshot-opportunities.png["FSX for ONTAP Sfor Sfuni.的「My Opportunity」頁面快照。"]
+image:screenshot-opportunities.png["適用於 ONTAP 的 FSX 的 My 莊園頁面的螢幕擷取畫面。"]
 
 . 選取一或多個檔案系統、然後按一下* Discover（探索）*將其新增至畫版。
 

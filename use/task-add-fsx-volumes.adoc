@@ -22,13 +22,13 @@ summary: 設定工作環境之後、您可以建立及管理Amazon FSX for NetAp
 
 您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。
 
-.開始之前
-在建立新的 Volume 之前、您需要使用中的 https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
-
-若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS：使用自我管理的Microsoft AD的必要條件"^]。
-
 .關於這項工作
 您可以開啟工作環境並選取* Volumes（磁碟區）*索引標籤、或只是使用畫版中的工作環境* Details（詳細資料）面板來新增磁碟區。此工作說明使用「*詳細資料*」面板新增磁碟區。
+
+.開始之前
+* 您需要使用中的 https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS的連接器"^]。
+* 若要使用SMB、您必須設定DNS和Active Directory。如需DNS和Active Directory網路組態的詳細資訊、請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS：使用自我管理的Microsoft AD的必要條件"^]。
+
 
 .步驟
 . 在ONTAP Canvas.上選取FSXfor the Sfor the Sfor the Sfor the Sf有效 工作環境如果您未啟用Connector、系統會提示您新增一個。

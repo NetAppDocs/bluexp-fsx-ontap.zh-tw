@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
-keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity 
-summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量、儲存容量和IOPS、以及移除或刪除工作環境。 
+keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
+summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量和儲存容量及 IOPS 、移除或刪除工作環境、以及管理資料服務、例如備份與還原、複製與同步、分類、複寫及磁碟區快取。 
 ---
 = 管理Amazon FSX for NetApp ONTAP 的作業環境
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟�
 
 
 [role="lead"]
-BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量、儲存容量和IOPS、以及移除或刪除工作環境。
+BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量和儲存容量及 IOPS 、移除或刪除工作環境、以及管理資料服務、例如備份與還原、複製與同步、分類、複寫及磁碟區快取。
 
 
 
@@ -154,4 +154,21 @@ NOTE: 故障磁碟區必須使用AWS管理主控台或CLI刪除。
 image:screenshot_fsx_working_environment_delete.png["從ONTAP BluevXP介面刪除FSXfor Sf更新 選項的快照。"]
 
 . 輸入工作環境的名稱、然後選取*刪除*。
+
+
+
+
+== 管理資料服務
+
+您可以從 Amazon FSX for NetApp ONTAP 工作環境管理其他資料服務。
+
+image:data-services.png["工作環境中資料服務索引標籤的螢幕擷取畫面"]
+
+如需設定資料服務的詳細資訊、請參閱：
+
+* link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXP 備份與還原"^] 為內部部署和雲端的 NetApp ONTAP 資料、 Kubernetes 持續容量、資料庫和虛擬機器提供高效率、安全且具成本效益的資料保護。
+* link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["BlueXP 複製與同步"^] 是一種雲端複寫與同步服務、用於在內部部署與雲端物件儲存區之間傳輸 NAS 資料。
+* link:https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP 分類"^] 可讓您在組織的混合式多雲端環境中掃描及分類資料。
+* link:https://docs.netapp.com/us-en/bluexp-replication/index.html["複寫資料"^] 在 ONTAP 儲存系統之間、支援備份與災難恢復至雲端或雲端之間。
+* link:https://docs.netapp.com/us-en/bluexp-volume-caching/index.html["Volume 快取"^] 在遠端位置提供持續的可寫入磁碟區。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。
 

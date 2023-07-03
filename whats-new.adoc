@@ -18,6 +18,14 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 
 
+== 2023 年 7 月 2 日
+
+* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
+* 「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
+
+
+
+
 == 2023 年 6 月 4 日
 
 * 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
@@ -48,7 +56,7 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 == 2023年1月1日
 
-您現在可以選擇啟用 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["自動容量管理"^] 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動以10%為增量增加儲存容量、最高可達叢集最大容量的80%。
+您現在可以選擇啟用 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["自動容量管理"^] 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並以 10% 為增量自動增加儲存容量、最高可達叢集容量的 80% 。
 
 
 
@@ -60,9 +68,9 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 == 2022年7月31日
 
-* 如果您先前已將AWS認證資料提供給Cloud Manager、全新的* My Opportunity *功能可自動探索ONTAP 及建議使用Cloud Manager新增及管理的FSX for the Sfx*檔案系統。您也可以透過「*我的商機*」標籤來檢視可用的資料服務。
+* 如果您先前已將 AWS 認證提供給 Cloud Manager 、新的 * My 莊園 * 功能可自動探索並建議使用 Cloud Manager 來新增和管理 ONTAP 檔案系統的 FSX 。您也可以透過「 * 我的資產 * 」標籤來檢閱可用的資料服務。
 +
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["利用ONTAP 我的商機探索FSXfor Sfor"^]
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["使用 My 莊園探索適用於 ONTAP 的 FSX"^]
 
 * 您現在可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#change-throughput-capacity["變更處理量容量"^] 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、
 * 您現在可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["複寫及同步資料"^] 內部部署和其他FSXfor ONTAP the Sfor the Sfor the Sfor the ONTAP 資料來源、使用FSXfor the Sfor the資料來源。
