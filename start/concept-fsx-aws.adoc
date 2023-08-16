@@ -14,7 +14,7 @@ summary: Amazon FSX for NetApp ONTAP 的功能是一項完全託管的服務、�
 
 
 [role="lead"]
-link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX for NetApp ONTAP 產品"^] 是一項完整的託管服務、可讓客戶啟動及執行採用NetApp ONTAP 的一套資訊儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。
+link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX for NetApp ONTAP 產品"^] 是一項完全託管的服務、可讓客戶啟動及執行 NetApp ONTAP 儲存作業系統所支援的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。
 
 
 
@@ -31,7 +31,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["A
 
 == BlueXP的其他功能
 
-* 在 _Standard_ 或 _Restricted _ 模式下使用 BlueXP 時、支援 Amazon FSX for NetApp ONTAP 。
+* 在 _Standard_ 或 _Restricted 模式下使用 BlueXP 時、支援適用於 ONTAP 的 FSX 。
 +
 ** 標準模式利用 BlueXP SaaS 層提供完整功能。
 ** 受限模式適用於有連線限制的組織。
@@ -63,7 +63,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 == 取得協助
 
-Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如有任何與Amazon FSX for NetApp ONTAP 的檔案系統、基礎架構或使用此服務的任何解決方案相關的問題或技術支援問題、請使用AWS主控台的Support Center、開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。
+Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如需與適用於 ONTAP 檔案系統、基礎架構或任何使用此服務的解決方案的 FSX 相關的問題或技術支援問題、請使用 AWS 管理主控台的支援中心、開啟 AWS 的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。
 
 如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。
 

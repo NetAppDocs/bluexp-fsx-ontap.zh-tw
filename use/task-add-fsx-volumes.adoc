@@ -4,7 +4,7 @@ permalink: use/task-add-fsx-volumes.html
 keywords: fsx for ontap, fsx, aws, create volumes, create nfs volumes, delete nfs volumes, cifs volumes, iscsi, mount volume, delete working environment 
 summary: 設定工作環境之後、您可以建立及管理Amazon FSX for NetApp ONTAP 的支援、複製與快照、變更分層原則、以及移除或刪除FSX for ONTAP Sfor Sfor。 
 ---
-= 為Amazon FSX for NetApp ONTAP 建立Volume
+= 為 ONTAP 的 FSX 建立 Volume
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

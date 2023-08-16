@@ -18,11 +18,11 @@ summary: 使用BlueXP、您只ONTAP 需幾個步驟、就能開始使用FSX for 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 在AWS中設定IAM角色
 [role="quick-margin-para"]
-若要建立或管理適用於NetApp ONTAP 的Amazon FSX工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX以供ONTAP 其工作環境所需的權限、才能將AWS認證新增至BlueXP。若要這麼做、您必須 link:../requirements/task-setting-up-permissions-fsx.html["設定IAM角色、讓BlueXP SaaS能夠承擔角色"]。
+若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要將 AWS 認證新增至 BlueXP 、方法是提供 IAM 角色的 ARN 、讓 BlueXP 擁有為 ONTAP 工作環境建立 FSX 所需的權限。若要這麼做、您必須 link:../requirements/task-setting-up-permissions-fsx.html["設定IAM角色、讓BlueXP SaaS能夠承擔角色"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 建立FSX以利ONTAP 不工作環境
 [role="quick-margin-para"]
-您必須 link:../use/task-creating-fsx-working-environment.html["建立Amazon FSX for NetApp ONTAP 的作業環境"] 在新增磁碟區之前。
+您必須 link:../use/task-creating-fsx-working-environment.html["為 ONTAP 工作環境建立 FSX"] 在新增磁碟區之前。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 建立AWS的Connector
 [role="quick-margin-para"]

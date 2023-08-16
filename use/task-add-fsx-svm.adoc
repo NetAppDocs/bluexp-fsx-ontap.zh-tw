@@ -4,7 +4,7 @@ permalink: use/task-add-fsx-svm.html
 keywords: fsx for ontap, fsx, aws, storage vm, storage virtual machine, svm, add svm, virtual machine, delete svm, tags, smb, cifs, delete 
 summary: 建立工作環境之後、您可以在託管的 Amazon FSX for NetApp ONTAP 叢集上新增、檢視及管理儲存虛擬機器（ VM ）。 
 ---
-= 為 Amazon FSX for NetApp ONTAP 新增及管理儲存 VM
+= 新增及管理適用於 ONTAP 的 FSX 儲存 VM
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 建立工作環境之後、您可以在託管的 Amazon FSX for NetApp 
 
 
 [role="lead"]
-建立工作環境之後、您可以在託管的 Amazon FSX for NetApp ONTAP 叢集上新增、檢視及管理儲存虛擬機器（ VM ）、也稱為 _SVM_ 。
+建立工作環境之後、您可以在 ONTAP 叢集的託管式 FSX 上新增、檢視及管理儲存虛擬機器（ VM ）、也稱為 _SVM_ 。
 
 
 
 == 新增儲存 VM
 
-使用 BlueXP 、您可以將儲存 VM 新增至 Amazon FSX for ONTAP 檔案系統、最多可新增至允許的最大數目。請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-svms.html["AWS ：管理 ONTAP 儲存虛擬機器的 FSX"^] 以取得詳細資料。
+使用 BlueXP 、您可以將儲存 VM 新增至適用於 ONTAP 檔案系統的 FSX 、最多可新增至允許的最大數目。請參閱 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-svms.html["AWS ：管理 ONTAP 儲存虛擬機器的 FSX"^] 以取得詳細資料。
 
 .關於這項工作
 您可以開啟工作環境並選取 * 儲存 VM* 標籤、或從工作環境 * 概述 * 面板新增儲存 VM 。本工作說明如何使用 * 儲存 VMS* 面板新增儲存 VM 。
@@ -48,7 +48,7 @@ image:svm-add.png["「儲存 VM 」面板的螢幕快照。"]
 
 
 .結果
-新的儲存 VM 會新增至工作環境、以及 Amazon FSX for NetApp ONTAP 檔案系統。
+新的儲存 VM 會新增至工作環境、以及適用於 ONTAP 檔案系統的 FSX 。
 
 
 
@@ -69,7 +69,7 @@ image:svm-manage.png["儲存 VM 面板中的管理儲存 VM 選項功能表快�
 . 選取功能表選項以檢視或管理儲存 VM 設定。
 +
 ** ** 檢視 SVM 詳細資料 ** ：您可以檢閱詳細資料、包括根磁碟區、安全樣式、允許的通訊協定、 Active Directory 網域和標記。
-** ** 管理 SVM 標籤 ** ：您可以新增、編輯或移除儲存 VM 標籤。您所做的變更將會與 AWS 主控台同步。
+** ** 管理 SVM 標籤 ** ：您可以新增、編輯或移除儲存 VM 標籤。您所做的變更將會與 AWS 管理主控台同步。
 ** ** 設定 SMB/CIFS** ：如果這是此工作環境的第一個 CIFS 連線、系統會提示您使用 _Active Directory_ 或 _Workgroup_ 設定來設定 CIFS 連線。
 +
 *** 如果您選取「工作群組」設定、請輸入設定為CIFS的工作群組的伺服器和工作群組名稱。

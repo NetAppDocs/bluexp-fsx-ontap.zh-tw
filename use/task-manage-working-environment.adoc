@@ -4,7 +4,7 @@ permalink: use/task-manage-working-environment.html
 keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
 summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量和儲存容量及 IOPS 、移除或刪除工作環境、以及管理資料服務、例如備份與還原、複製與同步、分類、複寫及磁碟區快取。 
 ---
-= 管理Amazon FSX for NetApp ONTAP 的作業環境
+= 管理適用於 ONTAP 工作環境的 FSX
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -116,7 +116,7 @@ image:screenshot-configure-iops.png["頁面快照、可變更儲存容量和IOPS
 
 == 從ONTAP 工作區中移除FSXfor Sfor
 
-您可以從ONTAP BlueXP移除FSXfor Sf,而不需刪除FSXfor ONTAP S庫 或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sf有效 工作環境新增回藍圖XP。
+您可以從 BlueXP 移除適用於 ONTAP 的 FSX 、而無需刪除您的帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sf有效 工作環境新增回藍圖XP。
 
 .步驟
 . 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。
@@ -160,7 +160,7 @@ image:screenshot_fsx_working_environment_delete.png["從ONTAP BluevXP介面刪�
 
 == 管理資料服務
 
-您可以從 Amazon FSX for NetApp ONTAP 工作環境管理其他資料服務。
+您可以從適用於 ONTAP 工作環境的 FSX 管理其他資料服務。
 
 image:data-services.png["工作環境中資料服務索引標籤的螢幕擷取畫面"]
 

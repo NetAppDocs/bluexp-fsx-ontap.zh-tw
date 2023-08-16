@@ -109,15 +109,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
@@ -431,7 +427,6 @@
   <block id="0f845867deaf035383ffc217279b9c7f" category="paragraph">您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。</block>
   <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">藍圖XP自動化文件</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">從BlueXP中存取掛載指示、以便將磁碟區掛載到主機。</block>
-  <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">您可以從ONTAP BlueXP移除FSXfor Sf,而不需刪除FSXfor ONTAP S庫 或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sf有效 工作環境新增回藍圖XP。</block>
   <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">從ONTAP BluevXP介面移除FSXfor Sf更新 選項的快照。</block>
   <block id="00e44395dfa88719cfdde0d3aafb0b4c" category="paragraph"><block ref="00e44395dfa88719cfdde0d3aafb0b4c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="39c686ea51a2e3f3412988ea98942824" category="list-text">選取*移除*、從ONTAP BlueXP移除FSX*以供支援。</block>
@@ -569,33 +564,19 @@
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
   <block id="c2ca61cdaafcad548af5836df039fcb3" category="doc">Amazon FSX for NetApp ONTAP 的快速入門</block>
-  <block id="f0f0fb7949dd435ae874e688628798e3" category="paragraph">若要建立或管理適用於NetApp ONTAP 的Amazon FSX工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX以供ONTAP 其工作環境所需的權限、才能將AWS認證新增至BlueXP。若要這麼做、您必須 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>。</block>
-  <block id="1e4c41065cb8ed5fef0f76c88d730e82" category="inline-link-macro">建立Amazon FSX for NetApp ONTAP 的作業環境</block>
-  <block id="de1a8bce79b111c4a31f583f6f99440b" category="paragraph">您必須 <block ref="78fc1a74fb647fe04344d6ad4f960b63" category="inline-link-macro-rx"></block> 在新增磁碟區之前。</block>
   <block id="5bf4f331231141b7f8c69e636d5e0a8f" category="summary">Amazon FSX for NetApp ONTAP 的功能是一項完全託管的服務、可讓客戶啟動及執行採用NetApp ONTAP 的功能性儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶目前內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。</block>
   <block id="9b52174f321d3579b4ad28ec9c136481" category="doc">瞭解Amazon FSX for NetApp ONTAP 的功能</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSX for NetApp ONTAP 產品</block>
   <block id="ee0913f891047fad10e625ab9754d92d" category="paragraph"><block ref="9b424e413e3d5660d5b403cf87df1eb5" category="inline-link-macro-rx"></block> 是一項完整的託管服務、可讓客戶啟動及執行採用NetApp ONTAP 的一套資訊儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。</block>
   <block id="2bff20ceadc07975cc0f23c153d723ed" category="inline-link">Amazon FSX for NetApp ONTAP 《入門指南》</block>
   <block id="49915b1358359823753e8ba4996c407b" category="paragraph">您的FSX for ONTAP Sfor Sf堅持 帳戶是由AWS維護、而非由BlueXP維護。請參閱<block ref="ee24fb9807f103fa32bcf47e5e3a3e4a" category="inline-link-rx"></block>。</block>
-  <block id="a486acbe18a1aaf3fd85ffc4ae288e5d" category="paragraph">Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如有任何與Amazon FSX for NetApp ONTAP 的檔案系統、基礎架構或使用此服務的任何解決方案相關的問題或技術支援問題、請使用AWS主控台的Support Center、開啟AWS的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。</block>
-  <block id="0163316edbded6bc47113c053e5809a9" category="summary">為了建立或管理Amazon FSX for NetApp ONTAP 的工作環境、您需要使用AWS存取金鑰和秘密金鑰、才能讓IAM使用者角色具備FSX for ONTAP Sfor FIf各項 權限。</block>
-  <block id="bbf8e43ca2601cf0e2a123ec0be12b40" category="paragraph">若要建立或管理適用於NetApp ONTAP 的Amazon FSX工作環境、您必須提供IAM角色的ARN、為BlueXP提供建立FSX以供ONTAP 其工作環境所需的權限、才能將AWS認證新增至BlueXP。</block>
   <block id="af78a60c1f50cf81e4812897a751efa4" category="summary">瞭解Amazon FSX for NetApp ONTAP 的新功能。</block>
   <block id="1bab530ca9dd117d24aa1c1510692003" category="doc">Amazon FSX for NetApp ONTAP 的新功能</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">支援Amazon FSX for NetApp ONTAP 功能</block>
   <block id="154f5271f725905c77563d2d1d8b3a0a" category="inline-link-macro">建立Amazon FSX for NetApp ONTAP 的作業環境</block>
   <block id="c8b596b90101edd9745fcaebc95d3b53" category="inline-link-macro">開始使用Cloud Data Sense for Amazon FSX for NetApp ONTAP 解決方案</block>
-  <block id="ff8f76810bdaf3c806b24b4f8d990230" category="doc">建立或探索適用於NetApp ONTAP 的Amazon FSX作業環境</block>
   <block id="8d75ffd71230b9a1b93e34cb2e11aa86" category="list-text">在BluXP中、新增工作環境、選取* Amazon Web Services*、然後按一下*「Add new* for Amazon FSX for NetApp ONTAP 」。</block>
-  <block id="0c701eedf5e7b93c745db83a71466be1" category="inline-image-macro">新增Amazon FSX for NetApp ONTAP 功能工作環境的快照</block>
-  <block id="3acf3b463159ec4afc895362a68c7ee1" category="paragraph"><block ref="3acf3b463159ec4afc895362a68c7ee1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6b08174ed3c706cc286cc9f41f482a92" category="inline-image-macro">「ONTAP 工作環境」頁面上的Amazon FSX for NetApp功能快照。</block>
-  <block id="9e7c4f3f6c0cffd7e172ba0e7b1cfdba" category="paragraph"><block ref="9e7c4f3f6c0cffd7e172ba0e7b1cfdba" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="67621e5c95adeb158c257c0f8a4d3e15" category="doc">管理Amazon FSX for NetApp ONTAP 的作業環境</block>
-  <block id="389c215e9937ebcb0227cb03e0e431cb" category="doc">管理Amazon FSX for NetApp ONTAP 的Volume</block>
   <block id="cfd890139f741ff2037fc08e3b2d014d" category="summary">設定工作環境之後、您可以建立及管理Amazon FSX for NetApp ONTAP 的支援、複製與快照、變更分層原則、以及移除或刪除FSX for ONTAP Sfor Sfor。</block>
-  <block id="39eff6a0e62a9e3eafb92d6d0dc18004" category="doc">為Amazon FSX for NetApp ONTAP 建立Volume</block>
   <block id="7aa1575aeeddba65d55707b41584cd4a" category="sidebar">使用Amazon FSX for NetApp ONTAP 解決方案</block>
   <block id="c82c15e6d66564201da1f424b2fb9bf4" category="sidebar">Amazon FSX for NetApp ONTAP 的文件</block>
   <block id="a3ef479db7087d8c91c8e7225a427426" category="list-text">選擇 * 自動 * IOPS 、主儲存設備的每 GiB 平均配置的 SSD IOPS 可維持高達 160,000 的比率。您無法手動配置大於 160,000 的 IOPS 值。</block>
@@ -614,7 +595,6 @@
   <block id="4cc849f381058f76f6b72a1c4279393d" category="cell">BlueXP 分類</block>
   <block id="a7f8c8869966601b4670aae0a070ba31" category="cell">Cloud Volumes ONTAP 的 BlueXP 分類</block>
   <block id="d151342d67a639e871ca8c57524ca7f8" category="section-title">管理 Volume 標記</block>
-  <block id="1edd4a3142e92621938f60a5002ee3b3" category="paragraph">您可以新增、修改或刪除 Volume 標記。BlueXP 中新增的標籤會反映在 AWS 主控台。將標籤與 AWS 主控台同步可能需要一小時的時間。</block>
   <block id="4c01e02944d90f20b1f75ee4b1e9c16c" category="list-text">選取 * 管理 Volume 標記 * 。</block>
   <block id="030c2a7dd0a2a850c39eb85018a90937" category="list-text">選取 * 儲存 * 以套用變更。</block>
   <block id="4cf58ab90a8b9b744f512ffebcdbebb3" category="list-text">* Volume 詳細資料、保護與標記 *</block>
@@ -635,7 +615,6 @@
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">安全性群組</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">產生安全性群組</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">需要下列額外權限才能允許 BlueXP <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>。</block>
-  <block id="25ee158968a50cfd221a03cd5c35714d" category="list-text">在 _Standard_ 或 _Restricted _ 模式下使用 BlueXP 時、支援 Amazon FSX for NetApp ONTAP 。</block>
   <block id="3cb5845101cca1d3632756ad505df41c" category="list-text">標準模式利用 BlueXP SaaS 層提供完整功能。</block>
   <block id="8515864aee35dd4c309a887dc85ffb7f" category="list-text">受限模式適用於有連線限制的組織。</block>
   <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">BlueXP 部署模式</block>
@@ -686,7 +665,6 @@
   <block id="176d707d91233fad58f8673c1716a4f8" category="list-text">* Volume 傳輸協定 * ：</block>
   <block id="21f43446afbc4a1acbf88a421b7a09dc" category="list-text">如果您選取最佳化（ FlexGroup ）、則必須指定要在其中散佈 Volume 資料的組成數量。我們強烈建議使用偶數個組成要素、以確保資料發佈均勻。</block>
   <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">您也可以按一下加號、然後輸入標記名稱和值、藉此建立標記。</block>
-  <block id="c89439eb771335b64cacafd62be867f6" category="list-text">您也可以選擇指定 Amazon FSX for NetApp ONTAP 每週執行 30 分鐘維護的開始時間。這可用於確保維護不會與關鍵業務活動一致。如果您選擇 * 無偏好設定 * 、將會指派隨機的開始時間。您可以隨時變更此項目。</block>
   <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">保留_CIDR range（CIDR範圍）為空白、以自動設定可用範圍。您也可以選擇使用<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 手動設定範圍。</block>
   <block id="deafe98ece55cac6734aa3e0c94f89a1" category="list-title">不支援下列範圍的 IPS ：</block>
   <block id="41744fea4be9d62829f8c470c2392ab1" category="list-text">0.0.0/8</block>
@@ -729,17 +707,13 @@
   <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">啟用時需要下列額外權限 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>。</block>
   <block id="1a152437275e48cffd13b98c296a5e3f" category="admonition">您無法編輯在 BlueXP 中建立的 Volume 標記、直到它們與 AWS 同步為止。這可能需要一小時的時間。如果 * 管理 Volume 標記 * 選項呈現灰色、 AWS 尚未同步 Volume 標記。</block>
   <block id="982342913ed4c65e25bbc0d7a29cc903" category="paragraph">如果您先前已將 AWS 認證提供給 BlueXP 、 * 我的資產 * 可以自動探索並建議使用 BlueXP 為 ONTAP 檔案系統新增和管理的 FSX 。您也可以檢閱可用的資料服務。</block>
-  <block id="bbc904daea44543b400fcb32aad70c89" category="paragraph">您可以在發現適用於 ONTAP 檔案系統的 FSX 時 <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> 或使用 * 我的遺產 * 頁面。此工作說明使用 * My 莊園 * 進行探索</block>
   <block id="c44ce3fd744555a7c9e3cb0429cb71e1" category="list-text">在 BlueXP 中、按一下「 * 我的資產 * 」標籤。</block>
   <block id="75b0fcc2885b1eaac454cf9392c47fae" category="inline-image-macro">適用於 ONTAP 的 FSX 的 My 莊園頁面的螢幕擷取畫面。</block>
   <block id="442b9b00a851e385483f988d6deb5a9b" category="paragraph"><block ref="442b9b00a851e385483f988d6deb5a9b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="178f7d653798a30b03a224bd262b2193" category="list-text">您需要使用中的<block ref="7c63a28be6cb831de5033d7fc716e2b5" category="inline-link-rx"></block>。</block>
   <block id="9297684f36da0f0f1bee258dc9e26606" category="summary">建立工作環境之後、您可以在託管的 Amazon FSX for NetApp ONTAP 叢集上新增、檢視及管理儲存虛擬機器（ VM ）。</block>
-  <block id="09fd7d4c10e67376a6e8ddb20af8bec1" category="doc">為 Amazon FSX for NetApp ONTAP 新增及管理儲存 VM</block>
-  <block id="97db92f07b671990ad480605be666c0b" category="paragraph">建立工作環境之後、您可以在託管的 Amazon FSX for NetApp ONTAP 叢集上新增、檢視及管理儲存虛擬機器（ VM ）、也稱為 _SVM_ 。</block>
   <block id="4343b2bdc884cb638429641e12c0514c" category="section-title">新增儲存 VM</block>
   <block id="451e576c5eeebc2e49f82cf9cb99cc95" category="inline-link-macro">AWS ：管理 ONTAP 儲存虛擬機器的 FSX</block>
-  <block id="ef5264f83fd1399bf2039379d925c326" category="paragraph">使用 BlueXP 、您可以將儲存 VM 新增至 Amazon FSX for ONTAP 檔案系統、最多可新增至允許的最大數目。請參閱 <block ref="542be7ed4bf1e8cdfb99773f949b9be5" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
   <block id="c58f39af7af885b3de4e1c55331f663f" category="paragraph">您可以開啟工作環境並選取 * 儲存 VM* 標籤、或從工作環境 * 概述 * 面板新增儲存 VM 。本工作說明如何使用 * 儲存 VMS* 面板新增儲存 VM 。</block>
   <block id="93f5e6c9fa12acc64acdb6b378a09bdd" category="inline-link-macro">在BlueXP中管理儲存VM</block>
   <block id="161af8b5034edcc63941678877ecc17b" category="list-text">建立一或多個儲存 VM 。請參閱 <block ref="61e460b38f962b5f0888ccf756a23b8f" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
@@ -752,7 +726,6 @@
   <block id="018dde2c5d72e2150624f098fc0cc1a6" category="list-text">（可選）指定儲存 VM 管理密碼。</block>
   <block id="9543403a9b9b42e9d5d0bfc9f21c11ea" category="list-text">或者、按一下加號並輸入標籤名稱和值、即可建立最多 50 個標籤來分類 SVM 。</block>
   <block id="7a769e7e42a18ebf369a288f74ee719a" category="list-text">選擇 ** 新增 ** 以新增儲存 VM 。</block>
-  <block id="59ea7c00742a0b7e298503e1f32e0728" category="paragraph">新的儲存 VM 會新增至工作環境、以及 Amazon FSX for NetApp ONTAP 檔案系統。</block>
   <block id="44b681a7cf925625164e7c4c46844561" category="section-title">管理儲存 VM</block>
   <block id="03440d1141f070ed41a52d3ff99eb20c" category="paragraph">您可以檢視儲存 VM 詳細資料、管理標記、設定 SMB/CIFS 連線、或刪除儲存 SVM 。</block>
   <block id="017d4418a9c48f4f00ec01c0bfa6dfe2" category="list-text">選取 * 儲存 VMS* 面板。</block>
@@ -761,14 +734,12 @@
   <block id="85f46b970d5cbec706143f8c887a539c" category="paragraph"><block ref="85f46b970d5cbec706143f8c887a539c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="95ed4b80139db8b5b5b8076e8fdaf8ec" category="list-text">選取功能表選項以檢視或管理儲存 VM 設定。</block>
   <block id="64e34a8b4dd985ab1c20dc09d4e0e8a3" category="list-text">** 檢視 SVM 詳細資料 ** ：您可以檢閱詳細資料、包括根磁碟區、安全樣式、允許的通訊協定、 Active Directory 網域和標記。</block>
-  <block id="94fbec0c035b64d9cc88594687e76f69" category="list-text">** 管理 SVM 標籤 ** ：您可以新增、編輯或移除儲存 VM 標籤。您所做的變更將會與 AWS 主控台同步。</block>
   <block id="2ee8cc8dbc2e1be735d4ae835a6ab479" category="list-text">** 設定 SMB/CIFS** ：如果這是此工作環境的第一個 CIFS 連線、系統會提示您使用 _Active Directory_ 或 _Workgroup_ 設定來設定 CIFS 連線。</block>
   <block id="0b614a99d1477b4fce8c90ecbfc24bb0" category="example-title">Active Directory組態</block>
   <block id="20486a7eae9ebb16137abc464481958e" category="list-text">** 刪除 SVM** ：您可以刪除儲存 VM 。您必須驗證儲存 VM 名稱、才能將其刪除。</block>
   <block id="5cb8a753feb750c955f13c217735d677" category="admonition">刪除儲存 VM 之前、您必須刪除儲存 VM 上的所有磁碟區。</block>
   <block id="8e9385ac5e4c99f8e0628779659448ca" category="summary">BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量和儲存容量及 IOPS 、移除或刪除工作環境、以及管理資料服務、例如備份與還原、複製與同步、分類、複寫及磁碟區快取。</block>
   <block id="516c626a337f0fa0093cc3145386640f" category="section-title">管理資料服務</block>
-  <block id="d51e6c9bd2e7b6163e5a1aef40ed76e3" category="paragraph">您可以從 Amazon FSX for NetApp ONTAP 工作環境管理其他資料服務。</block>
   <block id="135193a42a4bc9020d4010ff52aafa41" category="inline-image-macro">工作環境中資料服務索引標籤的螢幕擷取畫面</block>
   <block id="275efdc26577366e7591e34db9833a6c" category="paragraph"><block ref="275efdc26577366e7591e34db9833a6c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1feb4fc1fb8c9928667496a5edda35aa" category="paragraph">如需設定資料服務的詳細資訊、請參閱：</block>
@@ -811,4 +782,39 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">選取以變更表格中顯示的欄 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">選取以管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 結案案例 * ：提供結案原因的詳細資料、並選取 * 結案案例 * 。</block>
+  <block id="549c17058e7e399946611857e4d1cd06" category="summary">若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要將 AWS 認證新增至 BlueXP 、方法是提供 IAM 角色的 ARN 、讓 BlueXP 擁有為 ONTAP 工作環境建立 FSX 所需的權限。</block>
+  <block id="80efd97954bcbad45074bb22cc10bd6e" category="paragraph"><block ref="9b424e413e3d5660d5b403cf87df1eb5" category="inline-link-macro-rx"></block> 是一項完全託管的服務、可讓客戶啟動及執行 NetApp ONTAP 儲存作業系統所支援的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。</block>
+  <block id="8fb3606bbc139f4c9d385e215c6873cc" category="list-text">在 _Standard_ 或 _Restricted 模式下使用 BlueXP 時、支援適用於 ONTAP 的 FSX 。</block>
+  <block id="da444b283df699667b2316206972bdfe" category="paragraph">Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如需與適用於 ONTAP 檔案系統、基礎架構或任何使用此服務的解決方案的 FSX 相關的問題或技術支援問題、請使用 AWS 管理主控台的支援中心、開啟 AWS 的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。</block>
+  <block id="e0f2b6f03eabbd227046f4d443dcd925" category="paragraph">若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要將 AWS 認證新增至 BlueXP 、方法是提供 IAM 角色的 ARN 、讓 BlueXP 擁有為 ONTAP 工作環境建立 FSX 所需的權限。若要這麼做、您必須 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>。</block>
+  <block id="1c1873538051c26dd34a439f088be4d8" category="inline-link-macro">為 ONTAP 工作環境建立 FSX</block>
+  <block id="1ae47ba76410bacf8863717709cf0cac" category="paragraph">您必須 <block ref="00a1d4731f29def2a8cdef004d5106ee" category="inline-link-macro-rx"></block> 在新增磁碟區之前。</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="5962c9612a00eabc6dc76d161354798e" category="doc">管理適用於 ONTAP 工作環境的 FSX</block>
+  <block id="cab0c670d91d5034f6a24e4c46a71426" category="paragraph">您可以從 BlueXP 移除適用於 ONTAP 的 FSX 、而無需刪除您的帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sf有效 工作環境新增回藍圖XP。</block>
+  <block id="d4f817cbe1a0a938e0bb33bc45edf920" category="paragraph">您可以從適用於 ONTAP 工作環境的 FSX 管理其他資料服務。</block>
+  <block id="52634ffbb1b3f2242477128412921d76" category="doc">建立或探索適用於 ONTAP 工作環境的 FSX</block>
+  <block id="585db67a5739d9a0375eb0eb64dcff39" category="inline-image-macro">為 ONTAP 的 FSX 新增工作環境的螢幕擷取畫面</block>
+  <block id="620bef4849428336b85e7713f336c27b" category="paragraph"><block ref="620bef4849428336b85e7713f336c27b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c8d8f2af7a81b8eec786cc29d3629378" category="list-text">您也可以選擇指定 FSX 的開始時間、讓 ONTAP 每週執行 30 分鐘的維護。這可用於確保維護不會與關鍵業務活動一致。如果您選擇 * 無偏好設定 * 、將會指派隨機的開始時間。您可以隨時變更此項目。</block>
+  <block id="e8a65a6e18181830b2120e5483813a7c" category="inline-image-macro">適用於 ONTAP 的 FSX 的螢幕擷取畫面、位於「工作環境」頁面上。</block>
+  <block id="0a36ca26ad15ff942eab97eaaf29fdaa" category="paragraph"><block ref="0a36ca26ad15ff942eab97eaaf29fdaa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a101671b1e11a40a333be0d171c5e79d" category="paragraph">您可以在發現適用於 ONTAP 檔案系統的 FSX 時 <block ref="404d10cea82157b7a7699acad79a879b" category="inline-xref-macro-rx"></block> 或使用 * 我的遺產 * 頁面。此工作說明使用 * My 莊園 * 進行探索</block>
+  <block id="074dd9ea2b32a1402ae8d5d6c422a750" category="doc">新增及管理適用於 ONTAP 的 FSX 儲存 VM</block>
+  <block id="f737e193a3b1cb982ce90463cbc2b7ce" category="paragraph">建立工作環境之後、您可以在 ONTAP 叢集的託管式 FSX 上新增、檢視及管理儲存虛擬機器（ VM ）、也稱為 _SVM_ 。</block>
+  <block id="91f56feb178d52d9279c9af93f27df30" category="paragraph">使用 BlueXP 、您可以將儲存 VM 新增至適用於 ONTAP 檔案系統的 FSX 、最多可新增至允許的最大數目。請參閱 <block ref="542be7ed4bf1e8cdfb99773f949b9be5" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
+  <block id="c084220326abd184a9d2e78a0f7f567d" category="paragraph">新的儲存 VM 會新增至工作環境、以及適用於 ONTAP 檔案系統的 FSX 。</block>
+  <block id="7ba0bf32cd187085eba4e94fe5384679" category="list-text">** 管理 SVM 標籤 ** ：您可以新增、編輯或移除儲存 VM 標籤。您所做的變更將會與 AWS 管理主控台同步。</block>
+  <block id="ca8a017c08ace53c390c91889b840466" category="doc">管理適用於 ONTAP 的 FSX 磁碟區</block>
+  <block id="662cca17164a8107f426b270508c3f0c" category="paragraph">您可以新增、修改或刪除 Volume 標記。BlueXP 中新增的標記會反映在 AWS 管理主控台中。與 AWS 管理主控台同步標記可能需要一小時的時間。</block>
+  <block id="8f74db37aa07f36891b775ec6c7707fe" category="doc">為 ONTAP 的 FSX 建立 Volume</block>
+  <block id="5ba1bab3c6e50e01478602a06c56144d" category="paragraph">瞭解適用於 ONTAP 的 FSX 的新功能。</block>
+  <block id="5bcc669ee11e0eb7bdcbbbb0e0d60d52" category="sidebar">使用適用於 ONTAP 的 FSX</block>
 </blocks>
