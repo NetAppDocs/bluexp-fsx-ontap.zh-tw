@@ -85,7 +85,7 @@ summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要�
 "ec2:RevokeSecurityGroupEgress",
 "ec2:RevokeSecurityGroupIngress",
 "ec2:CreateSecurityGroup",
-"ec2:DeleteSecurityGroup"
+"ec2:DeleteSecurityGroup",
 "cloudformation:CreateStack",
 "cloudformation:ValidateTemplate",
 "cloudformation:DescribeStacks",
