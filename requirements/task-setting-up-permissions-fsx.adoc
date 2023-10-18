@@ -24,16 +24,22 @@ summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要�
 
 .步驟
 . 前往目標帳戶中的IAM主控台。
-. 在「存取管理」下、按一下*「角色」>「建立角色」*、然後依照步驟建立角色。
+. 授予 BlueXP AWS 帳戶存取權。在「存取管理」下、按一下*「角色」>「建立角色」*、然後依照步驟建立角色。
 +
 ** 在*信任的實體類型*下、選取* AWS帳戶*。
-** 選取*其他AWS帳戶*、然後輸入BlueXP的ID。
+** 選擇 * 其他 AWS 帳戶 * 並輸入 BlueXP * 帳戶 ID* ：
 +
 *** 適用於BlueXP SaaS：952013314444
 *** AWS GovCloud（美國）：033442085313
++
+
+NOTE: 為了提高安全性、建議您指定 link:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html["外部 ID_"^]。若要存取 AWS 帳戶、 BlueXP 必須提供角色 ARN （ Amazon 資源名稱）和您指定的外部 ID 。這可防止 link:https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html["混亂的副問題"^]。
 
 
-** 視需要建立包含下列必要最低權限和選用權限的原則。
+
+
+
+. 視需要建立包含下列必要最低權限和選用權限的原則。
 +
 [role="tabbed-block"]
 ====
@@ -93,9 +99,7 @@ summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要�
 ----
 --
 ====
-
-
-. 複製IAM角色的角色ARN、以便在下一步將其貼到BlueXP中。
+. 複製 IAM 角色的角色 ARN 、以便在下一步將其貼到 BlueXP 中。
 
 
 .結果
@@ -108,7 +112,7 @@ IAM角色現在擁有所需的權限。
 在您提供IAM角色所需的權限之後、請將角色ARN新增至BlueXP。
 
 .開始之前
-如果您剛建立IAM角色、可能需要幾分鐘的時間才能使用。請稍候幾分鐘、再將認證資料新增至BlueXP。
+如果您剛建立 IAM 角色、請稍候幾分鐘、讓新認證可供使用。
 
 .步驟
 . 在BlueXP主控台右上角、按一下「設定」圖示、然後選取*認證*。
@@ -118,7 +122,7 @@ image:screenshot_settings_icon.gif["顯示BlueXP主控台右上角「設定」�
 . 按一下*「Add Credential*（新增認證*）」、然後依照精靈中的步驟進行。
 +
 .. *認證資料位置*：選取* Amazon Web Services > BlueXP*。
-.. *定義認證資料*：提供IAM角色的ARN（Amazon資源名稱）。
+.. * 定義認證 * ：提供 * 認證名稱 * 、以及您在建立時所建立的 * 角色 ARN* 和 * 外部 ID* （若有指定） <<設定IAM角色>>。
 +
 [NOTE]
 ====
