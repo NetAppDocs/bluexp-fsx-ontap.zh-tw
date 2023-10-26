@@ -94,7 +94,6 @@
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="5e63cf07e8c4e2bc02fec4b907bfcc00" category="list-text">無需設定或管理儲存設備、軟體或備份。</block>
-  <block id="620d7e4da65c27b65a66bca15517b802" category="list-text">支援CIFS、NFSv3、NFSv4.x及SMB v2.0 - v3.1.1傳輸協定。</block>
   <block id="f6ad83cb7f527e383e392f709849a098" category="list-text">使用不常存取（IA）的可用儲存層、以低成本、幾乎不受限制的方式儲存資料容量。</block>
   <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">通過認證、可在對延遲敏感的應用程式（包括Oracle RAC）上執行。</block>
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">可選擇搭售和隨用隨付定價。</block>
@@ -822,4 +821,5 @@
   <block id="5490038d2be728c6d3679ab6915e87e3" category="list-text">複製 IAM 角色的角色 ARN 、以便在下一步將其貼到 BlueXP 中。</block>
   <block id="1a913f679da8e614b14423480f9ce6be" category="paragraph">如果您剛建立 IAM 角色、請稍候幾分鐘、讓新認證可供使用。</block>
   <block id="a2841ca82f44794bf8912d92f8eaf4d6" category="list-text">* 定義認證 * ：提供 * 認證名稱 * 、以及您在建立時所建立的 * 角色 ARN* 和 * 外部 ID* （若有指定） <block ref="a1061025d6c6e25a2b8607068ce69197" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1d2976e5126e0cf8526afeab66bc8fa3" category="list-text">支援 CIFS 、 iSCSI 、 NFSv3 、 NFSv4.x 及 SMB v2.0 - v3.1.1 傳輸協定。</block>
 </blocks>

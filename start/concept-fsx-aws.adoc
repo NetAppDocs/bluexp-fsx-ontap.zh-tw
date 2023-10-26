@@ -21,7 +21,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["A
 == 功能
 
 * 無需設定或管理儲存設備、軟體或備份。
-* 支援CIFS、NFSv3、NFSv4.x及SMB v2.0 - v3.1.1傳輸協定。
+* 支援 CIFS 、 iSCSI 、 NFSv3 、 NFSv4.x 及 SMB v2.0 - v3.1.1 傳輸協定。
 * 使用不常存取（IA）的可用儲存層、以低成本、幾乎不受限制的方式儲存資料容量。
 * 通過認證、可在對延遲敏感的應用程式（包括Oracle RAC）上執行。
 * 可選擇搭售和隨用隨付定價。
