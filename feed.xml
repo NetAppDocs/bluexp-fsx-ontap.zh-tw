@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluexp-fsx-ontap | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>zh-tw</language>
+    <ttl>60</ttl>
+    <pubDate>Tue, 28 Nov 2023 10:56:03 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 10:56:03 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>Amazon FSX for NetApp ONTAP 的新功能 (16 Aug 2023)</title>
+      <pubDate>Wed, 16 Aug 2023 19:42:58 +0000</pubDate>
+      <link>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/whats-new.html?time=1692214978</link>
+      <guid isPermaLink="false">Wed, 16 Aug 2023 19:42:58 +0000</guid>
+      <description><![CDATA[ 瞭解Amazon FSX for NetApp ONTAP 的新功能。 ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/start/concept-fsx-aws.html</loc>
+      
+      <lastmod>2023-10-26T17:21:42+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/</loc>
+      
+      <lastmod>2023-11-27T07:21:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/legal-notices.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/requirements/reference-security-groups-fsx.html</loc>
+      
+      <lastmod>2023-04-24T19:20:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap//search.html</loc>
+      
+      <lastmod>2023-11-28T10:53:22+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/use/task-add-fsx-svm.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/use/task-add-fsx-volumes.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/support/task-get-help.html</loc>
+      
+      <lastmod>2023-10-08T15:42:29+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/start/task-getting-started-fsx.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/use/task-manage-working-environment.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html</loc>
+      
+      <lastmod>2023-10-18T15:39:25+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/support/task-support-registration.html</loc>
+      
+      <lastmod>2023-10-08T15:42:29+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/bluexp-fsx-ontap/whats-new.html</loc>
+      
+      <lastmod>2023-08-16T19:42:58+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
