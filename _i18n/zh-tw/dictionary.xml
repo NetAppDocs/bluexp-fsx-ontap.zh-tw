@@ -65,7 +65,6 @@
   <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">探索現有ONTAP 的FSX for Sf供 資料系統使用</block>
   <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">選取AWS區域和工作環境的快照</block>
   <block id="daf8847714f7e326bcf10553bdbffa28" category="paragraph"><block ref="daf8847714f7e326bcf10553bdbffa28" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">從ONTAP 工作區中移除FSXfor Sfor</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。</block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">刪除FSX以利ONTAP 執行作業環境</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
@@ -402,7 +401,6 @@
   <block id="469d6f26b0e14d75fc0c834eeac72311" category="list-text">*認證資料位置*：選取* Amazon Web Services &gt; BlueXP*。</block>
   <block id="193ad4e55afb9be5b67589ce2fc9b33d" category="inline-link">管理適用於BlueXP的AWS認證資料</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由BlueXP產生。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">這些行動可讓BlueXP將您的nssa帳戶用於授權下載、軟體升級驗證、以及未來的支援註冊等項目。</block>
@@ -414,7 +412,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
   <block id="0f845867deaf035383ffc217279b9c7f" category="paragraph">您可以在ONTAP BlueXP中、從FSX建立及管理NFS、CIFS及iSCSI磁碟區、以利實現功能不受工作環境的需求。使用ONTAP SfCLI建立的Volume也會顯示在您的FSX中、以利ONTAP 執行各種作業環境。</block>
   <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">藍圖XP自動化文件</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">從BlueXP中存取掛載指示、以便將磁碟區掛載到主機。</block>
@@ -442,7 +439,6 @@
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">複製上述步驟2的帳戶序號、完成安全性檢查、然後確認您已閱讀NetApp的全球資料隱私權政策。</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">請務必複製上述序號欄位使用的帳戶序號（960xxxx）。這將加速帳戶處理。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">開始之前</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
@@ -473,7 +469,6 @@
   <block id="d9299eb7664af835098dc63cf4cfa0a9" category="section-title">使用作用中的Connector管理自動容量</block>
   <block id="24eab999bc6be3c2241c58c7aee7ae10" category="paragraph">您可以使用AWS中的作用中Connector來管理自動容量。</block>
   <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">選取鉛筆圖示（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）以開啟「*自動容量管理*」頁面。</block>
-  <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">註冊您的BlueXP帳戶</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。</block>
@@ -623,7 +618,6 @@
   <block id="13781b4ae41e7418f77ba4822fc32c49" category="list-text">使用 <block ref="22fc26cf6eb0c7b721364c48d2d0a99b" category="inline-link-macro-rx"></block> 此外、 AWS 中的 Connector 還能建立和管理磁碟區、複寫資料、並將適用於 ONTAP 的 FSX 與 NetApp 雲端服務整合、例如 BlueXP 分類和 BlueXP 複製與同步。</block>
   <block id="59fe7db193a00d48463a8179e319bc94" category="list-text">BlueXP 分類採用人工智慧（ AI ）導向技術、可協助您瞭解資料內容、並識別位於 ONTAP 帳戶的 FSX 中的敏感資料。<block ref="bfbb8228662c42f84be0f3c329d7d1b1" category="inline-link-rx"></block>。</block>
   <block id="5569f2aa218203754a9e5c9134bae1d2" category="list-text">使用 BlueXP 複製與同步、您可以將資料移轉至雲端或內部部署的任何目標自動化。<block ref="e1c6f4eb1848937ca1b5c90d49af3ebb" category="inline-link-rx"></block></block>
-  <block id="4a0c58afa0cf8e6e215c2321f73e0970" category="paragraph">如需 BlueXP 或 BlueXP 儲存解決方案與服務的特定技術支援問題、您可以使用 BlueXP 帳戶層級序號來開啟 NetApp 支援服務單。您需要 <block ref="0c02d88e10dc9d33a3c6d90fb8336a90" category="inline-link-macro-rx"></block> 以啟動支援。</block>
   <block id="52f0d52ceec121b410112b2a5dba2d7a" category="paragraph">使用 <block ref="22fc26cf6eb0c7b721364c48d2d0a99b" category="inline-link-macro-rx"></block>您只ONTAP 需幾個步驟、就能開始使用FSXfor Sfor而已。</block>
   <block id="c252661fa67fb818de00d332271e5952" category="paragraph">您必須擁有<block ref="752bdc7b6cc8b206a39bceaddedfafff" category="inline-link-rx"></block> 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要連接器時、如果尚未啟用、則BlueXP會提示您。</block>
   <block id="fed3b58ee53350fc679af9313a452f78" category="paragraph">接受預設的AWS主金鑰、或按一下*變更金鑰*以選取不同的AWS客戶主金鑰（CMK）。如需CMK的詳細資訊、請參閱 <block ref="8fe12519351ca8a607a9a9e011c48c01" category="inline-link-macro-rx"></block>。</block>
@@ -671,25 +665,18 @@
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要為具有序號的 ONTAP 系統開啟案例、則您的 NSS 帳戶必須與該系統的序號相關聯。</block>
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以使用下列其中一個選項尋求協助：</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。如下列所述、將 NetApp 支援網站 （ NSS ）帳戶新增至 BlueXP 即可完成登錄。</block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">註冊您的 BlueXP 帳戶以取得 NetApp 支援</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">若要註冊以取得支援並啟動支援授權、 BlueXP 帳戶中的一位使用者必須將 NetApp 支援網站 帳戶與其 BlueXP 登入建立關聯。您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">選取 * 新增 NSS 認證 * 、然後遵循 NetApp 支援網站 （ NSS ）驗證提示。</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">「 * 資源 * 」頁面應顯示您的帳戶已註冊以取得支援。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">螢幕擷取畫面會顯示帳戶序號和綠色核取方塊、以及註冊支援的文字。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">請注意、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、則不會看到此相同的支援登錄狀態。不過、這並不表示您的 BlueXP 帳戶尚未註冊支援。只要帳戶中有一位使用者已遵循這些步驟、您的帳戶就已登錄。</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是現有的 NetApp 客戶、擁有現有的授權和序號、但沒有 NSS_ 帳戶、則需要建立一個 NSS 帳戶、並將其與您的 BlueXP 登入建立關聯。</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">完成下的步驟、將新的 NSS 帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">擁有 NetApp 支援網站 帳戶後、請完成下的步驟、將帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">建立 NSS 認證的關聯、以取得 Cloud Volumes ONTAP 支援</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站 認證與 BlueXP 帳戶建立關聯：</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">註冊隨用隨付 Cloud Volumes ONTAP 系統以取得支援</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">您必須提供您的NSS帳戶、才能啟動系統支援、並取得NetApp技術支援資源的存取權。</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自帶授權（Cloud Volumes ONTAP BYOL）即可部署</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">您必須提供您的NSS帳戶、才能讓BlueXP上傳授權金鑰、並啟用您所購買期間的訂閱。這包括定期續約的自動更新。</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">升級Cloud Volumes ONTAP 更新版的更新版</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">將 NSS 認證與 BlueXP 帳戶建立關聯、與 BlueXP 使用者登入相關的 NSS 帳戶不同。</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">這些 NSS 認證會與您的特定 BlueXP 帳戶 ID 相關聯。屬於BlueXP帳戶的使用者可以從*支援&gt; nss管理*存取這些認證資料。</block>
   <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">啟用時需要下列額外權限 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>。</block>
   <block id="1a152437275e48cffd13b98c296a5e3f" category="admonition">您無法編輯在 BlueXP 中建立的 Volume 標記、直到它們與 AWS 同步為止。這可能需要一小時的時間。如果 * 管理 Volume 標記 * 選項呈現灰色、 AWS 尚未同步 Volume 標記。</block>
   <block id="982342913ed4c65e25bbc0d7a29cc903" category="paragraph">如果您先前已將 AWS 認證提供給 BlueXP 、 * 我的資產 * 可以自動探索並建議使用 BlueXP 為 ONTAP 檔案系統新增和管理的 FSX 。您也可以檢閱可用的資料服務。</block>
@@ -820,4 +807,17 @@
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="inline-link">S3</block>
   <block id="8280a5bab29babe5ff8dd3e177dfa797" category="list-text">支援 CIFS 、 iSCSI 、 NFSv3 、 NFSv4.x<block ref="97e05c9ce048cdd88b5a9f36d693565c" category="inline-link-rx"></block> 及 SMB v2.0 - v3.1.1 傳輸協定。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="39118c2827261ed85f896ab6d6f8dec3" category="inline-link-macro">註冊您的 BlueXP  組織</block>
+  <block id="93c9c71a8530b79581fe60152ffe2489" category="paragraph">如需特定於 BlueXP  或 BlueXP  儲存解決方案與服務的技術支援問題、您可以使用 BlueXP  組織層級序號來開啟 NetApp 支援服務單。您需要<block ref="3c2374b2ecb4bc5639c0b4c4162b6009" category="inline-link-macro-rx"></block>啟動支援。</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">工作環境清單位於您在服務頂端橫幅中選取的 BlueXP  組織（或帳戶）、專案（或工作區）和 Connector 範圍內。</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">註冊您的 BlueXP  帳戶序號（您的 20 位數 960xxxxxxxxx 序號位於 BlueXP  的「支援資源」頁面）。</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">註冊 BlueXP  以獲得 NetApp 支援</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">若要註冊取得支援並啟動支援授權、您 BlueXP  組織（或帳戶）中的一位使用者必須將 NetApp 支援網站帳戶與其 BlueXP  登入建立關聯。您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">「 * 資源 * 」頁面應顯示您的 BlueXP  組織已註冊取得支援。</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">請注意、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、則不會看到此相同的支援登錄狀態。不過、這並不表示您的 BlueXP  組織尚未註冊取得支援。只要組織中有一位使用者遵循這些步驟、您的組織就已註冊。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">請務必複製上述序號欄位使用的帳戶序號（960xxxx）。這將加快處理速度。</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站認證與您的 BlueXP  組織建立關聯：</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">將 NSS 認證與您的 BlueXP  組織建立關聯、不同於與 BlueXP  使用者登入相關聯的 NSS 帳戶。</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
+  <block id="43bfe52d70c7aa3f5d364396cd6ec3fd" category="section-title">從專案或工作區移除適用於 ONTAP 的 FSX</block>
 </blocks>

@@ -67,4 +67,4 @@ Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如需與�
 
 如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。
 
-如需 BlueXP 或 BlueXP 儲存解決方案與服務的特定技術支援問題、您可以使用 BlueXP 帳戶層級序號來開啟 NetApp 支援服務單。您需要 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/support/task-support-registration.html["註冊您的BlueXP帳戶"^] 以啟動支援。
+如需特定於 BlueXP  或 BlueXP  儲存解決方案與服務的技術支援問題、您可以使用 BlueXP  組織層級序號來開啟 NetApp 支援服務單。您需要link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/support/task-support-registration.html["註冊您的 BlueXP  組織"^]啟動支援。

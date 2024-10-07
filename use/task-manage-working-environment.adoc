@@ -114,7 +114,7 @@ image:screenshot-configure-iops.png["頁面快照、可變更儲存容量和IOPS
 
 
 
-== 從ONTAP 工作區中移除FSXfor Sfor
+== 從專案或工作區移除適用於 ONTAP 的 FSX
 
 您可以從 BlueXP 移除適用於 ONTAP 的 FSX 、而無需刪除您的帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sf有效 工作環境新增回藍圖XP。
 
