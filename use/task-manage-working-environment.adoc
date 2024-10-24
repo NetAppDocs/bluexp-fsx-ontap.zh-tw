@@ -23,7 +23,7 @@ BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動�
 您可以選擇啟用自動容量管理、以根據需求新增遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並以叢集最大容量的10%或80%為增量、自動增加儲存容量。
 
 
-NOTE: 如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將新總容量的IOPS每GiB增加3 IOPS。如果您指定IOPS值、BlueXP將不會調整IOPS。如需設定IOPS的詳細資訊、請參閱 link:task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["建立工作環境"]。
+NOTE: 如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將新總容量的IOPS每GiB增加3 IOPS。如果您指定IOPS值、BlueXP將不會調整IOPS。如需設定 IOPS 的詳細link:task-creating-fsx-working-environment.html["建立工作環境"]資訊、請參閱。
 
 自動容量管理預設為停用。您可以在AWS中使用或不使用作用中的Connector來管理自動容量。
 

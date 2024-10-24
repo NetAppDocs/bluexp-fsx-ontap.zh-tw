@@ -459,7 +459,6 @@
   <block id="9123b1a896e43bd47ae8708d015514ba" category="section-title">管理自動容量</block>
   <block id="1c05e31e27d15b210cdcb01d01331c36" category="paragraph">您可以選擇啟用自動容量管理、以根據需求新增遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並以叢集最大容量的10%或80%為增量、自動增加儲存容量。</block>
   <block id="0b77a63f8ac25e1cd8509e906523f459" category="inline-link-macro">建立工作環境</block>
-  <block id="0185df25abbf3744285dd03ec2704b86" category="admonition">如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將新總容量的IOPS每GiB增加3 IOPS。如果您指定IOPS值、BlueXP將不會調整IOPS。如需設定IOPS的詳細資訊、請參閱 <block ref="54a688b79e41730a76924297f5ac42a6" category="inline-link-macro-rx"></block>。</block>
   <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">自動容量管理預設為停用。您可以在AWS中使用或不使用作用中的Connector來管理自動容量。</block>
   <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">無需使用作用中的Connector即可管理自動容量</block>
   <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">您可以在AWS中管理自動容量、而無需使用作用中的Connector。</block>
@@ -820,4 +819,5 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">將 NSS 認證與您的 BlueXP  組織建立關聯、不同於與 BlueXP  使用者登入相關聯的 NSS 帳戶。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
   <block id="43bfe52d70c7aa3f5d364396cd6ec3fd" category="section-title">從專案或工作區移除適用於 ONTAP 的 FSX</block>
+  <block id="6c6cfde7c92a73ae5e1266396d6657d9" category="admonition">如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將新總容量的IOPS每GiB增加3 IOPS。如果您指定IOPS值、BlueXP將不會調整IOPS。如需設定 IOPS 的詳細<block ref="a0c1e5541590cfd29c35eef67f286e58" category="inline-link-macro-rx"></block>資訊、請參閱。</block>
 </blocks>
