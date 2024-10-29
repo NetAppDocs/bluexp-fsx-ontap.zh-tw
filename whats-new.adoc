@@ -20,6 +20,10 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 == 2023 年 7 月 30 日
 
+
+
+=== 支援另外三個區域
+
 客戶現在可以在三個新的 AWS 區域建立適用於 NetApp ONTAP 檔案系統的 Amazon FSX ：歐洲（蘇黎世）、歐洲（西班牙）和亞太（海德拉巴）。
 
 請參閱 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["Amazon FSX for NetApp ONTAP 現已在另外三個地區推出"^] 以取得完整詳細資料。
@@ -28,29 +32,57 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 == 2023 年 7 月 2 日
 
-* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
-* 「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
 
+
+=== 新增儲存 VM
+
+您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
+
+
+
+=== ** 我的商機 ** 索引標籤現在是 ** 我的資產 **
+
+「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
 
 
 
 == 2023 年 6 月 4 日
 
-* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
-* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
 
+
+=== 維護期間開始時間
+
+何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+
+
+
+=== 使用 FlexGroups 散佈 Volume 資料
+
+何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
 
 
 
 == 2023 年 5 月 7 日
 
-* 建立工作環境時、您現在可以使用 BlueXP link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["產生安全性群組"^] 僅允許所選 VPC 內的流量。此功能 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["需要額外權限"^]。
-* 您也可以選擇 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["新增"^] 和 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["修改"^] 分類磁碟區的標籤。
 
+
+=== 產生安全性群組
+
+建立工作環境時、您現在可以使用 BlueXP  link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["產生安全性群組"]、僅允許所選 VPC 內的流量。此功能link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["需要額外權限"]。
+
+
+
+=== 新增或修改標記
+
+您可以選擇性地link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["新增"]和link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["修改"]標記來分類磁碟區。
 
 
 
 == 2023 年 4 月 2 日
+
+
+
+=== IOPS 上限增加
 
 IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。
 
@@ -58,46 +90,81 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 == 2023年3月5日
 
+
+
+=== 使用者介面已增強
+
 使用者介面已進行改善、文件中已更新螢幕擷取畫面。
 
 
 
 == 2023年1月1日
 
-您現在可以選擇啟用 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["自動容量管理"^] 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並以 10% 為增量自動增加儲存容量、最高可達叢集容量的 80% 。
+
+
+=== 自動容量管理
+
+您現在可以選擇啟用link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["自動容量管理"]、根據需求新增遞增儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動增加儲存容量、增量為叢集最大容量的 10% 至 80% 。
 
 
 
 == 2022年9月18日
 
-您現在可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#change-storage-capacity-and-IOPS["變更儲存容量和IOPS"^] 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、
+
+
+=== 變更儲存容量和IOPS
+
+您現在可以link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#change-storage-capacity-and-IOPS["變更儲存容量和IOPS"]在建立適用於 ONTAP 工作環境的 FSX 之後、隨時使用。
 
 
 
 == 2022年7月31日
 
-* 如果您先前已將 AWS 認證提供給 Cloud Manager 、新的 * My 莊園 * 功能可自動探索並建議使用 Cloud Manager 來新增和管理 ONTAP 檔案系統的 FSX 。您也可以透過「 * 我的資產 * 」標籤來檢閱可用的資料服務。
-+
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["使用 My 莊園探索適用於 ONTAP 的 FSX"^]
 
-* 您現在可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#change-throughput-capacity["變更處理量容量"^] 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、
-* 您現在可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["複寫及同步資料"^] 內部部署和其他FSXfor ONTAP the Sfor the Sfor the Sfor the ONTAP 資料來源、使用FSXfor the Sfor the資料來源。
-* 您現在可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["使用ONTAP Cloud Manager在FSXF中建立iSCSI Volume以供其使用"^]。
 
+=== * 我的遺產 * 功能
+
+如果您先前已將 AWS 認證提供給 Cloud Manager 、新的 * My 莊園 * 功能可自動探索並建議使用 Cloud Manager 來新增和管理 ONTAP 檔案系統的 FSX 。您也可以透過「 * 我的資產 * 」標籤來檢閱可用的資料服務。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["使用 My 莊園探索適用於 ONTAP 的 FSX"]
+
+
+
+=== 變更處理量容量
+
+您現在可以link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#change-throughput-capacity["變更處理量容量"]在建立適用於 ONTAP 工作環境的 FSX 之後、隨時使用。
+
+
+
+=== 複寫及同步資料
+
+您現在可以link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["複寫及同步資料"]使用適用於 ONTAP 的 FSX 作為來源、將內部部署和其他適用於 ONTAP 系統的 FSX 用於內部部署。
+
+
+
+=== 建立 iSCSI Volume
+
+您現在可以了link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["使用ONTAP Cloud Manager在FSXF中建立iSCSI Volume以供其使用"]。
 
 
 
 == 2022年7月3日
 
-* 您現在可以選取單一或多個可用度區域HA部署模式。
-+
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["建立FSX以利ONTAP 不工作環境"^]
-
-* Cloud Manager現在支援AWS GovCloud帳戶驗證。
-+
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html#set-up-the-iam-role["設定IAM角色"^]
 
 
+=== 支援單一或多重可用度 Zon
+
+您現在可以選取單一或多個可用度區域HA部署模式。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["建立FSX以利ONTAP 不工作環境"]
+
+
+
+=== 支援 GovCloud 帳戶驗證
+
+Cloud Manager現在支援AWS GovCloud帳戶驗證。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html#set-up-the-iam-role["設定IAM角色"]
 
 
 
@@ -109,7 +176,7 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up
 
 當您建立FSXfor ONTAP the Sfor the Syn可使用 環境時、您現在必須提供IAM角色的ARN、Cloud Manager可用來建立FSXfor ONTAP the Synfrole工作環境。您先前需要提供AWS存取金鑰。
 
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["瞭解如何設定FSX for ONTAP Sfor Sfor Sfor的權限"^]。
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["瞭解如何設定FSX for ONTAP Sfor Sfor Sfor的權限"]。
 
 
 
@@ -125,7 +192,7 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up
 
 === 建立Volume時、請選取Volume單位
 
-您可以 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["建立磁碟區時、請選取Volume單位（GiB或TiB）"^] FSX ONTAP for Sfor Sf.
+您可以link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["建立磁碟區時、請選取Volume單位（GiB或TiB）"]在適用於 ONTAP 的 FSX 中使用。
 
 
 
@@ -135,13 +202,13 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up
 
 === 使用Cloud Manager建立CIFS Volume
 
-現在您可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["使用ONTAP Cloud Manager在FSXF中建立CIFS Volume以供其使用"^]。
+現在您可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["使用ONTAP Cloud Manager在FSXF中建立CIFS Volume以供其使用"]。
 
 
 
 === 使用Cloud Manager編輯Volume
 
-現在您可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#editing-volumes["使用ONTAP Cloud Manager編輯FSXfor Sf2 Volume"^]。
+現在您可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#editing-volumes["使用ONTAP Cloud Manager編輯FSXfor Sf2 Volume"]。
 
 
 
@@ -153,11 +220,11 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up
 
 * link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX for NetApp ONTAP 產品"^] 是一項完整的託管服務、可讓客戶啟動及執行採用NetApp ONTAP 的一套資訊儲存作業系統的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。
 +
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["瞭解Amazon FSX for NetApp ONTAP 的功能"^]。
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["瞭解Amazon FSX for NetApp ONTAP 的功能"]。
 
 * 您可以在ONTAP Cloud Manager中設定FSXfor Sfor Sfor Sfor Sf有效 工作環境。
 +
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html["建立Amazon FSX for NetApp ONTAP 的作業環境"^]。
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html["建立Amazon FSX for NetApp ONTAP 的作業環境"]。
 
 * 使用AWS和Cloud Manager中的Connector、您可以建立及管理磁碟區、複寫資料、並將FSX for ONTAP 效益與NetApp雲端服務整合、例如Data Sense和Cloud Sync Sf4。
 +

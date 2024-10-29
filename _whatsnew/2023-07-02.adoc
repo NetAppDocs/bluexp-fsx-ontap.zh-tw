@@ -1,0 +1,15 @@
+= 新增儲存 VM
+:allow-uri-read: 
+
+
+
+
+=== 新增儲存 VM
+
+您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
+
+
+
+=== ** 我的商機 ** 索引標籤現在是 ** 我的資產 **
+
+「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
