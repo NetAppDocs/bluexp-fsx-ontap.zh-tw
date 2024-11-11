@@ -1,0 +1,11 @@
+= 適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合
+:allow-uri-read: 
+
+
+
+
+=== 適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合
+
+ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX"^]

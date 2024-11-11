@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: start/concept-fsx-aws.html 
 keywords: Amazon FSx for NetApp ONTAP, volumes, aws, access key, secret key, cloud manager 
-summary: Amazon FSX for NetApp ONTAP 是一項完全託管的服務、可讓客戶啟動及執行 NetApp ONTAP 儲存作業系統所支援的檔案系統。FSX for ONTAP VMware提供NetApp客戶目前內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。 
+summary: Amazon FSX for NetApp ONTAP 是一項完全託管的服務、可讓客戶啟動及執行 NetApp ONTAP 儲存作業系統所支援的檔案系統。 
 ---
 = 瞭解Amazon FSX for NetApp ONTAP 的功能
 :hardbreaks:
@@ -15,6 +15,14 @@ summary: Amazon FSX for NetApp ONTAP 是一項完全託管的服務、可讓客�
 
 [role="lead"]
 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX for NetApp ONTAP 產品"^] 是一項完全託管的服務、可讓客戶啟動及執行 NetApp ONTAP 儲存作業系統所支援的檔案系統。FSX for ONTAP VMware提供NetApp客戶在內部部署所使用的相同功能、效能和管理功能、以及原生AWS服務的簡易性、敏捷度、安全性和擴充性。
+
+
+
+== 在 BlueXP  中使用適用於 ONTAP 的 FSX
+
+您可以從 BlueXP  Canvas 建立和探索適用於 ONTAP 工作環境的 FSX ，使用系統管理員和其他 BlueXP  服務，以及檢視認證。如果您想要管理使用適用於 ONTAP 檔案系統的 FSX 的認證和工作負載，請使用 https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["BlueXP  工作負載工廠"^]。
+
+link:../use/task-creating-fsx-working-environment.html["深入瞭解如何在 BlueXP  中使用適用於 ONTAP 的 FSX"^]。
 
 
 
@@ -31,18 +39,25 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["A
 
 == BlueXP的其他功能
 
-* 在 _Standard_ 或 _Restricted 模式下使用 BlueXP 時、支援適用於 ONTAP 的 FSX 。
-+
-** 標準模式利用 BlueXP SaaS 層提供完整功能。
-** 受限模式適用於有連線限制的組織。
+* 在 _Standard_ 模式下使用 BlueXP  時，支援適用於 ONTAP 的 FSX ，此模式利用 BlueXP  SaaS 層來提供完整功能。
 +
 請參閱 link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["BlueXP 部署模式"^] 以取得更多資訊。
-
-
 
 * 使用 link:https://docs.netapp.com/us-en/bluexp-family/["藍圖"^] 此外、 AWS 中的 Connector 還能建立和管理磁碟區、複寫資料、並將適用於 ONTAP 的 FSX 與 NetApp 雲端服務整合、例如 BlueXP 分類和 BlueXP 複製與同步。
 * BlueXP 分類採用人工智慧（ AI ）導向技術、可協助您瞭解資料內容、並識別位於 ONTAP 帳戶的 FSX 中的敏感資料。 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["深入瞭解"^]。
 * 使用 BlueXP 複製與同步、您可以將資料移轉至雲端或內部部署的任何目標自動化。 https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["深入瞭解"^]
+
+
+
+
+== 連接器和連結可解除鎖定所有適用於 ONTAP 功能的 FSX
+
+連接器和連結可在 BlueXP  和 Amazon FSX 之間建立連線，並建立信任關係，以利 NetApp ONTAP 工作環境。BlueXP  Connector 是在雲端或內部部署網路中執行的 NetApp 軟體，而連結則使用 AWS Lambda 來執行 NetApp 程式碼。您不需要連接器或連結即可開始使用 BlueXP  或為 ONTAP 工作環境建立 FSX ，但您需要使用連接器或連結來充分利用適用於 ONTAP 功能的 FSX 。
+
+深入瞭解連接器和連結，以及何時應使用這些連結：
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["深入瞭解連接器"^]。
+* https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["深入瞭解連結"^]。
 
 
 
@@ -63,7 +78,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 == 取得協助
 
-Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如需與適用於 ONTAP 檔案系統、基礎架構或任何使用此服務的解決方案的 FSX 相關的問題或技術支援問題、請使用 AWS 管理主控台的支援中心、開啟 AWS 的支援案例。選取「FSXfor ONTAP Sf1」服務和適當的類別。提供建立AWS支援案例所需的其餘資訊。
+Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如需與適用於 ONTAP 工作環境，基礎架構或任何使用此服務的解決方案的 FSX 相關的問題或技術支援問題，請使用 AWS 管理主控台的支援中心，開啟 AWS 的支援案例。選取「適用於 ONTAP 的 FSX 」服務和適當類別。提供建立AWS支援案例所需的其餘資訊。
 
 如需有關BlueXP或BlueXP儲存解決方案與服務的一般問題、請從線上的BlueXP聊天開始。
 

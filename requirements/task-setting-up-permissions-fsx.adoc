@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: requirements/task-setting-up-permissions-fsx.html 
-keywords: fsx for ontap, iam, user role, permissions, aws govcloud, govcloud, credentials 
+keywords: fsx for ontap, iam, user role, permissions, credentials 
 summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要將 AWS 認證新增至 BlueXP 、方法是提供 IAM 角色的 ARN 、讓 BlueXP 擁有為 ONTAP 工作環境建立 FSX 所需的權限。 
 ---
 = 設定FSXfor ONTAP Sfor Sfor的權限
@@ -18,134 +18,192 @@ summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要�
 
 
 
-== 設定IAM角色
+== 為何需要 AWS 認證
 
-設定IAM角色、讓BlueXP能夠承擔角色。
+在 BlueXP  中建立和管理 ONTAP 工作環境的 FSX 時，需要 AWS 認證。您可以建立新的 AWS 認證，或將 AWS 認證新增至現有的 BlueXP  組織。認證可讓 BlueXP  擁有管理 AWS 雲端環境中資源和程序所需的權限。
+
+認證和權限是透過 BlueXP  工作負載工廠進行管理。BlueXP  工作負載工廠是生命週期管理平台，旨在協助使用者使用 Amazon FSX 來最佳化 NetApp ONTAP 檔案系統的工作負載。BlueXP  使用與 BlueXP  工作負載工廠相同的 AWS 認證和權限集。
+
+工作負載原廠介面可讓 BlueXP  使用者選擇啟用儲存， VMware ，資料庫和 GenAI 等工作負載功能，以及選擇工作負載的權限。_Storage_ 是工作負載工廠的儲存管理功能，也是您唯一需要啟用及新增認證以建立及管理 ONTAP 檔案系統的 FSX 的功能。
+
+
+
+== 關於這項工作
+
+在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html.html["深入瞭解操作模式"]。
+
+可從 BlueXP  設定 > * 認證 * 頁面檢視新的和現有的 AWS 認證。
+
+您可以使用兩種方法新增認證：
+
+* * 手動 * ：在工作負載工廠中新增認證時，您可以在 AWS 帳戶中建立 IAM 原則和 IAM 角色。
+* * 自動 * ：您擷取的權限相關資訊量最少、然後使用 CloudForgation 堆疊來建立您認證的 IAM 原則和角色。
+
+
+
+
+== 手動新增認證至帳戶
+
+您可以手動將 AWS 認證新增至 BlueXP  ，為您的帳戶提供管理 AWS 資源所需的權限，以便用來執行獨特的工作負載。您新增的每組認證都會根據您要使用的工作負載功能、包括一或多個 IAM 原則、以及指派給您帳戶的 IAM 角色。
+
+建立認證有三個部分：
+
+* 選取您要使用的服務和權限層級、然後從 AWS 管理主控台建立 IAM 原則。
+* 從 AWS 管理主控台建立 IAM 角色。
+* 從 BlueXP  的工作負載輸入名稱並新增認證。
+
+
+若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要將 AWS 認證新增至 BlueXP 、方法是提供 IAM 角色的 ARN 、讓 BlueXP 擁有為 ONTAP 工作環境建立 FSX 所需的權限。
+
+.開始之前
+您必須擁有認證才能登入 AWS 帳戶。
 
 .步驟
-. 前往目標帳戶中的IAM主控台。
-. 授予 BlueXP AWS 帳戶存取權。在「存取管理」下、按一下*「角色」>「建立角色」*、然後依照步驟建立角色。
+. 在 BlueXP  主控台中，選取 * 設定 * 圖示，然後選取 * 認證 * 。
+. 選取 * 新增認證 * 。
+. 選擇 * Amazon Web Services* ， * FSX for ONTAP * ，然後選擇 * Next* 。
 +
-** 在*信任的實體類型*下、選取* AWS帳戶*。
-** 選擇 * 其他 AWS 帳戶 * 並輸入 BlueXP * 帳戶 ID* ：
+您現在已在 BlueXP  工作負載工廠的 * 新增認證 * 頁面上。
+
+. 選取 * 手動新增 * 、然後依照下列步驟填寫 _ 權限組態 _ 下的三個區段。
 +
-*** 適用於BlueXP SaaS：952013314444
-*** AWS GovCloud（美國）：033442085313
+image:screenshot-add-credentials-manually.png["螢幕擷取畫面會顯示您需要手動定義每組認證的項目。"]
+
+
+
+
+
+=== 步驟 1 ：選取工作負載功能並建立 IAM 原則
+
+在本節中、您將選擇哪些類型的工作負載功能可作為這些認證的一部分進行管理、以及為每個工作負載啟用的權限。您需要從 Codebox 複製每個選取工作負載的原則權限、並將其新增至 AWS 帳戶內的 AWS 管理主控台、以建立原則。
+
+image:screenshot-create-policies-manual.png["螢幕擷取畫面顯示哪些類型的工作負載功能可在這些認證中作為原則的一部分進行管理。"]
+
+.步驟
+. 在 * 建立原則 * 區段中、啟用您要納入這些認證的每項工作負載功能。啟用 * 儲存 * 來建立及管理檔案系統。
 +
+您可以稍後新增其他功能、只要選取您目前想要部署及管理的工作負載即可。
 
-NOTE: 為了提高安全性、建議您指定 link:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html["外部 ID_"^]。若要存取 AWS 帳戶、 BlueXP 必須提供角色 ARN （ Amazon 資源名稱）和您指定的外部 ID 。這可防止 link:https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html["混亂的副問題"^]。
+. 對於提供權限等級選擇（自動化或讀取）的工作負載功能，請選取這些認證可用的權限類型。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["瞭解權限，也稱為作業模式"^]。
+. 在 Codebox 視窗中、複製第一個 IAM 原則的權限。
+. 開啟另一個瀏覽器視窗、然後在 AWS 管理主控台登入 AWS 帳戶。
+. 開啟 IAM 服務、然後選取 * 原則 * > * 建立原則 * 。
+. 選取 JSON 做為檔案類型、貼上您在步驟 3 中複製的權限、然後選取 * 下一步 * 。
+. 輸入原則名稱、然後選取 * 建立原則 * 。
+. 如果您在步驟 1 中選取了多個工作負載功能、請重複這些步驟、為每組工作負載權限建立原則。
 
 
 
 
+=== 步驟 2 ：建立使用原則的 IAM 角色
 
-. 視需要建立包含下列必要最低權限和選用權限的原則。
+在本節中、您將設定一個 IAM 角色、由 Workload Factory 假設其中包含您剛建立的權限和原則。
+
+image:screenshot-create-role.png["顯示哪些權限將成為新角色一部分的螢幕擷取畫面。"]
+
+.步驟
+. 在 AWS 管理主控台中、選取 * 角色 > 建立角色 * 。
+. 在*信任的實體類型*下、選取* AWS帳戶*。
 +
-[role="tabbed-block"]
-====
-.必要權限
---
-以下是允許 BlueXP 為 NetApp ONTAP 檔案系統建立 FSX 所需的最低權限。
+.. 選取 * 另一個 AWS 帳戶 * ，然後從 BlueXP  工作負載原廠使用者介面複製並貼上用於 ONTAP 工作負載管理的 FSX 帳戶 ID 。
+.. 選取 * 必要的外部 ID* ，然後從 BlueXP  工作負載使用者介面複製並貼上外部 ID 。
 
+
+. 選擇*下一步*。
+. 在權限原則區段中、選擇您先前定義的所有原則、然後選取 * 下一步 * 。
+. 輸入角色名稱、然後選取 * 建立角色 * 。
+. 複製角色 ARN 。
+. 返回 BlueXP  工作負載新增認證頁面，展開 * 建立角色 * 區段，然後將 ARN 貼到 _Role ARN_ 欄位。
+
+
+
+
+=== 步驟 3 ：輸入名稱並新增認證
+
+最後一步是在 BlueXP  工作負載工廠中輸入認證名稱。
+
+.步驟
+. 從 BlueXP  工作負載新增認證頁面，展開 * 認證名稱 * 。
+. 輸入您要用於這些認證的名稱。
+. 選取 * 新增 * 以建立認證。
+
+
+.結果
+您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。
+
+
+
+== 使用 CloudForgation 將認證新增至帳戶
+
+您可以使用 AWS CloudForgation 堆疊，將 AWS 認證新增至 BlueXP  工作負載，方法是選取您要使用的工作負載功能，然後在 AWS 帳戶中啟動 AWS CloudForgation 堆疊。CloudForgation 將根據您所選的工作負載功能、建立 IAM 原則和 IAM 角色。
+
+.開始之前
+* 您必須擁有認證才能登入 AWS 帳戶。
+* 使用 CloudForgation 堆疊新增認證時、您必須在 AWS 帳戶中擁有下列權限：
++
 [source, json]
 ----
 {
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
-                "fsx:*",
-                "ec2:Describe*",
-                "ec2:CreateTags",
-                "iam:CreateServiceLinkedRole",
-                "kms:Describe*",
-                "kms:List*",
-                "kms:CreateGrant"
+                "cloudformation:CreateStack",
+                "cloudformation:UpdateStack",
+                "cloudformation:DeleteStack",
+                "cloudformation:DescribeStacks",
+                "cloudformation:DescribeStackEvents",
+                "cloudformation:DescribeChangeSet",
+                "cloudformation:ExecuteChangeSet",
+                "cloudformation:ListStacks",
+                "cloudformation:ListStackResources",
+                "cloudformation:GetTemplate",
+                "cloudformation:ValidateTemplate",
+                "lambda:InvokeFunction",
+                "iam:PassRole",
+                "iam:CreateRole",
+                "iam:UpdateAssumeRolePolicy",
+                "iam:AttachRolePolicy",
+                "iam:CreateServiceLinkedRole"
             ],
             "Resource": "*"
         }
     ]
 }
 ----
---
-.自動容量
---
-啟用時需要下列額外權限 link:../use/task-manage-working-environment.html["自動容量管理"]。
 
-[source, json]
-----
-"cloudwatch:GetMetricData",
-"cloudwatch:GetMetricStatistics"
-----
---
-.安全性群組
---
-需要下列額外權限才能允許 BlueXP link:../use/task-creating-fsx-working-environment.html["產生安全性群組"]。
-
-[source, json]
-----
-"ec2:AuthorizeSecurityGroupEgress",
-"ec2:AuthorizeSecurityGroupIngress",
-"ec2:RevokeSecurityGroupEgress",
-"ec2:RevokeSecurityGroupIngress",
-"ec2:CreateSecurityGroup",
-"ec2:DeleteSecurityGroup",
-"cloudformation:CreateStack",
-"cloudformation:ValidateTemplate",
-"cloudformation:DescribeStacks",
-"cloudformation:DescribeStackEvents"
-----
---
-====
-. 複製 IAM 角色的角色 ARN 、以便在下一步將其貼到 BlueXP 中。
-
-
-.結果
-IAM角色現在擁有所需的權限。
-
-
-
-== 新增認證資料
-
-在您提供IAM角色所需的權限之後、請將角色ARN新增至BlueXP。
-
-.開始之前
-如果您剛建立 IAM 角色、請稍候幾分鐘、讓新認證可供使用。
 
 .步驟
-. 在BlueXP主控台右上角、按一下「設定」圖示、然後選取*認證*。
+. 在 BlueXP  主控台中，選取 * 設定 * 圖示，然後選取 * 認證 * 。
+. 選取 * 新增認證 * 。
+. 選擇 * Amazon Web Services* ， * FSX for ONTAP * ，然後選擇 * Next* 。您現在已在 BlueXP  工作負載工廠的 * 新增認證 * 頁面上。
+. 選取 * 透過 AWS CloudForgium* 新增。
 +
-image:screenshot_settings_icon.gif["顯示BlueXP主控台右上角「設定」圖示的快照。"]
+image:screenshot-add-credentials-cloudformation.png["螢幕擷取畫面會顯示需要定義的項目、然後才能啟動 CloudForgation 以建立認證。"]
 
-. 按一下*「Add Credential*（新增認證*）」、然後依照精靈中的步驟進行。
+. 在 * 建立原則 * 下、啟用您要納入這些認證的每項工作負載功能、並為每個工作負載選擇權限等級。
 +
-.. *認證資料位置*：選取* Amazon Web Services > BlueXP*。
-.. * 定義認證 * ：提供 * 認證名稱 * 、以及您在建立時所建立的 * 角色 ARN* 和 * 外部 ID* （若有指定） <<設定IAM角色>>。
+您可以稍後新增其他功能、只要選取您目前想要部署及管理的工作負載即可。
+
+. 在 * 認證名稱 * 下、輸入您要用於這些認證的名稱。
+. 從 AWS CloudForgation 新增認證：
 +
-[NOTE]
-====
-*** 如果您使用AWS GovCloud（US）帳戶、請勾選*我使用AWS GovCloud（US）帳戶*。
+.. 選取 * 新增 * （或選取 * 重新導向至 CloudForgium* ）、隨即顯示重新導向至 CloudForgation 頁面。
 +
-image:screenshot-govcloud-checkbox.png["「GovCloud（US）帳戶」核取方塊的快照。"]
+image:screenshot-redirect-cloudformation.png["螢幕快照顯示如何建立 CloudForgation 堆疊以新增原則，以及工作負載工廠認證的角色。"]
 
-*** 使用AWS GovCloud驗證將會停用SaaS平台。這是對您帳戶的永久變更、無法復原。
+.. 如果您將單一登入（ SSO ）與 AWS 搭配使用、請先開啟另一個瀏覽器索引標籤、然後登入 AWS 主控台、再選取 * 繼續 * 。
++
+您應該登入 ONTAP 檔案系統的 FSX 所在的 AWS 帳戶。
 
-
-====
-.. *審查*：確認新認證資料的詳細資料、然後按一下*新增*。
+.. 從「重新導向至 CloudForgation 」頁面選取 * 繼續 * 。
+.. 在「快速建立堆疊」頁面的「功能」下、選取 * 我瞭解 AWS CloudForgation 可能會建立 IAM 資源 * 。
+.. 選取 * 建立堆疊 * 。
+.. 返回 BlueXP  工作負載工廠，並從功能表圖示開啟「認證」頁面，以確認新認證正在進行中，或已新增認證。
 
 
 
 
 .結果
-您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。
-
-
-
-== 相關連結
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-accounts-aws.html["AWS 認證與權限"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html["管理適用於BlueXP的AWS認證資料"^]
-
+您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。

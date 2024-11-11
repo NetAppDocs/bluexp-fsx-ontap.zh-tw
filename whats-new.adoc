@@ -18,6 +18,18 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 
 
+== 2024 年 11 月 11 日
+
+
+
+=== 適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合
+
+ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX"^]
+
+
+
 == 2023 年 7 月 30 日
 
 
@@ -43,6 +55,22 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 === ** 我的商機 ** 索引標籤現在是 ** 我的資產 **
 
 「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
+
+
+
+== 2023 年 6 月 4 日
+
+
+
+=== 維護期間開始時間
+
+何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+
+
+
+=== 使用 FlexGroups 散佈 Volume 資料
+
+何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
 
 
 

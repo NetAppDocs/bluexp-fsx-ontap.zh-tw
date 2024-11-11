@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
 keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
-summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量和儲存容量及 IOPS 、移除或刪除工作環境、以及管理資料服務、例如備份與還原、複製與同步、分類、複寫及磁碟區快取。 
+summary: 在 BlueXP  中建立或探索適用於 ONTAP 工作環境的 FSX 之後，您可以管理檔案系統，並使用提供備份與還原等功能的 BlueXP  資料服務。 
 ---
-= 管理適用於 ONTAP 工作環境的 FSX
+= 管理 ONTAP 檔案系統的 FSX
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,161 +14,68 @@ summary: BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟�
 
 
 [role="lead"]
-BlueXP可讓您管理FSXfor ONTAP Sfor Sfa工作環境。您可以啟用自動容量管理、變更處理量和儲存容量及 IOPS 、移除或刪除工作環境、以及管理資料服務、例如備份與還原、複製與同步、分類、複寫及磁碟區快取。
+在 BlueXP  中建立或探索適用於 ONTAP 工作環境的 FSX 之後，您可以建立磁碟區，管理儲存 VM ，保護資料，以及管理檔案系統，來管理檔案系統。BlueXP  也可讓您使用資料服務，提供備份與還原，資料分類，資料同步等功能。
 
 
 
-== 管理自動容量
+== 使用 BlueXP  工作負載工廠管理檔案系統
 
-您可以選擇啟用自動容量管理、以根據需求新增遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並以叢集最大容量的10%或80%為增量、自動增加儲存容量。
+當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將進入 BlueXP  工作負載工廠。工作負載工廠是一項智慧型最佳化與自動化服務，採用業界最佳實務做法，使用 Amazon FSX for NetApp ONTAP 來設計，設定及操作關鍵工作負載。
 
+https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["瞭解如何使用 BlueXP  工作負載工廠來管理檔案系統"^]
 
-NOTE: 如果您在建立工作環境時未手動指定IOPS值、則BlueXP會將新總容量的IOPS每GiB增加3 IOPS。如果您指定IOPS值、BlueXP將不會調整IOPS。如需設定 IOPS 的詳細link:task-creating-fsx-working-environment.html["建立工作環境"]資訊、請參閱。
 
-自動容量管理預設為停用。您可以在AWS中使用或不使用作用中的Connector來管理自動容量。
 
+== 使用 ONTAP 系統管理員管理檔案系統
 
+如果您熟悉 ONTAP 系統管理員，可以使用 ONTAP 系統管理員介面，直接從 BlueXP  管理適用於 ONTAP 的 FSX 檔案系統。
 
-=== 無需使用作用中的Connector即可管理自動容量
+image:screenshot-system-manager.png["選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。"]
 
-您可以在AWS中管理自動容量、而無需使用作用中的Connector。
 
-.步驟
-. 選取畫布上的工作環境、然後選取 * 輸入工作環境 * 。
-. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*自動容量管理*」頁面。
-+
 
-NOTE: 所有其他選項都需要連接器、而且已停用。
+== 將 BlueXP  資料服務與檔案系統搭配使用
 
-+
-** 選取此方塊以啟用自動容量管理。
-** 如果先前已啟用自動容量管理、請取消選取此方塊。
+將 BlueXP  資料服務與適用於 ONTAP 檔案系統的 FSX 搭配使用，可備份及恢復資料，傳輸及同步資料，掃描及分類資料，複寫資料，並加速存取或卸載流量。
 
+image:screenshot-data-services.png["選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。"]
 
-. 選擇*應用*。
 
 
+=== 備份及恢復資料
 
+BlueXP  備份與還原服務可為內部部署和雲端的 NetApp ONTAP 資料，資料庫和虛擬機器提供高效率，安全且具成本效益的資料保護。
 
-=== 使用作用中的Connector管理自動容量
+https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["開始使用 BlueXP  備份與還原"^]
 
-您可以使用AWS中的作用中Connector來管理自動容量。
 
-.步驟
-. 開啟FSX,以利ONTAP 執行不工作環境。
-. 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
-. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*自動容量管理*」頁面。
-. 在*自動容量管理*頁面上：
-+
-** 選取此方塊以啟用自動容量管理。
-** 如果先前已啟用自動容量管理、請取消選取此方塊。
 
+=== 傳輸與同步資料
 
-. 選擇*應用*。
+BlueXP 複製與同步是一種雲端複寫與同步服務、可在內部部署與雲端物件儲存區之間傳輸 NAS 資料。
 
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["開始使用 BlueXP  複本與同步"^]
 
 
 
-== 變更處理量容量
+=== 掃描及分類資料
 
-您可以在建立FSXfor ONTAP the Sfor the Sfor the S甚麼 工作環境之後、隨時變更處理量容量。
+BlueXP 分類可讓您在組織的混合式多雲端環境中掃描及分類資料。
 
-.開始之前
-您需要使用中的 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS的連接器"^]。
+https://docs.netapp.com/us-en/bluexp-classification/index.html["開始使用 BlueXP  分類"^]
 
-.步驟
-. 開啟FSX,以利ONTAP 執行不工作環境。
-. 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
-. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*處理量容量*」編輯頁面。
-. 從下拉式清單中選取新的處理量容量、然後選取*更新*。此變更可能需要25分鐘才能生效、而且不會中斷資料存取。
 
 
+=== 複寫資料
 
+BlueXP  複寫可讓您在 ONTAP 儲存系統之間複寫資料，以支援備份與災難恢復至雲端或雲端之間。
 
-== 變更儲存容量和IOPS
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["開始使用 BlueXP  複寫"^]
 
-您可以在建立FSXfor ONTAP the S甚麼 工作環境之後、隨時變更儲存容量和IOPS。
 
-.開始之前
-您需要使用中的 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS的連接器"^]。
 
-.步驟
-. 開啟FSX,以利ONTAP 執行不工作環境。
-. 從* Overview（概述）*選項卡中選擇* Features（*功能）*。
-. 選取鉛筆圖示（image:icon-pencil.png["鉛筆編輯圖示的影像。"]）以開啟「*儲存容量與IOPS *」編輯頁面。
-. 您可以每六小時變更一次儲存容量和IOPS。如果您嘗試更頻繁地進行變更、就會收到錯誤訊息。
-+
-image:screenshot-configure-iops.png["頁面快照、可變更儲存容量和IOPS值。"]
+=== 加速存取或卸載流量
 
-+
-[NOTE]
-====
-** 建議的最大儲存容量使用率為80%、以維持資料分層效能、並允許額外資料的容量。
-** 選擇 * 自動 * IOPS 、主儲存設備的每 GiB 平均配置的 SSD IOPS 可維持高達 160,000 的比率。您無法手動配置大於 160,000 的 IOPS 值。
+BlueXP  Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。
 
-
-====
-. 勾選此核取方塊、確認您瞭解變更的儲存容量會影響到FSXfor ONTAP the Service的成本、而且無法在六小時內進行其他變更。
-. 選擇*更新*以確認您的變更。
-
-
-
-
-== 從專案或工作區移除適用於 ONTAP 的 FSX
-
-您可以從 BlueXP 移除適用於 ONTAP 的 FSX 、而無需刪除您的帳戶或磁碟區。您可以ONTAP 隨時將FSX for the Sfor the Sfor the Sfor the Sf有效 工作環境新增回藍圖XP。
-
-.步驟
-. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續移除工作環境。
-. 在頁面右上角、選取動作功能表、然後選取*從工作區移除*。
-+
-image:screenshot_fsx_working_environment_remove.png["從ONTAP BluevXP介面移除FSXfor Sf更新 選項的快照。"]
-
-. 選取*移除*、從ONTAP BlueXP移除FSX*以供支援。
-
-
-
-
-== 刪除FSX以利ONTAP 執行作業環境
-
-您可以從ONTAP BlueXP刪除FSXfor Sfor
-
-
-WARNING: 此動作將會刪除與工作環境相關的所有資源。此動作無法復原。
-
-.開始之前
-在刪除工作環境之前、您必須：
-
-* 中斷此工作環境的所有複寫關係。
-* link:task-manage-fsx-volumes.html#delete-volumes["刪除所有Volume"] 與檔案系統相關聯。您將需要AWS中的作用中連接器來移除或刪除磁碟區。
-+
-
-NOTE: 故障磁碟區必須使用AWS管理主控台或CLI刪除。
-
-
-
-.步驟
-. 開啟工作環境。如果AWS中沒有Connector、您會看到提示畫面。您可以忽略這一點、然後繼續刪除工作環境。
-. 在頁面右上角、選取動作功能表、然後選取*刪除*。
-+
-image:screenshot_fsx_working_environment_delete.png["從ONTAP BluevXP介面刪除FSXfor Sf更新 選項的快照。"]
-
-. 輸入工作環境的名稱、然後選取*刪除*。
-
-
-
-
-== 管理資料服務
-
-您可以從適用於 ONTAP 工作環境的 FSX 管理其他資料服務。
-
-image:data-services.png["工作環境中資料服務索引標籤的螢幕擷取畫面"]
-
-如需設定資料服務的詳細資訊、請參閱：
-
-* link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXP 備份與還原"^] 為內部部署和雲端的 NetApp ONTAP 資料、 Kubernetes 持續容量、資料庫和虛擬機器提供高效率、安全且具成本效益的資料保護。
-* link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["BlueXP 複製與同步"^] 是一種雲端複寫與同步服務、用於在內部部署與雲端物件儲存區之間傳輸 NAS 資料。
-* link:https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP 分類"^] 可讓您在組織的混合式多雲端環境中掃描及分類資料。
-* link:https://docs.netapp.com/us-en/bluexp-replication/index.html["複寫資料"^] 在 ONTAP 儲存系統之間、支援備份與災難恢復至雲端或雲端之間。
-* link:https://docs.netapp.com/us-en/bluexp-volume-caching/index.html["Volume 快取"^] 在遠端位置提供持續的可寫入磁碟區。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。
-
+https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["開始使用 BlueXP  Volume 快取"^]

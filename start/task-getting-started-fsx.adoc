@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: start/task-getting-started-fsx.html 
-keywords: Amazon FSx for NetApp ONTAP, fsx, netapp, data fabric, hybrid cloud, cloud, public cloud, networking, vpc, quick, getting started, install, installing, deploy, deploying, setup, setting up, launching, requirements, prerequisites, bluexp website, get started, network, vpn, tier, tiering, storage tier, data tier, granting, permissions, policy, iam policy, policies, attach, iam user, access key, secret key, keys, sign up, cloud manager, create 
-summary: 使用BlueXP、您只ONTAP 需幾個步驟、就能開始使用FSX for Sfin。 
+keywords: Amazon FSx for NetApp ONTAP, fsx, netapp, data fabric, hybrid cloud, cloud, public cloud, networking, vpc, quick, getting started, install, installing, deploy, deploying, setup, setting up, launching, requirements, prerequisites, bluexp website, get started, permissions, policy, iam policy, policies, attach, iam user, access key, secret key, keys, sign up, cloud manager, create 
+summary: 在 BlueXP  中新增認證，建立連接器或連結，以及建立或探索檔案系統，即可開始使用 Amazon FSX for NetApp ONTAP 。 
 ---
 = Amazon FSX for NetApp ONTAP 的快速入門
 :hardbreaks:
@@ -14,23 +14,25 @@ summary: 使用BlueXP、您只ONTAP 需幾個步驟、就能開始使用FSX for 
 
 
 [role="lead"]
-使用 link:https://docs.netapp.com/us-en/bluexp-family/["藍圖"^]您只ONTAP 需幾個步驟、就能開始使用FSXfor Sfor而已。
+在 BlueXP  中新增認證，建立連接器或連結，以及建立或探索適用於 ONTAP 檔案系統的 FSX ，以開始使用 Amazon FSX for NetApp ONTAP 。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 在AWS中設定IAM角色
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] link:../requirements/task-setting-up-permissions-fsx.html["新增認證和權限"]
 [role="quick-margin-para"]
-若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要將 AWS 認證新增至 BlueXP 、方法是提供 IAM 角色的 ARN 、讓 BlueXP 擁有為 ONTAP 工作環境建立 FSX 所需的權限。若要這麼做、您必須 link:../requirements/task-setting-up-permissions-fsx.html["設定IAM角色、讓BlueXP SaaS能夠承擔角色"]。
+需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在 _ 自動化權限 _ 和 _ 讀取權限 _ 之間進行選擇。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 建立FSX以利ONTAP 不工作環境
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["三"]建立 Connector 或連結
 [role="quick-margin-para"]
-您必須 link:../use/task-creating-fsx-working-environment.html["為 ONTAP 工作環境建立 FSX"] 在新增磁碟區之前。
+您可能需要 BlueXP  Connector 或 BlueXP  工作負載原廠連結，才能管理適用於 ONTAP 檔案系統的 FSX 。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 建立AWS的Connector
 [role="quick-margin-para"]
-您必須擁有 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["AWS連接器"^] 若要開啟FSXfor ONTAP the Sfor the Sfor the Sf12工作環境、建立磁碟區或執行其他動作。需要連接器時、如果尚未啟用、則BlueXP會提示您。
+_Connector_ 是您在 VPC 中部署的虛擬機器，用於管理 ONTAP 檔案系統的 FSX 。A _LINK_ 運用 AWS Lambda 建立信任關係，並與適用於 ONTAP 檔案系統的 FSX 連線。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四"] 新增及掛載磁碟區
+[role="quick-margin-list"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-install-options-aws.html["瞭解如何在 AWS 中建立 Connector"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["瞭解如何建立內部部署的 Connector"^]
+* https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["瞭解如何建立連結"^]
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["二"] link:../use/task-creating-fsx-working-environment.html["建立或探索適用於 ONTAP 工作環境的 FSX"]
 [role="quick-margin-para"]
-您可以 link:../use/task-add-fsx-volumes.html["建立並掛載適用於SfSX ONTAP Volume的FSX"] 使用BlueXP：
-
-.下一步
-您現在可以使用 BlueXP 來管理您的磁碟區、並設定複寫、複製和同步、分類等其他服務。
+直接從 BlueXP  建立適用於 ONTAP 檔案系統的 FSX ，或探索您已在 AWS 環境中建立的檔案系統。
