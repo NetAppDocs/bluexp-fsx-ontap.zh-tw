@@ -348,7 +348,6 @@
   <block id="e0b4e8575b26211ee68cab758d1b0cac" category="paragraph">認證和權限是透過 BlueXP  工作負載工廠進行管理。BlueXP  工作負載工廠是生命週期管理平台，旨在協助使用者使用 Amazon FSX 來最佳化 NetApp ONTAP 檔案系統的工作負載。BlueXP  使用與 BlueXP  工作負載工廠相同的 AWS 認證和權限集。</block>
   <block id="2ffc5ab59f8fac9a9a3376e281855295" category="paragraph">工作負載原廠介面可讓 BlueXP  使用者選擇啟用儲存， VMware ，資料庫和 GenAI 等工作負載功能，以及選擇工作負載的權限。_Storage_ 是工作負載工廠的儲存管理功能，也是您唯一需要啟用及新增認證以建立及管理 ONTAP 檔案系統的 FSX 的功能。</block>
   <block id="4dacf6e0adb6ed0f64acd514a486bf8a" category="inline-link-macro">深入瞭解操作模式</block>
-  <block id="8ac3c34b26a8ad6f8186c49f54f40eaf" category="paragraph">在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。<block ref="c4601583893f884c96ed3090be0e6e80" category="inline-link-macro-rx"></block>。</block>
   <block id="3d8d24e33543a3c398a30850c79b37d8" category="paragraph">可從 BlueXP  設定 &gt; * 認證 * 頁面檢視新的和現有的 AWS 認證。</block>
   <block id="df21e6f22445f7e313093546a4762e64" category="paragraph">您可以使用兩種方法新增認證：</block>
   <block id="a8d22daacb593b2058549a21847e76f3" category="list-text">* 手動 * ：在工作負載工廠中新增認證時，您可以在 AWS 帳戶中建立 IAM 原則和 IAM 角色。</block>
@@ -421,39 +420,28 @@
   <block id="7407a944f7ba648de83a8109aee6d270" category="summary">Amazon FSX for NetApp ONTAP 是一項完全託管的服務、可讓客戶啟動及執行 NetApp ONTAP 儲存作業系統所支援的檔案系統。</block>
   <block id="748db65cf4725be2bd3a1588440913cd" category="section-title">在 BlueXP  中使用適用於 ONTAP 的 FSX</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作負載工廠</block>
-  <block id="1442063ab43a42a128dde83e435a2f6d" category="paragraph">您可以從 BlueXP  Canvas 建立和探索適用於 ONTAP 工作環境的 FSX ，使用系統管理員和其他 BlueXP  服務，以及檢視認證。如果您想要管理使用適用於 ONTAP 檔案系統的 FSX 的認證和工作負載，請使用<block ref="809afc2f4cb79e608d46f9e3b3ede420" category="inline-link-rx"></block>。</block>
-  <block id="4e7416eb82a2e30218ab1c99273593ee" category="inline-link-macro">深入瞭解如何在 BlueXP  中使用適用於 ONTAP 的 FSX</block>
-  <block id="973b0ef3d620a958146d42029fbba63d" category="paragraph"><block ref="b27f119c0608bd87391dbe77bfc6d870" category="inline-link-macro-rx"></block>。</block>
-  <block id="15e6df97d428ddc84a8106eefd03191e" category="list-text">在 _Standard_ 模式下使用 BlueXP  時，支援適用於 ONTAP 的 FSX ，此模式利用 BlueXP  SaaS 層來提供完整功能。</block>
-  <block id="1f591ada027cd358af1a8dabc6fa8457" category="section-title">連接器和連結可解除鎖定所有適用於 ONTAP 功能的 FSX</block>
   <block id="fa564e78bdca67738e4bb0ed90a354d5" category="paragraph">連接器和連結可在 BlueXP  和 Amazon FSX 之間建立連線，並建立信任關係，以利 NetApp ONTAP 工作環境。BlueXP  Connector 是在雲端或內部部署網路中執行的 NetApp 軟體，而連結則使用 AWS Lambda 來執行 NetApp 程式碼。您不需要連接器或連結即可開始使用 BlueXP  或為 ONTAP 工作環境建立 FSX ，但您需要使用連接器或連結來充分利用適用於 ONTAP 功能的 FSX 。</block>
   <block id="9b814365a691fc676cf3a5574ded54ef" category="paragraph">深入瞭解連接器和連結，以及何時應使用這些連結：</block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link">深入瞭解連接器</block>
   <block id="ff1ab22026d632586425b679cb5f7ff1" category="list-text"><block ref="dfe0add539943e53dd2a136d10c9015c" category="inline-link-rx"></block>。</block>
   <block id="6015cd2e9e5bc5b037ad456163cc26cb" category="inline-link">深入瞭解連結</block>
   <block id="58bc5bc51e764e92b9b768fcc5d8ae0c" category="list-text"><block ref="cea96a6659ee3b63722518018a5e6659" category="inline-link-rx"></block>。</block>
-  <block id="040539721ee712cdb5b6a4e1be2583d0" category="paragraph">Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如需與適用於 ONTAP 工作環境，基礎架構或任何使用此服務的解決方案的 FSX 相關的問題或技術支援問題，請使用 AWS 管理主控台的支援中心，開啟 AWS 的支援案例。選取「適用於 ONTAP 的 FSX 」服務和適當類別。提供建立AWS支援案例所需的其餘資訊。</block>
   <block id="38e2d42dcf4b784aff50b561adf13042" category="summary">在 BlueXP  中新增認證，建立連接器或連結，以及建立或探索檔案系統，即可開始使用 Amazon FSX for NetApp ONTAP 。</block>
   <block id="f9448640bc8e190207efd1db5c109cbc" category="paragraph">在 BlueXP  中新增認證，建立連接器或連結，以及建立或探索適用於 ONTAP 檔案系統的 FSX ，以開始使用 Amazon FSX for NetApp ONTAP 。</block>
   <block id="c947186ad38a1acff7e8d20be0248c51" category="inline-link-macro">新增認證和權限</block>
   <block id="867ca12036002c9fdf7da7b1fe3485ca" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="0280736b18477edd6313066237675a4e" category="inline-link-macro-rx"></block></block>
   <block id="1163d914fc07d294d21b206f711f0f5c" category="paragraph">需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在 _ 自動化權限 _ 和 _ 讀取權限 _ 之間進行選擇。</block>
-  <block id="4d803378c47b49b85bec0d2c6673dd59" category="paragraph-title"><block ref="4b6bbaeae9b6799ee02ea5158d279251" category="inline-image-macro-rx" type="image"></block>建立 Connector 或連結</block>
-  <block id="cb672b364b83d661939e69954ea51520" category="paragraph">您可能需要 BlueXP  Connector 或 BlueXP  工作負載原廠連結，才能管理適用於 ONTAP 檔案系統的 FSX 。</block>
-  <block id="139b65c0f5a2c5923fd4ac3f3076884d" category="paragraph">_Connector_ 是您在 VPC 中部署的虛擬機器，用於管理 ONTAP 檔案系統的 FSX 。A _LINK_ 運用 AWS Lambda 建立信任關係，並與適用於 ONTAP 檔案系統的 FSX 連線。</block>
   <block id="74d2f2a8ee613c321072e364f7ed33b2" category="inline-link">瞭解如何在 AWS 中建立 Connector</block>
   <block id="016f0cc4b9d1f1cf5dbe0851b121b350" category="list-text"><block ref="016f0cc4b9d1f1cf5dbe0851b121b350" category="inline-link-rx"></block></block>
   <block id="b926732963e0a721fc9fc28ea36c9483" category="inline-link">瞭解如何建立內部部署的 Connector</block>
   <block id="ace4ad83034f6e2478fdd24d9c154d39" category="list-text"><block ref="ace4ad83034f6e2478fdd24d9c154d39" category="inline-link-rx"></block></block>
   <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link">瞭解如何建立連結</block>
   <block id="35d312ad6c576252ccfa87842dc6e767" category="list-text"><block ref="35d312ad6c576252ccfa87842dc6e767" category="inline-link-rx"></block></block>
-  <block id="9024d70f5c0f3ddffbb9ed71f25969d1" category="paragraph-title"><block ref="4f954e3aac01b1dc982b61d245b37a02" category="inline-image-macro-rx" type="image"></block> <block ref="401532355c6c08ea243135435dce843b" category="inline-link-macro-rx"></block></block>
   <block id="b2a85c53ddb7bee961b7a27a16d75cbe" category="paragraph">直接從 BlueXP  建立適用於 ONTAP 檔案系統的 FSX ，或探索您已在 AWS 環境中建立的檔案系統。</block>
   <block id="e36cc635d251cd5b0a182729d1625bd1" category="paragraph">第一步是為 ONTAP 工作環境或檔案系統建立 FSX 。如果您已經在 AWS 管理主控台中建立 ONTAP 檔案系統的 FSX ，您可以<block ref="f0e62c6abb102491f5e44c803b014bee" category="inline-link-macro-rx"></block>。</block>
   <block id="1633ddc656802ead23bcb179d8c7fcad" category="paragraph">建立檔案系統時會建立儲存 VM 。</block>
   <block id="d0e7f7527c3a0ceae557c9f12bb1d5e7" category="paragraph">在為 ONTAP 檔案系統建立 FSX 之前、您需要：</block>
   <block id="bf2ef084e923ce6ebc4b57db27892de8" category="inline-link-macro">瞭解如何授予 AWS 帳戶權限</block>
-  <block id="55ebfcf1e5b88b9c99a5ee4ee0bb9cd3" category="list-text">IAM 角色的 ARN 、賦予工作負載工廠為 ONTAP 檔案系統建立 FSX 所需的權限。<block ref="c674ec525346aa467f22330499ae60f6" category="inline-link-macro-rx"></block>。</block>
   <block id="aba4a700f63e9801b4211989fc2b559f" category="list-text">您將在其中建立FSX以利ONTAP 執行個體的區域和VPC資訊。</block>
   <block id="2fdd0cbe402a8ae2149e0cdf4e1d9b9c" category="section-title">為 ONTAP 檔案系統建立 FSX</block>
   <block id="c7f1094806f4a7907a28dc01a1473f90" category="inline-link-macro">瞭解如何使用 Codebox 進行自動化</block>
@@ -537,7 +525,6 @@
   <block id="f463d3e9a8e7f33d29b10b45e1c1b792" category="inline-link">瞭解如何使用 BlueXP  工作負載工廠來管理檔案系統</block>
   <block id="3da6761ab924c0b71bfdd78b6137c4d1" category="paragraph"><block ref="3da6761ab924c0b71bfdd78b6137c4d1" category="inline-link-rx"></block></block>
   <block id="9a7d7fe4ea2506122f2a5355c685706e" category="section-title">使用 ONTAP 系統管理員管理檔案系統</block>
-  <block id="2b1aa05589ed9cdb128a75d86ce3e560" category="paragraph">如果您熟悉 ONTAP 系統管理員，可以使用 ONTAP 系統管理員介面，直接從 BlueXP  管理適用於 ONTAP 的 FSX 檔案系統。</block>
   <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。</block>
   <block id="3dba4e614d87a8373424f60ec23a5f81" category="paragraph"><block ref="3dba4e614d87a8373424f60ec23a5f81" category="inline-image-macro-rx" type="image"></block></block>
   <block id="537b06a9fc5f2181195e399203ea4df5" category="section-title">將 BlueXP  資料服務與檔案系統搭配使用</block>
@@ -564,4 +551,30 @@
   <block id="02a2d5dac7e811fa480b87a01b7c8754" category="paragraph"><block ref="02a2d5dac7e811fa480b87a01b7c8754" category="inline-link-rx"></block></block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024 年 11 月 11 日</block>
   <block id="cf9ae4b94802ab988b8884ed9bf12509" category="sidebar">Amazon FSX 適用於使用 BlueXP  的 NetApp ONTAP 管理</block>
+  <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">如果您想要使用 _advanced view_ 選項來管理使用 ONTAP 系統管理員的 ONTAP 檔案系統 FSX ，現在您可以在選取工作環境之後，從 BlueXP  畫布中找到該選項。</block>
+  <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1de58d4f64d081fb97f1d591f6b96a7c" category="paragraph">在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
+  <block id="d8030aec0b616170c1d448f645629048" category="paragraph">從 BlueXP  畫布中，您可以建立和探索適用於 ONTAP 工作環境的 FSX ，並使用系統管理員和其他 BlueXP  服務。如果您想要管理在 Amazon FSX for NetApp ONTAP 上執行的 ONTAP 工作環境和工作負載的 FSX ，請使用<block ref="809afc2f4cb79e608d46f9e3b3ede420" category="inline-link-rx"></block>。</block>
+  <block id="080bf239eab90228128570c1dcff727d" category="inline-link-macro">瞭解如何在 BlueXP  中建立及探索適用於 ONTAP 工作環境的 FSX</block>
+  <block id="cb955ea4bb940d72f2e54584baf5cad0" category="paragraph"><block ref="245fb4ba49d4510f0ab7c36a85ac006b" category="inline-link-macro-rx"></block>。</block>
+  <block id="497ebbc25c8f867ad9d53f7b6c16b326" category="list-text">在 _Standard_ 模式下使用 BlueXP  時，支援適用於 ONTAP 的 FSX ，此模式利用 BlueXP  SaaS 層來提供完整功能。不支援 _Restricted 模式和 _Private 模式。</block>
+  <block id="4a4f82407af5107bc1a19e3f298040a0" category="section-title">連接器和連結可解除鎖定所有適用於 ONTAP 功能的 FSX</block>
+  <block id="79ba9ae91870b4f56a5ad623d9d6cc16" category="paragraph">您需要連接器或連結才能使用下列功能：</block>
+  <block id="ab887a13e0e43ab14f26aa4139d3931e" category="list-text">顯示安裝在適用於 ONTAP 檔案系統的 FSX 上的 ONTAP 版本</block>
+  <block id="6a0bbe6ca6ca13a9f69ba22ff72d4db9" category="list-text">管理系統上的 iSCSI 磁碟區</block>
+  <block id="f713a1eba4a310a7dee6e6148031ac90" category="list-text">啟用和停用 Volume 的自動擴充功能</block>
+  <block id="b688472ba5c5b20a13e35de55bbd243e" category="list-text">建立及管理快照原則</block>
+  <block id="607207d543b313ae2d9720c777e7a286" category="list-text">設定複寫關係、並在檔案系統之間複寫磁碟區</block>
+  <block id="f39a1ae39e9d73b3a9aa6c431f9fb9d4" category="list-text">設定備份關係、並將 Volume 資料備份至雲端儲存設備</block>
+  <block id="f15997f78fd09915dc098e9c00579d74" category="list-text">在檔案系統中複製磁碟區</block>
+  <block id="12f68de27d579f57f0f70762ccd96328" category="list-text">直接從 ONTAP 顯示其他指標（ Amazon CloudWatch 會收集預設指標）</block>
+  <block id="310e8bd2aa0fbf766664a8fadbb86083" category="list-text">NFS 匯出原則的管理</block>
+  <block id="d6d578d7902b08905b3aaecc2b6d1d8a" category="paragraph">Amazon FSX for NetApp ONTAP 的功能是AWS的第一方解決方案。如需與適用於 ONTAP 檔案系統、基礎架構或任何使用此服務的解決方案的 FSX 相關的問題或技術支援問題、請使用 AWS 管理主控台的支援中心、開啟 AWS 的支援案例。選取「適用於 ONTAP 的 FSX 」服務和適當類別。提供建立AWS支援案例所需的其餘資訊。</block>
+  <block id="f4e893e1ef301532d19ee55595aae17a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>選用：建立連接器或連結</block>
+  <block id="41d5093bb5f29af62a706f04427d8907" category="paragraph">若要從 BlueXP  執行某些管理工作，您需要 BlueXP  Connector 或 BlueXP  工作負載原廠連結。_Connector_ 是您在 VPC 中部署的虛擬機器，用於管理 ONTAP 檔案系統的 FSX 。A _LINK_ 運用 AWS Lambda 建立信任關係，並與適用於 ONTAP 檔案系統的 FSX 連線。</block>
+  <block id="7b4b5f49e92ebcde2ae17d1a9788ef69" category="inline-link-macro">瞭解何時需要連接器或連結才能進行 ONTAP 管理</block>
+  <block id="dfc2ddbb1af198e530e42bbfa71313a2" category="list-text"><block ref="dfc2ddbb1af198e530e42bbfa71313a2" category="inline-link-macro-rx"></block></block>
+  <block id="6cabc65b89f99f38b4824d1241bd15a3" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="401532355c6c08ea243135435dce843b" category="inline-link-macro-rx"></block></block>
+  <block id="4364b9162c48ee2ca000144e249c6a3e" category="list-text">IAM 角色的 ARN 、賦予工作負載工廠為 ONTAP 檔案系統建立 FSX 所需的權限。<block ref="f28bfe0f9eab78a4f7a8c2891d2dbc22" category="inline-link-macro-rx"></block>。</block>
+  <block id="b8a87fcf328823bb52cca677b8438c33" category="paragraph">您可以使用 ONTAP 系統管理員介面，直接從 BlueXP  管理適用於 ONTAP 檔案系統的 FSX 。使用 System Manager 需要 Connector 。</block>
 </blocks>

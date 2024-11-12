@@ -30,7 +30,7 @@ summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要�
 
 == 關於這項工作
 
-在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html.html["深入瞭解操作模式"]。
+在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["深入瞭解操作模式"]。
 
 可從 BlueXP  設定 > * 認證 * 頁面檢視新的和現有的 AWS 認證。
 

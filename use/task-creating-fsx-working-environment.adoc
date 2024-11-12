@@ -28,7 +28,7 @@ summary: 使用BlueXP、您可以建立或探索適用於ONTAP 各種運作環�
 .開始之前
 在為 ONTAP 檔案系統建立 FSX 之前、您需要：
 
-* IAM 角色的 ARN 、賦予工作負載工廠為 ONTAP 檔案系統建立 FSX 所需的權限。link:task-setting-up-permissions-fsx.html["瞭解如何授予 AWS 帳戶權限"^]。
+* IAM 角色的 ARN 、賦予工作負載工廠為 ONTAP 檔案系統建立 FSX 所需的權限。link:../requirements/task-setting-up-permissions-fsx.html["瞭解如何授予 AWS 帳戶權限"^]。
 * 您將在其中建立FSX以利ONTAP 執行個體的區域和VPC資訊。
 
 

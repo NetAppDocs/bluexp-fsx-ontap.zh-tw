@@ -28,7 +28,7 @@ https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["瞭解如何使用 
 
 == 使用 ONTAP 系統管理員管理檔案系統
 
-如果您熟悉 ONTAP 系統管理員，可以使用 ONTAP 系統管理員介面，直接從 BlueXP  管理適用於 ONTAP 的 FSX 檔案系統。
+您可以使用 ONTAP 系統管理員介面，直接從 BlueXP  管理適用於 ONTAP 檔案系統的 FSX 。使用 System Manager 需要 Connector 。
 
 image:screenshot-system-manager.png["選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。"]
 
