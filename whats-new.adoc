@@ -52,7 +52,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 新增儲存 VM
 
-您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
+您現在可以使用 BlueXP  將儲存 VM 新增至 Amazon FSX for NetApp ONTAP 檔案系統。
 
 
 
@@ -68,13 +68,13 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 維護期間開始時間
 
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+當link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]時，您可以指定每週 30 分鐘維護時間的開始時間，以確保維護不會與關鍵業務活動衝突。
 
 
 
 === 使用 FlexGroups 散佈 Volume 資料
 
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
+建立磁碟區時，您可以建立 FlexGroup 來跨磁碟區散佈資料，以啟用資料最佳化。
 
 
 
@@ -84,13 +84,13 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 維護期間開始時間
 
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+當link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]時，您可以指定每週 30 分鐘維護時間的開始時間，以確保維護不會與關鍵業務活動衝突。
 
 
 
 === 使用 FlexGroups 散佈 Volume 資料
 
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
+建立磁碟區時，您可以建立 FlexGroup 來跨磁碟區散佈資料，以啟用資料最佳化。
 
 
 
@@ -106,7 +106,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 新增或修改標記
 
-您可以選擇性地link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["新增"]和link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["修改"]標記來分類磁碟區。
+您可以選擇性地新增和修改標記來分類磁碟區。
 
 
 
@@ -170,13 +170,13 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-workin
 
 === 複寫及同步資料
 
-您現在可以link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["複寫及同步資料"]使用適用於 ONTAP 的 FSX 作為來源、將內部部署和其他適用於 ONTAP 系統的 FSX 用於內部部署。
+您現在可以使用適用於 ONTAP 的 FSX 做為來源，將資料複寫並同步到內部部署和其他適用於 ONTAP 系統的 FSX 。
 
 
 
 === 建立 iSCSI Volume
 
-您現在可以了link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["使用ONTAP Cloud Manager在FSXF中建立iSCSI Volume以供其使用"]。
+您現在可以使用 Cloud Manager 在適用於 ONTAP 的 FSX 中建立 iSCSI Volume 。
 
 
 
@@ -224,7 +224,7 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up
 
 === 建立Volume時、請選取Volume單位
 
-您可以link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["建立磁碟區時、請選取Volume單位（GiB或TiB）"]在適用於 ONTAP 的 FSX 中使用。
+在 ONTAP 的 FSX 中建立 Volume 時，您可以選擇 Volume 單位（ GiB 或 TiB ）。
 
 
 
@@ -234,13 +234,13 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up
 
 === 使用Cloud Manager建立CIFS Volume
 
-現在您可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["使用ONTAP Cloud Manager在FSXF中建立CIFS Volume以供其使用"]。
+現在您可以使用 Cloud Manager 在適用於 ONTAP 的 FSX 中建立 CIFS Volume 。
 
 
 
 === 使用Cloud Manager編輯Volume
 
-現在您可以了 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#editing-volumes["使用ONTAP Cloud Manager編輯FSXfor Sf2 Volume"]。
+現在您可以使用 Cloud Manager 編輯適用於 ONTAP Volume 的 FSX 。
 
 
 

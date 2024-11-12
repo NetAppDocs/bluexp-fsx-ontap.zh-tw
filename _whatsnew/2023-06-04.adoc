@@ -6,10 +6,10 @@
 
 === 維護期間開始時間
 
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+當link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]時，您可以指定每週 30 分鐘維護時間的開始時間，以確保維護不會與關鍵業務活動衝突。
 
 
 
 === 使用 FlexGroups 散佈 Volume 資料
 
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
+建立磁碟區時，您可以建立 FlexGroup 來跨磁碟區散佈資料，以啟用資料最佳化。

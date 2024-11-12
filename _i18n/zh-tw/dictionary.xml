@@ -44,12 +44,9 @@
   <block id="5b80dcfe3dbe5a2279a764bb895220e8" category="section-title">使用Cloud Manager API建立iSCSI Volume</block>
   <block id="c9901681b19037cfe4d776eb572a7a6b" category="paragraph">您可以ONTAP 使用Cloud Manager API為FSX建立iSCSI Volume以供使用、並在工作環境中加以管理。</block>
   <block id="1b06c7a9314e682b34302ac90d6d6650" category="section-title">建立Volume時、請選取Volume單位</block>
-  <block id="155385bf6757f064143eb321fbfd3bff" category="inline-link-macro">建立磁碟區時、請選取Volume單位（GiB或TiB）</block>
   <block id="d1c47d8bf748c203ff983262e6c108cb" category="section-title">2021年10月4日</block>
   <block id="2ac9dc8f932fa4bebfc31724e388e13a" category="section-title">使用Cloud Manager建立CIFS Volume</block>
-  <block id="901f92bd8486511c3943b59dd9b9f6a4" category="inline-link-macro">使用ONTAP Cloud Manager在FSXF中建立CIFS Volume以供其使用</block>
   <block id="1664cbd7cbe0abbcd6d133e652cd42c1" category="section-title">使用Cloud Manager編輯Volume</block>
-  <block id="7a6930a21ad40feae487321aef61a969" category="inline-link-macro">使用ONTAP Cloud Manager編輯FSXfor Sf2 Volume</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
   <block id="9d2704a937df8ec429bf2446953b2687" category="list-text">您可以在ONTAP Cloud Manager中設定FSXfor Sfor Sfor Sfor Sf有效 工作環境。</block>
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">設定FSXfor ONTAP Sfor Sfor的權限</block>
@@ -72,8 +69,6 @@
   <block id="8539ab4c6f55c58d2fab4f2b3261bde9" category="section-title">變更處理量容量</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">變更處理量容量</block>
-  <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">複寫及同步資料</block>
-  <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">使用ONTAP Cloud Manager在FSXF中建立iSCSI Volume以供其使用</block>
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">建立或探索工作環境</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
@@ -201,8 +196,6 @@
   <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023 年 5 月 7 日</block>
   <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">產生安全性群組</block>
   <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">需要額外權限</block>
-  <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">新增</block>
-  <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">修改</block>
   <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">BlueXP 部署模式</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
@@ -224,9 +217,6 @@
   <block id="9392a234f812a64a7add82bf3ea440ce" category="paragraph"><block ref="6c403399a6912b636ecf2c35a037d6c1" category="inline-link-macro-rx"></block>。</block>
   <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">2023 年 6 月 4 日</block>
   <block id="b11363dc7ad08609dacf71adabc1e3d7" category="inline-link-macro">創造工作環境</block>
-  <block id="c21d5cf174dc36531d6990b13fe89573" category="list-text">何時 <block ref="ad9408e39808bf9ea4b07fa95cac5798" category="inline-link-macro-rx"></block>、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。</block>
-  <block id="e2ba73f0e5661996e4350de09efee512" category="inline-link-macro">建立 Volume</block>
-  <block id="fabdf5de30f7e7084ae6656930904d1d" category="list-text">何時 <block ref="1bfb452ce23fdd4301ee99a62317a7a6" category="inline-link-macro-rx"></block>、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。</block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">瞭解如何管理與 BlueXP 登入相關的認證</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">若要使用 * 建立案例 * 功能、您必須先將 NetApp 支援網站 認證與 BlueXP 登入建立關聯。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>。</block>
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要為具有序號的 ONTAP 系統開啟案例、則您的 NSS 帳戶必須與該系統的序號相關聯。</block>
@@ -250,8 +240,6 @@
   <block id="4343b2bdc884cb638429641e12c0514c" category="section-title">新增儲存 VM</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複寫資料</block>
   <block id="942e802a236d6542c0c6f797428d8abb" category="section-title">2023 年 7 月 2 日</block>
-  <block id="d41b120a4f792ebe6195de3355c6309a" category="inline-link-macro">新增儲存 VM</block>
-  <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">您現在可以了 <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block> 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。</block>
   <block id="c835313828dae8f6f2e19118949a05ce" category="list-text">「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。</block>
   <block id="8427e95422b20518ebfdf9669981c983" category="list-text">如果您先前已將 AWS 認證提供給 Cloud Manager 、新的 * My 莊園 * 功能可自動探索並建議使用 Cloud Manager 來新增和管理 ONTAP 檔案系統的 FSX 。您也可以透過「 * 我的資產 * 」標籤來檢閱可用的資料服務。</block>
   <block id="690df0feee64ee1dfd9e2fabd3bd7196" category="inline-link-macro">使用 My 莊園探索適用於 ONTAP 的 FSX</block>
@@ -316,7 +304,6 @@
   <block id="e2be93aaa649a645aba11243985c766e" category="section-title">產生安全性群組</block>
   <block id="aad99a875ad0c9448b68c1367f655aa5" category="paragraph">建立工作環境時、您現在可以使用 BlueXP  <block ref="2dcc7fe33dfc1ec3c2553fdd253353e0" category="inline-link-macro-rx"></block>、僅允許所選 VPC 內的流量。此功能<block ref="4e98d12e63c5c0720c845cda898d916d" category="inline-link-macro-rx"></block>。</block>
   <block id="5fd8323487c8b69df76423b19fd7e929" category="section-title">新增或修改標記</block>
-  <block id="6f4442b553244ce52c784cc52f701d4b" category="paragraph">您可以選擇性地<block ref="d78637da2799ddfac5dd66dca8e7ea18" category="inline-link-macro-rx"></block>和<block ref="4a85f9a70555f38d50391396eef17875" category="inline-link-macro-rx"></block>標記來分類磁碟區。</block>
   <block id="54bbdb510ae0f695a97b35e9620b2429" category="section-title">IOPS 上限增加</block>
   <block id="6a017cfe14e32a2ecb3b562a6905c135" category="section-title">使用者介面已增強</block>
   <block id="f2be69b635c39988351f6636a52c66bd" category="section-title">自動容量管理</block>
@@ -326,17 +313,12 @@
   <block id="0d984c201ccfc0cec47c6e9aaaa3548c" category="paragraph"><block ref="0d984c201ccfc0cec47c6e9aaaa3548c" category="inline-link-macro-rx"></block></block>
   <block id="9b453da7e373871ff96466f7161324e9" category="paragraph">您現在可以<block ref="0dcb65269029cdd4c021d02aa3f3aa08" category="inline-link-macro-rx"></block>在建立適用於 ONTAP 工作環境的 FSX 之後、隨時使用。</block>
   <block id="016049d3662ab4f0c21871ed98f2bb37" category="section-title">複寫及同步資料</block>
-  <block id="de33755c2f05576d068c86206230329a" category="paragraph">您現在可以<block ref="c82ac41f9f49c13c94f808bac3165e62" category="inline-link-macro-rx"></block>使用適用於 ONTAP 的 FSX 作為來源、將內部部署和其他適用於 ONTAP 系統的 FSX 用於內部部署。</block>
   <block id="747d46ff7f4432b15fb87d52f7f0ff2a" category="section-title">建立 iSCSI Volume</block>
-  <block id="fd8c9e37d8db8d27c7b235d307673cf7" category="paragraph">您現在可以了<block ref="7edfce83a1793d1d9bff25243a609f09" category="inline-link-macro-rx"></block>。</block>
   <block id="d79900702dea0a3cbd86163202f91f3a" category="section-title">支援單一或多重可用度 Zon</block>
   <block id="abe867b96960cc2af1f7063ddfd2ca6d" category="paragraph"><block ref="abe867b96960cc2af1f7063ddfd2ca6d" category="inline-link-macro-rx"></block></block>
   <block id="4869939e49d1dbdd540bc87d62436a3f" category="section-title">支援 GovCloud 帳戶驗證</block>
   <block id="994f04734d0bda22f0c527103d6be0c9" category="paragraph"><block ref="994f04734d0bda22f0c527103d6be0c9" category="inline-link-macro-rx"></block></block>
   <block id="5b258d27d1686d8aff26c4da65f8b510" category="paragraph"><block ref="1b53e429ea3df93a4ea7e25c176ae236" category="inline-link-macro-rx"></block>。</block>
-  <block id="61dbf7cf47d95446655246c97325220f" category="paragraph">您可以<block ref="37652122d4cb2db6a33d92a8bdf313a9" category="inline-link-macro-rx"></block>在適用於 ONTAP 的 FSX 中使用。</block>
-  <block id="7bbd999550cefc7b5baa6a41c10035c1" category="paragraph">現在您可以了 <block ref="fcf5732b84f39115bb7eec912809d959" category="inline-link-macro-rx"></block>。</block>
-  <block id="c3907d3f6c877cb2a043b5a4fbee371b" category="paragraph">現在您可以了 <block ref="a480e52e1eed28b86151e9db4a30d9fb" category="inline-link-macro-rx"></block>。</block>
   <block id="b1be7e05c9b9a6323c9057ee75d0c768" category="paragraph"><block ref="8b96268d04548ada8a46317048a75d5d" category="inline-link-macro-rx"></block>。</block>
   <block id="9d2d8ed54095e2ac19a91e1fafd44dab" category="paragraph"><block ref="78c1bb33bbb453f41ca8a4b947f8849c" category="inline-link-macro-rx"></block>。</block>
   <block id="844ae8089b7faaed0a2b7abc588969d9" category="doc">適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合</block>
@@ -577,4 +559,13 @@
   <block id="6cabc65b89f99f38b4824d1241bd15a3" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="401532355c6c08ea243135435dce843b" category="inline-link-macro-rx"></block></block>
   <block id="4364b9162c48ee2ca000144e249c6a3e" category="list-text">IAM 角色的 ARN 、賦予工作負載工廠為 ONTAP 檔案系統建立 FSX 所需的權限。<block ref="f28bfe0f9eab78a4f7a8c2891d2dbc22" category="inline-link-macro-rx"></block>。</block>
   <block id="b8a87fcf328823bb52cca677b8438c33" category="paragraph">您可以使用 ONTAP 系統管理員介面，直接從 BlueXP  管理適用於 ONTAP 檔案系統的 FSX 。使用 System Manager 需要 Connector 。</block>
+  <block id="10e8c8304b9e2addfde9674eecebe26d" category="paragraph">當<block ref="4dc3136355725d3b99f2f810e0caebe8" category="inline-link-macro-rx"></block>時，您可以指定每週 30 分鐘維護時間的開始時間，以確保維護不會與關鍵業務活動衝突。</block>
+  <block id="a99698e6bfb32d69ea7622acfe7f39c4" category="paragraph">建立磁碟區時，您可以建立 FlexGroup 來跨磁碟區散佈資料，以啟用資料最佳化。</block>
+  <block id="2cce67162f5e7dda1e726a6c1514801d" category="paragraph">您現在可以使用 BlueXP  將儲存 VM 新增至 Amazon FSX for NetApp ONTAP 檔案系統。</block>
+  <block id="6e394b89a07b8bcbbaad16e010588f40" category="paragraph">您可以選擇性地新增和修改標記來分類磁碟區。</block>
+  <block id="355f4b7dc88e30a7b88e1e6ad4fce00a" category="paragraph">您現在可以使用適用於 ONTAP 的 FSX 做為來源，將資料複寫並同步到內部部署和其他適用於 ONTAP 系統的 FSX 。</block>
+  <block id="7d81487641826b745c6c078697488b4d" category="paragraph">您現在可以使用 Cloud Manager 在適用於 ONTAP 的 FSX 中建立 iSCSI Volume 。</block>
+  <block id="fa7394842a17e21de2bb5eb52a3d97eb" category="paragraph">在 ONTAP 的 FSX 中建立 Volume 時，您可以選擇 Volume 單位（ GiB 或 TiB ）。</block>
+  <block id="25c675873bda3d8b54aac90e0f94b61a" category="paragraph">現在您可以使用 Cloud Manager 在適用於 ONTAP 的 FSX 中建立 CIFS Volume 。</block>
+  <block id="d3700b7f8295ad136939c888e0efdcee" category="paragraph">現在您可以使用 Cloud Manager 編輯適用於 ONTAP Volume 的 FSX 。</block>
 </blocks>
