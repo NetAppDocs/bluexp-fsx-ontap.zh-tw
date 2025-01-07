@@ -36,9 +36,9 @@ image:screenshot-system-manager.png["選取顯示系統管理員選項的工作�
 
 == 使用 Amazon CloudForgation 管理檔案系統
 
-您可以使用 Amazon CloudForgation 為 ONTAP 檔案系統資源（磁碟區， CIFS 共用區，匯出原則等）配置及管理 FSX 。
+您可以使用 Amazon CloudFormation 為 ONTAP 檔案系統資源（磁碟區， CIFS 共用區，匯出原則等）配置及管理 FSX 。
 
-link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider[""]
+link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider["適用於 ONTAP 供應商 GitHub 儲存庫的 NetApp CloudForgation FSX"^]
 
 
 

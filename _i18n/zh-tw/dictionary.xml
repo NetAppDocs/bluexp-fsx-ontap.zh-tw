@@ -575,7 +575,8 @@
   <block id="7a38975bfee632036d1205b2951258b2" category="open-title">讀取權限</block>
   <block id="79eecef4aff74983cfd4aed5da7f2f30" category="open-title">自動化權限</block>
   <block id="be0bf2e3af6b03378bb493466f3c335f" category="section-title">使用 Amazon CloudForgation 管理檔案系統</block>
-  <block id="c2f7d57c8ea888af74a7d46699221837" category="paragraph">您可以使用 Amazon CloudForgation 為 ONTAP 檔案系統資源（磁碟區， CIFS 共用區，匯出原則等）配置及管理 FSX 。</block>
-  <block id="2c263d7a0f58593b73a60f40d9f5805e" category="paragraph"><block ref="2c263d7a0f58593b73a60f40d9f5805e" category="inline-link-macro-rx"></block></block>
   <block id="13ac5039f81a1aa4ae7419bf17b5b6a0" category="section-title">2025 年 1 月 06 日</block>
+  <block id="e211b2db96a2f5b2b2868517a76988c8" category="paragraph">您可以使用 Amazon CloudFormation 為 ONTAP 檔案系統資源（磁碟區， CIFS 共用區，匯出原則等）配置及管理 FSX 。</block>
+  <block id="12980bf72a2406244df6aef483456919" category="inline-link-macro">適用於 ONTAP 供應商 GitHub 儲存庫的 NetApp CloudForgation FSX</block>
+  <block id="b3a3ca9e921248f6932d9ed563709366" category="paragraph"><block ref="b3a3ca9e921248f6932d9ed563709366" category="inline-link-macro-rx"></block></block>
 </blocks>
