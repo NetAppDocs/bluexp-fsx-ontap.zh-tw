@@ -30,7 +30,7 @@ summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要�
 
 == 關於這項工作
 
-在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["深入瞭解操作模式"]。
+在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。讀取 _ 與檢視權限相同。_ 自動化 _ 與操作權限相同。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["深入瞭解操作模式"]。
 
 可從 BlueXP  設定 > * 認證 * 頁面檢視新的和現有的 AWS 認證。
 
@@ -73,9 +73,9 @@ image:screenshot-add-credentials-manually.png["螢幕擷取畫面會顯示您需
 
 
 
-=== 步驟 1 ：選取工作負載功能並建立 IAM 原則
+=== 步驟 1 ：選取儲存功能並建立 IAM 原則
 
-在本節中、您將選擇哪些類型的工作負載功能可作為這些認證的一部分進行管理、以及為每個工作負載啟用的權限。您需要從 Codebox 複製每個選取工作負載的原則權限、並將其新增至 AWS 帳戶內的 AWS 管理主控台、以建立原則。
+在本節中，您將選擇要作為這些認證的一部分來管理的儲存功能，以及已啟用儲存的權限。您也可以選擇其他工作負載，例如資料庫， GenAI 或 VMware 。完成選擇後，您必須從 Codebox 複製每個選取工作負載的原則權限，並將其新增至 AWS 帳戶內的 AWS 管理主控台，以建立原則。
 
 image:screenshot-create-policies-manual.png["螢幕擷取畫面顯示哪些類型的工作負載功能可在這些認證中作為原則的一部分進行管理。"]
 
@@ -86,6 +86,51 @@ image:screenshot-create-policies-manual.png["螢幕擷取畫面顯示哪些類�
 
 . 對於提供權限等級選擇（自動化或讀取）的工作負載功能，請選取這些認證可用的權限類型。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["瞭解權限，也稱為作業模式"^]。
 . 在 Codebox 視窗中、複製第一個 IAM 原則的權限。
++
+您也可以從下列索引標籤複製儲存權限。
+
++
+[role="tabbed-block"]
+====
+.讀取權限
+--
+[source, json]
+----
+        "fsx:Describe*",
+        "fsx:ListTagsForResource",
+        "ec2:Describe*",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics"
+----
+--
+.自動化權限
+--
+[source, json]
+----
+        "fsx:*",
+        "ec2:Describe*",
+        "ec2:CreateTags",
+        "ec2:CreateSecurityGroup",
+        "iam:CreateServiceLinkedRole",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "kms:CreateGrant",
+        "cloudwatch:PutMetricData",
+        "cloudwatch:GetMetricData",
+        "iam:SimulatePrincipalPolicy",
+        "cloudwatch:GetMetricStatistics"
+        "ec2:AuthorizeSecurityGroupEgress",
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:RevokeSecurityGroupEgress",
+        "ec2:RevokeSecurityGroupIngress",
+        "ec2:DeleteSecurityGroup"
+----
+--
+====
 . 開啟另一個瀏覽器視窗、然後在 AWS 管理主控台登入 AWS 帳戶。
 . 開啟 IAM 服務、然後選取 * 原則 * > * 建立原則 * 。
 . 選取 JSON 做為檔案類型、貼上您在步驟 3 中複製的權限、然後選取 * 下一步 * 。

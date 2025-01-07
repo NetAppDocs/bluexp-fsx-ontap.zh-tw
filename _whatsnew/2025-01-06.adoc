@@ -1,0 +1,11 @@
+= NetApp 會釋出其他 CloudForgation 資源
+:allow-uri-read: 
+
+
+
+
+=== NetApp 會釋出其他 CloudForgation 資源
+
+NetApp 現在提供 CloudForgation 資源，可讓客戶利用未在 AWS 主控台公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html["使用 CloudForgation 管理適用於 NetApp ONTAP 檔案系統的 Amazon FSX"]

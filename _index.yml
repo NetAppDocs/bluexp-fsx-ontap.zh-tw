@@ -16,10 +16,10 @@ indexpage:
       url: "/use/task-creating-fsx-working-environment.html"
   - title: 使用適用於 ONTAP 的 FSX
     links:
+    - title: 為 ONTAP 檔案系統建立 FSX
+      url: "/use/task-creating-fsx-working-environment.html"
     - title: 管理 ONTAP 檔案系統的 FSX
       url: "/use/task-manage-working-environment.html"
-    - title: NVMe與iSCSI主機組態
-      url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 知識與支援
     links:
     - title: 註冊以取得支援

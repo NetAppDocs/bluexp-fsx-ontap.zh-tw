@@ -85,7 +85,6 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMe與iSCSI主機組態</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在Cloud Volumes ONTAP 雲端供應商的市場中註冊與訂閱相關的支援服務序號（這些序號為20位數909601xxxxxxxx序號）。</block>
@@ -348,8 +347,6 @@
   <block id="c8df78ded4cea0598f7679f11a3c3246" category="list-text">選取 * 手動新增 * 、然後依照下列步驟填寫 _ 權限組態 _ 下的三個區段。</block>
   <block id="ef7fe40c036b5b08d74837dcb702dc33" category="inline-image-macro">螢幕擷取畫面會顯示您需要手動定義每組認證的項目。</block>
   <block id="083fb8583b0a2366ef9a94388dd9640f" category="paragraph"><block ref="083fb8583b0a2366ef9a94388dd9640f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d11861b4e2dfc9ac3d86245926aa2785" category="section-title">步驟 1 ：選取工作負載功能並建立 IAM 原則</block>
-  <block id="530d81548274a062436af51b8c3e829f" category="paragraph">在本節中、您將選擇哪些類型的工作負載功能可作為這些認證的一部分進行管理、以及為每個工作負載啟用的權限。您需要從 Codebox 複製每個選取工作負載的原則權限、並將其新增至 AWS 帳戶內的 AWS 管理主控台、以建立原則。</block>
   <block id="445f4ba50fbc8e7b285aedb4396412bb" category="inline-image-macro">螢幕擷取畫面顯示哪些類型的工作負載功能可在這些認證中作為原則的一部分進行管理。</block>
   <block id="0edc9a25423073fcc768405f6aeda88b" category="paragraph"><block ref="0edc9a25423073fcc768405f6aeda88b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb73cd2a4bbc3dbb4bbab5f5a9b6fb8d" category="list-text">在 * 建立原則 * 區段中、啟用您要納入這些認證的每項工作負載功能。啟用 * 儲存 * 來建立及管理檔案系統。</block>
@@ -535,7 +532,6 @@
   <block id="cf9ae4b94802ab988b8884ed9bf12509" category="sidebar">Amazon FSX 適用於使用 BlueXP  的 NetApp ONTAP 管理</block>
   <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">如果您想要使用 _advanced view_ 選項來管理使用 ONTAP 系統管理員的 ONTAP 檔案系統 FSX ，現在您可以在選取工作環境之後，從 BlueXP  畫布中找到該選項。</block>
   <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1de58d4f64d081fb97f1d591f6b96a7c" category="paragraph">在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
   <block id="d8030aec0b616170c1d448f645629048" category="paragraph">從 BlueXP  畫布中，您可以建立和探索適用於 ONTAP 工作環境的 FSX ，並使用系統管理員和其他 BlueXP  服務。如果您想要管理在 Amazon FSX for NetApp ONTAP 上執行的 ONTAP 工作環境和工作負載的 FSX ，請使用<block ref="809afc2f4cb79e608d46f9e3b3ede420" category="inline-link-rx"></block>。</block>
   <block id="080bf239eab90228128570c1dcff727d" category="inline-link-macro">瞭解如何在 BlueXP  中建立及探索適用於 ONTAP 工作環境的 FSX</block>
   <block id="cb955ea4bb940d72f2e54584baf5cad0" category="paragraph"><block ref="245fb4ba49d4510f0ab7c36a85ac006b" category="inline-link-macro-rx"></block>。</block>
@@ -568,4 +564,18 @@
   <block id="fa7394842a17e21de2bb5eb52a3d97eb" category="paragraph">在 ONTAP 的 FSX 中建立 Volume 時，您可以選擇 Volume 單位（ GiB 或 TiB ）。</block>
   <block id="25c675873bda3d8b54aac90e0f94b61a" category="paragraph">現在您可以使用 Cloud Manager 在適用於 ONTAP 的 FSX 中建立 CIFS Volume 。</block>
   <block id="d3700b7f8295ad136939c888e0efdcee" category="paragraph">現在您可以使用 Cloud Manager 編輯適用於 ONTAP Volume 的 FSX 。</block>
+  <block id="16e305f77c7a0272aceac8c95312d98a" category="doc">NetApp 會釋出其他 CloudForgation 資源</block>
+  <block id="c043b3439543ebfc027a3c1fcb5613a5" category="paragraph">NetApp 現在提供 CloudForgation 資源，可讓客戶利用未在 AWS 主控台公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。</block>
+  <block id="01d4e72c68c36e8905e55eeb7f8aff0c" category="inline-link-macro">使用 CloudForgation 管理適用於 NetApp ONTAP 檔案系統的 Amazon FSX</block>
+  <block id="f883109f2802c104ac9ae2e21a56b762" category="paragraph"><block ref="f883109f2802c104ac9ae2e21a56b762" category="inline-link-macro-rx"></block></block>
+  <block id="c92644a757476bbef61fa3b782e32d95" category="paragraph">在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。讀取 _ 與檢視權限相同。_ 自動化 _ 與操作權限相同。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
+  <block id="facff49e2bd72676ffc323376c6f7c86" category="section-title">步驟 1 ：選取儲存功能並建立 IAM 原則</block>
+  <block id="643bb3986a2755c5582d9f82862ff934" category="paragraph">在本節中，您將選擇要作為這些認證的一部分來管理的儲存功能，以及已啟用儲存的權限。您也可以選擇其他工作負載，例如資料庫， GenAI 或 VMware 。完成選擇後，您必須從 Codebox 複製每個選取工作負載的原則權限，並將其新增至 AWS 帳戶內的 AWS 管理主控台，以建立原則。</block>
+  <block id="45f2112a5aef07c91c1003cce4dc5410" category="paragraph">您也可以從下列索引標籤複製儲存權限。</block>
+  <block id="7a38975bfee632036d1205b2951258b2" category="open-title">讀取權限</block>
+  <block id="79eecef4aff74983cfd4aed5da7f2f30" category="open-title">自動化權限</block>
+  <block id="be0bf2e3af6b03378bb493466f3c335f" category="section-title">使用 Amazon CloudForgation 管理檔案系統</block>
+  <block id="c2f7d57c8ea888af74a7d46699221837" category="paragraph">您可以使用 Amazon CloudForgation 為 ONTAP 檔案系統資源（磁碟區， CIFS 共用區，匯出原則等）配置及管理 FSX 。</block>
+  <block id="2c263d7a0f58593b73a60f40d9f5805e" category="paragraph"><block ref="2c263d7a0f58593b73a60f40d9f5805e" category="inline-link-macro-rx"></block></block>
+  <block id="13ac5039f81a1aa4ae7419bf17b5b6a0" category="section-title">2025 年 1 月 06 日</block>
 </blocks>

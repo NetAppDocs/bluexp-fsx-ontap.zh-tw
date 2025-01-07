@@ -34,6 +34,14 @@ image:screenshot-system-manager.png["選取顯示系統管理員選項的工作�
 
 
 
+== 使用 Amazon CloudForgation 管理檔案系統
+
+您可以使用 Amazon CloudForgation 為 ONTAP 檔案系統資源（磁碟區， CIFS 共用區，匯出原則等）配置及管理 FSX 。
+
+link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider[""]
+
+
+
 == 將 BlueXP  資料服務與檔案系統搭配使用
 
 將 BlueXP  資料服務與適用於 ONTAP 檔案系統的 FSX 搭配使用，可備份及恢復資料，傳輸及同步資料，掃描及分類資料，複寫資料，並加速存取或卸載流量。
