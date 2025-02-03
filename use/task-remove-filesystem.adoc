@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: use/task-remove-filesystem.html 
+keywords: amazon fsx for netapp ontap, fsx for ontap, fsx, remove fsx for ontap file system, remove file system, workspace, file system, disassociate file system, working environment 
+summary: 從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。 
+---
+= 從 BlueXP  的工作區中移除適用於 ONTAP 檔案系統的 FSX
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。此作業會將檔案系統與一個工作區分離，以便您將其與同一個帳戶內的另一個工作區建立關聯。
+
+.關於這項工作
+從工作區移除適用於 ONTAP 檔案系統的 FSX 會將其從 BlueXP  中移除。它不會刪除適用於 ONTAP 檔案系統的 FSX 。您稍後可以在相同或相同帳戶內不同的工作區中，重新探索適用於 ONTAP 檔案系統或工作環境的 FSX 。
+
+.步驟
+. 開啟 BlueXP  畫布。
+. 選取包含您要移除之檔案系統的工作環境。
+. 選擇 * 輸入工作環境 * 。
+. 從 Storage 的 FSX for ONTAP 標籤中，選取三點功能表，然後選取 * 從工作區移除 * 。
++
+image:screenshot-remove-file-system.png["檔案系統中開啟功能表的螢幕擷取畫面。從工作區移除的選項會反白顯示。"]
+
+. 選取 * 移除 * 以確認從工作區移除檔案系統。
+
+
+.結果
+檔案系統會從工作區中移除。您現在可以將檔案系統與同一個帳戶內的另一個工作區建立關聯。

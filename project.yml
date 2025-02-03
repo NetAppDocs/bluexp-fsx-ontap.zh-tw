@@ -28,6 +28,10 @@ sidebar:
       url: "/use/task-creating-fsx-working-environment.html"
   - title: 管理 ONTAP 檔案系統的 FSX
     url: "/use/task-manage-working-environment.html"
+  - title: 使用 Tracker 監控作業
+    url: "/use/task-monitor-operations.html"
+  - title: 從工作區移除檔案系統
+    url: "/use/task-remove-filesystem.html"
   - title: 知識與支援
     entries:
     - title: 註冊以取得支援

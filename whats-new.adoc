@@ -18,6 +18,42 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 
 
+== 2025 年 02 月 2 日
+
+
+
+=== 將適用於 ONTAP 檔案系統的 FSX 與 BlueXP  中的工作區建立關聯
+
+在 2024 年 11 月 BlueXP  整合之後，新建立的 ONTAP 檔案系統 FSX 並未與 BlueXP  中的一個工作區相關聯。現在當您建立或探索 ONTAP 檔案系統的 FSX 時，這些檔案系統會與 BlueXP  帳戶中的一個工作區相關聯。
+
+如果您現有的適用於 ONTAP 檔案系統的 FSX 未與工作區相關聯，我們將協助您將其與 BlueXP  中的工作區相關聯。您可以link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["利用 NetApp 支援建立案例"^]在 BlueXP  主控台內進行。選取 * 工作負載 Factory * 作為服務。
+
+
+
+=== 從 BlueXP  畫布移除檔案系統
+
+您現在可以從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。此作業會將檔案系統與一個工作區分離，以便您將其與同一個 BlueXP  帳戶內的另一個工作區建立關聯。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-remove-filesystem.html["瞭解如何從 BlueXP  的工作區中移除適用於 ONTAP 檔案系統的 FSX"^]
+
+
+
+=== Tracker 可用於監控及追蹤作業
+
+BlueXP  Amazon FSX for NetApp ONTAP 提供全新的監控功能 Tracker 。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX"^]
+
+
+
+=== CloudShell 適用於 BlueXP  工作負載
+
+當您在 BlueXP  主控台的 BlueXP  工作負載中時， CloudShell 就能使用。CloudShell 可讓您使用您在 BlueXP  帳戶中提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html#before-you-begin["使用 CloudShell"^]
+
+
+
 == 2025 年 1 月 06 日
 
 

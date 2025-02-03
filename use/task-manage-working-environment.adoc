@@ -54,7 +54,7 @@ image:screenshot-data-services.png["選取顯示系統管理員選項的工作�
 
 BlueXP  備份與還原服務可為內部部署和雲端的 NetApp ONTAP 資料，資料庫和虛擬機器提供高效率，安全且具成本效益的資料保護。
 
-https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["開始使用 BlueXP  備份與還原"^]
+link:https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["開始使用 BlueXP  備份與還原"^]
 
 
 
@@ -62,7 +62,7 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["開始使用 Bl
 
 BlueXP 複製與同步是一種雲端複寫與同步服務、可在內部部署與雲端物件儲存區之間傳輸 NAS 資料。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["開始使用 BlueXP  複本與同步"^]
+link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["開始使用 BlueXP  複本與同步"^]
 
 
 
@@ -70,7 +70,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["開始使�
 
 BlueXP 分類可讓您在組織的混合式多雲端環境中掃描及分類資料。
 
-https://docs.netapp.com/us-en/bluexp-classification/index.html["開始使用 BlueXP  分類"^]
+link:https://docs.netapp.com/us-en/bluexp-classification/index.html["開始使用 BlueXP  分類"^]
 
 
 
@@ -78,7 +78,7 @@ https://docs.netapp.com/us-en/bluexp-classification/index.html["開始使用 Blu
 
 BlueXP  複寫可讓您在 ONTAP 儲存系統之間複寫資料，以支援備份與災難恢復至雲端或雲端之間。
 
-https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["開始使用 BlueXP  複寫"^]
+link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["開始使用 BlueXP  複寫"^]
 
 
 
@@ -86,4 +86,4 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["開
 
 BlueXP  Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。
 
-https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["開始使用 BlueXP  Volume 快取"^]
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["開始使用 BlueXP  Volume 快取"^]

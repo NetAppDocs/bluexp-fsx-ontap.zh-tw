@@ -217,10 +217,12 @@ image:screenshot_add_fsx_cloud.png["適用於 ONTAP 的 FSX 的螢幕擷取畫�
 
 == 探索現有ONTAP 的FSX for Sf供 資料系統使用
 
-如果您先前已將 AWS 認證提供給 BlueXP 、 * 我的資產 * 可以自動探索並建議使用 BlueXP 為 ONTAP 檔案系統新增和管理的 FSX 。您也可以檢閱可用的資料服務。
+如果您先前已將 AWS 認證提供給 BlueXP  ， * My 莊園 * 可以自動探索並建議在工作區內使用 BlueXP  來新增和管理 ONTAP 檔案系統的 FSX 。您也可以檢閱可用的資料服務。
 
 .關於這項工作
-當您或使用「 * 我的資產 * 」頁面時，您可以探索適用於 ONTAP 檔案系統的 FSX <<建立FSX以利ONTAP 不工作環境>>。
+您可以在新增工作環境或使用「 * 我的資產 * 」頁面時，探索適用於 ONTAP 檔案系統的 FSX 。
+
+您只能在 BlueXP  帳戶中探索一次適用於 ONTAP 檔案系統的 FSX ，並將其附加至一個工作區。之後可以移除檔案系統，並重新關聯至不同的工作區。
 
 [role="tabbed-block"]
 ====
