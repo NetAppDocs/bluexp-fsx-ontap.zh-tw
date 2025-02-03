@@ -585,7 +585,6 @@
   <block id="27a901c04d21dffe48f2fc38150f7c5c" category="section-title">CloudShell 適用於 BlueXP  工作負載</block>
   <block id="30e5906a069abe8bb88f1aed916b358b" category="paragraph">當您在 BlueXP  主控台的 BlueXP  工作負載中時， CloudShell 就能使用。CloudShell 可讓您使用您在 BlueXP  帳戶中提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。</block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">使用 CloudShell</block>
-  <block id="71ee7ec26ff8d29a0d286a605f08aeb5" category="paragraph"><block ref="71ee7ec26ff8d29a0d286a605f08aeb5" category="inline-link-macro-rx"></block></block>
   <block id="1f7f7589b5db575980a7c6142051bb44" category="paragraph">如果您先前已將 AWS 認證提供給 BlueXP  ， * My 莊園 * 可以自動探索並建議在工作區內使用 BlueXP  來新增和管理 ONTAP 檔案系統的 FSX 。您也可以檢閱可用的資料服務。</block>
   <block id="142acbaf383c4f4c44d1693c75c309df" category="paragraph">您可以在新增工作環境或使用「 * 我的資產 * 」頁面時，探索適用於 ONTAP 檔案系統的 FSX 。</block>
   <block id="0e2c79da1cf7b4ae88e08f783a1f7f85" category="paragraph">您只能在 BlueXP  帳戶中探索一次適用於 ONTAP 檔案系統的 FSX ，並將其附加至一個工作區。之後可以移除檔案系統，並重新關聯至不同的工作區。</block>
@@ -650,4 +649,5 @@
   <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP 網路研討會</block>
   <block id="2e0c4c64c2671f5575eb184e577dcdae" category="sidebar">使用 Tracker 監控作業</block>
   <block id="26efc0a2e060feb5086fc0ee17ded6e1" category="sidebar">從工作區移除檔案系統</block>
+  <block id="03efd4c623255859d8f24cea1414ca80" category="paragraph"><block ref="03efd4c623255859d8f24cea1414ca80" category="inline-link-macro-rx"></block></block>
 </blocks>
