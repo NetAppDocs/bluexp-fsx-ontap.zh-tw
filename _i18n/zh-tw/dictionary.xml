@@ -650,4 +650,7 @@
   <block id="2e0c4c64c2671f5575eb184e577dcdae" category="sidebar">使用 Tracker 監控作業</block>
   <block id="26efc0a2e060feb5086fc0ee17ded6e1" category="sidebar">從工作區移除檔案系統</block>
   <block id="03efd4c623255859d8f24cea1414ca80" category="paragraph"><block ref="03efd4c623255859d8f24cea1414ca80" category="inline-link-macro-rx"></block></block>
+  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="doc">Tracker 中的 CloudShell 事件</block>
+  <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。</block>
+  <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025 年 3 月 02 日</block>
 </blocks>

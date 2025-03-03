@@ -18,6 +18,18 @@ summary: 瞭解Amazon FSX for NetApp ONTAP 的新功能。
 
 
 
+== 2025 年 3 月 02 日
+
+
+
+=== Tracker 中的 CloudShell 事件
+
+每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX"^]
+
+
+
 == 2025 年 02 月 2 日
 
 
