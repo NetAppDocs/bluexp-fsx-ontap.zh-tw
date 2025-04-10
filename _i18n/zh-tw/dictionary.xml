@@ -345,7 +345,6 @@
   <block id="ef7fe40c036b5b08d74837dcb702dc33" category="inline-image-macro">螢幕擷取畫面會顯示您需要手動定義每組認證的項目。</block>
   <block id="083fb8583b0a2366ef9a94388dd9640f" category="paragraph"><block ref="083fb8583b0a2366ef9a94388dd9640f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="445f4ba50fbc8e7b285aedb4396412bb" category="inline-image-macro">螢幕擷取畫面顯示哪些類型的工作負載功能可在這些認證中作為原則的一部分進行管理。</block>
-  <block id="0edc9a25423073fcc768405f6aeda88b" category="paragraph"><block ref="0edc9a25423073fcc768405f6aeda88b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb73cd2a4bbc3dbb4bbab5f5a9b6fb8d" category="list-text">在 * 建立原則 * 區段中、啟用您要納入這些認證的每項工作負載功能。啟用 * 儲存 * 來建立及管理檔案系統。</block>
   <block id="3b9b789374908017040d97f81eb4008d" category="paragraph">您可以稍後新增其他功能、只要選取您目前想要部署及管理的工作負載即可。</block>
   <block id="a488a73463d70a082950f1cd09a4be8c" category="inline-link-macro">瞭解權限，也稱為作業模式</block>
@@ -653,4 +652,12 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="doc">Tracker 中的 CloudShell 事件</block>
   <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。</block>
   <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025 年 3 月 02 日</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="doc">IAM ： SimulatePermissionPolicy 權限更新</block>
+  <block id="b84cda7d6006e8abb6e6264e292b13c0" category="paragraph">現在，您可以在新增額外的 AWS 帳戶認證或新增 GenAI 工作負載等新工作負載功能時，從 BlueXP  主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限。</block>
+  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
+  <block id="8ee0913e940253bb841c1a05228d81e5" category="paragraph"><block ref="8ee0913e940253bb841c1a05228d81e5" category="inline-link-macro-rx"></block></block>
+  <block id="c1bc5d8eeb872326cb512499f02befb5" category="paragraph"><block ref="c1bc5d8eeb872326cb512499f02befb5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="04c38dfa84592feebab3e30dfe4a019a" category="list-text">選用：選取 * 啟用自動權限檢查 * ，檢查您是否擁有完成工作負載作業所需的 AWS 帳戶權限。啟用檢查會將新增<block ref="23bd3e826a13b6d94db9e07f105dfed2" prefix=" " category="inline-code"></block>至您的權限原則。此權限的目的只是確認權限。您可以在新增認證後移除權限，但我們建議保留權限，以防止資源建立部分成功的作業，並避免您執行任何必要的手動資源清理作業。</block>
+  <block id="c3c7c9c146408a0ee564eedba4821f52" category="list-text">選用：選取 * 啟用自動權限檢查 * ，檢查您是否擁有完成工作負載作業所需的 AWS 帳戶權限。啟用檢查會將權限新增<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>至您的權限原則。此權限的目的只是確認權限。您可以在新增認證後移除權限，但我們建議保留權限，以防止資源建立部分成功的作業，並避免您執行任何必要的手動資源清理作業。</block>
+  <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025 年 3 月 30 日</block>
 </blocks>

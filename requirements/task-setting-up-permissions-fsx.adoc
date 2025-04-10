@@ -77,7 +77,7 @@ image:screenshot-add-credentials-manually.png["螢幕擷取畫面會顯示您需
 
 在本節中，您將選擇要作為這些認證的一部分來管理的儲存功能，以及已啟用儲存的權限。您也可以選擇其他工作負載，例如資料庫， GenAI 或 VMware 。完成選擇後，您必須從 Codebox 複製每個選取工作負載的原則權限，並將其新增至 AWS 帳戶內的 AWS 管理主控台，以建立原則。
 
-image:screenshot-create-policies-manual.png["螢幕擷取畫面顯示哪些類型的工作負載功能可在這些認證中作為原則的一部分進行管理。"]
+image:screenshot-create-policies-manual-permissions-check.png["螢幕擷取畫面顯示哪些類型的工作負載功能可在這些認證中作為原則的一部分進行管理。"]
 
 .步驟
 . 在 * 建立原則 * 區段中、啟用您要納入這些認證的每項工作負載功能。啟用 * 儲存 * 來建立及管理檔案系統。
@@ -85,6 +85,7 @@ image:screenshot-create-policies-manual.png["螢幕擷取畫面顯示哪些類�
 您可以稍後新增其他功能、只要選取您目前想要部署及管理的工作負載即可。
 
 . 對於提供權限等級選擇（自動化或讀取）的工作負載功能，請選取這些認證可用的權限類型。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["瞭解權限，也稱為作業模式"^]。
+. 選用：選取 * 啟用自動權限檢查 * ，檢查您是否擁有完成工作負載作業所需的 AWS 帳戶權限。啟用檢查會將新增 `iam:SimulatePrincipalPolicy permission`至您的權限原則。此權限的目的只是確認權限。您可以在新增認證後移除權限，但我們建議保留權限，以防止資源建立部分成功的作業，並避免您執行任何必要的手動資源清理作業。
 . 在 Codebox 視窗中、複製第一個 IAM 原則的權限。
 +
 您也可以從下列索引標籤複製儲存權限。
@@ -129,51 +130,50 @@ image:screenshot-create-policies-manual.png["螢幕擷取畫面顯示哪些類�
 [source, json]
 ----
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "fsx:*",
-                "ec2:Describe*",
-                "ec2:CreateTags",
-                "ec2:CreateSecurityGroup",
-                "iam:CreateServiceLinkedRole",
-                "kms:Describe*",
-                "elasticfilesystem:Describe*",
-                "kms:List*",
-                "kms:CreateGrant",
-                "cloudwatch:PutMetricData",
-                "cloudwatch:GetMetricData",
-                "iam:SimulatePrincipalPolicy",
-                "cloudwatch:GetMetricStatistics"
-            ],
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "ec2:AuthorizeSecurityGroupEgress",
-                "ec2:AuthorizeSecurityGroupIngress",
-                "ec2:RevokeSecurityGroupEgress",
-                "ec2:RevokeSecurityGroupIngress",
-                "ec2:DeleteSecurityGroup"
-            ],
-            "Resource": "*",
-            "Condition": {
-                "StringLike": {
-                    "ec2:ResourceTag/AppCreator": "NetappFSxWF"
-                }
-            }
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "iam:SimulatePrincipalPolicy"
-            ],
-            "Resource": "*"
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "fsx:*",
+        "ec2:Describe*",
+        "ec2:CreateTags",
+        "ec2:CreateSecurityGroup",
+        "iam:CreateServiceLinkedRole",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "kms:CreateGrant",
+        "cloudwatch:PutMetricData",
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AuthorizeSecurityGroupEgress",
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:RevokeSecurityGroupEgress",
+        "ec2:RevokeSecurityGroupIngress",
+        "ec2:DeleteSecurityGroup"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringLike": {
+          "ec2:ResourceTag/AppCreator": "NetappFSxWF"
         }
-    ]
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:SimulatePrincipalPolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
 ----
 --
@@ -278,6 +278,7 @@ image:screenshot-add-credentials-cloudformation.png["螢幕擷取畫面會顯示
 +
 您可以稍後新增其他功能、只要選取您目前想要部署及管理的工作負載即可。
 
+. 選用：選取 * 啟用自動權限檢查 * ，檢查您是否擁有完成工作負載作業所需的 AWS 帳戶權限。啟用檢查會將權限新增 `iam:SimulatePrincipalPolicy`至您的權限原則。此權限的目的只是確認權限。您可以在新增認證後移除權限，但我們建議保留權限，以防止資源建立部分成功的作業，並避免您執行任何必要的手動資源清理作業。
 . 在 * 認證名稱 * 下、輸入您要用於這些認證的名稱。
 . 從 AWS CloudForgation 新增認證：
 +
