@@ -348,7 +348,6 @@
   <block id="eb73cd2a4bbc3dbb4bbab5f5a9b6fb8d" category="list-text">在 * 建立原則 * 區段中、啟用您要納入這些認證的每項工作負載功能。啟用 * 儲存 * 來建立及管理檔案系統。</block>
   <block id="3b9b789374908017040d97f81eb4008d" category="paragraph">您可以稍後新增其他功能、只要選取您目前想要部署及管理的工作負載即可。</block>
   <block id="a488a73463d70a082950f1cd09a4be8c" category="inline-link-macro">瞭解權限，也稱為作業模式</block>
-  <block id="99d132e42e3df08ae21e3481006ebc5a" category="list-text">對於提供權限等級選擇（自動化或讀取）的工作負載功能，請選取這些認證可用的權限類型。<block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>。</block>
   <block id="6d45b51df5e4b4d742aed3a012be7ece" category="list-text">在 Codebox 視窗中、複製第一個 IAM 原則的權限。</block>
   <block id="d9951e6a22fb7f7d403d017e5b8ef9c6" category="list-text">開啟另一個瀏覽器視窗、然後在 AWS 管理主控台登入 AWS 帳戶。</block>
   <block id="0545945650ae73f856cfac5d203df5f5" category="list-text">開啟 IAM 服務、然後選取 * 原則 * &gt; * 建立原則 * 。</block>
@@ -405,7 +404,6 @@
   <block id="f9448640bc8e190207efd1db5c109cbc" category="paragraph">在 BlueXP  中新增認證，建立連接器或連結，以及建立或探索適用於 ONTAP 檔案系統的 FSX ，以開始使用 Amazon FSX for NetApp ONTAP 。</block>
   <block id="c947186ad38a1acff7e8d20be0248c51" category="inline-link-macro">新增認證和權限</block>
   <block id="867ca12036002c9fdf7da7b1fe3485ca" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="0280736b18477edd6313066237675a4e" category="inline-link-macro-rx"></block></block>
-  <block id="1163d914fc07d294d21b206f711f0f5c" category="paragraph">需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在 _ 自動化權限 _ 和 _ 讀取權限 _ 之間進行選擇。</block>
   <block id="74d2f2a8ee613c321072e364f7ed33b2" category="inline-link">瞭解如何在 AWS 中建立 Connector</block>
   <block id="016f0cc4b9d1f1cf5dbe0851b121b350" category="list-text"><block ref="016f0cc4b9d1f1cf5dbe0851b121b350" category="inline-link-rx"></block></block>
   <block id="b926732963e0a721fc9fc28ea36c9483" category="inline-link">瞭解如何建立內部部署的 Connector</block>
@@ -558,12 +556,9 @@
   <block id="c043b3439543ebfc027a3c1fcb5613a5" category="paragraph">NetApp 現在提供 CloudForgation 資源，可讓客戶利用未在 AWS 主控台公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。</block>
   <block id="01d4e72c68c36e8905e55eeb7f8aff0c" category="inline-link-macro">使用 CloudForgation 管理適用於 NetApp ONTAP 檔案系統的 Amazon FSX</block>
   <block id="f883109f2802c104ac9ae2e21a56b762" category="paragraph"><block ref="f883109f2802c104ac9ae2e21a56b762" category="inline-link-macro-rx"></block></block>
-  <block id="c92644a757476bbef61fa3b782e32d95" category="paragraph">在 BlueXP  工作負載工廠的儲存設備中新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _Read_ 或 _AIL_ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read_ 模式或 _unialle_ 模式。讀取 _ 與檢視權限相同。_ 自動化 _ 與操作權限相同。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
   <block id="facff49e2bd72676ffc323376c6f7c86" category="section-title">步驟 1 ：選取儲存功能並建立 IAM 原則</block>
   <block id="643bb3986a2755c5582d9f82862ff934" category="paragraph">在本節中，您將選擇要作為這些認證的一部分來管理的儲存功能，以及已啟用儲存的權限。您也可以選擇其他工作負載，例如資料庫， GenAI 或 VMware 。完成選擇後，您必須從 Codebox 複製每個選取工作負載的原則權限，並將其新增至 AWS 帳戶內的 AWS 管理主控台，以建立原則。</block>
   <block id="45f2112a5aef07c91c1003cce4dc5410" category="paragraph">您也可以從下列索引標籤複製儲存權限。</block>
-  <block id="7a38975bfee632036d1205b2951258b2" category="open-title">讀取權限</block>
-  <block id="79eecef4aff74983cfd4aed5da7f2f30" category="open-title">自動化權限</block>
   <block id="be0bf2e3af6b03378bb493466f3c335f" category="section-title">使用 Amazon CloudForgation 管理檔案系統</block>
   <block id="13ac5039f81a1aa4ae7419bf17b5b6a0" category="section-title">2025 年 1 月 06 日</block>
   <block id="e211b2db96a2f5b2b2868517a76988c8" category="paragraph">您可以使用 Amazon CloudFormation 為 ONTAP 檔案系統資源（磁碟區， CIFS 共用區，匯出原則等）配置及管理 FSX 。</block>
@@ -660,4 +655,26 @@
   <block id="04c38dfa84592feebab3e30dfe4a019a" category="list-text">選用：選取 * 啟用自動權限檢查 * ，檢查您是否擁有完成工作負載作業所需的 AWS 帳戶權限。啟用檢查會將新增<block ref="23bd3e826a13b6d94db9e07f105dfed2" prefix=" " category="inline-code"></block>至您的權限原則。此權限的目的只是確認權限。您可以在新增認證後移除權限，但我們建議保留權限，以防止資源建立部分成功的作業，並避免您執行任何必要的手動資源清理作業。</block>
   <block id="c3c7c9c146408a0ee564eedba4821f52" category="list-text">選用：選取 * 啟用自動權限檢查 * ，檢查您是否擁有完成工作負載作業所需的 AWS 帳戶權限。啟用檢查會將權限新增<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>至您的權限原則。此權限的目的只是確認權限。您可以在新增認證後移除權限，但我們建議保留權限，以防止資源建立部分成功的作業，並避免您執行任何必要的手動資源清理作業。</block>
   <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025 年 3 月 30 日</block>
+  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="doc">Tracker 回應支援</block>
+  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">Tracker 現在提供 API 回應，讓您可以查看與工作相關的 REST API 輸出。</block>
+  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">AWS Secrets Manager 的連結驗證支援</block>
+  <block id="73ecd40a86b02acff9f56b3a1ac74d7f" category="paragraph">您現在可以選擇使用 AWS Secrets Manager 的機密來驗證連結，這樣就不需要使用儲存在 BlueXP  工作負載中的認證資料。</block>
+  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX</block>
+  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
+  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">為 ONTAP 檔案系統實作 FSX 的最佳實務做法</block>
+  <block id="bf66fc8532837c2f341b98d92d40bd27" category="paragraph">BlueXP  工作負載提供儀表板，讓您檢視檔案系統組態架構良好的狀態。您可以利用此分析，為 ONTAP 檔案系統的 FSX 實作最佳實務做法。檔案系統組態分析包括下列組態： SSD 容量臨界值，排程本機快照， ONTAP 備份排程的 FSX ，資料分層和遠端資料複寫。</block>
+  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">瞭解檔案系統組態的架構良好分析</block>
+  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
+  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">為您的檔案系統實作最佳實務做法</block>
+  <block id="a04ab86f504e47221c279d8c74e9697c" category="list-text"><block ref="a04ab86f504e47221c279d8c74e9697c" category="inline-link-macro-rx"></block></block>
+  <block id="dad34f5734adb85d9981374c4c32d1d5" category="section-title">架構良好的檔案系統問題通知</block>
+  <block id="16ca2e92ee84ccef4088c5d2a61cd8d2" category="paragraph">在 BlueXP  主控台中，架構良好問題的 ONTAP 檔案系統適用的 FSX 現在會在 Canvas 中顯示通知，指出檔案系統何時有問題需要修正。</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">更新的權限術語</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">工作負載原廠使用者介面與文件現在使用「唯讀」來指稱讀取權限，而「讀取寫入」則指自動化權限。</block>
+  <block id="7ad34443be66bd769d7526052866c23d" category="paragraph">從 BlueXP  工作負載工廠的儲存設備新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _ 唯讀 _ 或 _ 讀取 / 寫入 _ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read-read-only 模式或 _read/Write_ 模式。_Read-only_ 與檢視權限相同。讀取 / 寫入 _ 與操作權限相同。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
+  <block id="c0f13e28260a8d6334a9ba083a9ecd8c" category="list-text">對於提供權限等級選擇（讀取 / 寫入或唯讀）的工作負載功能，請選取這些認證可用的權限類型。<block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>。</block>
+  <block id="afcef91c603f5a2caaca0c02452c1093" category="open-title">唯讀權限</block>
+  <block id="6c89d11178770d48b64eed2f5ad15ee0" category="open-title">讀取 / 寫入權限</block>
+  <block id="bff2a32004a29ed6a2b848b515ee2ed4" category="paragraph">需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在讀取 / 寫入權限和唯讀權限之間進行選擇。</block>
+  <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025 年 04 月 5 日</block>
 </blocks>
