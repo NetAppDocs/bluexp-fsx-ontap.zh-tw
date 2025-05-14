@@ -590,9 +590,7 @@
   <block id="1d871a79e130277eac94bdf23b8f559d" category="summary">使用 BlueXP  中的 Tracker 追蹤適用於 ONTAP 作業的 FSX ，並監控作業進度。</block>
   <block id="16edaff1d441f823f269cfb57989844e" category="doc">使用 BlueXP  中的 Tracker 來監控 ONTAP 作業的 FSX</block>
   <block id="c51aab10e5fd03127f375a02c70e31d1" category="paragraph">使用 BlueXP  中的 Tracker ，監控和追蹤用於 ONTAP 作業的 FSX 執行，並監控工作進度。</block>
-  <block id="030aa1dc2f523ee33fca72b98728f303" category="paragraph">BlueXP  提供追蹤器這項工作監控功能，可讓您監控及追蹤認證，適用於 ONTAP 的 FSX 和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。</block>
   <block id="6092aff2fd96382c8039bf4b05f69f42" category="paragraph">Tracker 中有幾個動作可供使用。您可以依時間範圍（過去 24 小時， 7 天， 14 天或 30 天），工作負載，狀態和使用者來篩選工作；使用搜尋功能尋找工作；並將工作表下載為 CSV 檔案。您可以隨時重新整理 Tracker 。您也可以快速重試失敗的作業，或編輯失敗作業的參數，然後再試一次。</block>
-  <block id="f2cee538b7196c0114b7722b311de074" category="paragraph">Tracker 支援兩種監控層級。每項工作（例如建立檔案系統）都會顯示工作說明，狀態，開始時間，工作持續時間，使用者，區域， Proxy 資源（連結關聯），工作 ID 及所有相關子工作。</block>
   <block id="5cdbeb1c4cc65e8f551e161828701113" category="list-text">以範例追蹤工作層級</block>
   <block id="05bee9860c0a2efcc43ba9c2e7d71a73" category="list-text">層級 1 （父工作）：追蹤檔案系統部署。</block>
   <block id="bf4ab25188da8d1000fe4fd110b6cc4e" category="list-text">層級 2 （子工作）：追蹤與檔案系統部署相關的子工作。</block>
@@ -677,4 +675,6 @@
   <block id="6c89d11178770d48b64eed2f5ad15ee0" category="open-title">讀取 / 寫入權限</block>
   <block id="bff2a32004a29ed6a2b848b515ee2ed4" category="paragraph">需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在讀取 / 寫入權限和唯讀權限之間進行選擇。</block>
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025 年 04 月 5 日</block>
+  <block id="5a727a54cd3005d4cc50f72f6b62d2d0" category="paragraph">BlueXP  提供追蹤器這項工作監控功能，可讓您監控及追蹤認證，適用於 ONTAP 的 FSX 和連結作業的進度和狀態，檢閱操作工作和子任務的詳細資料，以及診斷任何問題或故障。</block>
+  <block id="9233b1148f18eb744b69d4d3620c296c" category="paragraph">Tracker 支援兩種監控層級，視作業而定。每項工作（例如檔案系統部署）都會顯示工作說明，狀態，開始時間，工作持續時間，使用者，區域， Proxy 資源，工作 ID 及所有相關的子工作。您可以檢視 API 回應，瞭解作業期間發生的情況。</block>
 </blocks>
