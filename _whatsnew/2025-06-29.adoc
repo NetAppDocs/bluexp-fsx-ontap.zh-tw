@@ -1,0 +1,19 @@
+= 憑證更新
+:allow-uri-read: 
+
+
+
+
+=== 憑證更新
+
+為 FSx for ONTAP 檔案系統設定憑證和權限後，您將被重新導向至 BlueXP 憑證頁面。在此頁面，您可以重新命名或刪除 FSx for ONTAP 憑證。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["設定 FSx for ONTAP 檔案系統的權限"]
+
+
+
+=== 支援在兩個 FSx for ONTAP 檔案系統之間複製數據
+
+現在可以透過 BlueXP 控制台在兩個 FSx for ONTAP 檔案系統之間進行資料複製。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["複寫資料"]

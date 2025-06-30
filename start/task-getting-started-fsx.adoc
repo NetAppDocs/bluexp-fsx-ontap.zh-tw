@@ -18,7 +18,7 @@ summary: 在 BlueXP  中新增認證，建立連接器或連結，以及建立�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] link:../requirements/task-setting-up-permissions-fsx.html["新增認證和權限"]
 [role="quick-margin-para"]
-需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在讀取 / 寫入權限和唯讀權限之間進行選擇。
+需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在「唯讀」和「讀取/寫入」權限之間進行選擇。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"]選用：建立連接器或連結
 [role="quick-margin-para"]

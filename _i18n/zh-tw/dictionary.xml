@@ -371,7 +371,6 @@
   <block id="a471354974165e2329f7a2cc4bea33c9" category="list-text">從 BlueXP  工作負載新增認證頁面，展開 * 認證名稱 * 。</block>
   <block id="a961eea4fc631a6689d895b16be74287" category="list-text">輸入您要用於這些認證的名稱。</block>
   <block id="027a8d7e43e765637f8ef1ae06ce3700" category="list-text">選取 * 新增 * 以建立認證。</block>
-  <block id="28036fcfd12b510a25017e4b8aed004c" category="paragraph">您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。</block>
   <block id="5512d35e832df0796cf2e9bbfc4ef8e7" category="section-title">使用 CloudForgation 將認證新增至帳戶</block>
   <block id="91395da04fc4e81b8503a349a42837c8" category="paragraph">您可以使用 AWS CloudForgation 堆疊，將 AWS 認證新增至 BlueXP  工作負載，方法是選取您要使用的工作負載功能，然後在 AWS 帳戶中啟動 AWS CloudForgation 堆疊。CloudForgation 將根據您所選的工作負載功能、建立 IAM 原則和 IAM 角色。</block>
   <block id="f48f7e164b0415ad7634845f95eb03e1" category="list-text">使用 CloudForgation 堆疊新增認證時、您必須在 AWS 帳戶中擁有下列權限：</block>
@@ -511,7 +510,6 @@
   <block id="09268df17735c9b5a1451dfeacf85b4a" category="section-title">掃描及分類資料</block>
   <block id="602092b7bfa82b05561c89daaa069630" category="paragraph">BlueXP 分類可讓您在組織的混合式多雲端環境中掃描及分類資料。</block>
   <block id="d8de079e15da5552ea52e16c0712106a" category="inline-link">開始使用 BlueXP  分類</block>
-  <block id="472d7c50c99e8a4ceb030233bf6e333a" category="paragraph">BlueXP  複寫可讓您在 ONTAP 儲存系統之間複寫資料，以支援備份與災難恢復至雲端或雲端之間。</block>
   <block id="7e0c92d9ea0baa7f084f0d447b311869" category="inline-link">開始使用 BlueXP  複寫</block>
   <block id="16c3de9bb24bfc929036891ca3fd5ec9" category="section-title">加速存取或卸載流量</block>
   <block id="181a7eb5793d6eaf19eeb2203348f0db" category="paragraph">BlueXP  Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。</block>
@@ -668,13 +666,63 @@
   <block id="dad34f5734adb85d9981374c4c32d1d5" category="section-title">架構良好的檔案系統問題通知</block>
   <block id="16ca2e92ee84ccef4088c5d2a61cd8d2" category="paragraph">在 BlueXP  主控台中，架構良好問題的 ONTAP 檔案系統適用的 FSX 現在會在 Canvas 中顯示通知，指出檔案系統何時有問題需要修正。</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">更新的權限術語</block>
-  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">工作負載原廠使用者介面與文件現在使用「唯讀」來指稱讀取權限，而「讀取寫入」則指自動化權限。</block>
-  <block id="7ad34443be66bd769d7526052866c23d" category="paragraph">從 BlueXP  工作負載工廠的儲存設備新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _ 唯讀 _ 或 _ 讀取 / 寫入 _ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read-read-only 模式或 _read/Write_ 模式。_Read-only_ 與檢視權限相同。讀取 / 寫入 _ 與操作權限相同。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
-  <block id="c0f13e28260a8d6334a9ba083a9ecd8c" category="list-text">對於提供權限等級選擇（讀取 / 寫入或唯讀）的工作負載功能，請選取這些認證可用的權限類型。<block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>。</block>
   <block id="afcef91c603f5a2caaca0c02452c1093" category="open-title">唯讀權限</block>
   <block id="6c89d11178770d48b64eed2f5ad15ee0" category="open-title">讀取 / 寫入權限</block>
-  <block id="bff2a32004a29ed6a2b848b515ee2ed4" category="paragraph">需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在讀取 / 寫入權限和唯讀權限之間進行選擇。</block>
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025 年 04 月 5 日</block>
   <block id="5a727a54cd3005d4cc50f72f6b62d2d0" category="paragraph">BlueXP  提供追蹤器這項工作監控功能，可讓您監控及追蹤認證，適用於 ONTAP 的 FSX 和連結作業的進度和狀態，檢閱操作工作和子任務的詳細資料，以及診斷任何問題或故障。</block>
   <block id="9233b1148f18eb744b69d4d3620c296c" category="paragraph">Tracker 支援兩種監控層級，視作業而定。每項工作（例如檔案系統部署）都會顯示工作說明，狀態，開始時間，工作持續時間，使用者，區域， Proxy 資源，工作 ID 及所有相關的子工作。您可以檢視 API 回應，瞭解作業期間發生的情況。</block>
+  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。</block>
+  <block id="737f8adcd33c506f811980c79df8aa51" category="doc">憑證更新</block>
+  <block id="e7bb6404e9b51c8163ba1ed57cf3a336" category="paragraph">為 FSx for ONTAP 檔案系統設定憑證和權限後，您將被重新導向至 BlueXP 憑證頁面。在此頁面，您可以重新命名或刪除 FSx for ONTAP 憑證。</block>
+  <block id="66985acac7963e5883cef62664b25696" category="inline-link-macro">設定 FSx for ONTAP 檔案系統的權限</block>
+  <block id="2c546aeb894a7ee538c66b6d3f2cdba7" category="paragraph"><block ref="2c546aeb894a7ee538c66b6d3f2cdba7" category="inline-link-macro-rx"></block></block>
+  <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">支援在兩個 FSx for ONTAP 檔案系統之間複製數據</block>
+  <block id="0d0e1a3896ef0e1ad8e89dad08261572" category="paragraph">現在可以透過 BlueXP 控制台在兩個 FSx for ONTAP 檔案系統之間進行資料複製。</block>
+  <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
+  <block id="e9a20287609068cd02682751db28245c" category="paragraph">在 BlueXP 工作負載工廠中從儲存新增 FSx for ONTAP 的新憑證時，您需要確定要以哪種權限等級（或「操作模式」）進行操作。若要發現和部署 AWS 資源（例如 FSx for ONTAP 檔案系統），您需要「唯讀」或「讀取/寫入」權限。除非您選擇「唯讀」或「讀取/寫入」模式，否則 BlueXP FSx for ONTAP 將以「基本」模式運作。_Read-only_ 與檢視權限相同。讀取 / 寫入 _ 與操作權限相同。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
+  <block id="173ea16b498d7c64e87a722e884ac9d6" category="list-text">對於那些提供權限等級選擇（唯讀或讀取/寫入）的工作負載功能，請選擇這些憑證可用的權限類型。<block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>。</block>
+  <block id="f7c13e0b116713f742c78d89fab49f7f" category="paragraph">您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。無論何時需要，您都可以重新命名憑證或將其從 BlueXP 控制台中刪除。</block>
+  <block id="6e9182373a6e3d539f338abfc0b573c6" category="paragraph">需要新增 AWS 認證，才能為 BlueXP  提供為 ONTAP 檔案系統建立和管理 FSX 所需的權限。您可以在「唯讀」和「讀取/寫入」權限之間進行選擇。</block>
+  <block id="628cf864298bfa9a0758f894f14de547" category="paragraph">複製資料以支援備份和災難復原。可使用 BlueXP 複製功能在 FSx for ONTAP 檔案系統與 Cloud Volumes ONTAP 之間，或 FSx for ONTAP 檔案系統與本機 ONTAP 系統之間進行資料複製。BlueXP  複寫可讓您在 ONTAP 儲存系統之間複寫資料，以支援備份與災難恢復至雲端或雲端之間。</block>
+  <block id="94b92a89912cd2ab11df94e26e131175" category="paragraph">可以透過 BlueXP 畫佈在兩個 FSx for ONTAP 檔案系統之間進行資料複製。</block>
+  <block id="513c180c5d2a9ee1b68bcde16bb98445" category="paragraph">在開始之前請考慮以下事項。</block>
+  <block id="3149241572a82823e44abfd395fcbc2d" category="list-text">要在兩個 FSx for ONTAP 檔案系統之間複製數據，您必須選擇一個與檔案系統具有連接的連接器或輸入檔案系統以關聯連結。</block>
+  <block id="28a7654ba403e8d0905895e340495ea0" category="list-text">對於處於可用、已建立或配置錯誤以外的狀態的捲，以及 ONTAP 版本不相容的捲，不支援複製。</block>
+  <block id="7f73cba3fdaf38a171a5add40ef5e3c6" category="list-text">從 BlueXP 畫布中，將來源 FSx for ONTAP 檔案系統拖曳到目標 FSx for ONTAP 檔案系統的頂部，然後選擇 *複製*。</block>
+  <block id="9793db8d97a651febf9f052b60487a84" category="list-text">在建立複製頁面上，選擇要複製的來源卷，然後按一下「下一步」。</block>
+  <block id="5bc67df36eab9c2f7b3c55d3f683100e" category="list-text">在複製目標下，提供以下內容：</block>
+  <block id="5b68795341e694ebff565b0ddc6697b3" category="list-text">*目標名稱*：此目標名稱是在畫布中進行拖放操作時先前選擇的。</block>
+  <block id="562c87a680d962135f8e44bc0d159259" category="list-text">* 儲存 VM 名稱 * ：從下拉式功能表中選取儲存 VM 。您選擇的儲存虛擬機器是此複製關係中所有選定磁碟區的目標。</block>
+  <block id="56aeb18822215ccd01a9293a40c3b44a" category="list-text">*Volume name* ：目標 Volume 名稱會自動以下列格式產生<block ref="4b5beb37da0fa6444b7f9f92238aadb1" prefix=" " category="inline-code"></block>。您可以使用自動產生的 Volume 名稱或輸入其他 Volume 名稱。</block>
+  <block id="22965065ba7ae1409232e37abbbb066f" category="list-text">* 使用案例 * ：選取下列其中一個複寫使用案例。視所選的使用案例而定，工作負載工廠會根據最佳實務做法，以建議的值填入表單。您可以接受建議的值，或在完成表單時進行變更。</block>
+  <block id="257ce4bae137964f3625a1e1d6f1369b" category="list-text">移轉：將資料傳輸至 ONTAP 檔案系統的目標 FSX</block>
+  <block id="30940cba2bad8606f971a78b21b2ec59" category="list-text">熱災難恢復：確保關鍵工作負載的高可用度和快速災難恢復</block>
+  <block id="4479dbc11cc7245a39dd940a6a86b3a5" category="list-text">冷災難恢復或歸檔災難恢復：</block>
+  <block id="a7683152ac8a3322afd2ab0f568eb7ab" category="list-text">冷災難恢復：使用較長的恢復時間目標（ RTO ）和恢復點物件（ RPO ）來降低成本</block>
+  <block id="24249670ae7cb490931a0cfb669e35fb" category="list-text">歸檔：複寫資料以供長期儲存和法規遵循</block>
+  <block id="6311ae17c1ee52b36e68aaf4ad066387" category="list-text">其他</block>
+  <block id="c09b5be4c2da04f4040eef1878f258aa" category="inline-link-macro">部分9文件ONTAP</block>
+  <block id="3611f3afb9bd4ea20ff757fe165aa678" category="paragraph">此外，使用案例選項會決定複寫原則或 SnapMirror 原則（ ONTAP ）。用於描述複寫原則的術語來自<block ref="20dfa0e16eac8597602ade67a04436fd" category="inline-link-macro-rx"></block>。</block>
+  <block id="b5b213ff8da55d939d5b26b2acad4e23" category="list-text">對於移轉和其他作業，複寫原則稱為 _MirrorAllSnapshots_ 。_MirrorAllSnapshots_ 是用於鏡射所有快照和最新作用中檔案系統的非同步原則。</block>
+  <block id="5fc1e1e4cb63004511e44d8fbb5b04a2" category="list-text">對於熱災難恢復，冷災難恢復或歸檔災難恢復，複製策略稱爲 _MirrorAndVault_ 。_MirrorAndVault_ 是一種非同步和資料保險箱原則，可用於鏡射最新的作用中檔案系統，以及每日和每週快照。</block>
+  <block id="a1eefe5e0a806535abe58cb68a54c9d1" category="paragraph">在所有使用案例中，如果您啟用快照以進行長期保留，則預設複寫原則為 _MirrorAndVault_ 。</block>
+  <block id="181b737a36ca59661f38fe5373437f6a" category="list-text">* 分層原則 * ：選取儲存在目標 Volume 中的資料分層原則。分層原則預設為您所選使用案例的建議分層原則。</block>
+  <block id="b3e9c4cd60af78168e1dfa0923b34db0" category="inline-link-macro">Volume 儲存容量</block>
+  <block id="a477f639de1e54cd01d24b4d8302b5ff" category="paragraph">平衡（自動） _ 是使用工作負載原廠主控台建立 Volume 時的預設分層原則。如需磁碟區分層原則的詳細資訊、請參閱 <block ref="de51d392f5d252a956349995f441f55c" category="inline-link-macro-rx"></block> AWS FSX for NetApp ONTAP 文件中的。請注意，工作負載工廠會在工作負載原廠主控台中使用以使用案例為基礎的名稱來分層原則，並在括弧中包含適用於 ONTAP 分層原則名稱的 FSX 。</block>
+  <block id="960f25577dd51f8946d9ce933ec7dd9d" category="paragraph">如果您選取移轉使用案例，工作負載工廠會自動選擇將來源 Volume 的分層原則複製到目標 Volume 。您可以取消選取以複製分層原則，並選取適用於所選複寫磁碟區的分層原則。</block>
+  <block id="c0fb38c08c1fe26c6d51d93cc15693b0" category="list-text">* 最大傳輸速率 * ：選取 * 受限 * 、然後以 MB/s 為單位輸入最大傳輸限制或者、選取 * 無限 * 。</block>
+  <block id="c498491de58eb1c7c7b811d5555b1afc" category="paragraph">如果沒有限制、網路和應用程式的效能可能會下降。或者、我們建議為 ONTAP 檔案系統的關鍵工作負載（例如主要用於災難恢復的工作負載）提供不限傳輸率的 FSX 。</block>
+  <block id="7edcd879f968b4375bcba0ad4e18005d" category="list-text">在複寫設定下、提供下列項目：</block>
+  <block id="def706abaa127d74aee20fd4789add37" category="list-text">* 複寫間隔 * ：選取快照從來源磁碟區傳輸到目標磁碟區的頻率。</block>
+  <block id="3fa74f1d72fd1aab6c47bb2b48e47218" category="list-text">* 長期保留 * ：可選擇啟用快照以進行長期保留。長期保留功能可讓業務服務持續運作、即使整個站台發生故障、也能支援應用程式使用次要複本以透明方式容錯移轉。</block>
+  <block id="70fc7bb591b365ee183f47900503df43" category="paragraph">未啟用長期保留的複製將使用 _MirrorAllSnapshots_ 策略。啟用長期保留會將 _MirrorAndVault_ 策略指派給複製。</block>
+  <block id="7f5d1f7be42587a8d5bb2f5b6098ce8c" category="paragraph">如果您啟用長期保留、請選取現有原則或建立新原則、以定義要複寫的快照和要保留的數量。</block>
+  <block id="079c30a70413acebb5440fd932a014ad" category="admonition">長期保留需要相符的來源和目標標籤。如有需要，工作負載工廠可能會為您建立遺失的標籤。</block>
+  <block id="0cbe076a4ce5208b10cdb81c9e175006" category="list-text">* 選擇現有的原則 * ：從下拉式功能表中選取現有的原則。</block>
+  <block id="fca40712560cec2d2b7a47110cfecda1" category="list-text">*建立新策略*：輸入*策略名稱*。</block>
+  <block id="0546ab198c101c424e412d1355272bcd" category="list-text">*不可變快照*：可選。選取 * 啟用不可變快照 * ，以防止在保留期間刪除在此原則中拍攝的快照。</block>
+  <block id="4e41f89501d754d5c6885a51e74ac5f0" category="list-text">將 * 保留期間 * 設定為小時數，天數，月數或年數。</block>
+  <block id="28ef75c94389e1f7dfa4614197978d9e" category="list-text">* Snapshot Policies * ：在表格中、選取快照原則頻率和要保留的複本數量。您可以選取多個快照原則。</block>
+  <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">選擇* Create *（建立*）。</block>
+  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025 年 6 月 29 日</block>
 </blocks>

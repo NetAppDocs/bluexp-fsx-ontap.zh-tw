@@ -30,7 +30,7 @@ summary: 若要建立或管理適用於 ONTAP 工作環境的 FSX 、您需要�
 
 == 關於這項工作
 
-從 BlueXP  工作負載工廠的儲存設備新增適用於 ONTAP 的 FSX 認證時，您需要決定要在中操作的權限等級或 _ 作業模式 _ 。若要探索及部署適用於 ONTAP 檔案系統的 FSX 等 AWS 資源，您需要 _ 唯讀 _ 或 _ 讀取 / 寫入 _ 權限。BlueXP  FSX for ONTAP 將以 _basive_ 模式運作，除非您選取 _read-read-only 模式或 _read/Write_ 模式。_Read-only_ 與檢視權限相同。讀取 / 寫入 _ 與操作權限相同。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["深入瞭解操作模式"]。
+在 BlueXP 工作負載工廠中從儲存新增 FSx for ONTAP 的新憑證時，您需要確定要以哪種權限等級（或「操作模式」）進行操作。若要發現和部署 AWS 資源（例如 FSx for ONTAP 檔案系統），您需要「唯讀」或「讀取/寫入」權限。除非您選擇「唯讀」或「讀取/寫入」模式，否則 BlueXP FSx for ONTAP 將以「基本」模式運作。_Read-only_ 與檢視權限相同。讀取 / 寫入 _ 與操作權限相同。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["深入瞭解操作模式"]。
 
 可從 BlueXP  設定 > * 認證 * 頁面檢視新的和現有的 AWS 認證。
 
@@ -84,7 +84,7 @@ image:screenshot-create-policies-manual-permissions-check.png["螢幕擷取畫�
 +
 您可以稍後新增其他功能、只要選取您目前想要部署及管理的工作負載即可。
 
-. 對於提供權限等級選擇（讀取 / 寫入或唯讀）的工作負載功能，請選取這些認證可用的權限類型。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["瞭解權限，也稱為作業模式"^]。
+. 對於那些提供權限等級選擇（唯讀或讀取/寫入）的工作負載功能，請選擇這些憑證可用的權限類型。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["瞭解權限，也稱為作業模式"^]。
 . 選用：選取 * 啟用自動權限檢查 * ，檢查您是否擁有完成工作負載作業所需的 AWS 帳戶權限。啟用檢查會將新增 `iam:SimulatePrincipalPolicy permission`至您的權限原則。此權限的目的只是確認權限。您可以在新增認證後移除權限，但我們建議保留權限，以防止資源建立部分成功的作業，並避免您執行任何必要的手動資源清理作業。
 . 在 Codebox 視窗中、複製第一個 IAM 原則的權限。
 +
@@ -221,7 +221,7 @@ image:screenshot-create-role.png["顯示哪些權限將成為新角色一部分�
 
 
 .結果
-您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。
+您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。無論何時需要，您都可以重新命名憑證或將其從 BlueXP 控制台中刪除。
 
 
 
@@ -299,4 +299,4 @@ image:screenshot-redirect-cloudformation.png["螢幕快照顯示如何建立 Clo
 
 
 .結果
-您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。
+您可以在「認證」頁面上建立及檢視認證。您現在可以在建立FSXfor ONTAP the Sfor the Sfor the Sfuse環境時使用認證資料。無論何時需要，您都可以重新命名憑證或將其從 BlueXP 控制台中刪除。
