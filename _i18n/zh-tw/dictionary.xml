@@ -113,7 +113,6 @@
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、您只需透過BlueXP註冊即可獲得支援。</block>
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">請務必複製上述序號欄位使用的BlueXP帳戶序號（960xxxx）。這將加速帳戶處理。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
@@ -218,8 +217,6 @@
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以使用下列其中一個選項尋求協助：</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。如下列所述、將 NetApp 支援網站 （ NSS ）帳戶新增至 BlueXP 即可完成登錄。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">選取 * 新增 NSS 認證 * 、然後遵循 NetApp 支援網站 （ NSS ）驗證提示。</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">螢幕擷取畫面會顯示帳戶序號和綠色核取方塊、以及註冊支援的文字。</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是現有的 NetApp 客戶、擁有現有的授權和序號、但沒有 NSS_ 帳戶、則需要建立一個 NSS 帳戶、並將其與您的 BlueXP 登入建立關聯。</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">完成下的步驟、將新的 NSS 帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">擁有 NetApp 支援網站 帳戶後、請完成下的步驟、將帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
@@ -675,7 +672,6 @@
   <block id="66985acac7963e5883cef62664b25696" category="inline-link-macro">設定 FSx for ONTAP 檔案系統的權限</block>
   <block id="2c546aeb894a7ee538c66b6d3f2cdba7" category="paragraph"><block ref="2c546aeb894a7ee538c66b6d3f2cdba7" category="inline-link-macro-rx"></block></block>
   <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">支援在兩個 FSx for ONTAP 檔案系統之間複製數據</block>
-  <block id="0d0e1a3896ef0e1ad8e89dad08261572" category="paragraph">現在可以透過 BlueXP 控制台在兩個 FSx for ONTAP 檔案系統之間進行資料複製。</block>
   <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
   <block id="e9a20287609068cd02682751db28245c" category="paragraph">在 BlueXP 工作負載工廠中從儲存新增 FSx for ONTAP 的新憑證時，您需要確定要以哪種權限等級（或「操作模式」）進行操作。若要發現和部署 AWS 資源（例如 FSx for ONTAP 檔案系統），您需要「唯讀」或「讀取/寫入」權限。除非您選擇「唯讀」或「讀取/寫入」模式，否則 BlueXP FSx for ONTAP 將以「基本」模式運作。_Read-only_ 與檢視權限相同。讀取 / 寫入 _ 與操作權限相同。<block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>。</block>
   <block id="173ea16b498d7c64e87a722e884ac9d6" category="list-text">對於那些提供權限等級選擇（唯讀或讀取/寫入）的工作負載功能，請選擇這些憑證可用的權限類型。<block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>。</block>
@@ -726,4 +722,16 @@
   <block id="f2673d4a3fe0162a501d43f5168ae950" category="section-title">2025 年 14 月 7 日</block>
   <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="26beedda3c932bb48fc93a722d410ff6" category="paragraph">現在可以從BlueXP控制台中的畫佈在兩個 FSx for ONTAP檔案系統之間進行資料複製。</block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">複製關係標籤的增強功能</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">我們在複製關係表中新增了幾個新列，以便在「複製關係」標籤中為您提供有關複製關係的更多資訊。該表現在包含以下列：</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirror策略</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">來源檔案系統</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">目標檔案系統</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">關係狀態</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">上次轉乘時間</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全天候 (24/7) 的大量免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">螢幕截圖顯示了帳戶序號、綠色複選框和文字「已註冊支援」。</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025年8月3日</block>
 </blocks>
